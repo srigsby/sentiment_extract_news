@@ -1,0 +1,844 @@
+
+        
+        
+    
+
+
+
+
+
+    
+        <!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><!-- MacLeod loves you! --><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgQCVVdaGwAGU1VUAAE="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><meta content="en_US" http-equiv="Content-Language"><title>Lost Explorers: The unrealized vision of Google Glass - CNET</title><meta name="description" content="When Google unveiled its smart and controversial eyewear three years ago, some early tech adopters tried to do their part by eagerly pushing for Glass acceptance. The world pushed back."><link rel="canonical" href="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/"><meta property="al:ios:app_name" content="CNET"><meta property="al:ios:app_store_id" content="383989837"><meta property="al:ios:url" content="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/?search=toapp"><link rel="alternate" hreflang="x-default" href="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/"><link rel="alternate" hreflang="en-au" href="http://www.cnet.com/au/news/lost-explorers-the-unrealized-vision-of-google-glass/"><link rel="alternate" hreflang="en-gb" href="http://www.cnet.com/uk/news/lost-explorers-the-unrealized-vision-of-google-glass/"><link rel="alternate" hreflang="en-ie" href="http://www.cnet.com/uk/news/lost-explorers-the-unrealized-vision-of-google-glass/"><link rel="alternate" hreflang="en-us" href="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/"><link rel="search" type="application/opensearchdescription+xml" title="CNET Search" href="http://www.cnet.com/opensearch.xml"><meta property="og:site_name" content="CNET"><meta property="og:title" content="Lost Explorers: The unrealized vision of Google Glass - CNET"><meta property="og:description" content="When Google unveiled its smart and controversial eyewear three years ago, some early tech adopters tried to do their part by eagerly pushing for Glass acceptance. The world pushed back."><meta property="og:image" content="http://cnet4.cbsistatic.com/hub/i/r/2015/05/22/8638cb04-5a3a-46c0-b202-cd4c50d9f78a/thumbnail/670x503/04867ba05817ddd33f73ff3183425ca5/fd-robert-scoble-google-glass-1569.jpg"><meta property="og:type" content="Article"><meta property="og:url" content="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/"><meta property="fb:app_id" content="16995676698"><meta property="fb:admins" content="100001036810388"><meta property="article:publisher" content="https://www.facebook.com/cnet"><meta property="article:author" content="https://www.facebook.com/richardjnieva"><meta content="30261067" property="twitter:account_id"><meta content="summary" property="twitter:card"><meta content="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/" property="twitter:url"><meta content="Lost Explorers: The unrealized vision of Google Glass" property="twitter:title"><meta content="When Google unveiled its smart and controversial eyewear three years ago, some early tech adopters tried to do their part by eagerly pushing for Glass acceptance. The world pushed back." property="twitter:description"><meta content="http://cnet4.cbsistatic.com/hub/i/r/2015/05/22/8638cb04-5a3a-46c0-b202-cd4c50d9f78a/thumbnail/670x503/04867ba05817ddd33f73ff3183425ca5/fd-robert-scoble-google-glass-1569.jpg" property="twitter:image"><meta content="670" property="twitter:image:width"><meta content="503" property="twitter:image:height"><meta content="@CNET" property="twitter:site"><meta content="@richardjnieva" property="twitter:creator"><meta content="I1kHyfzmmG1fEVjq8GBUgkfCHc6PNtxce1_VyUuJhws" name="google-site-verification"><meta content="wNWLoFvk5wsdZQ-u75uCNiaHNa7FLFmNtH2t7dZbXmQ" name="google-site-verification"><meta content="47524839a64b83c951afca9ef6c838e0" name="p:domain_verify"><meta content="Product reviews and prices, software downloads, and tech news - CNET" name="msapplication-tooltip"><meta content="http://www.cnet.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#424244" name="msapplication-navbutton-color"><meta content="name=Home; action-uri=http://www.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Downloads; action-uri=http://download.cnet.com/; icon-uri=http://download.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=News; action-uri=http://www.cnet.com/news/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Reviews; action-uri=http://www.cnet.com/reviews/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Videos; action-uri=http://www.cnet.com/videos/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Forums; action-uri=http://forums.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta name="tp:baseUrl" content="http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk"><meta name="viewport" content="width=device-width"><meta name="fragment" content="!"><link rel="manifest" href="/manifest.json"><link rel="stylesheet" href="http://cnet1.cbsistatic.com/fly/css/core/main.desktop-2a0a41418c-rev.css"><link rel="stylesheet" href="http://cnet4.cbsistatic.com/fly/css/article/article.desktop-31009bfb71-rev.css"><!--[if IE 8]> <link rel="stylesheet" href="http://cnet3.cbsistatic.com/fly/css/core/ie/ie8-8b304ec002-rev.css" /> <![endif]--><!--[if IE 9]> <link rel="stylesheet" href="http://cnet2.cbsistatic.com/fly/css/core/ie/ie9-2df090d0d6-rev.css" /> <![endif]--><script src="http://cnet4.cbsistatic.com/fly/bundles/cnetjs/js/libs/boomr.js"></script><script type="text/javascript">
+
+    
+    window.CnetPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"section":"news","pid":"7978e87f-3b0b-42f5-8fff-67ad6483e8b0","tag":["google-glass","google"],"edition":"us","test":"||","device":"desktop","ptype":"article","cid":"lost-explorers-the-unrealized-vision-of-google-glass","env":"prod"},"adConfig":{"network":{"dev":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye","fr"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","th","id","ph","hk","vn","in","tw"]}],"adUnits":{"intromercial":{"outOfPage":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[371,301]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600],[300,1050]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuPlusTopCallback"}},"marqueeTop":{"sizes":[[300,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuTopCallback"}},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[970,66],[728,90],[970,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardTopPlusCallback"}},"leaderTop":{"sizes":[[970,66],[728,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderTopCallback"}},"buttonTop":{"sizes":[[88,31],[70,20],[155,40]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"omnibarTop":{"sizes":[[980,45]],"position":"top","eventCallbacks":{"slotRenderEnded":"omnibarTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"dynamicTextLinkTop":{"sizes":[[1171,61]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuMiddle2":{"sizes":[[300,250]],"position":"middle2"},"leaderPlusMiddle":{"sizes":[[970,66],[728,90],[970,250]],"position":"middle"},"leaderPlusMantle":{"sizes":[[970,66],[728,90],[970,250]],"position":"mantle","eventCallbacks":{"slotRenderEnded":"leaderPlusMantleCallback"}},"leaderMiddle":{"sizes":[[970,66],[728,90]],"position":"middle"},"leaderMiddle2":{"sizes":[[970,66],[728,90]],"position":"middle2"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"leaderPlusBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"dynamicShowcaseTop":{"sizes":[[371,771]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"infoBoardTop":{"sizes":[[771,201],[620,90]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"infoButtonsTop":{"sizes":[[771,61]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"socialLogoBottom":{"sizes":[[88,31]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"sharebarCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"socialLogoTop":{"sizes":[[88,31]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsoredFeedTop":{"sizes":[[571,121]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"inlineProductCarouselTop":{"sizes":[[621,221],[621,471]],"position":"top","eventCallbacks":{"slotRenderEnded":"inlineProductCarouselTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"inpageVideoTop":{"sizes":[[641,321]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"windowTop":{"sizes":[[120,90]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"windowBottom":{"sizes":[[120,90]],"position":"bottom","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsoredMatchTop":{"sizes":[[971,201]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replaySquareTop":{"sizes":[[271,271]],"position":"top","eventCallbacks":{"slotRenderEnded":"replaySquareCallBack"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideTop":{"sizes":[[771,131],[11,11]],"position":"top","eventCallbacks":{"slotRenderEnded":"replayWideTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideBottom":{"sizes":[[771,131],[11,11]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"replayWideBottomCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideEditorspicks":{"sizes":[[771,131],[11,11]],"position":"editorspicks","eventCallbacks":{"slotRenderEnded":"replayWideEditorspicksCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayShowcaseTop":{"sizes":[[371,291]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"nativeThisweekoncnet":{"sizes":[[11,11]],"position":"thisweekoncnet","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"d320ba44","strb":"2434f2df"}},"nativeCompare":{"sizes":[[11,11]],"position":"compare","eventCallbacks":{"slotRenderEnded":"nativeCompareCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"overgifTop":{"sizes":[[251,11]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"showcaseTop":{"sizes":[[3,3]],"position":"top"},"videoThumbnailTop":{"sizes":[[171,231],[771,131],[11,11]],"position":"thumbnail","eventCallbacks":{"slotRenderEnded":"videoThumbnailTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"ec8036a4","strb":"bfdbade1"}},"nativeToc":{"sizes":[[300,90],[11,11]],"position":"toc","eventCallbacks":{"slotRenderEnded":"nativeTocCallBack"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"9bebd1e1","strb":"12b2a632"}}},"mobile":{"adUnits":{"hpto":{"outOfPage":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mobileBannerTop":{"sizes":[[320,50],[6,1]],"position":"increment"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"increment"},"mobileBanner":{"sizes":[[320,50]],"position":"increment"},"mobileReplaySquare":{"sizes":[[271,271]],"position":"increment"},"mobileReplayWide":{"sizes":[[771,131],[11,11]],"position":"increment"},"mobileReplayWideInc":{"sizes":[[771,131],[11,11]],"position":"inc"},"mobileReplayWidePlus":{"sizes":[[771,131],[320,50],[11,11]],"position":"increment"},"mobileBannerPlus":{"sizes":[[300,250],[320,50],[621,221]],"position":"increment"},"mobileMpu":{"sizes":[[300,250]],"position":"increment"},"mobileOvergif":{"sizes":[[251,11]],"position":"increment","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mobileShowcase":{"sizes":[[3,3]],"position":"increment","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cnet","collapseEmptyDiv":false,"setRefreshUnfilledSlots":true,"setClearUnfilledSlots":false,"disableInitialLoad":false,"disableInitialLoadCompanions":false,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["leader_top","leader_plus_top","mpu_top","mpu_plus_top","leader_plus_middle","leader_middle","leader_middle2","mpu_middle","mpu_middle2","mpu_bottom","leader_bottom","skin","omnibar_top","marquee_top","window_top","window_bottom","inpage_video_top","intromercial","replay_wide_top","replay_wide_bottom","replay_wide_editorspicks","video_thumbnail_top","nativ_toc","native_compare","native_thisweekoncnet","inline_product_carousel_top","resource_center_top","social_logo_bottom","showcase_top","info_board_top","sponsored_feed_top","info_buttons_top","dynamic_text_link_top","dynamic_showcase_top"],"disableInitialLoadRefresh":true,"deviceRegions":{"mobile":[{"region":"aw","countries":["all"]}],"desktop":[],"tablet":[]}},"containerId":"565c85de9cf7a","slotVars":{"network":"8264","siteName":"cnet","collapseEmptyDiv":"","topics":"tech-industry","platform":"desktop"},"adType":"gpt","adDivIds":["native-toc-565c85de9cf7a","inpage-video-top-565c85de9cf7a","social-logo-bottom-565c85de9cf7a","mpu-plus-top-565c85de9cf7a","mpu-bottom-565c85de9cf7a","video-thumbnail-top-565c85de9cf7a","leader-bottom-565c85de9cf7a","omnibar-top-565c85de9cf7a","intromercial-565c85de9cf7a","skin-565c85de9cf7a","leader-top-565c85de9cf7a","dynamic-text-link-top-565c85de9cf7a"]},"cookieName":"cnet_ad","cookieServicePath":"http:\/\/www.cnet.com\/ad\/ad-cookie\/","session":4,"subSession":6}
+        },
+        assetsVersion: {
+            version: '1922-fly'
+        },
+        build: true,
+        cmsEdit: {
+            contentId: '7978e87f-3b0b-42f5-8fff-67ad6483e8b0',
+            contentType: 'article'
+        },
+        device: 'desktop',
+        deviceOriginal: 'desktop',
+        edition: {
+            code: 'us'
+        },
+        environment: 'prod',
+        pageType: 'article',
+        promotionals: {
+            flyoutPromo:{
+                url: '/flyout-promo/'
+            }
+        },
+        tracking: {
+            enabled: true
+        },
+        user: {
+            baseUrl: 'https://secure-fly.cnet.com',
+            'urls': {
+                'login': "https://secure-fly.cnet.com/user/login/",
+                'register': "https://secure-fly.cnet.com/user/registration/",
+                'confirmRegistration': "http://www.cnet.com/user/instructions-confirm-registration/",
+                'forgotPassword': "https://secure-fly.cnet.com/user/forgotten-password/",
+                'passwordSent': "http://www.cnet.com/user/password-sent/",
+                'createUsername': "http://www.cnet.com/user/create-username/",
+                'sendConfirmation': "http://www.cnet.com/user/send-confirmation/?registered=1",
+                'userData': "http://www.cnet.com/user/get-data/",
+                'flag': "http://www.cnet.com/user/flag/",
+                'socialAdditionalInformation': "http://www.cnet.com/user/social-additional-information/"
+            }
+        },
+        video: {
+            tpBaseUrl: 'http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk',
+            playCount: 0
+        }
+    };
+
+
+    
+    
+    
+    
+    var utag_data = {"isEnabled":true,"articleAuthorId":["9377feea-8245-11e3-b21f-14feb5ca9861"],"articleAuthorName":["richard nieva"],"articleId":"7978e87f-3b0b-42f5-8fff-67ad6483e8b0","articlePubDate":"2015-05-26 08:00:05","articleTitle":"lost explorers: the unrealized vision of google glass","articleType":"magnet_article","collectionId":[],"collectionName":[],"deviceType":"desktop","isDev":"0","pageNum":"1","pageType":"article","siteEdition":"us","siteHier":["news","tech-industry"],"siteSection":"news","siteType":"responsive web","topicId":["1c0fd1cb-c387-11e2-8208-0291187b029a"],"topicName":["tech industry"],"dwAccount":"cbsicnetglobalsite","dwHost":"dw.cbsi.com","siteId":1,"reportSuiteId":"cbsicnetglobalsite","bkSiteId":3321,"limit":4,"collectionSlug":[],"tagSlugs":["google-glass","google"],"topicSlugs":["tech-industry"],"siteName":"cnet","tealium":{"profile":"cnetglobalsite","env":"prod"},"soastaBucket":"","soastaPageType":"article"};
+</script><script type="text/javascript" id="beanstockNucleusInjector">
+        window.CnetPageVars.ads.beanstockNucleus = {
+            isEnabled:      false,
+            isInitialized:  false,
+            isCompleted:    false,
+            isTimedOut:     false,
+            timeout:        null,
+            injector:       'injectBeanStockNucleusTag',
+            tagId:          'cx-nuke',
+            initTime:       new Date().getTime()
+        };
+
+            </script><!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]--></head><body class="not-logged-in
+    us
+        
+    
+    
+" data-cms-edit='{"url":"http:\/\/cms-beta.cnet.com\/content\/article\/7978e87f-3b0b-42f5-8fff-67ad6483e8b0"}'>
+                        
+    
+<header id="rbHeader" class="page-header"><div id="secondary" class="">
+                                    
+<div id="socialHeader">
+    <span>Connect with us</span>
+           	
+            <div class="socialWrapper" data-component='["touchMenuHover","iframeHoverFix"]'>
+                
+                        <div class="networkWrapper">
+        <a target="_blank" href="http://www.facebook.com/CNET" class="social-menu-facebook" data-component="socialTracking" data-social-tracking-options='{"socialSite":"facebook"}'>facebook</a>
+    </div>
+
+        
+                        <div class="networkWrapper">
+        <a target="_blank" href="https://twitter.com/intent/user?screen_name=CNET" class="social-menu-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'>twitter</a>
+    </div>
+
+        
+            </div>
+
+</div>
+                            </div>
+            
+                        <div class="fixation" data-component="stickyElement">
+                                    <div id="omnibar_top">
+                    
+                                    <div id="omnibar-top-565c85de9cf7a" class="ad-omnibar-top" data-ad="omnibar-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing omnibar-top-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("omnibar-top-565c85de9cf7a");
+    </script></div>
+                            </div>
+                        <div id="primary">
+                                    <a id="rbLogo" href="/">CNET</a>
+                
+                                        <form method="get" action="/search/" class="col-3 headerSearchForm single" data-auto-suggest-options='{"url":"\/autosuggest\/xhr\/"}' data-component='["formTrim","autoSuggest"]'>
+    <div class="searchBar">
+        <input type="text" placeholder="Search CNET" id="primarySearch" name="query" value="" autocomplete="off"><button type="submit" class="searchButton" value="Search"></button>
+    </div>
+</form>                
+                                    
+
+<nav id="primaryNav" section="brandnav"><div class="menu single" id="reviewsMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/reviews/">Reviews</a>
+                    <div class="menuWrapper">
+                <!--[if lt IE 9]>
+                <noscript><div class="navTag"></noscript>
+                <![endif]-->
+                <nav><div class="navWrapper">
+                        <ul class="topCategories"><li class="hed">Top Categories</li>
+                            <li><a href="/cnet100/">CNET 100</a></li> <!-- debate with seo over editions, see footer -->
+                            <li><a href="/topics/appliances/">Appliances</a></li>
+                            <li><a href="/topics/audio/">Audio</a></li>
+                            <li><a href="/topics/cameras/">Cameras</a></li>
+                            <li><a href="/topics/car-tech/">Car Tech</a></li>
+                            <li><a href="/topics/desktops/">Desktops</a></li>
+                            <li><a href="/topics/headphones/">Headphones</a></li>
+                            <li><a href="/topics/laptops/">Laptops</a></li>
+                            <li><a href="/topics/networking/">Networking</a></li>
+                            <li><a href="/topics/phones/">Phones</a></li>
+                            <li><a href="/topics/printers/">Printers</a></li>
+                            <li><a href="/smart-home/" data-vanity-rewritten="true">Smart Home</a></li>
+                            <li><a href="/topics/software/">Software</a></li>
+                            <li><a href="/topics/storage/">Storage</a></li>
+                            <li><a href="/topics/tablets/">Tablets</a></li>
+                            <li><a href="/topics/tvs/">TVs</a></li>
+                            <li><a href="/topics/wearable-tech/">Wearable Tech</a></li>
+                                                            <li><a href="/deals/">Deals</a></li>
+                                <li><a href="/web-hosting/" data-vanity-rewritten="true">Web Hosting</a></li>
+                                                        <li><a href="/forums/">Forums</a></li>
+                        </ul><ul class="topItems forums" data-menu="reviews-forums"><li class="hed">Popular Forums</li>
+<li class="topItem">
+    <a href="/forums/computer-help/">
+            <h3>Computer Help</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/computer-newbies/">
+            <h3>Computer Newbies</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/laptops/">
+            <h3>Laptops</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/phones/">
+            <h3>Phones</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/tvs-home-theaters/">
+            <h3>TVs &amp; Home Theaters</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/networking-wireless/">
+            <h3>Networking &amp; Wireless</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-7/">
+            <h3>Windows 7</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-10/">
+            <h3>Windows 10</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/cameras/">
+            <h3>Cameras</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/">
+            <h3>All Forums</h3>
+    </a>
+</li>                        </ul></div>
+                </nav><!--[if lt IE 9]>
+                <noscript></div></noscript>
+                <![endif]--></div>
+            </div>
+    <div class="menu single active" id="newsMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/news/">News</a>
+        <div class="menuWrapper">
+            <!--[if lt IE 9]>
+            <noscript><div class="navTag"></noscript>
+            <![endif]-->
+            <nav><div class="navWrapper">
+                    <ul class="topCategories"><li class="hed">Top Categories</li>
+                        <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
+                        <li><a href="/topics/computers/" data-vanity-rewritten="true">Computers</a></li>
+                        <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
+                                                    <li><a href="/deals/">Deals</a></li>
+                                                <li><a href="/google/" data-vanity-rewritten="true">Google</a></li>
+                        <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
+                        <li><a href="/tags/microsoft/">Microsoft</a></li>
+                        <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
+                        <li><a href="/topics/photography/" data-vanity-rewritten="true">Photography</a></li>
+                        <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
+                        <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
+                        <li><a href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a></li>
+                        <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
+                        <li><a href="/pictures/">Photo Galleries</a></li>
+                        <li><a href="/videos/cnet-news/" data-vanity-rewritten="true">Video</a></li>
+                        <li><a href="/forums/">Forums</a></li>
+                    </ul><ul class="topItems forums" data-menu="news-forums"><li class="hed">Popular Forums</li>
+<li class="topItem">
+    <a href="/forums/computer-help/">
+            <h3>Computer Help</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/computer-newbies/">
+            <h3>Computer Newbies</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/laptops/">
+            <h3>Laptops</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/phones/">
+            <h3>Phones</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/tvs-home-theaters/">
+            <h3>TVs &amp; Home Theaters</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/networking-wireless/">
+            <h3>Networking &amp; Wireless</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-7/">
+            <h3>Windows 7</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-10/">
+            <h3>Windows 10</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/cameras/">
+            <h3>Cameras</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/">
+            <h3>All Forums</h3>
+    </a>
+</li>                    </ul></div>
+            </nav><!--[if lt IE 9]>
+            <noscript></div></noscript>
+            <![endif]--></div>
+    </div>
+    <div class="menu single" id="videoMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/videos/">Video</a>
+        <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><div class="navWrapper">
+                <ul class="topCategories"><li class="hed">Top Categories</li>
+                    <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
+                    <li><a href="/topics/car-tech/videos/" data-vanity-rewritten="true">Car Tech</a></li>
+                    <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
+                    <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
+                    <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
+                    <li><a href="/googlicious/" data-vanity-rewritten="true">Googlicious</a></li>
+                    <li><a href="/how-to/videos/" data-vanity-rewritten="true">How To</a></li>
+                    <li><a href="/netpicks/" data-vanity-rewritten="true">Netpicks</a></li>
+                    <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
+                    <li><a href="/videos/cnet-news/" data-vanity-rewritten="true">News</a></li>
+                    <li><a href="/topics/phones/videos/" data-vanity-rewritten="true">Phones</a></li>
+                    <li><a href="/prizefight/" data-vanity-rewritten="true">Prizefight</a></li>
+                    <li><a href="/topics/tablets/videos/" data-vanity-rewritten="true">Tablets</a></li>
+                    <li><a href="/tomorrow-daily/" data-vanity-rewritten="true">Tomorrow Daily</a></li>
+                    <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
+                    <li><a href="/cnet-podcasts/" data-vanity-rewritten="true">CNET Podcasts</a></li>
+                </ul></div>
+        </nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+    </div>
+    <div class="menu single" id="howtoMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/how-to/">How To</a>
+        <div class="menuWrapper">
+            <!--[if lt IE 9]>
+            <noscript><div class="navTag"></noscript>
+            <![endif]-->
+            <nav><ul class="topCategories"><li class="hed">Top Categories</li>
+                    <li><a href="/topics/appliances/how-to/">Appliances</a></li>
+                    <li><a href="/topics/computers/how-to/">Computers</a></li>
+                    <li><a href="/topics/gaming/how-to/">Gaming</a></li>
+                    <li><a href="/topics/home-entertainment/how-to/">Home Entertainment</a></li>
+                    <li><a href="/topics/internet/how-to/">Internet</a></li>
+                    <li><a href="/topics/mobile-apps/how-to/">Mobile Apps</a></li>
+                    <li><a href="/topics/phones/how-to/">Phones</a></li>
+                    <li><a href="/topics/photography/how-to/">Photography</a></li>
+                    <li><a href="/topics/security/how-to/">Security</a></li>
+                    <li><a href="/topics/smart-home/how-to/">Smart Home</a></li>
+                    <li><a href="/topics/tablets/how-to/">Tablets</a></li>
+                    <li><a href="/topics/wearable-tech/how-to/">Wearable Tech</a></li>
+                    <li><a href="/forums/">Forums</a></li>
+                    <li><a href="/internet-speed-test/" data-vanity-rewritten="true">Speed Test</a></li>
+                </ul></nav><!--[if lt IE 9]>
+            <noscript></div></noscript>
+            <![endif]--></div>
+    </div>
+            <div class="menu single " id="dealsMenu" data-component="touchMenuHover">
+            <a class="menuHead" href="/deals/" data-vanity-rewritten="true">Deals</a>
+            <div class="menuWrapper">
+                <!--[if lt IE 9]>
+                <noscript><div class="navTag"></noscript>
+                <![endif]-->
+                <nav><ul class="topCategories"><li class="hed">Top Categories</li>
+                        <li><a href="/deals/" data-vanity-rewritten="true">All Deals</a></li>
+                        <li><a href="/cheapskate/" data-vanity-rewritten="true">Cheapskate</a></li>
+                        <li><a href="/holiday-gift-guide/cyber-monday/" data-vanity-rewritten="true">Black Friday Deals</a></li>
+                        <li><a href="/web-hosting/" data-vanity-rewritten="true">Web Hosting Deals</a></li>
+                    </ul></nav><!--[if lt IE 9]>
+                <noscript></div></noscript>
+                <![endif]--></div>
+        </div>
+        <div class="menu" id="download">
+        <a class="menuHead" href="http://download.cnet.com" data-user-action="legacy" data-component="trackDownload">Download</a>
+    </div>
+
+                    
+    
+<div id="headerLogin" class="menu single" data-component="touchMenuHover">
+    <div class="menuHead" data-trigger="menu">
+        <span data-user-var="userName">Log In / Join</span>
+        <div class="user-avatar" data-user-var="avatar"></div>
+    </div>
+    <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><ul class="topCategories logged-out"><li>
+                    <a data-user-show='{"action":"login","params":{"appId":376},"suppressReload":true}'>Log In to CNET</a>
+                </li>
+                <li class="social-login">
+                    <span class="sign-in-with">Sign In with</span>
+                                            <span class="social-site sa-facebook" data-user-social='{"socialSite":"facebook","action":"login","params":{"appId":376}}'>Facebook</span>
+                                            <span class="social-site sa-googleplus" data-user-social='{"socialSite":"googleplus","action":"login","params":{"appId":376}}'>Googleplus</span>
+                                            <span class="social-site sa-yahoo" data-user-social='{"socialSite":"yahoo","action":"login","params":{"appId":376}}'>Yahoo</span>
+                                    </li>
+                <li>
+                    <a data-user-show='{"action":"register","params":{"appId":376}}'>Join CNET</a>
+                </li>
+                <li><a href="/user/join-cnet/">Member Benefits</a></li>
+            </ul><ul class="topCategories logged-in"><li class="social-login">
+                    <span>
+                                            <span class="social-site sa-facebook" data-user-link="facebook">Facebook</span>
+                                            <span class="social-site sa-googleplus" data-user-link="googleplus">Googleplus</span>
+                                            <span class="social-site sa-yahoo" data-user-link="yahoo">Yahoo</span>
+                                        </span>
+                </li>
+                <li><a data-user-var="profileLink" data-template="/profiles/__username__/">My Profile</a></li>
+                <li><a href="/forums/">Forums</a></li>
+                <li><a href="/user/logout/" data-user-action="logout" data-user-suppress-refresh="true">Log Out</a></li>
+            </ul></nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+</div>
+
+    
+<div class="menu single" id="editionMenu" data-component="touchMenuHover">
+    <span class="menuHead" data-trigger="menu"><span id="selectedEdition">US</span> Edition</span>
+    <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><ul class="topCategories" data-component="editionToggler"><li class="hed">Other editions</li>
+                                                    <li><a data-edition="uk" href="/uk/news/lost-explorers-the-unrealized-vision-of-google-glass/">United Kingdom</a></li>
+                                                    <li><a data-edition="au" href="/au/news/lost-explorers-the-unrealized-vision-of-google-glass/">Australia</a></li>
+                                <li><a target="_blank" href="http://www.cnetnews.com.cn/">China</a></li>
+                <li><a target="_blank" href="http://www.cnetfrance.fr/">France</a></li>
+                <li><a target="_blank" href="http://www.cnet.de/">Germany</a></li>
+                <li><a target="_blank" href="http://japan.cnet.com/">Japan</a></li>
+                <li><a target="_blank" href="http://www.cnet.co.kr/">Korea</a></li>
+                                    <li><a data-edition="es" href="/es/">CNET en Español</a></li>
+                            </ul></nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+</div>
+</nav></div>
+        </div>
+    </header><div class="container">
+    <div class="row">
+                    <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                    <div class="col-8">
+                                                    
+                                                        
+                                            
+
+
+        
+                        
+    <nav class="tocNav" section="tocNav" data-component="tocNav"><a class="rbLogo" href="/" section="rbLogo">CNET</a>
+        <div class="expand"><div></div></div>
+        <ul><li class="selected">
+                        
+                        <a href="/news/lost-explorers-the-unrealized-vision-of-google-glass/" data-toc-asset-options='{"id":"7978e87f-3b0b-42f5-8fff-67ad6483e8b0","ajaxUrl":"\/news\/lost-explorers-the-unrealized-vision-of-google-glass\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/05/22/8638cb04-5a3a-46c0-b202-cd4c50d9f78a/thumbnail/70x70/6a39ef7ef63213cfc22ab5965aab0d00/fd-robert-scoble-google-glass-1569.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/22/8638cb04-5a3a-46c0-b202-cd4c50d9f78a/thumbnail/70x70/6a39ef7ef63213cfc22ab5965aab0d00/fd-robert-scoble-google-glass-1569.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Lost Explorers: The unrealized vision of Google Glass</span>
+                            </div>
+                        </a>
+                    </li>
+                                            <li class="topStoriesHeading">
+                            <h5>Top Stories</h5>
+                        </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/the-biggest-tech-turkeys-of-2015/" data-toc-asset-options='{"id":"bd58d597-04ad-429d-966a-1be0049df9df","ajaxUrl":"\/news\/the-biggest-tech-turkeys-of-2015\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2012/11/19/b32cef4b-f0e3-11e2-8c7c-d4ae52e62bcc/thumbnail/70x70/c68e1be04b7f0edaad3e409db956aca8/tech-turkeys-header-v2_1.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2012/11/19/b32cef4b-f0e3-11e2-8c7c-d4ae52e62bcc/thumbnail/70x70/c68e1be04b7f0edaad3e409db956aca8/tech-turkeys-header-v2_1.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">The biggest tech turkeys of 2015</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/firefox-maker-mozilla-we-dont-need-googles-money-anymore/" data-toc-asset-options='{"id":"cf2db9f5-3087-4cdb-b539-37193d130c95","ajaxUrl":"\/news\/firefox-maker-mozilla-we-dont-need-googles-money-anymore\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2014/06/13/c582d2aa-092e-4d29-a616-a1e5c9403b36/thumbnail/70x70/a12e8411e546b136cae723ffc7d93630/firefox-logo-2014-vertical-4sts.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2014/06/13/c582d2aa-092e-4d29-a616-a1e5c9403b36/thumbnail/70x70/a12e8411e546b136cae723ffc7d93630/firefox-logo-2014-vertical-4sts.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Firefox maker Mozilla: We don't need Google's money anymore</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/sonys-ps4-sales-top-30-million/" data-toc-asset-options='{"id":"025b4b06-7038-43ff-a8c3-5ed3d527d250","ajaxUrl":"\/news\/sonys-ps4-sales-top-30-million\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/18/ec5ba0a0-51c6-4a54-b858-942ef9d772c3/thumbnail/70x70/1b2eccf7d692a06609c63674c2a08a69/ps4.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/18/ec5ba0a0-51c6-4a54-b858-942ef9d772c3/thumbnail/70x70/1b2eccf7d692a06609c63674c2a08a69/ps4.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Sony dominates as PS4 sales top 30 million</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/star-wars-goes-virtual-reality-with-google-cardboard/" data-toc-asset-options='{"id":"db6960a8-f9e8-4a8c-80f1-ae678f8d1f5a","ajaxUrl":"\/news\/star-wars-goes-virtual-reality-with-google-cardboard\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/24/8971d927-438d-4463-9ef4-36dd5179d65e/thumbnail/70x70/341abfedfc176b4d620535e58f520596/atfwimage-1536x864-184826374286.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/24/8971d927-438d-4463-9ef4-36dd5179d65e/thumbnail/70x70/341abfedfc176b4d620535e58f520596/atfwimage-1536x864-184826374286.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Star Wars goes virtual reality with Google Cardboard</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/amazon-adorns-new-york-subway-with-nazi-insignia/" data-toc-asset-options='{"id":"6d039ea4-c069-470c-bb72-45a7eb9fa28c","ajaxUrl":"\/news\/amazon-adorns-new-york-subway-with-nazi-insignia\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/331c62e0-ecb4-4a43-95cd-0c8182c7d62e/thumbnail/70x70/7a3ac7330422d5f165a30180e689a1b7/nazi8.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/331c62e0-ecb4-4a43-95cd-0c8182c7d62e/thumbnail/70x70/7a3ac7330422d5f165a30180e689a1b7/nazi8.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Amazon adorns New York subway with Nazi insignia</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/apple-pencil-powered-by-amazingly-tiny-tech/" data-toc-asset-options='{"id":"77fa6132-8036-4a96-8053-840c0533298f","ajaxUrl":"\/news\/apple-pencil-powered-by-amazingly-tiny-tech\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/90bc42bf-88f6-4c04-b463-c2065e53824e/thumbnail/70x70/d7a0c1426aac9b1c3b8e0af94d1574fb/applepencilteardown002.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/90bc42bf-88f6-4c04-b463-c2065e53824e/thumbnail/70x70/d7a0c1426aac9b1c3b8e0af94d1574fb/applepencilteardown002.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">We cracked open an Apple Pencil so you don't have to</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/what-makes-a-kickstarter-campaign-kick/" data-toc-asset-options='{"id":"11d40779-6026-4779-a813-916c1d5b2889","ajaxUrl":"\/news\/what-makes-a-kickstarter-campaign-kick\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/7a294f21-7e9b-4919-a379-71fd7621e6a2/thumbnail/70x70/dd4c102890a79d8352c448986c55352b/kickstarter.png"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/7a294f21-7e9b-4919-a379-71fd7621e6a2/thumbnail/70x70/dd4c102890a79d8352c448986c55352b/kickstarter.png" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">What makes a Kickstarter campaign kick?</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/watch-this-teen-destroy-the-rubiks-cube-world-record/" data-toc-asset-options='{"id":"7ea9bff9-30b9-4324-9f56-905c2b9400b8","ajaxUrl":"\/news\/watch-this-teen-destroy-the-rubiks-cube-world-record\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/1bee71b9-d0ee-4b0d-aee9-15b866af4bcf/thumbnail/70x70/a53cad5abac6ee5fc2a3332376f7144a/rubikscubeetterworldrecord.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/1bee71b9-d0ee-4b0d-aee9-15b866af4bcf/thumbnail/70x70/a53cad5abac6ee5fc2a3332376f7144a/rubikscubeetterworldrecord.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Watch this teen destroy the Rubik's Cube world record</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/nasa-tries-to-rattle-people-in-its-sonic-boom-room/" data-toc-asset-options='{"id":"60aa7021-29ab-40a8-9108-181df0132357","ajaxUrl":"\/news\/nasa-tries-to-rattle-people-in-its-sonic-boom-room\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/21dd93ce-283c-44d5-a1ed-a2dfae74f5f0/thumbnail/70x70/fa88a9eea94d928f6f66b553ec35aae1/nasa-jet.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/21dd93ce-283c-44d5-a1ed-a2dfae74f5f0/thumbnail/70x70/fa88a9eea94d928f6f66b553ec35aae1/nasa-jet.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">NASA tries to rattle people in its sonic-boom room</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/crazy-bright-90000-lumens-flashlight-turns-night-into-day/" data-toc-asset-options='{"id":"4527b028-75a6-4a0a-8a08-ed1fa9ef3f6c","ajaxUrl":"\/news\/crazy-bright-90000-lumens-flashlight-turns-night-into-day\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/c7d8c01b-b5fa-4684-83aa-000a4eee3562/thumbnail/70x70/0cab92478a173d7ff8af7ec5b6ae27e5/flashlight.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/c7d8c01b-b5fa-4684-83aa-000a4eee3562/thumbnail/70x70/0cab92478a173d7ff8af7ec5b6ae27e5/flashlight.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Crazy-bright 90,000-lumen LED flashlight turns night into day</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/j-j-abrams-reveals-the-first-word-spoken-in-star-wars-the-force-awakens/" data-toc-asset-options='{"id":"5fc5dc51-998c-44a5-95b9-58576d591c96","ajaxUrl":"\/news\/j-j-abrams-reveals-the-first-word-spoken-in-star-wars-the-force-awakens\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet1.cbsistatic.com/hub/i/r/2015/11/24/1fdad6c4-1d4e-47fc-b0a7-02600b56419a/thumbnail/70x70/923f58a612cf317058f213cd3e3377c7/jjabrams.jpg"><noscript><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/24/1fdad6c4-1d4e-47fc-b0a7-02600b56419a/thumbnail/70x70/923f58a612cf317058f213cd3e3377c7/jjabrams.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Revealed: The first word spoken in 'Star Wars: The Force Awakens'</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                            </ul><div id="native-toc-565c85de9cf7a" class="ad-native-toc" data-ad="native-toc">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-toc-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-toc-565c85de9cf7a");
+    </script></div>
+                </nav></div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+
+                            
+                                    <div id="intromercial-565c85de9cf7a" class="ad-intromercial" data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-565c85de9cf7a");
+    </script></div>
+            
+                    <div id="rbContent" class="" data-component="magnet">
+                <div class="pageContainer" data-container-asset-id="7978e87f-3b0b-42f5-8fff-67ad6483e8b0" data-teads-num="1">
+        
+        <div class="container"><div class="row"><div class="col-8"><ul class="breadcrumb" section="bc"><li><a href="/">CNET</a><span class="divider"></span></li><li><a href="/topics/tech-industry/">Tech Industry</a><span class="divider"></span></li><li>Lost Explorers: The unrealized vision of Google Glass</li></ul></div></div><div class="articleHead"><h1>Lost Explorers: The unrealized vision of Google Glass</h1><p class="article-dek">When Google unveiled its smart and controversial eyewear three years ago, some early tech adopters tried to do their part by eagerly pushing for Glass acceptance. The world pushed back.</p><div class="authorInfo article-byline"><span class="byText">by</span><a rel="author" class="author" href="http://www.cnet.com/profiles/richardnieva/">
+                            Richard Nieva
+                        </a><span class="asset-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'><a class="twitterIcon" target="_blank" href="https://twitter.com/intent/user?screen_name=richardjnieva"><div class="twitter"><div class="icon icon-twitter-red"></div></div></a><a class="twitterHandle" target="_blank" href="https://twitter.com/intent/user?screen_name=richardjnieva">@richardjnieva</a></span><span> / </span><time><span class="formattedDate">May 26, 2015</span><span class="formattedTime">1:00 AM PDT</span></time></div></div></div><div id="rbSkin" data-article-num="1"><span id="adSkinLeft"></span><span id="adSkinRight"></span><div id="skin-565c85de9cf7a" class="ad-skin" data-ad="skin"><script>
+        window.console && console.log && console.log("ADS: queuing skin-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-565c85de9cf7a");
+    </script></div><div class="sticky-leader" data-component="stickyLeader"><div id="leader-top-565c85de9cf7a" class="ad-leader-top" data-ad="leader-top"><script>
+        window.console && console.log && console.log("ADS: queuing leader-top-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-565c85de9cf7a");
+    </script></div></div><div class="articleContent container  "><div class="container"><div class="row"><div class="row"><div class="col-12"><div class="row"><div class="col-8"></div><div class="col-4"></div></div></div></div><div class="row"><div class="col-12"><article itemscope itemtype="http://schema.org/Article" id="article-body" section="articleBody"><meta itemprop="thumbnailUrl" content="http://cnet2.cbsistatic.com/hub/i/r/2015/05/22/8638cb04-5a3a-46c0-b202-cd4c50d9f78a/thumbnail/770x433/068b7604a1da0e699118bb7fc89bab6c/fd-robert-scoble-google-glass-1569.jpg"><meta itemprop="keywords" content="Tech Industry, Google Glass, Google"><meta itemprop="url" content="http://www.cnet.com/news/lost-explorers-the-unrealized-vision-of-google-glass/"><meta itemprop="headline" content="Lost Explorers: The unrealized vision of Google Glass"><meta itemprop="description" content="When Google unveiled its smart and controversial eyewear three years ago, some early tech adopters tried to do their part by eagerly pushing for Glass acceptance. The world pushed back."><div class="col-2"><div id="article-info" class="sideBar article-byline" section="author"><h6><a href="/topics/tech-industry/">Tech Industry</a></h6><time itemprop="datePublished" content="2015-05-26T01:00:00-0700"><span class="formattedDate">May 26, 2015</span><span class="formattedTime">1:00 AM PDT</span></time><ul><li itemscope itemtype="http://schema.org/Person"><div class="col-1 profilePic articleProfilePic"><a itemprop="name"><figure class=" img"><img src="http://cnet2.cbsistatic.com/hub/i/r/2013/09/13/13844372-870a-11e3-9955-14feb5ca9861/thumbnail/70x70/061a469ddf8597fc4c07f9a7ff9c0275/Richard_Nieva.jpg" class="" alt="Richard Nieva mugshot" height="70" width="70"></figure></a></div><div class="col-2 profileInfo articleProfileInfo"><span class="byText">by</span><a itemprop="name" rel="author" class="author" href="http://www.cnet.com/profiles/richardnieva/">
+                                    Richard Nieva
+                                </a><span class="asset-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'><a class="twitterIcon" target="_blank" href="https://twitter.com/intent/user?screen_name=richardjnieva"><div class="twitter"><div class="icon icon-twitter-red"></div></div></a><a class="twitterHandle" target="_blank" href="https://twitter.com/intent/user?screen_name=richardjnieva">@richardjnieva</a></span></div></li></ul></div></div><div class="col-10 article-main-body row" itemprop="articleBody" data-use-autolinker="true" data-component="lazyloadImages"><div class="sharebarRedesign inline-view atTop" section="topSharebar" data-component="sharebar" data-sharebar-options='{"title":"Lost Explorers: The unrealized vision of Google Glass","description":"When Google unveiled its smart and controversial eyewear three years ago, some early tech adopters tried to do their part by eagerly pushing for Glass acceptance. The world pushed back.","url":"http:\/\/www.cnet.com\/news\/lost-explorers-the-unrealized-vision-of-google-glass\/","popupWidth":780,"popupHeight":510,"data":{"media":"http:\/\/cnet3.cbsistatic.com\/hub\/i\/r\/2015\/05\/22\/8638cb04-5a3a-46c0-b202-cd4c50d9f78a\/thumbnail\/170x128\/33d14996fccbec1d7b012b968339bc4e\/fd-robert-scoble-google-glass-1569.jpg"}}'><div class="sharebarWrapper "><ul class="sharebarContainer"><li class="share-button sharebarRedesignButton"><a data-popup="facebook"><div class="social-button-small-redesign facebook"><div class="icon icon-small-facebook">facebook</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="twitter"><div class="social-button-small-redesign twitter"><div class="icon icon-small-twitter">twitter</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="linkedin"><div class="social-button-small-redesign linkedin"><div class="icon icon-small-linkedin">linkedin</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="googleplus"><div class="social-button-small-redesign googleplus"><div class="icon icon-small-googleplus">googleplus</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="email"><div class="social-button-small-redesign email"><div class="icon icon-small-email">email</div></div></a></li><li class="share-button sharebarRedesignButton comment-count-redesign" data-livefyre-count-redesign="7978e87f-3b0b-42f5-8fff-67ad6483e8b0"><a href="#comments"><div class="social-button-small-redesign comments"><div class="icon icon-small-comments">comments</div></div></a></li><li class="share-button sharebarRedesignButton moreButton" data-component="touchMenuHover"><span class="moreWrap"><a><div class="social-button-small-redesign more"><div class="icon icon-small-more">more</div></div></a></span><div class="hoverWrap"><ul><li class="share-button sharebarRedesignButton"><a data-popup="reddit"><div class="social-button-small-redesign reddit"><div class="icon icon-small-reddit">reddit</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="pinterest"><div class="social-button-small-redesign pinterest"><div class="icon icon-small-pinterest">pinterest</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="tumblr"><div class="social-button-small-redesign tumblr"><div class="icon icon-small-tumblr">tumblr</div></div></a></li></ul></div></li></ul></div><div id="sponsor_ad" class="sponsor"><div id="social-logo-bottom-565c85de9cf7a" class="ad-social-logo-bottom" data-ad="social-logo-bottom"><script>
+        window.console && console.log && console.log("ADS: queuing social-logo-bottom-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("social-logo-bottom-565c85de9cf7a");
+    </script></div></div></div><div class="col-8"><div id="mpu-plus-top-565c85de9cf7a" class="ad-mpu-plus-top" data-ad="mpu-plus-top"><script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-565c85de9cf7a");
+    </script></div><p><figure class="image image-full-width
+                pull-none  
+                " section="shortcodeImage"><span class="imageContainer"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/05/22/65ffabda-5f1b-4368-92bb-cabcd14e79ca/resize/970x546/6fb3dc63f92aca3385bdeee390d76004/river-robert-scoble-google-glass-1569.jpg" class="" alt="" itemprop="image" height="546" width="970"></span><figcaption><span class="caption">Returning to the scene of the crime: Tech blogger Robert Scoble says a 2013 photo of him, bare-skinned, wearing Glass in the shower was merely meant to show off the device's water-resistance. "I was expecting it to get attention," he says today. "I wasn't expecting it to go viral."</span><span class="credit">
+                                            James Martin/CNET
+                                        </span></figcaption></figure></p><p> 	In the downstairs bathroom of a suburban home in a Northern California coastal town, tech blogger Robert Scoble derailed one of the most ambitious projects of one of the most powerful companies on Earth with a single photo.</p><p> 	Scoble's wife, Maryam, snapped the <a href="https://plus.google.com/+Scobleizer/posts/TcaqNeYJWXo" target="_blank" data-component="externalLink">now-infamous picture</a> in the couple's home in Half Moon Bay, about 30 miles northwest of Google's headquarters in Mountain View. Scoble is in the shower, wearing nothing but a psyched expression and Google Glass. The company had announced its smart eyewear a year earlier as part of an ambitious project led by Google co-founder Sergey Brin to reimagine how people interact with the world. Scoble was among Google's chosen few "Glass Explorers" invited to buy the $1,500 prototype.</p><p> 	The photo, thankfully, is cropped from the shoulders down.</p><p> 	"You thought I was kidding when I said I would never take them off," Scoble <a href="https://plus.google.com/+Scobleizer/posts/TcaqNeYJWXo" target="_blank" data-component="externalLink">wrote</a> when he posted the photo to his Google+ social network account on April 28, 2013.</p><div id="inpage-video-top-565c85de9cf7a" class="ad-inpage-video-top" data-ad="inpage-video-top"><script>
+        window.console && console.log && console.log("ADS: queuing inpage-video-top-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("inpage-video-top-565c85de9cf7a");
+    </script></div><p> 	Scoble soon became a premier spokesperson for the product. Outlets from the BBC to Bloomberg wanted him on their shows to explain how it worked. Glass, which connects to the Internet and overlays images and graphics over what a wearer sees with his non-computer eyes, was confounding the press. Wired hailed the augmented reality specs as something "straight out of Star Trek" while the New York Daily News described Glass as "cyborg glasses." CNET called it "Google on your face."</p><p> 	But Scoble's photo added another dimension: His nerd exuberance created a G-rated, consumer-tech version of a dick pic -- the kind of unsavory anatomical photo that's ruined politicians and private citizens -- that was shared around the world. The damage was done: He had helped make Glass uncool.</p><p><figure class="image image-medium
+                pull-none  col-6
+                " section="shortcodeImage"><span class="imageContainer"><img src="" class="lazy " alt="" height="auto" width="570" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/05/22/c2c84045-2c76-4757-9320-f70af6c9ebc1/resize/570xauto/35a74bb3d1a8333aef18052c1d56ac0f/scobleshower.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/05/22/c2c84045-2c76-4757-9320-f70af6c9ebc1/resize/570xauto/35a74bb3d1a8333aef18052c1d56ac0f/scobleshower.jpg" class="" alt="" itemprop="image" height="auto" width="570"></noscript></span><figcaption><span class="caption">Even Google's Chief Executive Larry Page said he "didn't appreciate" Scoble's shower moment with Glass.</span><span class="credit">
+                                            Courtesy Robert Scoble
+                                        </span></figcaption></figure></p><p> 	Even Google's chief executive, Larry Page, was riled. "Robert, I really didn't appreciate the shower photo," Page ribbed Scoble two weeks later when Scoble asked him a question during a public Q&amp;A session at Google's annual I/O developer conference.</p><p> 	Scoble says he hasn't been invited back to the conference since.</p><p> 	"I was expecting it to get attention," he says of the photo. "But I wasn't expecting it to go viral."</p><p> 	Scoble's fanboy faux pas aside, the photo turned out to be only one of many obstacles for Google's experimental product -- one of the first major forays into wearable technology from a Silicon Valley giant. The device, with its built-in camera, became a lightning rod for controversy because some people feared their privacy was being violated. Movie theaters, bars and restaurants banned it, and some states debated whether to allow it while driving.</p><p> 	So where is Glass now? Back on the drawing board. Google paused the project in January, halting the Explorer program and discontinuing production of the costly prototype. It's reportedly working on a new model it hopes won't alienate so many people. Scoble -- who met with Glass's product lead Steve Lee less than a year ago -- believes the new version will be foldable, so you can take it off and easily store it when it's inappropriate to wear. He also believes it will have a red light to alert others when it's recording.</p><p> 	Google is also counting on Tony Fadell, the Apple alum known as the father of the iPod, to make Glass cool. Fadell, who also helped develop Apple's game-changing iPhone, joined Google in 2013 when the company bought his startup, Nest, which makes a next-generation thermostat, for more than $3 billion. Fadell's job will be to convince developers that Google's eyewear is the real deal for those looking for a more intimate relationship with their tech. If he can do that, Google just may be the software platform that powers the next wave of computing devices after smartphones, tablets and laptops. We're now talking about Internet-connected everything: cars, TVs, pens, blenders, baby toys and, of course, wearables.</p><p><figure class="image image-full-width
+                pull-none  
+                " section="shortcodeImage"><span class="imageContainer"><img src="" class="lazy " alt="scoble4x.jpg" height="546" width="970" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/05/22/09039f71-3089-4174-953f-54759d44375d/resize/970x546/ef782116252bd5868a603a3f4d1e00c1/scoble4x.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/22/09039f71-3089-4174-953f-54759d44375d/resize/970x546/ef782116252bd5868a603a3f4d1e00c1/scoble4x.jpg" class="" alt="scoble4x.jpg" itemprop="image" height="546" width="970"></noscript></span><figcaption><span class="caption">Scoble's original shower photo cost him future admission to Google's I/O developer conference. He says he hasn't been invited since.</span><span class="credit">
+                                            James Martin/CNET
+                                        </span></figcaption></figure></p><p> 	If Fadell can't make Glass cool, no one can, say his fans. "I can't wait to see what Tony is going to do with it," says venture capitalist Marc Andreessen. His firm, Andreessen Horowitz, joined with Google Ventures and prominent VC rival Kleiner Perkins Caufield &amp; Byers in 2013 to form the "Glass Collective" to invest in developers building apps for the device.</p><p> 	As for Scoble, Page and company owe a debt of gratitude to him and the unknown thousands of others who bravely tried to usher Glass into the real world (Google doesn't release Glass sales figures). "Explorer" was a fitting moniker for those early Glass wearers because unlike any other consumer who buys a new type of gadget -- say a phablet or an Apple Watch -- Google's evangelists entered unfamiliar terrain with sometimes hostile results, as detractors in some cases ripped the eyewear off their faces.</p><p> 	It's true exploration is about risk. Some of the world's most famous explorers -- Ferdinand Magellan, Ponce de Leon, Dr. David Livingstone -- died on their voyages. None of Google's Explorers became literal martyrs, but they did pay a price for being first in Google's brave new world. Fairly or unfairly, they're not likely to be honored as explorers. Instead, tech historians will remember them with the less than romantic sobriquet they're now collectively known as: Glassholes. Now Google is paying for its missteps with the Explorer program.</p><p> 	Google declined to comment.</p><h3>Shiny Glass</h3><p> 	Google, which unveiled Glass at its 2012 I/O conference in San Francisco, will host this year's conference starting May 28. The new version isn't likely to be ready by this year's conference, though some reports say the device will " <span class="link" section="shortcodeLink"><a href="/news/new-version-of-google-glass-coming-soon-says-luxottica-ceo/">be out soon</a></span>." At I/O, Google is expected to tout updates to the Android mobile operating system, new initiatives around smart-home devices, and possibly even virtual reality efforts separate from the Glass project.</p><p>Three years ago, Glass made its debut at the developer fest on such a high. Four thousand feet above San Francisco's Moscone Convention Center, to be exact. Four skydivers jumped out of a zeppelin while wearing Glass for a <a href="https://www.youtube.com/watch?v=D7TB8b2t3QE" target="_blank" data-component="externalLink">Brin-led 2012 demo</a> that introduced the device to the world. The press salivated over the spectacle.</p><p> 	Google initially let software developers and a small pool of others try the product, offering it to those they hoped would develop Glass apps. In February 2013, Google opened the Explorer program to more buyers. Would-be Explorers were asked what they would do with the product if they owned it. Those with the best responses were invited to buy Glass.</p><p><figure class="image image-medium
+                pull-none  col-6
+                " section="shortcodeImage"><span class="imageContainer"><img src="" class="lazy " alt="" height="auto" width="570" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/05/21/5596d483-7b4f-4d6c-a2e3-3ebeb05baf6c/resize/570xauto/45b5e1c1ad9d1f5bee2a0116a743ca38/glass-portraits-justin-1.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/05/21/5596d483-7b4f-4d6c-a2e3-3ebeb05baf6c/resize/570xauto/45b5e1c1ad9d1f5bee2a0116a743ca38/glass-portraits-justin-1.jpg" class="" alt="" itemprop="image" height="auto" width="570"></noscript></span><figcaption><span class="caption">Justin Chung, a San Francisco-based illustrator, says he enjoyed the social experiment of being a cyborg.</span><span class="credit">
+                                            James Martin/CNET
+                                        </span></figcaption></figure></p><p> 	"Glass is still in the early stages, so we expect there will be some twists and turns along the way," <a href="https://plus.google.com/+GoogleGlass/posts/N95x6MCS7hD" target="_blank" data-component="externalLink">Google wrote in a post</a> when it expanded the Explorer program. "While we can't promise everything will be perfect, we can promise it will be exciting."</p><p> 	Of course, not every early buyer was a wannabe Glass evangelist. Some bought it because they were curious and had money to burn.</p><p> 	But there were others who bought into Google's bold explorer ethos. Justin Chung, a freelance illustrator in San Francisco, knew early on he wanted Glass so he could be on the "bleeding edge of technology." For his pitch to Google, he wrote that he'd use Glass to let people see what he was drawing, while drawing it. Google granted him the green light to buy Glass and gave him an invitation to a secret party in June where he could pick up the device.</p><p> 	Chung boarded a ferry to a discontinued naval base in nearby Alameda. The party, which had fewer than 100 attendees, was held on an old radar tower with sweeping views of San Francisco Bay. The newly minted Glass owners ate artisanal sandwiches, drank champagne and chatted about their new hardware. "They made you feel like you were part of what they were doing," says Chung.</p><p></p><div class="shortcode gallery size_small" data-component='["ellipsis"]' section="shortcodeGallery">
+            <h6>
+            <a href="/pictures/google-glass-and-the-lost-explorers-pictures/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":1}'>Google Glass and the lost Explorers (pictures)</a>
+        </h6>
+    
+                                            
+    <div class="shortcode-gallery" data-component="shortcodeGallery" data-shortcode-gallery-options='{"count":11,"visible":5,"preloadThreshold":9}'>
+
+        <div data-item="window">
+            <div data-item="viewport" class="row viewport">
+                                    <div data-item="image" class="col-2 selected" section="galleryItem.1">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":1}'>
+                                                                        
+                                <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/05/18/a2be8e85-5638-4e28-857f-486be01099ad/thumbnail/170x128/fd980f1213e4c5b3895f0e64db95d582/robert-scoble-google-glass-1569.jpg" class="" alt="robert-scoble-google-glass-1569.jpg" height="128" width="170"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.2">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/2/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":2}'>
+                                                                        
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/21/156264b5-43a5-41b1-9b36-d975cb9022e8/thumbnail/170x128/b2a0c5b65129df1a7e53f179e8d8d658/glass-portraits-kimberly-1.jpg" class="" alt="" height="128" width="170"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.3">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/3/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":3}'>
+                                                                        
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/21/1f8f45af-9281-414d-bcd0-77fd36d6c34f/thumbnail/170x128/60776ad7e19a29ced0278b50ca995dd2/glass-portraits-ari-1.jpg" class="" alt="" height="128" width="170"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.4">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/4/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":4}'>
+                                                                        
+                                <figure class=" img"><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/05/21/13c8ea00-651a-4660-b2b5-f7b519e3a436/thumbnail/170x128/b05145998b71d6833b4fa23c060144fe/glass-portraits-amir-1.jpg" class="" alt="glass-portraits-amir-1.jpg" height="128" width="170"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.5">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/5/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":5}'>
+                                                                        
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/18/8a99d9d1-d93b-4f29-aba0-3d7a74cb959a/thumbnail/170x128/8c65c585a964558796beb8566708afcb/google-glass-portraits-9976.jpg" class="" alt="google-glass-portraits-9976.jpg" height="128" width="170"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.6">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/6/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":6}'>
+                                                                    
+                    <figure class=" img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="" alt="google-glass-portraits-8500.jpg" height="128" width="170" data-src="http://cnet3.cbsistatic.com/hub/i/r/2015/05/18/bea47d48-69ea-4c3d-8625-3b8ec193adc2/thumbnail/170x128/395f8c6ac206ce73d8549e77e25eed69/google-glass-portraits-8500.jpg"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.7">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/7/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":7}'>
+                                                                    
+                    <figure class=" img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="" alt="glass-portraits-boonsri-1.jpg" height="128" width="170" data-src="http://cnet3.cbsistatic.com/hub/i/r/2015/05/21/92bbda84-542a-45db-af96-a394079f54c6/thumbnail/170x128/f6bbc78e1531c206a1f01255dd4062a5/glass-portraits-boonsri-1.jpg"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.8">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/8/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":8}'>
+                                                                    
+                    <figure class=" img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="" alt="" height="128" width="170" data-src="http://cnet2.cbsistatic.com/hub/i/r/2015/05/21/5596d483-7b4f-4d6c-a2e3-3ebeb05baf6c/thumbnail/170x128/303dfa0af3228cf7911be809713e8c52/glass-portraits-justin-1.jpg"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.9">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/9/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":9}'>
+                                                                    
+                    <figure class=" img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="" alt="" height="128" width="170" data-src="http://cnet2.cbsistatic.com/hub/i/r/2015/05/21/bf4ae860-378a-4f79-90dc-ed9dc89a0316/thumbnail/170x128/c5fe150b6102e93f68f8117a59dee8c9/glass-portraits-ethan-1.jpg"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.10">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/10/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":10}'>
+                                                                    
+                    <figure class=" img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="" alt="google-glass-portraits-8511.jpg" height="128" width="170" data-src="http://cnet3.cbsistatic.com/hub/i/r/2015/05/18/14fbbb9a-315a-4e8e-a190-006c88178871/thumbnail/170x128/b47be95fcc8aa0cc4d66bde36d54aec7/google-glass-portraits-8511.jpg"></figure></a>
+                    </div>
+                                    <div data-item="image" class="col-2 " section="galleryItem.11">
+                                                <a class="imageLinkWrapper" href="/pictures/google-glass-and-the-lost-explorers-pictures/11/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/google-glass-and-the-lost-explorers-pictures\/","index":11}'>
+                                                                    
+                    <figure class=" img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="" alt="glass-portraits-ivan-1.jpg" height="128" width="170" data-src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/21/c787e8f8-127c-4725-b554-1d63522910ad/thumbnail/170x128/d20c7072380c16585a48b0542d462728/glass-portraits-ivan-1.jpg"></figure></a>
+                    </div>
+                            </div>
+        </div>
+
+        <div class="row controls">
+                        <div data-item="image-count"><span class="first">1</span> - <span class="last">5</span>  of  <span class="count">11</span></div>
+
+            <a class="next" data-to-image="next">Next</a>
+                        <a class="prev" data-to-image="previous">Prev</a>
+        </div>
+    </div>
+
+    </div><p> 	Chung still wears his Glass almost every day while drawing, exercising, cooking or walking around San Francisco. He considers the Explorer program a very important "social experiment." "Centuries from now, we'll look back on it," says Chung. "You're putting cyborgs out in public, and we were out there trying to learn the right social protocol."</p><p> 	Other Explorers say the public needs to be patient, as people learn to live in a world with wearables. As for the nerdy aspect? That takes patience, too. "Remember when the first cell phone was released? It was big and clunky," says Ivan Yudhi, a software engineer from San Leandro, California. "It will take time."</p><h3>Broken Glass</h3><p> 	But the rest of the world wasn't willing to wait. The buzz wore off pretty quickly -- kind of like the adrenaline rush that fades after you've jumped out of a blimp. Eventually, "OK Glass" -- the command words that triggered the device's voice controls -- had become a dirty phrase. If the Explorers were Google's army, Glass was a faulty grenade.</p><p> 	One of the best-known Glass incidents involved an assault on a tech writer in a San Francisco bar in February 2014.  <span class="link" section="shortcodeLink"><a href="/news/google-glass-blamed-for-melee-in-sf-bar/">Sarah Slocum was demonstrating</a></span> Glass's video features to a friend at Molotov, a punk rock dive in the city's Lower Haight district. But some patrons became uncomfortable that she was recording. Slocum says a man ripped the Glass off her face, while his friends stole her phone and purse.</p><p><figure class="image image-medium
+                pull-none  col-6
+                " section="shortcodeImage"><span class="imageContainer"><img src="" class="lazy " alt="" height="auto" width="570" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/05/21/c787e8f8-127c-4725-b554-1d63522910ad/resize/570xauto/e4edf441ad5443558dde69ddf941e3ce/glass-portraits-ivan-1.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/05/21/c787e8f8-127c-4725-b554-1d63522910ad/resize/570xauto/e4edf441ad5443558dde69ddf941e3ce/glass-portraits-ivan-1.jpg" class="" alt="" itemprop="image" height="auto" width="570"></noscript></span><figcaption><span class="caption">Ivan Yudhi, a software engineer from San Leandro, Calif., says people need to be patient with the development of wearables.</span><span class="credit">
+                                            James Martin/CNET
+                                        </span></figcaption></figure></p><p> 	In another incident, Kyle Russell -- then a reporter for the website Business Insider -- <a href="http://www.businessinsider.com/i-was-assaulted-for-wearing-google-glass-2014-4" target="_blank" data-component="externalLink">had his Glass torn off</a> while walking in San Francisco's Mission district.</p><p> 	Things got murkier for Glass. Police were giving people tickets for wearing the device while driving. At least six states, including New Jersey and Illinois, began drafting bills to make Glass illegal for drivers behind the wheel. The Motion Picture Association of America banned Glass from movie theaters.</p><p> 	Pop culture commentators had a field day. "Saturday Night Live" created a fictional tech correspondent named Randall Meeks, played by Fred Armisen, who <a href="http://www.nbc.com/saturday-night-live/video/weekend-update-randall-meeks/n36353" target="_blank" data-component="externalLink">fumbled through a Glass demonstration</a> and eventually used it to watch online porn. Jerry Seinfeld last year wore Glass as Wired's "Guest Glasshole" for its June issue on social rules for the digital age. His publicist declined to have Seinfeld comment for this story because the comedian had only ever worn Glass for the Wired photo shoot.</p><p> 	Even those enthusiastic about wearable tech say they remain concerned about Glass. "I have some trepidation," says actor and author LeVar Burton, whose "Star Trek" character, Geordi La Forge, was famous for his futuristic eyewear. "My initial reaction to anybody when I see them wearing Glass is, are they recording?"</p><p> 	Anti-Glass campaigns also popped up. The UK-based "Stop the Cyborgs" effort created posters for bars and other public places saying "Google Glass is Banned On These Premises" and "No Surveillance Devices." You can print them from the group's <a href="http://stopthecyborgs.org/google-glass-ban-signs/" target="_blank" data-component="externalLink">website</a>.</p><p> 	"It has become a bit of the poster child for some of those issues," Google's Astro Teller  <span class="link" section="shortcodeLink"><a href="/news/googles-teller-says-glass-and-other-wearables-need-to-be-cheaper/">said</a></span> in a November interview. Teller leads the experimental Google X lab, which developed Glass before the company handed the reins to Fadell. Teller thinks reaction to Glass is about a bigger issue: anxiety over an increasingly wired world. "That is the right conversation to have," he said. "There isn't an easy answer for that. But it's not really about Google Glass."</p><p></p><div class="shortcode related-links float_left" section="shortcodeRelatedLinks">
+            <h6><span>Three Years of Google Glass</span></h6>
+        <ul><li>
+                                                                                <a href="http://www.cnet.com/news/i-explorer-what-its-like-to-wear-google-glass-in-2015/">I, Explorer: What it's like to wear Google Glass in 2015</a>
+                                            </li>
+                                    <li>
+                                                                                <a href="http://www.cnet.com/pictures/google-glass-and-the-lost-explorers-pictures/" data-component="imageGalleryModal">Google Glass and the lost Explorers (pictures)</a>
+                                            </li>
+                                    <li>
+                                                                                <a href="http://www.cnet.com/news/google-glass-is-still-misunderstood-says-the-guy-who-wore-them-in-the-shower/">Google Glass is still misunderstood, says the guy who wore them in the shower</a>
+                                            </li>
+                                    </ul></div><p> 	To guide Explorers in the right direction, Google created a 763-word <a href="https://sites.google.com/site/glasscomms/glass-explorers" target="_blank" data-component="externalLink">etiquette guide</a> in February 2014 for using the device in public. Among the dos and don'ts: Don't "be creepy or rude (aka a 'Glasshole')."</p><p> 	But internally at Google, Glass had already lost its luster. "When I first saw the word 'Glasshole' becoming more popular, that's when it dawned on me," says one former Google employee, who worked on business development for the Glass team. "That was the turning point."</p><p> 	There was frustration at the very top as well. "Sergey wasn't happy," the former employee says. "He had this vision. It wasn't being realized."</p><p> 	Another former Google employee, a Glass engineer who declined to be interviewed for this story, was blunt about why he didn't want to talk: "I've tried to put that project behind me."</p><h3>After the Explorers </h3><p> 	A lot has changed since Google stopped the Explorer program. One thing didn't: There are still thousands of people who own the $1,500 device. Some people continue to wear it. Others have tossed Glass into their drawers.</p><p> 	But in March 2013, it was a whole different story. That year, Glass was the hot topic at the South by Southwest (SXSW) conference in Austin, Texas, the annual confab for filmmakers, musicians and the technorati. Google held sessions and panels on how to develop for Glass. Austin was sprinkled with people who proudly sported the new device.</p><p><figure class="image image-small
+                pull-none  
+                " section="shortcodeImage"><span class="imageContainer"><img src="" class="lazy " alt="bbq-15-of-192015.jpg" height="auto" width="270" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/05/23/0214cbc8-858c-4c1c-be3d-45dc10a79b50/resize/270xauto/5d31fb17fbd36f03180bb2ed0b957c66/bbq-15-of-192015.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/05/23/0214cbc8-858c-4c1c-be3d-45dc10a79b50/resize/270xauto/5d31fb17fbd36f03180bb2ed0b957c66/bbq-15-of-192015.jpg" class="" alt="bbq-15-of-192015.jpg" itemprop="image" height="auto" width="270"></noscript></span><figcaption><span class="caption">Explorer for a day: I wore Glass to this year's South by Southwest conference in Austin, Tex.</span><span class="credit">
+                                            Bertie Pearson
+                                        </span></figcaption></figure></p><p>Two years later, not so much. I decided to wear Glass for a day at SXSW 2015 to get a sense of what it's like to be an Explorer today. ( <span class="link" section="shortcodeLink"><a href="/news/i-explorer-what-its-like-to-wear-google-glass-in-2015/">Read more about that here</a></span>.)</p><p>I wore them during an  <span class="link" section="shortcodeLink"><a href="/news/silk-road-is-napster-all-over-again-says-deep-web-filmmaker/">interview</a></span> with Alex Winter, a documentary filmmaker and actor (he played Bill in the "Bill and Ted" movies.) Winter's film "Deep Web" premiered at the SXSW film festival and chronicles Silk Road, an online bazaar for drugs and other contraband, and its convicted founder Ross Ulbricht. Winter talks about the legitimate uses for anonymity software and the importance of fighting against constant surveillance.</p><p> 	After talking for a while, I noticed he was avoiding making eye contact with me. "No one's ever interviewed me while wearing Google Glass before," said Winter, laughing. "It's a little unsettling."</p><p> 	Walking around Austin, I drew many stares, but no one was blatantly rude. It didn't incite the same kind of passion the public felt only a year ago. Instead, it felt like a remnant from the not-too-distant past -- ironic because Glass was supposed to be a promise for the future.</p><p>Not only have things changed for Glass owners, but the Explorer program also changed how other companies approach marketing new wearable tech.</p><p><aside class="col-5 pullQuote">
+         "Sergey wasn't happy. He had this vision. It wasn't being realized."
+         <div>-Former Google employee</div>
+     </aside></p><p>In October, Google led a $542 million funding round into Magic Leap, a secretive startup working on its own hi-tech glasses. Like Glass, when you put on Magic Leap's eyewear, you see a mélange of digital and real images. But Magic Leap promises that its graphics will look like they came out of a movie. Google put Sundar Pichai, the company's product czar and one of its most important executives, on Magic Leap's board of directors.</p><p> 	But it looks like Magic Leap has learned from Glass's unraveling. As of this writing, the company has only showed the product to two news outlets: The New York Times and the MIT Technology Review. When Scoble asked for a glimpse, the company turned him down. A Magic Leap employee told Scoble that the public relations team was "scared of you. We know you can change the direction of this product."</p><h3>Glass incognito </h3><p> 	Google has finally learned that lesson as well.</p><p> 	The idea behind Glass Explorers was simple enough: Get the product in the hands of early buyers, and see how they used it. But After Google shut down the Explorer program, Teller said that while it was a "great idea," it put too bright a spotlight on the Explorers.</p><p> 	"We allowed, and sometimes even encouraged, too much attention to the program," Teller  <span class="link" section="shortcodeLink"><a href="/news/googles-teller-we-encouraged-too-much-attention-to-glass-early-on/">said at SXSW</a></span> this year. Google now wants to remain low key.</p><p> 	Google could have achieved that by hiring a group of 10 to 100 people to test the product for a year, says Tim Bajarin, president of market research firm Creative Strategies and an early Glass Explorer. That would have isolated problems to the testers instead of having them affect a broader consumer population. After Brin gave a talk about Glass at the TED conference in 2013, Bajarin said he met some of the Glass team members. "I don't even think they had an understanding of the role Glass should play in your life," he says. He <a href="http://recode.net/2015/05/12/the-debacle-of-google-glass/" target="_blank" data-component="externalLink">describes</a> Google's handling of Glass a "debacle."</p><p><figure class="image image-full-width
+                pull-none  
+                " section="shortcodeImage"><span class="imageContainer"><img src="" class="lazy " alt="screen-shot-2015-05-22-at-5-36-38-pm.png" height="546" width="970" data-original="    http://cnet1.cbsistatic.com/hub/i/r/2015/05/23/774aa668-857d-451f-8405-b7a732b4e761/resize/970x546/e8d37a510060d839110f344dc4ee66a4/screen-shot-2015-05-22-at-5-36-38-pm.png"><noscript><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/05/23/774aa668-857d-451f-8405-b7a732b4e761/resize/970x546/e8d37a510060d839110f344dc4ee66a4/screen-shot-2015-05-22-at-5-36-38-pm.png" class="" alt="screen-shot-2015-05-22-at-5-36-38-pm.png" itemprop="image" height="546" width="970"></noscript></span><figcaption><span class="caption">This is what greets people when they visit Google's Explorer website.</span><span class="credit">
+                                            Screenshot/CNET
+                                        </span></figcaption></figure></p><p> 	It's now up to Fadell and a team of fashion industry veterans to resuscitate the project. It will be one of the hardest tasks Fadell has faced in his career. Can the former Apple hardware guru do it? Bajarin, a long-time Apple follower, is pessimistic. "No," he says flatly. Bajarin says the only shot Fadell has is to take development slowly, and try to keep Glass out of the public eye as he makes improvements.</p><p> 	Development of a new version is underway. Google is reportedly working with Intel to make the innards of the device. Luxottica, the Italian eyewear maker behind Ray-ban and Oakley, is supposedly making the frames. New job postings suggest Google wants to <a href="http://www.businessinsider.com/google-glass-job-listings-suggest-family-of-products-2015-5" target="_blank" data-component="externalLink">make Glass a family of devices</a>. The company is looking for new members of the Glass team to build "smart eyewear and other related products." That's one area where Fadell's expertise may shine. Nest started out with one device, a Web-enabled thermostat, then expanded to include a smoke detector. Other smart-home devices are expected.</p><p> 	As for the Explorers, some still wear Glass proudly. Others, like Scoble, have changed their mind.</p><div id="mpu-bottom-565c85de9cf7a" class="ad-mpu-bottom" data-ad="mpu-bottom"><script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-565c85de9cf7a");
+    </script></div><p> 	Earlier this month, I returned to the proverbial scene of the crime, the place where Scoble took the infamous shower photo. He donned his Glass -- black-trimmed with a 49ers sticker on the side frame -- for the first time in a year. He thinks the problem with Glass was that it created an unnatural division between him and the people he talks to. When he tells me this, he's not wearing the device.</p><p> 	The man who said he would never take it off tells me he was wrong to be such a big booster of Glass. "The novelty went away," he says. "Google abused their early adopters."</p><p> 	Hindsight is always 20/20.</p></div><footer><div class="row collections-topics-and-tags" section="tag"><dl><dt><b>Tags: </b></dt><dd><a href="/topics/tech-industry/">Tech Industry</a></dd><dd><a href="/google/" data-vanity-rewritten="true">Google</a></dd></dl></div></footer></div></article><div class="row"><div class="col-8 subfooter"><div class="collapsible hidden" data-component="toggle" data-toggle-options='{"openOnInit":false}'><!-- General comments --><div id="livefyreContainer-7978e87f-3b0b-42f5-8fff-67ad6483e8b0" class="livefyreContainer"><a name="comments" class="livefyreJumpTarget"> </a><h3><span>Discuss: Lost Explorers: The unrealized vision of...</span></h3><div id="livefyreConversation-7978e87f-3b0b-42f5-8fff-67ad6483e8b0" class="livefyreConversation" data-component="livefyreConversation" data-livefyre-conversation-options='{"globalConfig":{"network":"cnet.fyre.co","stringOverrides":[]},"commentStreamConfigs":{"initialNumVisible":5,"maxVisible":5,"siteId":311569,"articleId":"7978e87f-3b0b-42f5-8fff-67ad6483e8b0","el":"livefyreConversation-7978e87f-3b0b-42f5-8fff-67ad6483e8b0","checksum":"81b9b217561ccdec4f32e299518c4bcb","collectionMeta":"eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6Ikxvc3QgRXhwbG9yZXJzOiBUaGUgdW5yZWFsaXplZCB2aXNpb24gb2YgR29vZ2xlIEdsYXNzIiwidXJsIjoiaHR0cDpcL1wvd3d3LmNuZXQuY29tXC9uZXdzXC9sb3N0LWV4cGxvcmVycy10aGUtdW5yZWFsaXplZC12aXNpb24tb2YtZ29vZ2xlLWdsYXNzXC8iLCJjaGVja3N1bSI6IjgxYjliMjE3NTYxY2NkZWM0ZjMyZTI5OTUxOGM0YmNiIiwiYXJ0aWNsZUlkIjoiNzk3OGU4N2YtM2IwYi00MmY1LThmZmYtNjdhZDY0ODNlOGIwIn0.uN6QVG_q9LDlN65U5RBDtL7NOuo1HUqq6Td3mPYU5WE"},"profileURL":"\/profiles\/%7Busername%7D\/"}'></div><div class="livefyreFooter"><p class="livefyrePowered">Conversation powered by Livefyre</p></div></div><div class="toggleComments" data-item="trigger"><span class="showComments">Show Comments</span><span class="hideComments">Hide Comments</span></div></div><div class="fixate-bottom-anchor"></div></div></div><div class="row"><div class="col-2"></div><div class="col-8 videoPromoContainer"><div class="videoWrapper"><div section="videoPromo" class="videoPromo" data-component="productReviewVideo" data-product-review-video-options='{"videoParent":"[data-container-asset-id=7978e87f-3b0b-42f5-8fff-67ad6483e8b0] .videoPromo","closeButtonParent":"[data-container-asset-id=7978e87f-3b0b-42f5-8fff-67ad6483e8b0] .videoPromo"}'><h6><span>Featured Video</span></h6><div class="cnetVideoPlayer hide" data-tpbaseurl="http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk" data-component="cnetVideo" data-cnet-video-options='{"video":null,"videos":[{"id":"8822f48b-3888-4c31-ab3a-f9be30b8c8d5","title":"Top 5 ways to reuse an Android device","description":"Got an old Android device not doing anything? Find out what else it can do other than collect dust.","slug":"top-5-ways-to-reuse-an-android-device","chapters":"","mpxId":"574326339629","mpxRefId":"HJ6t0kqzE99thmti6l471jeAf3eTTMTS","primaryTopic":{"id":""},"author":{"id":"74504c8d-a5f9-4894-9cc3-b7e94f30d64b","firstName":"Iyaz","lastName":"Akhtar"},"primaryCollection":{"id":"62f3b410-203f-49d9-b99b-fd2c2c2da1a2","title":"CNET Top 5"},"duration":158,"files":{"hds":"cbSxI6RQBk1n","3g":"pkrP1c9Sv4XG","wifi":"C8lXrv3Qn4TG","hls_phone":"l7b0YnNjlImT","hls_tablet":"8OibU9jrTbZY"}},{"id":"1362d5ef-c37f-44a6-9315-ec98267a790e","title":"Don\u0027t buy these things on Black Friday","description":"There are a lot of tempting holiday deals, especially on pricey electronics, but there are some devices and gadgets you shouldn\u0027t buy on Black Friday. In this Tech Minute, CNET\u0027s Sharon Profis explains when waiting is worth it.","slug":"dont-buy-these-things-on-black-friday","chapters":"","mpxId":573648451875,"mpxRefId":"YmBe9tYTkrtR6aTWS7_SQ5dcvZVQp17u","primaryTopic":{"id":""},"author":{"id":"fdbb6182-8175-11e2-9d12-0018fe8a00b0","firstName":"Sharon","lastName":"Profis"},"primaryCollection":{"id":"64b3d9f5-98b6-486d-8b82-93c1c149ca3a","title":["Tech Minute"]},"duration":60,"files":{"hds":"dFChMAzrZrNM","3g":"an_lm31ljDyB","hls_tablet":"9bAXv1HgeCy1","hls_phone":"4xKwp7guvvxV","wifi":"aN2FnRgbbEYA"}},{"id":"16d8d1ec-f23f-4b49-851f-0eac1a45e0cb","title":"How Pixar created the world of \u0027The Good Dinosaur\u0027","description":"Pixar\u0027s upcoming new film imagines what it would have been like if dinosaurs never became extinct. CNET.com\u0027s Lexy Savvides reports on how real-world data helped make the movie\u0027s prehistoric landscapes look incredibly authentic.","slug":"how-pixar-created-the-world-of-the-good-dinosaur","chapters":"","mpxId":572833859769,"mpxRefId":"YAqmOnQ_UVZqZt5LRs41BVnlhF_XPvLH","primaryTopic":{"id":""},"author":{"id":"7cbbe78d-a591-11e2-8a8e-0291187978f3","firstName":"Lexy","lastName":"Savvides"},"primaryCollection":{"id":"040fa0bc-bf08-43dc-ac3d-ee7869a9fc85","title":["CNET News Video"]},"duration":124,"files":{"3g":"d3u0sBpicCD_","hds":"N1lT1Cj9eoSh","hls_tablet":"lmqU7thza_kZ","hls_phone":"8u_6_CnAYg7y","wifi":"IURA4OVvQajj"}},{"id":"3eaf8027-d282-4130-8ea6-11a1dd08bf11","title":"Feel the Force with Google\u0027s Star Wars app themes","description":"Too much Star Wars? Never! Google sneaks Star Wars characters into its apps and services. Meanwhile, Yahoo blocks ad blockers, and LG kills the Urbane 2 smartwatch just days after it went on sale.","slug":"feel-the-force-with-googles-star-wars-app-themes","chapters":"","mpxId":572725827960,"mpxRefId":"0tCH_FUKHqO7HkvbRZu8fLmGYX5yEmtz","primaryTopic":{"id":""},"author":{"id":"95981d0c-8175-11e2-9d12-0018fe8a00b0","firstName":"Bridget","lastName":"Carey"},"primaryCollection":{"id":"8cd2040c-3418-4f94-8b69-f04447141857","title":["CNET Update"]},"duration":180,"files":{"3g":"eqRmhWp5J0_E","hds":"CugxF9fKGRau","hls_phone":"st3pdVjlfSO_","hls_tablet":"JOEoiVnCVWFH","wifi":"KlvK2dVjhZD8"}},{"id":"79ed2bb2-00b6-450e-9b65-2240cb1df711","title":"Pandora to play songs on demand and Microsoft goes big in security","description":"Rdio\u0027s failing business will become a major part of a new Pandora. Meanwhile, Microsoft refuses to be caught unprepared for security threats. Plus see what flew under the Radar in tech right here.","slug":"pandora-to-play-songs-on-demand-and-microsoft-goes-big-in-security","chapters":"","mpxId":571097667667,"mpxRefId":"ITtw23vtICLaDgOvOWxA67Q3qpn5EBHs","primaryTopic":{"id":""},"author":{"id":"74504c8d-a5f9-4894-9cc3-b7e94f30d64b","firstName":"Iyaz","lastName":"Akhtar"},"primaryCollection":{"id":"cee43eaa-1cbc-4558-8c84-6a289fb8c7a3","title":["CNET Radar"]},"duration":143,"files":{"wifi":"ei3ferfdyrDI","3g":"NC4Eggd77TFj","hds":"tI1RI6NTfvSh","hls_tablet":"WjhlYoTl0R5G","hls_phone":"id8_uweN5IpQ"}},{"id":"31a8bab3-b758-48a1-801b-270a2b97e30b","title":"Get over your ex with Facebook, Adele and robot cats","description":"Breaking up is hard to do, but Facebook wants to help. Bridget Carey offers other ways to ease the pain, including Adele\u0027s latest album, which could make history with CD shipments. What year is it?","slug":"get-over-your-ex-with-facebook-adele-and-robot-cats","chapters":"","mpxId":571031619800,"mpxRefId":"KNhJsNeblIABMiUn3XzK7ESfWrYPZBlS","primaryTopic":{"id":""},"author":{"id":"95981d0c-8175-11e2-9d12-0018fe8a00b0","firstName":"Bridget","lastName":"Carey"},"primaryCollection":{"id":"8cd2040c-3418-4f94-8b69-f04447141857","title":["CNET Update"]},"duration":169,"files":{"hds":"aUNOisiqRP2X","wifi":"Af6QIA_i_Owq","3g":"XcM1qyxG64k4","hls_phone":"NaxE7916vbrN","hls_tablet":"99qKJ7cz0ew6"}},{"id":"b7c07cb6-26a2-4a38-9b4a-313c4a56f7c7","title":"Which tablets have better displays than the iPad Pro?","description":"Apple wants to be your Venmo. The iPad Pro has a great display but it\u0027s not the best on the market, and Apple says \u0022sorry.\u0022","slug":"which-tablets-have-better-displays-than-the-ipad-pro","chapters":"","mpxId":570308163793,"mpxRefId":"P8sfJsxrDEhV4rN4EYoqRUWuRLp_qBZO","primaryTopic":{"id":""},"author":{"id":"02167fb4-8176-11e2-9d12-0018fe8a00b0","firstName":"Brian","lastName":"Tong"},"primaryCollection":{"id":"b1a9dea1-31dc-4a54-88f7-cd7d6cde4bae","title":["Apple Byte","Apple"]},"duration":348,"files":{"hds":"A_Be9FrDyVVm","3g":"fekIQMaUD38G","wifi":"h5AU_lfKpzdX","hls_phone":"3EVwdiSGRUfb","hls_tablet":"jKuI8EI_jr4B"}},{"id":"21fb3ee1-54c4-4b74-94ba-a618eab64aa2","title":"eBay wants you to battle for holiday deals, but Watson knows your wish list","description":"Attention online shoppers: Google beefs up shopping search on mobile, eBay puts a new twist on Black Friday fights and IBM\u0027s Watson tracks which gifts are trending.","slug":"ebay-wants-you-to-battle-for-holiday-deals-but-watson-knows-your-wish-list","chapters":"","mpxId":570204739657,"mpxRefId":"TE7_ifWZ_Qc89fAsJXOL1gx_pQxjxnGC","primaryTopic":{"id":""},"author":{"id":"95981d0c-8175-11e2-9d12-0018fe8a00b0","firstName":"Bridget","lastName":"Carey"},"primaryCollection":{"id":"8cd2040c-3418-4f94-8b69-f04447141857","title":["CNET Update"]},"duration":180,"files":{"hls_phone":"IixEbp38w9ve","wifi":"Ph4W7U7oCDrv","hds":"Rv99jCnuAPfD","3g":"WmYW_xXYK8Td","hls_tablet":"q8JXeD90hLbW"}},{"id":"dbb8c07a-0976-4dca-9bd9-980480640257","title":"Samsung\u0027s working on a new Galaxy-like flip phone","description":"It\u0027s no joke. The flip phone is making a comeback thanks to Samsung. Google Search gets even smarter and how long can you go without touching your smartphone?","slug":"samsungs-working-on-a-new-galaxy-like-flip-phone","chapters":"","mpxId":568733251555,"mpxRefId":"_nD2AkOORSrdcMNh2BpGmBdLEz5SJ0Sk","primaryTopic":{"id":""},"author":{"id":"02167fb4-8176-11e2-9d12-0018fe8a00b0","firstName":"Brian","lastName":"Tong"},"primaryCollection":{"id":"4416863f-854f-45bc-a9c2-d6c1ca732bdf","title":["Googlicious"]},"duration":212,"files":{"3g":"WKrKvqO6BQCE","wifi":"J3C6UPCP6Tqr","hds":"agdr1bcIoo1x","hls_phone":"EkY6DpaG3tMw","hls_tablet":"QhU4KuVzQE3G"}},{"id":"72bebf3e-d0b4-4a55-b6ef-431fbd51038d","title":"Windows 10 gets a major update and Google\u0027s got apps","description":"Microsoft rolled out some new features to Windows 10 and the Xbox One. Meanwhile Google\u0027s got apps and Apple\u0027s iPad Pro is out now.","slug":"windows-10-gets-a-major-update-and-googles-got-apps","chapters":"","mpxId":566449731849,"mpxRefId":"XBe50nLCG9DHiOv_pXt_P_MAQvo5bL7W","primaryTopic":{"id":""},"author":{"id":"74504c8d-a5f9-4894-9cc3-b7e94f30d64b","firstName":"Iyaz","lastName":"Akhtar"},"primaryCollection":{"id":"cee43eaa-1cbc-4558-8c84-6a289fb8c7a3","title":["CNET Radar"]},"duration":131,"files":{"wifi":"lUTks8WkLLOW","3g":"3hQYZ_6iIEeC","hds":"ywpLIEXB_cWk","hls_tablet":"up6SM5n6t5Mj","hls_phone":"Ptr9Xbf_BXvo"}},{"id":"c6113960-a0d2-4583-ad13-82120c1f1bca","title":"Google car gets pulled over, Snapchat charges for filters","description":"Even self-driving cars get stopped by cops, in this case for going too slow. Meanwhile, Snapchat begins charging for silly selfie lens filters.","slug":"google-car-gets-pulled-over-snapchat-charges-for-filters","chapters":"","mpxId":566411331980,"mpxRefId":"1mDx1MtdGmfhBcX3IOLctWPK_1oaScRh","primaryTopic":{"id":""},"author":{"id":"95981d0c-8175-11e2-9d12-0018fe8a00b0","firstName":"Bridget","lastName":"Carey"},"primaryCollection":{"id":"8cd2040c-3418-4f94-8b69-f04447141857","title":["CNET Update"]},"duration":175,"files":{"hds":"QBimpOUaYZae","wifi":"ET3ZuJqj6_jd","hls_phone":"CNWSgskdQCek","3g":"jnX0rq6xSvl8","hls_tablet":"qsL1NdKr13or"}}],"relatedItems":null,"autoplay":"false","timelineContainer":".videoPromo","vidInfoContainer":null,"monitorProgress":null,"refreshAds":["mpu-plus-top","skin","leader-bottom","leader-top","social-logo-bottom","inline-product-carousel-top"],"timeRange":"","popOnScroll":false,"config":{"policies":{"default":11417438},"players":{"default":{"mpx_account":"kYEXFC","runtimes":"Flash,HTML5","playerUrl":"http:\/\/player.theplatform.com\/p\/kYEXFC\/cnet-video-player","layoutUrl":{"desktop":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.desktop.xml","mobile":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.mobile.xml","videoDoor":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.videoDoor.xml"},"skinUrl":{"desktop":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetSkin.desktop.json","mobile":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetSkin.mobile.json"},"colors":{"controlFrameColor":"0x3e3e3e","controlBackgroundColor":"0x656565","controlHoverColor":"0xffffff","controlSelectedColor":"0xffffff","controlColor":"0xbbbbbb","frameColor":"0x3e3e3e","playProgressColor":"0x4583b2","scrubberFrameColor":"0x61809e","scrubberColor":"0xffffff","scrubTrackColor":"0x3a424d","pageBackgroundColor":"0x000000"},"plugins":{"1":"vast","2":"omniture","3":"dw","4":"comscore","5":"nielsen"}}},"tracking":{"can_partner_id":"canPartnerID","comscore_id":"3000085","comscore_home":"3000085","comscore_news":"3000078","comscore_reviews":"3000087","comscore_videos":"3000088","nielsen_cid":"us-200330","nielsen_vcid":"c07","nielsen_vcid_reviews":"c05","nielsen_vcid_home":"c07","nielsen_vcid_news":"c08","nielsen_vcid_how_to":"c09","nielsen_vcid_videos":"c20"}},"layoutUrl":"http:\/\/cnet4.cbsistatic.com\/fly\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.desktop.xml","skinUrl":"http:\/\/cnet1.cbsistatic.com\/fly\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetSkin.desktop.json","baseUrl":"http:\/\/www.cnet.com\/","runtime":"Flash","policy":null,"adBlockTitle":"Sorry about that","adBlockMessage":"It looks like you\u0027re using an ad blocker. We know you don\u0027t love ads. But they allow us to pay the writers, editors and producers who work to make your favorite CNET videos. To watch this video, please disable your ad blocker and refresh the page. Thanks for tuning in. You\u0027re the best.","noFlashTitle":"Flash Player upgrade required","noFlashMessage":"Please &lt;a href=\u0022http:\/\/get.adobe.com\/flashplayer\/\u0022 target=\u0022_new\u0022&gt;download and install&lt;\/a&gt;  the latest version of the Adobe Flash Player to watch this video.","hideItem":null,"targetItem":null,"partnerId":null}'><div data-item="loadingCircle" id="countdownSpinner" data-iteration="5"><div id="countdownCount"></div></div><script type="text/javascript">
+
+            if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+                document.getElementById('countdownSpinner').setAttribute('id', 'loadingCircle');
+                document.getElementById('countdownCount').innerHTML = "";
+            }
+
+            var cdcIntervalId = setInterval(function () {
+                var iteration = (document.getElementById('countdownSpinner')) ? document.getElementById('countdownSpinner').getAttribute('data-iteration') : 0;
+                if (iteration == undefined || iteration == 'NaN' || iteration == 0) {
+                    clearInterval(cdcIntervalId);
+                } else {
+                    document.getElementById('countdownCount').innerHTML = iteration;
+                    document.getElementById('countdownSpinner').setAttribute('data-iteration', iteration - 1);
+                }
+            }, 1000);
+        </script><div id="customPlayerCards"></div><script data-item="abCheck" src="http://cnet2.cbsistatic.com/fly/bundles/cnetjs/js/utils/advertisement3.js" type="text/javascript"></script></div><div class="videoSlide"><div><div class="playOverlay" data-item="playOverlay"></div><figure class=" img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/25/8ab70ddc-4fb3-497f-94b6-3053d53a5c53/thumbnail/770x433/83a17a28c326873de8039db2fde05546/reuse-final.png" class="photo" alt="" height="433" width="770"></figure></div><div class="meta"><h4>Top 5 ways to reuse an Android device</h4><p class="dek">Got an old Android device not doing anything? Find out what else it can do other than collect dust.</p><span class="author">by <span class="name">Iyaz Akhtar</span></span><span class="date"><time datetime="November 30, 2015">November 30, 2015</time></span></div></div></div></div><div class="sponsoredContentHeader"><h6></h6></div><div id="video-thumbnail-top-565c85de9cf7a" class="ad-video-thumbnail-top" data-ad="video-thumbnail-top"><script>
+        window.console && console.log && console.log("ADS: queuing video-thumbnail-top-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("video-thumbnail-top-565c85de9cf7a");
+    </script></div></div><div class="col-2"></div></div><div id="leader-bottom-565c85de9cf7a" class="ad-leader-bottom" data-ad="leader-bottom"><script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-565c85de9cf7a");
+    </script></div><div class="col-8 yad-magnet yad-lost-explorers-the-unrealized-vision-of-google-glass" data-component="yahooAdSearch" data-yahoo-ad-search-options='{"yahooId":"2e80adb3-3fdc-3b4c-98c3-bb7c086a50c1","yahooSelector":".yad-lost-explorers-the-unrealized-vision-of-google-glass","ftag":"YHRbd38a98"}'></div></div></div></div></div></div></div>    </div>
+        </div>
+
+                                    
+<footer id="rbFooter"><div id="footerCopyright" class="col-12">
+        <span class="copyright">© CBS Interactive Inc.  /  All Rights Reserved.</span>
+        <div id="legal">
+            <a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow">Privacy Policy</a>
+            <a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow">Ad Choice</a>
+            <a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow">Terms of Use</a>
+            <a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow">Mobile User Agreement</a>
+        </div>
+    </div>
+
+    <div class="container">
+        
+                                    <div id="dynamic-text-link-top-565c85de9cf7a" class="ad-dynamic-text-link-top" data-ad="dynamic-text-link-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing dynamic-text-link-top-565c85de9cf7a for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("dynamic-text-link-top-565c85de9cf7a");
+    </script></div>
+                </div>
+
+    <nav id="footerMap" class="container"><ul class="col-2 first"><li><a href="/">cnet</a></li>
+        </ul><ul class="col-2"><li class="section">Reviews</li>
+            <li><a href="/reviews/">All Reviews</a></li>
+            <li><a href="/topics/audio/">Audio</a></li>
+            <li><a href="/topics/cameras/">Cameras</a></li>
+            <li><a href="/topics/car-tech/">Car Tech</a></li>
+            <li><a href="/topics/desktops/">Desktops</a></li>
+            <li><a href="/topics/laptops/">Laptops</a></li>
+            <li><a href="/topics/phones/">Phones</a></li>
+            <li><a href="/topics/tablets/">Tablets</a></li>
+            <li><a href="/topics/tvs/">TVs</a></li>
+        </ul><ul class="col-2"><li class="section">News</li>
+            <li><a href="/news/">All News</a></li>
+            <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
+            <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
+            <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
+            <li><a href="/tags/microsoft/">Microsoft</a></li>
+            <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
+            <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
+            <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
+            <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
+        </ul><ul class="col-2"><li class="section">Video</li>
+            <li><a href="/videos/">All Video</a></li>
+            <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
+            <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
+            <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
+            <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
+            <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
+            <li><a href="/tomorrow-daily/" data-vanity-rewritten="true">Tomorrow Daily</a></li>
+            <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
+            <li><a href="/cnet-podcasts/" data-vanity-rewritten="true">CNET Podcasts</a></li>
+        </ul><ul class="col-2" data-component="mobileFooterLink"><li class="section">More</li>
+            <li><a href="http://www.cbsinteractive.com/">About CBS Interactive</a></li>
+            <li><a href="/about/" data-vanity-rewritten="true">About CNET</a></li>
+            <li><a href="/cnet100/">CNET 100</a></li>
+                            <li><a href="/deals/">CNET Deals</a></li>
+                        <li><a href="/forums/">CNET Forums</a></li>
+            <li><a href="http://subscribe.cnet.com/magazine/subscribe/">CNET Magazine</a></li>
+            <li><a href="/news/mobile/" data-vanity-rewritten="true">CNET Mobile</a></li>
+            <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=cnet.com">Help Center</a></li>
+            <li><a href="http://reprints.ygsgroup.com/m/cnet/">Permissions</a></li>
+        </ul><ul class="col-2 last"><li class="section">Follow CNET via...</li>
+            <li><a href="http://www.facebook.com/cnet" class="social-core-facebook">Facebook</a></li>
+            <li><a href="http://twitter.com/cnet" class="social-core-twitter">Twitter</a></li>
+            <li><a href="https://plus.google.com/u/0/105198124856956810263/posts" class="social-core-google">Google+</a></li>
+            <li><a href="http://www.youtube.com/user/CNETTV" class="social-core-youtube">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/cnet" class="social-core-linkedin">LinkedIn</a></li>
+            <li><a href="http://cnet.tumblr.com/" class="social-core-tumblr">Tumblr</a></li>
+            <li><a href="http://pinterest.com/cnet" class="social-core-pinterest">Pinterest</a></li>
+            <li><a href="/user/join-cnet/" class="social-core-newsletters">Newsletters</a></li>
+            <li><a href="/rss/" class="social-core-rss" data-vanity-rewritten="true">RSS</a></li>
+        </ul></nav></footer><!--Visual Revenue Reader Response Tracking Script (v6) --><script type="text/javascript">
+        function vr_init() {
+            $('.load-more').trigger('click');
+        }
+
+        var _vrq = _vrq || [];
+        _vrq.push(['id', 514]);
+        _vrq.push(['automate', false]);
+        _vrq.push(['track', function(){}]);
+        (function(d, a){
+            var s = d.createElement(a),
+            x = d.getElementsByTagName(a)[0];
+            s.async = true;
+            s.src = 'http://a.visualrevenue.com/vrs.js';
+            x.parentNode.insertBefore(s, x);
+        })(document, 'script');
+    </script><!-- End of VR RR Tracking Script - All rights reserved --><div data-component="yahooBeacon" data-yahoo-beacon-options='{"yahooId":"3dea089e-a865-35a2-aee5-6271e85057cf","yahooClass":"YAD-3dea089e-a865-35a2-aee5-6271e85057cf"}'></div>
+        
+<script data-main="http://cnet3.cbsistatic.com/fly/1922-fly/js/main.default.js" src="http://cnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"252d33b7c9","applicationID":"3674670","transactionName":"Y1xRYUdUX0ICUUxaDloWclZBXF5fTFNKRwhXVVZqRlxfVg9XFkYS","queueTime":0,"applicationTime":420,"atts":"TxtGFw9OTB1BUxoJGklE","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body></html>
+
+    

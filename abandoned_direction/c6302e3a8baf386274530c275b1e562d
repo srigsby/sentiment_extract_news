@@ -1,0 +1,2369 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><!-- MacLeod loves you! --><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgQCVVdaGwAGU1VUAAE="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><meta content="en_US" http-equiv="Content-Language"><title>Technology News - CNET News - CNET</title><meta name="description" content="CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events."><link rel="canonical" href="http://www.cnet.com/news/"><meta property="al:ios:app_name" content="CNET"><meta property="al:ios:app_store_id" content="383989837"><meta property="al:ios:url" content="http://www.cnet.com/news/?search=toapp"><link rel="alternate" hreflang="x-default" href="http://www.cnet.com/news/"><link rel="alternate" hreflang="en-us" href="http://www.cnet.com/news/"><link rel="alternate" hreflang="en-au" href="http://www.cnet.com/au/news/"><link rel="alternate" hreflang="es-us" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-ar" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-bo" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-cl" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-co" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-cr" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-cu" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-do" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-ec" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-sv" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-gt" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-hn" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-mx" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-ni" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-pa" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-py" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-pe" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-pr" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-es" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-uy" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="es-ve" href="http://www.cnet.com/es/noticias/"><link rel="alternate" hreflang="en-gb" href="http://www.cnet.com/uk/news/"><link rel="alternate" hreflang="en-ie" href="http://www.cnet.com/uk/news/"><link rel="search" type="application/opensearchdescription+xml" title="CNET Search" href="http://www.cnet.com/opensearch.xml"><meta property="og:site_name" content="CNET"><meta property="og:title" content="Technology News - CNET News - CNET"><meta property="og:description" content="CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events."><meta property="og:image" content="http://cnet1.cbsistatic.com/fly/bundles/cnetcore/images/logos/cnet-redball-large.jpg"><meta property="og:type" content="website"><meta property="og:url" content="http://www.cnet.com/news/"><meta property="fb:app_id" content="16995676698"><meta property="fb:admins" content="100001036810388"><meta property="article:publisher" content="https://www.facebook.com/cnet"><meta content="30261067" property="twitter:account_id"><meta content="I1kHyfzmmG1fEVjq8GBUgkfCHc6PNtxce1_VyUuJhws" name="google-site-verification"><meta content="wNWLoFvk5wsdZQ-u75uCNiaHNa7FLFmNtH2t7dZbXmQ" name="google-site-verification"><meta content="47524839a64b83c951afca9ef6c838e0" name="p:domain_verify"><meta content="Product reviews and prices, software downloads, and tech news - CNET" name="msapplication-tooltip"><meta content="http://www.cnet.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#424244" name="msapplication-navbutton-color"><meta content="name=Home; action-uri=http://www.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Downloads; action-uri=http://download.cnet.com/; icon-uri=http://download.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=News; action-uri=http://www.cnet.com/news/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Reviews; action-uri=http://www.cnet.com/reviews/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Videos; action-uri=http://www.cnet.com/videos/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Forums; action-uri=http://forums.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta name="tp:baseUrl" content="http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk"><meta name="viewport" content="width=device-width"><link rel="publisher" href="https://plus.google.com/+CNET/"><link rel="manifest" href="/manifest.json"><link rel="stylesheet" href="http://cnet1.cbsistatic.com/fly/css/core/main.desktop-2a0a41418c-rev.css"><link rel="stylesheet" href="http://cnet4.cbsistatic.com/fly/css/feature/default/default.desktop-f03796d6bf-rev.css"><!--[if IE 8]> <link rel="stylesheet" href="http://cnet3.cbsistatic.com/fly/css/core/ie/ie8-8b304ec002-rev.css" /> <![endif]--><!--[if IE 9]> <link rel="stylesheet" href="http://cnet2.cbsistatic.com/fly/css/core/ie/ie9-2df090d0d6-rev.css" /> <![endif]--><script src="http://cnet4.cbsistatic.com/fly/bundles/cnetcore/js/newsdoor_edition_redirect.js"></script><script src="http://cnet4.cbsistatic.com/fly/bundles/cnetjs/js/libs/boomr.js"></script><script type="text/javascript">
+
+    
+    window.CnetPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"section":"news","tag":[],"edition":"us","test":"||","device":"desktop","ptype":"section_door","cid":"news","env":"prod"},"adConfig":{"network":{"dev":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye","fr"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","th","id","ph","hk","vn","in","tw"]}],"adUnits":{"intromercial":{"outOfPage":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[371,301]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600],[300,1050]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuPlusTopCallback"}},"marqueeTop":{"sizes":[[300,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuTopCallback"}},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[970,66],[728,90],[970,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardTopPlusCallback"}},"leaderTop":{"sizes":[[970,66],[728,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderTopCallback"}},"buttonTop":{"sizes":[[88,31],[70,20],[155,40]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"omnibarTop":{"sizes":[[980,45]],"position":"top","eventCallbacks":{"slotRenderEnded":"omnibarTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"dynamicTextLinkTop":{"sizes":[[1171,61]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuMiddle2":{"sizes":[[300,250]],"position":"middle2"},"leaderPlusMiddle":{"sizes":[[970,66],[728,90],[970,250]],"position":"middle"},"leaderPlusMantle":{"sizes":[[970,66],[728,90],[970,250]],"position":"mantle","eventCallbacks":{"slotRenderEnded":"leaderPlusMantleCallback"}},"leaderMiddle":{"sizes":[[970,66],[728,90]],"position":"middle"},"leaderMiddle2":{"sizes":[[970,66],[728,90]],"position":"middle2"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"leaderPlusBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"dynamicShowcaseTop":{"sizes":[[371,771]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"infoBoardTop":{"sizes":[[771,201],[620,90]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"infoButtonsTop":{"sizes":[[771,61]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"socialLogoBottom":{"sizes":[[88,31]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"sharebarCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"socialLogoTop":{"sizes":[[88,31]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsoredFeedTop":{"sizes":[[571,121]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"inlineProductCarouselTop":{"sizes":[[621,221],[621,471]],"position":"top","eventCallbacks":{"slotRenderEnded":"inlineProductCarouselTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"inpageVideoTop":{"sizes":[[641,321]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"windowTop":{"sizes":[[120,90]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"windowBottom":{"sizes":[[120,90]],"position":"bottom","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsoredMatchTop":{"sizes":[[971,201]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replaySquareTop":{"sizes":[[271,271]],"position":"top","eventCallbacks":{"slotRenderEnded":"replaySquareCallBack"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideTop":{"sizes":[[771,131],[11,11]],"position":"top","eventCallbacks":{"slotRenderEnded":"replayWideTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"09b1d147","strb":"3d4a095d"}},"replayWideBottom":{"sizes":[[771,131],[11,11]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"replayWideBottomCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"dfaf7fc7","strb":"a330cd44"}},"replayWideEditorspicks":{"sizes":[[771,131],[11,11]],"position":"editorspicks","eventCallbacks":{"slotRenderEnded":"replayWideEditorspicksCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayShowcaseTop":{"sizes":[[371,291]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"nativeThisweekoncnet":{"sizes":[[11,11]],"position":"thisweekoncnet","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"d320ba44","strb":"2434f2df"}},"nativeCompare":{"sizes":[[11,11]],"position":"compare","eventCallbacks":{"slotRenderEnded":"nativeCompareCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"overgifTop":{"sizes":[[251,11]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"showcaseTop":{"sizes":[[3,3]],"position":"top"},"videoThumbnailTop":{"sizes":[[171,231],[771,131],[11,11]],"position":"thumbnail","eventCallbacks":{"slotRenderEnded":"videoThumbnailTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"83fa92b7","strb":"7d2bb265"}},"nativeToc":{"sizes":[[300,90],[11,11]],"position":"toc","eventCallbacks":{"slotRenderEnded":"nativeTocCallBack"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true}},"mobile":{"adUnits":{"hpto":{"outOfPage":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mobileBannerTop":{"sizes":[[320,50],[6,1]],"position":"increment"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"increment"},"mobileBanner":{"sizes":[[320,50]],"position":"increment"},"mobileReplaySquare":{"sizes":[[271,271]],"position":"increment"},"mobileReplayWide":{"sizes":[[771,131],[11,11]],"position":"increment"},"mobileReplayWideInc":{"sizes":[[771,131],[11,11]],"position":"inc"},"mobileReplayWidePlus":{"sizes":[[771,131],[320,50],[11,11]],"position":"increment"},"mobileBannerPlus":{"sizes":[[300,250],[320,50],[621,221]],"position":"increment"},"mobileMpu":{"sizes":[[300,250]],"position":"increment"},"mobileOvergif":{"sizes":[[251,11]],"position":"increment","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mobileShowcase":{"sizes":[[3,3]],"position":"increment","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cnet","collapseEmptyDiv":false,"setRefreshUnfilledSlots":true,"setClearUnfilledSlots":false,"disableInitialLoad":false,"disableInitialLoadCompanions":false,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["leader_top","leader_plus_top","mpu_top","mpu_plus_top","leader_plus_middle","leader_middle","leader_middle2","mpu_middle","mpu_middle2","mpu_bottom","leader_bottom","skin","omnibar_top","marquee_top","window_top","window_bottom","inpage_video_top","intromercial","replay_wide_top","replay_wide_bottom","replay_wide_editorspicks","video_thumbnail_top","nativ_toc","native_compare","native_thisweekoncnet","inline_product_carousel_top","resource_center_top","social_logo_bottom","showcase_top","info_board_top","sponsored_feed_top","info_buttons_top","dynamic_text_link_top","dynamic_showcase_top"],"disableInitialLoadRefresh":true,"deviceRegions":{"mobile":[{"region":"aw","countries":["all"]}],"desktop":[],"tablet":[]}},"containerId":"565ba67396c43","slotVars":{"network":"8264","siteName":"cnet","collapseEmptyDiv":"","topics":"news\/home","platform":"desktop"},"adType":"gpt","adDivIds":["leader-plus-top-565ba67396c43","replay-wide-top-565ba67396c43","sponsored-feed-top-565ba67396c43","replay-wide-bottom-565ba67396c43","mpu-plus-top-565ba67396c43","mpu-bottom-565ba67396c43","leader-bottom-565ba67396c43","omnibar-top-565ba67396c43","skin-565ba67396c43","intromercial-565ba67396c43","dynamic-text-link-top-565ba67396c43"]},"cookieName":"cnet_ad","cookieServicePath":"http:\/\/www.cnet.com\/ad\/ad-cookie\/","session":4,"subSession":6}
+        },
+        assetsVersion: {
+            version: '1918-fly'
+        },
+        build: true,
+        cmsEdit: {
+            contentId: '1b1c7ad5-0a15-42ad-b1a5-c609995b0c5d',
+            contentType: 'feature'
+        },
+        device: 'desktop',
+        deviceOriginal: 'desktop',
+        edition: {
+            code: 'us'
+        },
+        environment: 'prod',
+        pageType: 'section_door',
+        promotionals: {
+            flyoutPromo:{
+                url: '/flyout-promo/'
+            }
+        },
+        tracking: {
+            enabled: true
+        },
+        user: {
+            baseUrl: 'https://secure-fly.cnet.com',
+            'urls': {
+                'login': "https://secure-fly.cnet.com/user/login/",
+                'register': "https://secure-fly.cnet.com/user/registration/",
+                'confirmRegistration': "http://www.cnet.com/user/instructions-confirm-registration/",
+                'forgotPassword': "https://secure-fly.cnet.com/user/forgotten-password/",
+                'passwordSent': "http://www.cnet.com/user/password-sent/",
+                'createUsername': "http://www.cnet.com/user/create-username/",
+                'sendConfirmation': "http://www.cnet.com/user/send-confirmation/?registered=1",
+                'userData': "http://www.cnet.com/user/get-data/",
+                'flag': "http://www.cnet.com/user/flag/",
+                'socialAdditionalInformation': "http://www.cnet.com/user/social-additional-information/"
+            }
+        },
+        video: {
+            tpBaseUrl: 'http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk',
+            playCount: 0
+        }
+    };
+
+
+    
+    
+    
+    
+    var utag_data = {"isEnabled":true,"articleTitle":"news: index","articleType":"content_feature","collectionId":[],"deviceType":"desktop","isDev":"0","pageType":"section_door","siteEdition":"us","siteHier":["news","news","home"],"siteSection":"news","siteType":"responsive web","topicId":[],"topicName":[],"dwAccount":"cbsicnetglobalsite","dwHost":"dw.cbsi.com","siteId":1,"reportSuiteId":"cbsicnetglobalsite","bkSiteId":3321,"limit":4,"topicSlugs":[],"siteName":"cnet","tealium":{"profile":"cnetglobalsite","env":"prod"},"soastaBucket":"","soastaPageType":"section_door"};
+</script><script type="text/javascript" id="beanstockNucleusInjector">
+        window.CnetPageVars.ads.beanstockNucleus = {
+            isEnabled:      false,
+            isInitialized:  false,
+            isCompleted:    false,
+            isTimedOut:     false,
+            timeout:        null,
+            injector:       'injectBeanStockNucleusTag',
+            tagId:          'cx-nuke',
+            initTime:       new Date().getTime()
+        };
+
+            </script><!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]--></head><body class="not-logged-in
+    us
+    " data-cms-edit='{"url":"http:\/\/cms-beta.cnet.com\/content\/page\/create\/feature?pageId=1b1c7ad5-0a15-42ad-b1a5-c609995b0c5d"}'>
+                        
+    
+<header id="rbHeader" class="page-header"><div id="secondary" class="">
+                                    
+<div id="socialHeader">
+    <span>Connect with us</span>
+           	
+            <div class="socialWrapper" data-component='["touchMenuHover","iframeHoverFix"]'>
+                
+                        <div class="networkWrapper">
+        <a target="_blank" href="http://www.facebook.com/CNET" class="social-menu-facebook" data-component="socialTracking" data-social-tracking-options='{"socialSite":"facebook"}'>facebook</a>
+    </div>
+
+        
+                        <div class="networkWrapper">
+        <a target="_blank" href="https://twitter.com/intent/user?screen_name=CNET" class="social-menu-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'>twitter</a>
+    </div>
+
+        
+            </div>
+
+</div>
+                            </div>
+            
+                        <div class="fixation" data-component="stickyElement">
+                                    <div id="omnibar_top">
+                    
+                                    <div id="omnibar-top-565ba67396c43" class="ad-omnibar-top" data-ad="omnibar-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing omnibar-top-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("omnibar-top-565ba67396c43");
+    </script></div>
+                            </div>
+                        <div id="primary">
+                                    <a id="rbLogo" href="/">CNET</a>
+                
+                                        <form method="get" action="/search/" class="col-3 headerSearchForm single" data-auto-suggest-options='{"url":"\/autosuggest\/xhr\/"}' data-component='["formTrim","autoSuggest"]'>
+    <div class="searchBar">
+        <input type="text" placeholder="Search CNET" id="primarySearch" name="query" value="" autocomplete="off"><button type="submit" class="searchButton" value="Search"></button>
+    </div>
+</form>                
+                                    
+
+<nav id="primaryNav" section="brandnav"><div class="menu single" id="reviewsMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/reviews/">Reviews</a>
+                    <div class="menuWrapper">
+                <!--[if lt IE 9]>
+                <noscript><div class="navTag"></noscript>
+                <![endif]-->
+                <nav><div class="navWrapper">
+                        <ul class="topCategories"><li class="hed">Top Categories</li>
+                            <li><a href="/cnet100/">CNET 100</a></li> <!-- debate with seo over editions, see footer -->
+                            <li><a href="/topics/appliances/">Appliances</a></li>
+                            <li><a href="/topics/audio/">Audio</a></li>
+                            <li><a href="/topics/cameras/">Cameras</a></li>
+                            <li><a href="/topics/car-tech/">Car Tech</a></li>
+                            <li><a href="/topics/desktops/">Desktops</a></li>
+                            <li><a href="/topics/headphones/">Headphones</a></li>
+                            <li><a href="/topics/laptops/">Laptops</a></li>
+                            <li><a href="/topics/networking/">Networking</a></li>
+                            <li><a href="/topics/phones/">Phones</a></li>
+                            <li><a href="/topics/printers/">Printers</a></li>
+                            <li><a href="/smart-home/" data-vanity-rewritten="true">Smart Home</a></li>
+                            <li><a href="/topics/software/">Software</a></li>
+                            <li><a href="/topics/storage/">Storage</a></li>
+                            <li><a href="/topics/tablets/">Tablets</a></li>
+                            <li><a href="/topics/tvs/">TVs</a></li>
+                            <li><a href="/topics/wearable-tech/">Wearable Tech</a></li>
+                                                            <li><a href="/deals/">Deals</a></li>
+                                <li><a href="/web-hosting/" data-vanity-rewritten="true">Web Hosting</a></li>
+                                                        <li><a href="/forums/">Forums</a></li>
+                        </ul><ul class="topItems forums" data-menu="reviews-forums"><li class="hed">Popular Forums</li>
+<li class="topItem">
+    <a href="/forums/computer-help/">
+            <h3>Computer Help</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/computer-newbies/">
+            <h3>Computer Newbies</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/laptops/">
+            <h3>Laptops</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/phones/">
+            <h3>Phones</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/tvs-home-theaters/">
+            <h3>TVs &amp; Home Theaters</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/networking-wireless/">
+            <h3>Networking &amp; Wireless</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-7/">
+            <h3>Windows 7</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-10/">
+            <h3>Windows 10</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/cameras/">
+            <h3>Cameras</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/">
+            <h3>All Forums</h3>
+    </a>
+</li>                        </ul></div>
+                </nav><!--[if lt IE 9]>
+                <noscript></div></noscript>
+                <![endif]--></div>
+            </div>
+    <div class="menu single active" id="newsMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/news/">News</a>
+        <div class="menuWrapper">
+            <!--[if lt IE 9]>
+            <noscript><div class="navTag"></noscript>
+            <![endif]-->
+            <nav><div class="navWrapper">
+                    <ul class="topCategories"><li class="hed">Top Categories</li>
+                        <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
+                        <li><a href="/topics/computers/" data-vanity-rewritten="true">Computers</a></li>
+                        <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
+                                                    <li><a href="/deals/">Deals</a></li>
+                                                <li><a href="/google/" data-vanity-rewritten="true">Google</a></li>
+                        <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
+                        <li><a href="/tags/microsoft/">Microsoft</a></li>
+                        <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
+                        <li><a href="/topics/photography/" data-vanity-rewritten="true">Photography</a></li>
+                        <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
+                        <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
+                        <li><a href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a></li>
+                        <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
+                        <li><a href="/pictures/">Photo Galleries</a></li>
+                        <li><a href="/videos/cnet-news/" data-vanity-rewritten="true">Video</a></li>
+                        <li><a href="/forums/">Forums</a></li>
+                    </ul><ul class="topItems forums" data-menu="news-forums"><li class="hed">Popular Forums</li>
+<li class="topItem">
+    <a href="/forums/computer-help/">
+            <h3>Computer Help</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/computer-newbies/">
+            <h3>Computer Newbies</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/laptops/">
+            <h3>Laptops</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/phones/">
+            <h3>Phones</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/tvs-home-theaters/">
+            <h3>TVs &amp; Home Theaters</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/networking-wireless/">
+            <h3>Networking &amp; Wireless</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-7/">
+            <h3>Windows 7</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-10/">
+            <h3>Windows 10</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/cameras/">
+            <h3>Cameras</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/">
+            <h3>All Forums</h3>
+    </a>
+</li>                    </ul></div>
+            </nav><!--[if lt IE 9]>
+            <noscript></div></noscript>
+            <![endif]--></div>
+    </div>
+    <div class="menu single" id="videoMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/videos/">Video</a>
+        <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><div class="navWrapper">
+                <ul class="topCategories"><li class="hed">Top Categories</li>
+                    <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
+                    <li><a href="/topics/car-tech/videos/" data-vanity-rewritten="true">Car Tech</a></li>
+                    <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
+                    <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
+                    <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
+                    <li><a href="/googlicious/" data-vanity-rewritten="true">Googlicious</a></li>
+                    <li><a href="/how-to/videos/" data-vanity-rewritten="true">How To</a></li>
+                    <li><a href="/netpicks/" data-vanity-rewritten="true">Netpicks</a></li>
+                    <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
+                    <li><a href="/videos/cnet-news/" data-vanity-rewritten="true">News</a></li>
+                    <li><a href="/topics/phones/videos/" data-vanity-rewritten="true">Phones</a></li>
+                    <li><a href="/prizefight/" data-vanity-rewritten="true">Prizefight</a></li>
+                    <li><a href="/topics/tablets/videos/" data-vanity-rewritten="true">Tablets</a></li>
+                    <li><a href="/tomorrow-daily/" data-vanity-rewritten="true">Tomorrow Daily</a></li>
+                    <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
+                    <li><a href="/cnet-podcasts/" data-vanity-rewritten="true">CNET Podcasts</a></li>
+                </ul></div>
+        </nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+    </div>
+    <div class="menu single" id="howtoMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/how-to/">How To</a>
+        <div class="menuWrapper">
+            <!--[if lt IE 9]>
+            <noscript><div class="navTag"></noscript>
+            <![endif]-->
+            <nav><ul class="topCategories"><li class="hed">Top Categories</li>
+                    <li><a href="/topics/appliances/how-to/">Appliances</a></li>
+                    <li><a href="/topics/computers/how-to/">Computers</a></li>
+                    <li><a href="/topics/gaming/how-to/">Gaming</a></li>
+                    <li><a href="/topics/home-entertainment/how-to/">Home Entertainment</a></li>
+                    <li><a href="/topics/internet/how-to/">Internet</a></li>
+                    <li><a href="/topics/mobile-apps/how-to/">Mobile Apps</a></li>
+                    <li><a href="/topics/phones/how-to/">Phones</a></li>
+                    <li><a href="/topics/photography/how-to/">Photography</a></li>
+                    <li><a href="/topics/security/how-to/">Security</a></li>
+                    <li><a href="/topics/smart-home/how-to/">Smart Home</a></li>
+                    <li><a href="/topics/tablets/how-to/">Tablets</a></li>
+                    <li><a href="/topics/wearable-tech/how-to/">Wearable Tech</a></li>
+                    <li><a href="/forums/">Forums</a></li>
+                    <li><a href="/internet-speed-test/" data-vanity-rewritten="true">Speed Test</a></li>
+                </ul></nav><!--[if lt IE 9]>
+            <noscript></div></noscript>
+            <![endif]--></div>
+    </div>
+            <div class="menu single " id="dealsMenu" data-component="touchMenuHover">
+            <a class="menuHead" href="/deals/" data-vanity-rewritten="true">Deals</a>
+            <div class="menuWrapper">
+                <!--[if lt IE 9]>
+                <noscript><div class="navTag"></noscript>
+                <![endif]-->
+                <nav><ul class="topCategories"><li class="hed">Top Categories</li>
+                        <li><a href="/deals/" data-vanity-rewritten="true">All Deals</a></li>
+                        <li><a href="/cheapskate/" data-vanity-rewritten="true">Cheapskate</a></li>
+                        <li><a href="/holiday-gift-guide/black-friday/" data-vanity-rewritten="true">Black Friday Deals</a></li>
+                        <li><a href="/web-hosting/" data-vanity-rewritten="true">Web Hosting Deals</a></li>
+                    </ul></nav><!--[if lt IE 9]>
+                <noscript></div></noscript>
+                <![endif]--></div>
+        </div>
+        <div class="menu" id="download">
+        <a class="menuHead" href="http://download.cnet.com" data-user-action="legacy" data-component="trackDownload">Download</a>
+    </div>
+
+                    
+
+<div id="headerLogin" class="menu single" data-component="touchMenuHover">
+    <div class="menuHead" data-trigger="menu">
+        <span data-user-var="userName">Log In / Join</span>
+        <div class="user-avatar" data-user-var="avatar"></div>
+    </div>
+    <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><ul class="topCategories logged-out"><li>
+                    <a data-user-show='{"action":"login","params":{"appId":376},"suppressReload":false}'>Log In to CNET</a>
+                </li>
+                <li class="social-login">
+                    <span class="sign-in-with">Sign In with</span>
+                                            <span class="social-site sa-facebook" data-user-social='{"socialSite":"facebook","action":"login","params":{"appId":376}}'>Facebook</span>
+                                            <span class="social-site sa-googleplus" data-user-social='{"socialSite":"googleplus","action":"login","params":{"appId":376}}'>Googleplus</span>
+                                            <span class="social-site sa-yahoo" data-user-social='{"socialSite":"yahoo","action":"login","params":{"appId":376}}'>Yahoo</span>
+                                    </li>
+                <li>
+                    <a data-user-show='{"action":"register","params":{"appId":376}}'>Join CNET</a>
+                </li>
+                <li><a href="/user/join-cnet/">Member Benefits</a></li>
+            </ul><ul class="topCategories logged-in"><li class="social-login">
+                    <span>
+                                            <span class="social-site sa-facebook" data-user-link="facebook">Facebook</span>
+                                            <span class="social-site sa-googleplus" data-user-link="googleplus">Googleplus</span>
+                                            <span class="social-site sa-yahoo" data-user-link="yahoo">Yahoo</span>
+                                        </span>
+                </li>
+                <li><a data-user-var="profileLink" data-template="/profiles/__username__/">My Profile</a></li>
+                <li><a href="/forums/">Forums</a></li>
+                <li><a href="/user/logout/" data-user-action="logout" data-user-suppress-refresh="false">Log Out</a></li>
+            </ul></nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+</div>
+
+    
+<div class="menu single" id="editionMenu" data-component="touchMenuHover">
+    <span class="menuHead" data-trigger="menu"><span id="selectedEdition">US</span> Edition</span>
+    <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><ul class="topCategories" data-component="editionToggler"><li class="hed">Other editions</li>
+                                                    <li><a data-edition="uk" href="/uk/news/">United Kingdom</a></li>
+                                                    <li><a data-edition="au" href="/au/news/">Australia</a></li>
+                                <li><a target="_blank" href="http://www.cnetnews.com.cn/">China</a></li>
+                <li><a target="_blank" href="http://www.cnetfrance.fr/">France</a></li>
+                <li><a target="_blank" href="http://www.cnet.de/">Germany</a></li>
+                <li><a target="_blank" href="http://japan.cnet.com/">Japan</a></li>
+                <li><a target="_blank" href="http://www.cnet.co.kr/">Korea</a></li>
+                                    <li><a data-edition="es" href="/es/noticias/">CNET en Español</a></li>
+                            </ul></nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+</div>
+</nav></div>
+        </div>
+    </header><div id="rbSkin">
+                        <span id="adSkinLeft"></span>
+            <span id="adSkinRight"></span>
+            
+                                    <div id="skin-565ba67396c43" class="ad-skin" data-ad="skin">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-565ba67396c43");
+    </script></div>
+                                                    
+                                    <div id="intromercial-565ba67396c43" class="ad-intromercial" data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-565ba67396c43");
+    </script></div>
+            
+                <div id="rbContent" class="container ">
+            <div class="container">
+    <div class="row">
+                    <div class="row">
+        <div class="col-12">
+                                                    
+                                                        
+                                            
+    <div class="spacer topStories"></div>
+    <section id="topStories" data-vr-zone="main"><div section="topStories|item-1" class="asset half label" data-vr-contentbox>
+                    <a class="mainStory" href="/news/tis-the-season-to-be-fraud-y-cyber-mondays-a-holiday-for-hackers-too/"></a>
+
+                                                        
+                                <figure class=" img"><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/25/af2aec85-18f0-4f30-8336-f78e691007f9/thumbnail/1170x878/52b7ca46fec70b6c2241cc5406a771af/42-67223165.jpg" class="" alt="" height="878" width="1170"></figure><div class="content">
+                                                    <div class="meta">top story</div>
+                                                <h3 class="h">Tis the season to be fraud-y: Cyber Monday's a holiday for hackers too</h3>
+                        <p>Don't lose your head amid all the wonderful deals. Online crooks are counting on you to let your digital guard down on Cyber Monday.</p>
+
+                                                <div class="share" data-component="socialCounts" data-social-counts-options='{"title":"Tis the season to be fraud-y: Cyber Monday\u0027s a holiday for hackers too","url":"http:\/\/www.cnet.com\/news\/tis-the-season-to-be-fraud-y-cyber-mondays-a-holiday-for-hackers-too\/","description":"Don\u0027t lose your head amid all the wonderful deals. Online crooks are counting on you to let your digital guard down on Cyber Monday.","type":"links"}'>
+                            <ul><li data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</li>
+                                <li data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</li>
+                                <li data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</li>
+                                <li data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</li>
+                            </ul></div>
+                    </div>
+                </div>
+                                                            
+                <div section="topStories|item-2" class="asset quarter label" data-vr-contentbox>
+                    <a class="mainStory" href="http://features.cnet.com/the-new-face-of-star-wars/" data-vanity-rewritten="true"></a>
+
+                                                        
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/04/01875c63-383b-4828-ab53-3e9b2c8ec4e2/thumbnail/1170x878/8d200810cab45eb136eb89585ca8f271/boyega.jpg" class="" alt="" height="878" width="1170"></figure><div class="content">
+                                                    <div class="meta">CNET magazine</div>
+                                                <h3 class="h">John Boyega, the new face of 'Star Wars'</h3>
+                        <p>John Boyega discusses his lead role in the upcoming Star Wars film, as well as what he loves about sci-fi and how he feels about diversity.</p>
+
+                                                    <div section="substories">
+                                                                                                        <a class="related content_collection" href="/cnet-magazine/" data-vanity-rewritten="true">More from the magazine</a>
+                                                            </div>
+                                                <div class="share" data-component="socialCounts" data-social-counts-options='{"title":"John Boyega, the new face of \u0027Star Wars\u0027","url":"http:\/\/www.cnet.com\/news\/john-boyega-the-new-face-of-star-wars\/","description":"John Boyega discusses his lead role in the upcoming Star Wars film, as well as what he loves about sci-fi and how he feels about diversity.","type":"links"}'>
+                            <ul><li data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</li>
+                                <li data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</li>
+                                <li data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</li>
+                                <li data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</li>
+                            </ul></div>
+                    </div>
+                </div>
+                                                            
+                <div section="topStories|item-3" class="asset quarter label" data-vr-contentbox>
+                    <a class="mainStory" href="/news/amazon-says-prime-music-has-the-chops-to-go-up-against-apple-music-q-a/"></a>
+
+                                                        
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/07/28/048c3d88-2a16-4e8a-8983-1552e24f3080/thumbnail/1170x878/53a21fed9ddcdc896108b9e103c598f4/devices-copywright-amazon-prime-music.jpg" class="" alt="" height="878" width="1170"></figure><div class="content">
+                                                    <div class="meta">Q&amp;A</div>
+                                                <h3 class="h">Amazon Prime Music's top challenge? Getting Prime members to notice it</h3>
+                        <p>Amazon's head of digital music says the streaming service is after customers who don't necessarily want to spend a ton of money on music.</p>
+
+                                                <div class="share" data-component="socialCounts" data-social-counts-options='{"title":"Amazon Prime Music\u0027s top challenge? Getting Prime members to notice it","url":"http:\/\/www.cnet.com\/news\/amazon-says-prime-music-has-the-chops-to-go-up-against-apple-music-q-a\/","description":"Amazon\u0027s head of digital music says the streaming service is after customers who don\u0027t necessarily want to spend a ton of money on music.","type":"links"}'>
+                            <ul><li data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</li>
+                                <li data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</li>
+                                <li data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</li>
+                                <li data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</li>
+                            </ul></div>
+                    </div>
+                </div>
+                        </section><div id="leader-plus-top-565ba67396c43" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-565ba67396c43");
+    </script></div>
+                                                                                    </div>
+            </div>
+                <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                        <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                    <div class="col-8">
+                                                    
+                                                        
+                                            
+
+
+<div class="moreTopStories" section="moreTopStoires">
+    <h3>More top stories<span>November 29, 2015</span></h3>
+
+    <div class="col-4">
+        <div class="row">
+                    
+            <div class="col-4 assetWrap">
+        <div class="assetBody riverPost" section="asset1">
+            <a href="/news/the-biggest-tech-turkeys-of-2015/" class="assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2012/11/19/b32cef4b-f0e3-11e2-8c7c-d4ae52e62bcc/thumbnail/370x278/0c7d0160817aaa74439ca1fdc13c6e4a/tech-turkeys-header-v2_1.jpg" class="" alt="" height="278" width="370"></figure></a>
+
+            <div class="assetText">
+
+                
+                                    <a href="/news/the-biggest-tech-turkeys-of-2015/" class="assetHed"><h5>The biggest tech turkeys of 2015</h5></a>
+                    <div class="dek">The year's most notable embarrassments in technology run the gamut from the industry's inability to secure our personal data to the blunders of Airbnb, Twitter and Tinder.</div>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/rogercheng24/">Roger Cheng</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharing" data-component="socialCounts" data-social-counts-options='{"title":"The biggest tech turkeys of 2015","url":"http:\/\/www.cnet.com\/news\/the-biggest-tech-turkeys-of-2015\/","description":"The year\u0027s most notable embarrassments in technology run the gamut from the industry\u0027s inability to secure our personal data to the blunders of Airbnb, Twitter and Tinder.","type":"links"}'>
+        <div class="singleButton" data-popup="facebook">    <div class="social-button hover facebook">
+        <div class="icon icon-facebook">facebook</div>
+    </div>
+</div>
+    <div class="singleButton" data-popup="twitter">    <div class="social-button hover twitter">
+        <div class="icon icon-twitter">twitter</div>
+    </div>
+</div>
+    <div class="singleButton" data-popup="googleplus">    <div class="social-button hover googleplus">
+        <div class="icon icon-googleplus">googleplus</div>
+    </div>
+</div>
+    <div class="singleButton" data-link="email">    <div class="social-button hover email">
+        <div class="icon icon-email">email</div>
+    </div>
+</div>
+    </div>
+                                        </div>
+
+                    <div section="substories" class="substories">
+                                                        <a class="related content_gallery" href="/pictures/a-roundup-of-cnets-2015-tech-turkeys-pictures/" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/a-roundup-of-cnets-2015-tech-turkeys-pictures\/","index":1}'>Pictures: Gobble, gobble</a>
+                            </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+                    
+            <div class="col-2 assetWrap">
+        <div class="assetBody riverPost" section="asset2">
+            <a href="/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/" class="assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/170x96/1706cd691835b8e3910ff69fe6bc8930/amazondrone.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="assetText">
+
+                
+                                    <a href="/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/" class="assetHed"><h6>Amazon shows off new prototype delivery drone</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/stevenmusil/">Steven Musil</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Amazon shows off new prototype delivery drone","url":"http:\/\/www.cnet.com\/news\/amazon-shows-off-new-prime-air-prototype-delivery-drone\/","description":"Video shows \u0022hybrid\u0022 drone accepting a small package into its fuselage and then ascending like a helicopter before flying more like an airplane.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+                    
+            <div class="col-2 assetWrap">
+        <div class="assetBody riverPost" section="asset3">
+            <a href="/news/how-smartphones-offer-syrian-refugees-a-lifeline/" class="assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/0a9e68e0-fe96-44c5-b00f-2f67b3642232/thumbnail/170x96/3159dd81858c6d7e446a6f62c426af85/42-76876731.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="assetText">
+
+                
+                                    <a href="/news/how-smartphones-offer-syrian-refugees-a-lifeline/" class="assetHed"><h6>How smartphones offer Syrian refugees a lifeline</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/katieecollins/">Katie Collins</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"How smartphones offer Syrian refugees a lifeline","url":"http:\/\/www.cnet.com\/news\/how-smartphones-offer-syrian-refugees-a-lifeline\/","description":"Startups and nonprofit organizations are offering high-tech assistance to the hyper-connected wave of Syrian refugees.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+                    
+            <div class="col-2 assetWrap">
+        <div class="assetBody riverPost" section="asset4">
+            <a href="/news/facebook-offers-all-new-parents-four-months-paid-baby-leave/" class="assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/27/ea6163c7-6a69-4137-8ae3-c0b70200faf3/thumbnail/170x96/a78e3702379755dfefd5faf56f447f41/42-24303378.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="assetText">
+
+                
+                                    <a href="/news/facebook-offers-all-new-parents-four-months-paid-baby-leave/" class="assetHed"><h6>Facebook offers all employees four months parental leave</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/katieecollins/">Katie Collins</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Facebook offers all employees four months parental leave","url":"http:\/\/www.cnet.com\/news\/facebook-offers-all-new-parents-four-months-paid-baby-leave\/","description":"As CEO Mark Zuckerberg prepares to become a father, the world\u0027s largest social network shakes up its parental leave policy.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+                    
+            <div class="col-2 assetWrap">
+        <div class="assetBody riverPost" section="asset5">
+            <a href="/news/your-best-black-friday-shopping-mall-brawls/" class="assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/28/31dfcb71-b9f5-443c-a867-bb63cf77ecb1/thumbnail/170x96/e3ce6cddf1c10fd1f018a88c1d2d52f9/42-79572937-black-friday-corbis.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="assetText">
+
+                
+                                    <a href="/news/your-best-black-friday-shopping-mall-brawls/" class="assetHed"><h6>Your Black Friday mall brawl highlights</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/chrismatyszczyk/">Chris Matyszczyk</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Your Black Friday mall brawl highlights","url":"http:\/\/www.cnet.com\/news\/your-best-black-friday-shopping-mall-brawls\/","description":"Technically Incorrect: As people rushed to get electronics, little seemed to have changed from previous years. There was pandemonium, and there were fights.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="col-4">
+        <div class="row">
+                    
+            <div class="col-4 assetWrap">
+        <div class="assetBody dekRight riverPost" section="asset6">
+            <a href="/news/raspberry-pis-latest-computer-costs-just-5/" class="col-2 assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/26/364c1c78-f3f1-4132-a0c3-7670e9bf4713/thumbnail/170x96/7a7ae63a01645b147cf43199377efc6f/pizeroinhandweb.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="col-2 assetText">
+
+                
+                                    <a href="/news/raspberry-pis-latest-computer-costs-just-5/" class="assetHed"><h6>Raspberry Pi's latest computer costs just $5</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/katieecollins/">Katie Collins</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Raspberry Pi\u0027s latest computer costs just $5","url":"http:\/\/www.cnet.com\/news\/raspberry-pis-latest-computer-costs-just-5\/","description":"The British company is making learning to code as affordable as a skinny latte.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+                    
+            <div class="col-4 assetWrap">
+        <div class="assetBody dekRight riverPost" section="asset7">
+            <a href="/news/google-glass-patent-shows-tech-specs-may-become-a-monocle/" class="col-2 assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/27/05d3c55c-d58c-468f-aaaf-d334d71dcc19/thumbnail/170x96/d995e02d6dec6adb0a49dd711e641bf7/screen-shot-2015-11-27-at-17-05-25.png" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="col-2 assetText">
+
+                
+                                    <a href="/news/google-glass-patent-shows-tech-specs-may-become-a-monocle/" class="assetHed"><h6>Google Glass patent shows that specs may become a monocle</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/katieecollins/">Katie Collins</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Google Glass patent shows that specs may become a monocle","url":"http:\/\/www.cnet.com\/news\/google-glass-patent-shows-tech-specs-may-become-a-monocle\/","description":"Although the first generation of Google Glass was a failure, the company may not be giving up on the techie specs.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+                    
+            <div class="col-4 assetWrap">
+        <div class="assetBody dekRight riverPost" section="asset8">
+            <a href="/news/hack-of-toy-maker-vtech-exposes-families/" class="col-2 assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/27/a2e20eda-ec63-4173-aadf-6e02743d1d48/thumbnail/170x96/1ec95c8f06616b9edb51c2b07456239a/42-30941432-vtech-corbis.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="col-2 assetText">
+
+                
+                                    <a href="/news/hack-of-toy-maker-vtech-exposes-families/" class="assetHed"><h6>Hack of toy maker VTech exposes families</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/carriemihalcik/">Carrie Mihalcik</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Hack of toy maker VTech exposes families","url":"http:\/\/www.cnet.com\/news\/hack-of-toy-maker-vtech-exposes-families\/","description":"A hacker got into a customer database for the Learning Lodge app store, where parents can download apps, games and e-books for VTech toys.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+                    
+            <div class="col-4 assetWrap">
+        <div class="assetBody dekRight riverPost" section="asset9">
+            <a href="/news/ps4-remote-play-officially-coming-to-pc-and-mac/" class="col-2 assetThumb imageLinkWrapper">
+                                            
+                                <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2013/11/11/4b184bc8-6788-11e3-846b-14feb5ca9861/thumbnail/170x96/015041033d72ae40abd371eff87fa07f/Sony_PS4_35618167_03.jpg" class="" alt="" height="96" width="170"></figure></a>
+
+            <div class="col-2 assetText">
+
+                
+                                    <a href="/news/ps4-remote-play-officially-coming-to-pc-and-mac/" class="assetHed"><h6>PS4 Remote Play officially coming to PC and Mac</h6></a>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/gamespot/">GameSpot Staff</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"PS4 Remote Play officially coming to PC and Mac","url":"http:\/\/www.cnet.com\/news\/ps4-remote-play-officially-coming-to-pc-and-mac\/","description":"The PS Vita gameplay streaming service is set to expand to desktops, President of Sony Worldwide Studios Shuhei Yoshida confirms.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+                    
+            <div class="col-4 assetWrap">
+        <div class="assetBody riverPost" section="asset10">
+            <a href="/pictures/best-cyber-monday-deals/" class="assetThumb imageLinkWrapper" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/best-cyber-monday-deals\/","index":1}'>
+                                            
+                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/09/004a394f-e220-4810-8499-0656cdea9c6b/thumbnail/370x278/66b076e6b135f4319d44a313e9704559/targetblackfriday-viernesnegro-line.jpg" class="" alt="" height="278" width="370"></figure></a>
+
+            <div class="assetText">
+
+                
+                                    <a href="/pictures/best-cyber-monday-deals/" class="assetHed" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/best-cyber-monday-deals\/","index":1}'><h5>Best Cyber Monday deals</h5></a>
+                    <div class="dek">We round up the best deals to help you ferret out the most value on the Web's biggest shopping day.</div>
+                
+                                                                                        <span class="author">by <a class="name" href="http://www.cnet.com/profiles/cnet+staff/">CNET staff</a></span>
+                                                                        </div>
+                                                
+
+<div class="socialSharing" data-component="socialCounts" data-social-counts-options='{"title":"Best Cyber Monday deals","url":"http:\/\/www.cnet.com\/pictures\/best-cyber-monday-deals\/","description":"We round up the best deals to help you ferret out the most value on the Web\u0027s biggest shopping day.","type":"links"}'>
+        <div class="singleButton" data-popup="facebook">    <div class="social-button hover facebook">
+        <div class="icon icon-facebook">facebook</div>
+    </div>
+</div>
+    <div class="singleButton" data-popup="twitter">    <div class="social-button hover twitter">
+        <div class="icon icon-twitter">twitter</div>
+    </div>
+</div>
+    <div class="singleButton" data-popup="googleplus">    <div class="social-button hover googleplus">
+        <div class="icon icon-googleplus">googleplus</div>
+    </div>
+</div>
+    <div class="singleButton" data-link="email">    <div class="social-button hover email">
+        <div class="icon icon-email">email</div>
+    </div>
+</div>
+    </div>
+                                        </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>                                                                                
+                                                        
+                                            
+        
+
+                                                                                                                                                
+                                        
+                                                    
+                                                
+<div class="fdListingContainer" data-component="lazyloadImages">
+    <div class="col-8 fdListing" data-vr-zone="river" data-component="loadMore" data-load-more-options='{"loader":{"classes":{"loading":"loading"}},"url":"\/component\/load-more\/xhr\/","data":{"endpoint":"\/api\/component\/listing\/0cf98e0b-3adc-44ca-98bc-c5bb115b7c73\/content\/55436a15-673d-47ba-8aad-84cdb32aa74c","params":[],"view":"fd_listing","familyName":"listing","typeName":"filtered_listing","offset":15,"initialLimit":15,"colspan":8,"lastAssetId":"9024bdf7-75e4-4413-9d0d-cab0c6e8f148","limit":15,"isCES":false},"numPinned":0,"pushState":{"route":"\/news\/{page}\/","enabled":true,"currentPage":1}}' section="fdListing">
+
+                                                                                                        
+                                    <h1>The Latest</h1>
+            <div class="bgHide"></div>
+                
+                                
+                                    
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="1">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">4</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Amazon shows off new prototype delivery drone","url":"http:\/\/www.cnet.com\/news\/amazon-shows-off-new-prime-air-prototype-delivery-drone\/","description":"Video shows \u0022hybrid\u0022 drone accepting a small package into its fuselage and then ascending like a helicopter before flying more like an airplane.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/170x170/59bbc29f25add843d4a2f38179e8a184/amazondrone.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/170x170/59bbc29f25add843d4a2f38179e8a184/amazondrone.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/" class="assetHed">
+                    <h3>
+                                                    Amazon shows off new prototype delivery drone
+                                            </h3>
+
+                    <p>
+                        Video shows "hybrid" drone accepting a small package into its fuselage and then ascending like a helicopter before flying more like an airplane.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/internet/" data-vanity-rewritten="true">Internet</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/stevenmusil/">Steven Musil</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="2">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">4</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Watch cars levitate -- there\u0027s a down-to-earth explanation","url":"http:\/\/www.cnet.com\/news\/watch-cars-levitate-theres-a-down-to-earth-explanation\/","description":"Technically Incorrect: In China, cars roll up to a junction, lift off the ground and spin bizarrely. A weird magnetic field? Or something more prosaic?","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/watch-cars-levitate-theres-a-down-to-earth-explanation/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/9d32dbc5-3b64-42d0-986b-6b3467c1eb28/thumbnail/170x170/1f8f1027891d0d0c0ae44a95ad78e596/flying-car.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/9d32dbc5-3b64-42d0-986b-6b3467c1eb28/thumbnail/170x170/1f8f1027891d0d0c0ae44a95ad78e596/flying-car.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/watch-cars-levitate-theres-a-down-to-earth-explanation/" class="assetHed">
+                    <h3>
+                                                    Watch cars levitate -- there's a down-to-earth explanation
+                                            </h3>
+
+                    <p>
+                        Technically Incorrect: In China, cars roll up to a junction, lift off the ground and spin bizarrely. A weird magnetic field? Or something more prosaic?
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/chrismatyszczyk/">Chris Matyszczyk</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+                <div class="row">
+            <div class="col-1 spaceBorder"></div>
+            
+                                    <div id="replay-wide-top-565ba67396c43" class="ad-replay-wide-top" data-ad="replay-wide-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing replay-wide-top-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("replay-wide-top-565ba67396c43");
+    </script></div>
+                    </div>
+    
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="3">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">6</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Ralph McQuarrie\u0027s Boba Fett gets new life as a Star Wars collectible","url":"http:\/\/www.cnet.com\/news\/ralph-mcquarries-boba-fett-gets-new-life-as-a-collectible\/","description":"You don\u0027t need to be a bounty hunter to track down and acquire valuable merchandise like this highly detailed Ralph McQuarrie Boba Fett Star Wars statue from Sideshow Collectibles.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/ralph-mcquarries-boba-fett-gets-new-life-as-a-collectible/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/29/738819bc-bb33-4f14-bf66-9c26cbed4bba/thumbnail/170x170/b982866d9aaa94f1cc677a65e2b6240a/bobafettstatue.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/29/738819bc-bb33-4f14-bf66-9c26cbed4bba/thumbnail/170x170/b982866d9aaa94f1cc677a65e2b6240a/bobafettstatue.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/ralph-mcquarries-boba-fett-gets-new-life-as-a-collectible/" class="assetHed">
+                    <h3>
+                                                    Ralph McQuarrie's Boba Fett gets new life as a Star Wars collectible
+                                            </h3>
+
+                    <p>
+                        You don't need to be a bounty hunter to track down and acquire valuable merchandise like this highly detailed Ralph McQuarrie Boba Fett Star Wars statue from Sideshow Collectibles.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="4">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">9</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Uncovering mysteries in the upcoming \u0027Sherlock\u0027 Victorian special","url":"http:\/\/www.cnet.com\/news\/speculation-continues-about-sherlock-victorian-special\/","description":"While the \u0022Sherlock\u0022 Victorian special \u0022The Abominable Bride\u0022 gets closer to its January 2016 air date, we present the facts, another trailer and a stockpile of photos to decipher any hints.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/speculation-continues-about-sherlock-victorian-special/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/faa35c0d-6d82-4bd4-b616-2126dede2990/thumbnail/170x170/a5614790c445b05744812e47003ec8c2/sherlock33.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/faa35c0d-6d82-4bd4-b616-2126dede2990/thumbnail/170x170/a5614790c445b05744812e47003ec8c2/sherlock33.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/speculation-continues-about-sherlock-victorian-special/" class="assetHed">
+                    <h3>
+                                                    Uncovering mysteries in the upcoming 'Sherlock' Victorian special
+                                            </h3>
+
+                    <p>
+                        While the "Sherlock" Victorian special "The Abominable Bride" gets closer to its January 2016 air date, we present the facts, another trailer and a stockpile of photos to decipher any hints.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="5">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">9</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"New pictures reveal more clues from \u0027Sherlock\u0027 Victorian special","url":"http:\/\/www.cnet.com\/pictures\/new-photos-reveal-more-clues-from-sherlock-victorian-special-pictures\/","description":"Take a closer look at newly released BBC images of Sherlock Holmes, Dr. Watson, Inspector Lestrade, Mrs. Hudson, Mary Morstan and the potential bride herself, Emilia Ricoletti, from the January 1 special.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/pictures/new-photos-reveal-more-clues-from-sherlock-victorian-special-pictures/" class="imageLinkWrapper" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/new-photos-reveal-more-clues-from-sherlock-victorian-special-pictures\/","index":1}'>
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/29/91ba31e2-17c1-4fff-9008-f5930849722f/thumbnail/170x170/1c2d021a4c2f970e2bb2e6da79d156f9/sherlock12.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/29/91ba31e2-17c1-4fff-9008-f5930849722f/thumbnail/170x170/1c2d021a4c2f970e2bb2e6da79d156f9/sherlock12.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/pictures/new-photos-reveal-more-clues-from-sherlock-victorian-special-pictures/" class="assetHed" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/new-photos-reveal-more-clues-from-sherlock-victorian-special-pictures\/","index":1}'>
+                    <h3>
+                                                    New pictures reveal more clues from 'Sherlock' Victorian special
+                                            </h3>
+
+                    <p>
+                        Take a closer look at newly released BBC images of Sherlock Holmes, Dr. Watson, Inspector Lestrade, Mrs. Hudson, Mary Morstan and the potential bride herself, Emilia Ricoletti, from the January 1 special.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="6">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">9</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Caffeinated toothpaste will bring brushing buzz","url":"http:\/\/www.cnet.com\/news\/caffeinated-toothpaste-will-bring-brushing-buzz\/","description":"Forget the potential of mint to wake you up in the morning. Power Energy Toothpaste plans to deliver \u0022the rush while you brush\u0022 with straight-up caffeine.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/caffeinated-toothpaste-will-bring-brushing-buzz/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/25/143f7b92-37d1-4604-bea3-818f6ae3ceee/thumbnail/170x170/1c195f5aae92549a378a61a6387a0d68/power-energy-toothpaste.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/25/143f7b92-37d1-4604-bea3-818f6ae3ceee/thumbnail/170x170/1c195f5aae92549a378a61a6387a0d68/power-energy-toothpaste.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/caffeinated-toothpaste-will-bring-brushing-buzz/" class="assetHed">
+                    <h3>
+                                                    Caffeinated toothpaste will bring brushing buzz
+                                            </h3>
+
+                    <p>
+                        Forget the potential of mint to wake you up in the morning. Power Energy Toothpaste plans to deliver "the rush while you brush" with straight-up caffeine.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/writermikef/">Michael Franco</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+                <div class="row sponsoredFeedContainer">
+        <div class="riverPost"><div class="timestamp"></div>
+                                    <div id="sponsored-feed-top-565ba67396c43" class="ad-sponsored-feed-top" data-ad="sponsored-feed-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing sponsored-feed-top-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("sponsored-feed-top-565ba67396c43");
+    </script></div>
+            </div>
+
+        </div>
+    
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="7">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">12</span><span>hours ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Tis the season to be fraud-y: Cyber Monday\u0027s a holiday for hackers too","url":"http:\/\/www.cnet.com\/news\/tis-the-season-to-be-fraud-y-cyber-mondays-a-holiday-for-hackers-too\/","description":"Don\u0027t lose your head amid all the wonderful deals. Online crooks are counting on you to let your digital guard down on Cyber Monday.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/tis-the-season-to-be-fraud-y-cyber-mondays-a-holiday-for-hackers-too/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet1.cbsistatic.com/hub/i/r/2015/11/25/af2aec85-18f0-4f30-8336-f78e691007f9/thumbnail/170x170/cf397706b1bd220944ae50d0eaf15bb0/42-67223165.jpg"><noscript><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/25/af2aec85-18f0-4f30-8336-f78e691007f9/thumbnail/170x170/cf397706b1bd220944ae50d0eaf15bb0/42-67223165.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/tis-the-season-to-be-fraud-y-cyber-mondays-a-holiday-for-hackers-too/" class="assetHed">
+                    <h3>
+                                                    Tis the season to be fraud-y: Cyber Monday's a holiday for hackers too
+                                            </h3>
+
+                    <p>
+                        Don't lose your head amid all the wonderful deals. Online crooks are counting on you to let your digital guard down on Cyber Monday.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/security/" data-vanity-rewritten="true">Security</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/lhautala/">Laura Hautala</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="8">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">1</span><span>day ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Sleep like a Time Lord with \u0027Doctor Who\u0027 bedding","url":"http:\/\/www.cnet.com\/news\/sleep-like-a-time-lord-with-doctor-who-bedding\/","description":"Allons-zzzz! Have sweet dreams with this stylish bedding featuring the Tardis and elegant Gallifreyan symbols. Sadly, these sheets won\u0027t bend space and time so you can snooze longer.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/sleep-like-a-time-lord-with-doctor-who-bedding/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/28/0ff6181e-f322-4cb9-b1ff-635f31d55690/thumbnail/170x170/d15d64ff039e7e750f8aa58bdd48ded7/doctorwhopillows.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/28/0ff6181e-f322-4cb9-b1ff-635f31d55690/thumbnail/170x170/d15d64ff039e7e750f8aa58bdd48ded7/doctorwhopillows.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/sleep-like-a-time-lord-with-doctor-who-bedding/" class="assetHed">
+                    <h3>
+                                                    Sleep like a Time Lord with 'Doctor Who' bedding
+                                            </h3>
+
+                    <p>
+                        Allons-zzzz! Have sweet dreams with this stylish bedding featuring the Tardis and elegant Gallifreyan symbols. Sadly, these sheets won't bend space and time so you can snooze longer.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="9">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">1</span><span>day ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Yum? Now you can make chocolate poop-emoji cookies","url":"http:\/\/www.cnet.com\/news\/yum-now-you-can-make-chocolate-poop-emoji-cookies\/","description":"The cute little emoji symbol of a smiling pile of feces is now edible. YouTube star and pastry chef Rosanna Pansino shows you how to bake your own sweet-smelling poop cookies.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/yum-now-you-can-make-chocolate-poop-emoji-cookies/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/28/e9c6d4a1-e720-4de7-b403-5d966e67d15a/thumbnail/170x170/a05003cf7027dc0920ea1cd2cbd6fe62/poo2.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/28/e9c6d4a1-e720-4de7-b403-5d966e67d15a/thumbnail/170x170/a05003cf7027dc0920ea1cd2cbd6fe62/poo2.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/yum-now-you-can-make-chocolate-poop-emoji-cookies/" class="assetHed">
+                    <h3>
+                                                    Yum? Now you can make chocolate poop-emoji cookies
+                                            </h3>
+
+                    <p>
+                        The cute little emoji symbol of a smiling pile of feces is now edible. YouTube star and pastry chef Rosanna Pansino shows you how to bake your own sweet-smelling poop cookies.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="10">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">1</span><span>day ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"\u200bWinter is coming! Grab these geeky sweaters to get warm","url":"http:\/\/www.cnet.com\/news\/geeky-sweaters-to-keep-out-cold-and-krytonite\/","description":"Stay toasty in Hoth-like winters with our favorite nerdy sweaters featuring Star Wars, Star Trek, Doctor Who, Gremlins, Cthulhu, superheroes and gaming characters.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/geeky-sweaters-to-keep-out-cold-and-krytonite/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet1.cbsistatic.com/hub/i/r/2015/11/28/84241775-ab21-4d44-9cfc-f8a28e1e5b98/thumbnail/170x170/fb1d940a5711cbf495b75792282c31c0/starwarssweaters.jpg"><noscript><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/28/84241775-ab21-4d44-9cfc-f8a28e1e5b98/thumbnail/170x170/fb1d940a5711cbf495b75792282c31c0/starwarssweaters.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/geeky-sweaters-to-keep-out-cold-and-krytonite/" class="assetHed">
+                    <h3>
+                                                    ​Winter is coming! Grab these geeky sweaters to get warm
+                                            </h3>
+
+                    <p>
+                        Stay toasty in Hoth-like winters with our favorite nerdy sweaters featuring Star Wars, Star Trek, Doctor Who, Gremlins, Cthulhu, superheroes and gaming characters.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="11">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">1</span><span>day ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Cozy up with sci-fi and superhero sweaters (pictures)","url":"http:\/\/www.cnet.com\/pictures\/cozy-up-with-sci-fi-and-superhero-sweaters-pictures\/","description":"Don\u0027t be left in the cold this winter when you can warm up by wearing sweaters that show off your love for superheroes, Time Lords, Darth Vader, Gremlins, Cthulhu, Game of Thrones and robots.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/pictures/cozy-up-with-sci-fi-and-superhero-sweaters-pictures/" class="imageLinkWrapper" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/cozy-up-with-sci-fi-and-superhero-sweaters-pictures\/","index":1}'>
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/28/04e8469e-2b6b-4591-8aaf-decd8b6d2f03/thumbnail/170x170/59f0702cf850f549193cdfcbaaacadd0/supermansweater.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/28/04e8469e-2b6b-4591-8aaf-decd8b6d2f03/thumbnail/170x170/59f0702cf850f549193cdfcbaaacadd0/supermansweater.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/pictures/cozy-up-with-sci-fi-and-superhero-sweaters-pictures/" class="assetHed" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/cozy-up-with-sci-fi-and-superhero-sweaters-pictures\/","index":1}'>
+                    <h3>
+                                                    Cozy up with sci-fi and superhero sweaters (pictures)
+                                            </h3>
+
+                    <p>
+                        Don't be left in the cold this winter when you can warm up by wearing sweaters that show off your love for superheroes, Time Lords, Darth Vader, Gremlins, Cthulhu, Game of Thrones and robots.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/bonniegrrl/">Bonnie Burton</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="12">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">1</span><span>day ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Star Wars or Star Trek? Let us help you choose a side","url":"http:\/\/www.cnet.com\/news\/star-wars-or-star-trek-let-us-help-you-choose-a-side\/","description":"Han Solo and the Jedi take on Captain Kirk and the Federation in a sci-fi clash of titans to once again try to settle the long-running debate over which franchise reigns supreme.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/star-wars-or-star-trek-let-us-help-you-choose-a-side/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/93375f5b-6f7c-4791-8d65-0b7a5848cf72/thumbnail/170x170/42be760c94f9793a7dc2183c10c84aef/hankirk.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/93375f5b-6f7c-4791-8d65-0b7a5848cf72/thumbnail/170x170/42be760c94f9793a7dc2183c10c84aef/hankirk.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/star-wars-or-star-trek-let-us-help-you-choose-a-side/" class="assetHed">
+                    <h3>
+                                                    Star Wars or Star Trek? Let us help you choose a side
+                                            </h3>
+
+                    <p>
+                        Han Solo and the Jedi take on Captain Kirk and the Federation in a sci-fi clash of titans to once again try to settle the long-running debate over which franchise reigns supreme.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/akooser/">Amanda Kooser</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+                <div class="row">
+            <div class="col-1 spaceBorder"></div>
+            
+                                    <div id="replay-wide-bottom-565ba67396c43" class="ad-replay-wide-bottom" data-ad="replay-wide-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing replay-wide-bottom-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("replay-wide-bottom-565ba67396c43");
+    </script></div>
+                    </div>
+    
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="13">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">2</span><span>days ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Spotify, you make my streams come true (AKA, the making of my musical wonderland)","url":"http:\/\/www.cnet.com\/news\/why-i-love-streaming-music-spotify\/","description":"Commentary: A lifelong music lover, I\u0027ve found that Spotify\u0027s streaming service is the best way to hear the songs I love most. To me, music services like this count among the most exciting technological achievements today.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/why-i-love-streaming-music-spotify/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/08/07/b567cf7a-2ae1-4983-bbce-b94a1ef2070a/thumbnail/170x170/26afbd48c598cec7e6982917fc750c32/spotifyxioexcitingtech2.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/08/07/b567cf7a-2ae1-4983-bbce-b94a1ef2070a/thumbnail/170x170/26afbd48c598cec7e6982917fc750c32/spotifyxioexcitingtech2.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/why-i-love-streaming-music-spotify/" class="assetHed">
+                    <h3>
+                                                    Spotify, you make my streams come true (AKA, the making of my musical wonderland)
+                                            </h3>
+
+                    <p>
+                        Commentary: A lifelong music lover, I've found that Spotify's streaming service is the best way to hear the songs I love most. To me, music services like this count among the most exciting technological achievements today.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/digital-media/" data-vanity-rewritten="true">Digital Media</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/xiomara_blanco/">Xiomara Blanco</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="14">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">2</span><span>days ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Best Cyber Monday deals","url":"http:\/\/www.cnet.com\/pictures\/best-cyber-monday-deals\/","description":"We round up the best deals to help you ferret out the most value on the Web\u0027s biggest shopping day.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/pictures/best-cyber-monday-deals/" class="imageLinkWrapper" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/best-cyber-monday-deals\/","index":1}'>
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/09/004a394f-e220-4810-8499-0656cdea9c6b/thumbnail/170x170/e1c69cfeb3a8aa1378d7586c4ad4f9fd/targetblackfriday-viernesnegro-line.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/09/004a394f-e220-4810-8499-0656cdea9c6b/thumbnail/170x170/e1c69cfeb3a8aa1378d7586c4ad4f9fd/targetblackfriday-viernesnegro-line.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/pictures/best-cyber-monday-deals/" class="assetHed" data-component="imageGalleryModal" data-image-gallery-modal-options='{"url":"\/pictures\/best-cyber-monday-deals\/","index":1}'>
+                    <h3>
+                                                    Best Cyber Monday deals
+                                            </h3>
+
+                    <p>
+                        We round up the best deals to help you ferret out the most value on the Web's biggest shopping day.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/gadgets/" data-vanity-rewritten="true">Gadgets</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/cnet+staff/">CNET staff</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    
+        
+    <div class="row" data-vr-contentbox>
+        <div class="riverPost" section="15">
+                            <div class="col-1"> </div>
+                <div class="timestamp">
+                    <div class="timeAgo">
+                                                    <span class="timeCircle">2</span><span>days ago</span>
+                                            </div>
+                </div>
+            
+            <div class="col-2 assetThumb">
+                                    
+
+<div class="socialSharingSmall" data-component="socialCounts" data-social-counts-options='{"title":"Your Black Friday mall brawl highlights","url":"http:\/\/www.cnet.com\/news\/your-best-black-friday-shopping-mall-brawls\/","description":"Technically Incorrect: As people rushed to get electronics, little seemed to have changed from previous years. There was pandemonium, and there were fights.","type":"links"}'>
+            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
+    <div class="icon icon-small-facebook">facebook</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
+    <div class="icon icon-small-twitter">twitter</div>
+</div>
+</div>
+        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
+    <div class="icon icon-small-googleplus">googleplus</div>
+</div>
+</div>
+        <div class="singleButton" data-link="email"><div class="social-button-small email">
+    <div class="icon icon-small-email">email</div>
+</div>
+</div>
+    </div>
+                                <a href="/news/your-best-black-friday-shopping-mall-brawls/" class="imageLinkWrapper">
+                                                    
+                                <figure class=" img"><img src="" class="lazy " alt="" height="170" width="170" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/28/31dfcb71-b9f5-443c-a867-bb63cf77ecb1/thumbnail/170x170/39d2dfa5e48484efc88318042eee1c0a/42-79572937-black-friday-corbis.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/28/31dfcb71-b9f5-443c-a867-bb63cf77ecb1/thumbnail/170x170/39d2dfa5e48484efc88318042eee1c0a/42-79572937-black-friday-corbis.jpg" class="" alt="" height="170" width="170"></noscript></figure></a>
+            </div>
+            <div class="col-5 assetText">
+                <a href="/news/your-best-black-friday-shopping-mall-brawls/" class="assetHed">
+                    <h3>
+                                                    Your Black Friday mall brawl highlights
+                                            </h3>
+
+                    <p>
+                        Technically Incorrect: As people rushed to get electronics, little seemed to have changed from previous years. There was pandemonium, and there were fights.
+                    </p>
+                </a>
+
+                
+                <div class="byline">
+                                            <a class="topicName" href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a>
+                    
+                    <span class="assetAuthor">
+                        by <a rel="author" href="/profiles/chrismatyszczyk/">Chris Matyszczyk</a>
+                    </span>
+
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+                <div data-no-js data-load="fdListing">
+        <a class="load-more" href="/news/2/"><span class="text"> Show More</span></a>
+    </div>
+    </div>                                                                    </div>
+            <div class="col-4">
+                                                    
+                                                        
+                                                        
+                                    <div id="mpu-plus-top-565ba67396c43" class="ad-mpu-plus-top" data-ad="mpu-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-565ba67396c43");
+    </script></div>
+                                                                                                
+                                                        
+                                                        
+<section class="dontMissRight" section="dontMissRight" data-vr-zone="more"><h5><span>CNET News Special Reports</span></h5>
+
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="http://features.cnet.com/snoop-dogg-wants-you-to-light-up/snoop-dogg-wants-you-to-light-up" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/20/b3915e1e-11b2-42e8-b38c-db950c619030/thumbnail/70x53/c9af993d6886830019a2aafe23bdc407/052214-6134.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="http://features.cnet.com/snoop-dogg-wants-you-to-light-up/snoop-dogg-wants-you-to-light-up" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">Snoop wants you to light up</h4>
+                </a>
+                <span class="blog dek"><a href="http://features.cnet.com/snoop-dogg-wants-you-to-light-up/snoop-dogg-wants-you-to-light-up" data-vanity-rewritten="true">The marijuana business turns to tech in a quest for broad appeal.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="http://features.cnet.com/the-new-face-of-star-wars/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/04/01875c63-383b-4828-ab53-3e9b2c8ec4e2/thumbnail/70x53/859262ed3326d4178eccb5886861fcb4/boyega.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="http://features.cnet.com/the-new-face-of-star-wars/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">The new face of 'Star Wars'</h4>
+                </a>
+                <span class="blog dek"><a href="http://features.cnet.com/the-new-face-of-star-wars/" data-vanity-rewritten="true">John Boyega discusses his lead role in the upcoming film.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="http://features.cnet.com/it-really-is-a-small-world-after-all/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/04/9b715c82-6183-4bb1-87b0-74098cecec2a/thumbnail/70x53/727f2348ddd3a15c762d73da3d5b1924/small-world.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="http://features.cnet.com/it-really-is-a-small-world-after-all/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">It really is a small world</h4>
+                </a>
+                <span class="blog dek"><a href="http://features.cnet.com/it-really-is-a-small-world-after-all/" data-vanity-rewritten="true">Disney is creating video games that interact with toys.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="/20-years-of-tech/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/07/20/edf16f10-ba7c-4228-87ca-bea93abf07eb/thumbnail/70x53/41622e1a7a6b39da60a66a879e86d627/fd-20.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="/20-years-of-tech/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">CNET at 20</h4>
+                </a>
+                <span class="blog dek"><a href="/20-years-of-tech/" data-vanity-rewritten="true">Reflections on two decades of digital revolution.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="/road-trip/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/07/09/fb8fa6d3-11f7-478e-af4c-b1eae3bec999/thumbnail/70x53/c51fe76449c85621531abbf11fc5e270/hero.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="/road-trip/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">Road Trip 2015</h4>
+                </a>
+                <span class="blog dek"><a href="/road-trip/" data-vanity-rewritten="true">CNET News embarks on a global hunt for innovation.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="/news/lost-explorers-the-unrealized-vision-of-google-glass/">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/05/22/8638cb04-5a3a-46c0-b202-cd4c50d9f78a/thumbnail/70x53/c0d0632de423efb7043dc1bbb4a3fdab/fd-robert-scoble-google-glass-1569.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="/news/lost-explorers-the-unrealized-vision-of-google-glass/">
+                    <h4 class="articleTitle">Lost Explorers</h4>
+                </a>
+                <span class="blog dek"><a href="/news/lost-explorers-the-unrealized-vision-of-google-glass/">The unrealized vision of Google Glass.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="/cnet-magazine/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/07/07/3d1a6a40-c1c4-48f9-8c25-36bf0bbb8f96/thumbnail/70x53/d47dafd80c4e2318616eb263bccc8846/generalannouncement.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="/cnet-magazine/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">CNET Magazine</h4>
+                </a>
+                <span class="blog dek"><a href="/cnet-magazine/" data-vanity-rewritten="true">A sample of the stories you'll find in CNET's newsstand edition.</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="/women-in-tech/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/05/08/c3694230-4ab8-497a-b402-2c9d8c4fd28b/thumbnail/70x53/d2ae142a1768c150672f2666ed862e6e/wit-xx-xy.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="/women-in-tech/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">Solving for XX</h4>
+                </a>
+                <span class="blog dek"><a href="/women-in-tech/" data-vanity-rewritten="true">The industry seeks to overcome outdated ideas about "women in tech."</a></span>
+            </div>
+        </div>
+                    
+        <div class="asset" data-vr-contentbox>
+            <div class="col-1 imageLinkWrapper">
+                
+                                    <a href="/net-fix/" data-vanity-rewritten="true">
+                                    
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/02/25/176dbefb-1375-49eb-a747-e0504df448d1/thumbnail/70x53/c5b4e25c351305f2b669eeab6ffbac23/net-neutrality-2451.jpg" class="" alt="" height="53" width="70"></figure></a>
+                            </div>
+            <div class="col-3 desc">
+                <a href="/net-fix/" data-vanity-rewritten="true">
+                    <h4 class="articleTitle">Net Fix</h4>
+                </a>
+                <span class="blog dek"><a href="/net-fix/" data-vanity-rewritten="true">Why Net neutrality prompts strong reactions, and why it matters to you.</a></span>
+            </div>
+        </div>
+    </section><div class="YAD-a1e2086d-5df6-376b-bb51-ffda4eb29ec0" data-component="yahooAdSearch" data-yahoo-ad-search-options='{"yahooId":"a1e2086d-5df6-376b-bb51-ffda4eb29ec0"}'></div>
+                                                                                    
+                                                        
+                                            
+    
+    
+
+<div class="productList reviewListing" section="hotProducts" data-vr-zone="hot">
+
+                <h5>Hot Products</h5>
+    
+    <ul><li data-vr-contentbox>
+                <a class="col-1 imageLinkWrapper" href="/products/apple-iphone-6s/">
+                                
+                                <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/09/25/f5a224cf-5f9a-4bc5-a187-30682fc2c3f5/thumbnail/70x53/9d4b45982c769269debe85f0fb52e779/iphone-6s-13.jpg" class="" alt="" height="53" width="70"></figure></a>
+                <div class="col-3 infoContainer">
+                    <div class="description">
+                                                <a class="storyTitle" href="/products/apple-iphone-6s/"><h4>Apple iPhone 6S</h4></a>
+                                                        <span class="dek">
+                                                                            iPhone 6S review: Subtle upgrades make a superlative smartphone
+                                                                                                                                                                                                                                                                                                                                    <span class="officialPrice">MSRP</span>
+                                                                                                                           <a href="/products/apple-iphone-6s/prices/" class="price officialPrice">$199.00</a>
+                                                                                                            </span>
+                                                    <a href="/products/apple-iphone-6s/">
+                                        <span class="edRate s4h small"><span><span class="rating">4.5</span> stars</span></span>
+
+                            </a>
+                                            </div>
+                </div>
+            </li>
+                                                                    
+                        <li data-vr-contentbox>
+                <a class="col-1 imageLinkWrapper" href="/products/microsoft-surface-pro-4/">
+                                
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/10/16/712b52d5-ef6c-48cf-9b55-10e8db5f3ff9/thumbnail/70x53/8480d55d83ccaaeda4d16348cc4171b7/microsoft-surface-pro-4-02.jpg" class="" alt="" height="53" width="70"></figure></a>
+                <div class="col-3 infoContainer">
+                    <div class="description">
+                                                <a class="storyTitle" href="/products/microsoft-surface-pro-4/"><h4>Microsoft Surface Pro 4</h4></a>
+                                                        <span class="dek">
+                                                                            Surface Pro 4 review: Still the king of tablet PCs
+                                                                                                                                                                                                                                                                                                                               <a href="/products/microsoft-surface-pro-4/prices/" class="price ">$899.00</a>
+                                                                                                            </span>
+                                                    <a href="/products/microsoft-surface-pro-4/">
+                                        <span class="edRate s4 small"><span><span class="rating">4</span> stars</span></span>
+
+                            </a>
+                                            </div>
+                </div>
+            </li>
+                                                                    
+                        <li data-vr-contentbox>
+                <a class="col-1 imageLinkWrapper" href="/products/cree-connected-led-bulb/">
+                                
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/01/12/8b2e65ef-7811-4510-b99c-ca93c4d7fc46/thumbnail/70x53/f862e14061b73cb8b7614fe27be4ff8e/cree-connected-led-product-photos-1.jpg" class="" alt="" height="53" width="70"></figure></a>
+                <div class="col-3 infoContainer">
+                    <div class="description">
+                                                <a class="storyTitle" href="/products/cree-connected-led-bulb/"><h4>Cree Connected LED Bulb</h4></a>
+                                                        <span class="dek">
+                                                                            The right smart bulb for the right price
+                                                                                                                                                                                                                                                                                                                               <a href="/products/cree-connected-led-bulb/prices/" class="price ">$29.97</a>
+                                                                                                            </span>
+                                                    <a href="/products/cree-connected-led-bulb/">
+                                        <span class="edRate s4h small"><span><span class="rating">4.5</span> stars</span></span>
+
+                            </a>
+                                            </div>
+                </div>
+            </li>
+                                                                    
+                        <li data-vr-contentbox>
+                <a class="col-1 imageLinkWrapper" href="/products/2016-honda-accord-sedan/">
+                                
+                                <figure class="col-1 img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/09/22/015b5e90-042a-4fe2-b582-8914aaec15dc/thumbnail/70x53/38160c9c1615c934fed6cea6e9aeb44b/hondaaccord2016-10.jpg" class="" alt="" height="53" width="70"></figure></a>
+                <div class="col-3 infoContainer">
+                    <div class="description">
+                                                <a class="storyTitle" href="/products/2016-honda-accord-sedan/"><h4>2016 Honda Accord Sedan</h4></a>
+                                                        <span class="dek">
+                                                                            2016 Honda Accord: Now with Android Auto, Apple CarPlay
+                                                                                                                                                                                                                                                                                                                               <a href="/products/2016-honda-accord-sedan/prices/" class="price ">$22,105.00</a>
+                                                                                                            </span>
+                                                    <a href="/products/2016-honda-accord-sedan/">
+                                        <span class="edRate s4 small"><span><span class="rating">4</span> stars</span></span>
+
+                            </a>
+                                            </div>
+                </div>
+            </li>
+                                                                    
+                        <li data-vr-contentbox>
+                <a class="col-1 imageLinkWrapper" href="/products/vizio-m-series-2015/">
+                                
+                                <figure class="col-1 img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/07/16/b425d912-260c-4a63-8a96-4fe7f092f76d/thumbnail/70x53/1d15e12653a1688697e8b77442b83ffd/vizio-m-series-2015-m65-09.jpg" class="" alt="" height="53" width="70"></figure></a>
+                <div class="col-3 infoContainer">
+                    <div class="description">
+                                                <a class="storyTitle" href="/products/vizio-m-series-2015/"><h4>Vizio M series (2015)</h4></a>
+                                                        <span class="dek">
+                                                                            Vizio M series review: Great 4K picture quality at an affordable price
+                                                                                                                                                                                                                                                                                                                               <a href="/products/vizio-m-series-2015/prices/" class="price ">$1,479.00</a>
+                                                                                                            </span>
+                                                    <a href="/products/vizio-m-series-2015/">
+                                        <span class="edRate s4 small"><span><span class="rating">4</span> stars</span></span>
+
+                            </a>
+                                            </div>
+                </div>
+            </li>
+                                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                        </ul></div>
+                                                                                
+                                                        
+                                                        
+                                    <div id="mpu-bottom-565ba67396c43" class="ad-mpu-bottom" data-ad="mpu-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-565ba67396c43");
+    </script></div>
+                                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+                <div class="row">
+        <div class="col-12">
+                                                    
+                                                        
+                                            <div id="hotProducts" section="seo-hotProducts">
+	<span>Hot Products:</span>
+    <ul><li><a href="http://www.cnet.com/products/samsung-galaxy-s6/">Galaxy S6</a></li>
+                    <li><a href="http://www.cnet.com/products/apple-iphone-6s/">iPhone 6s</a></li>
+                    <li><a href="http://www.cnet.com/products/samsung-galaxy-note-5/">Galaxy Note 5</a></li>
+                    <li><a href="http://www.cnet.com/products/apple-iphone-6-plus/">iPhone 6 Plus</a></li>
+                    <li><a href="http://www.cnet.com/products/apple-macbook-2015/">MacBook 12 Inch</a></li>
+                    <li><a href="http://www.cnet.com/products/microsoft-windows-10/">Windows 10</a></li>
+                    <li><a href="http://www.cnet.com/products/lg-g4/">LG G4</a></li>
+                    <li><a href="http://www.cnet.com/products/apple-watch/">Apple Watch</a></li>
+                    <li><a href="http://www.cnet.com/products/apple-ios-9/">iOS 9</a></li>
+                    <li><a href="http://www.cnet.com/products/google-nexus-6p/">Nexus 6p</a></li>
+                    <li><a href="http://www.cnet.com/products/chromecast-2/">Chromecast 2</a></li>
+                    <li><a href="http://www.cnet.com/products/microsoft-surface-pro-4/">Surface Pro 4 review</a></li>
+                    <li><a href="http://www.cnet.com/products/microsoft-surface-book/">Surface Book review</a></li>
+                    <li><a href="http://www.cnet.com/products/htc-one-a9/">HTC One A9</a></li>
+                    <li><a href="http://www.cnet.com/holiday-gift-guide/black-friday/">Black Friday 2015</a></li>
+                    <li><a href="http://www.cnet.com/holiday-gift-guide/cyber-monday/">Cyber Monday 2015</a></li>
+            </ul></div>
+                                                                                
+                                                        
+                                                        
+                                    <div id="leader-bottom-565ba67396c43" class="ad-leader-bottom" data-ad="leader-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-565ba67396c43");
+    </script></div>
+                                                                                    </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+
+        </div>
+
+                    </div>
+                            
+<footer id="rbFooter"><div id="footerCopyright" class="col-12">
+        <span class="copyright">© CBS Interactive Inc.  /  All Rights Reserved.</span>
+        <div id="legal">
+            <a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow">Privacy Policy</a>
+            <a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow">Ad Choice</a>
+            <a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow">Terms of Use</a>
+            <a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow">Mobile User Agreement</a>
+        </div>
+    </div>
+
+    <div class="container">
+        
+                                    <div id="dynamic-text-link-top-565ba67396c43" class="ad-dynamic-text-link-top" data-ad="dynamic-text-link-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing dynamic-text-link-top-565ba67396c43 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("dynamic-text-link-top-565ba67396c43");
+    </script></div>
+                </div>
+
+    <nav id="footerMap" class="container"><ul class="col-2 first"><li><a href="/">cnet</a></li>
+        </ul><ul class="col-2"><li class="section">Reviews</li>
+            <li><a href="/reviews/">All Reviews</a></li>
+            <li><a href="/topics/audio/">Audio</a></li>
+            <li><a href="/topics/cameras/">Cameras</a></li>
+            <li><a href="/topics/car-tech/">Car Tech</a></li>
+            <li><a href="/topics/desktops/">Desktops</a></li>
+            <li><a href="/topics/laptops/">Laptops</a></li>
+            <li><a href="/topics/phones/">Phones</a></li>
+            <li><a href="/topics/tablets/">Tablets</a></li>
+            <li><a href="/topics/tvs/">TVs</a></li>
+        </ul><ul class="col-2"><li class="section">News</li>
+            <li><a href="/news/">All News</a></li>
+            <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
+            <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
+            <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
+            <li><a href="/tags/microsoft/">Microsoft</a></li>
+            <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
+            <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
+            <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
+            <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
+        </ul><ul class="col-2"><li class="section">Video</li>
+            <li><a href="/videos/">All Video</a></li>
+            <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
+            <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
+            <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
+            <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
+            <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
+            <li><a href="/tomorrow-daily/" data-vanity-rewritten="true">Tomorrow Daily</a></li>
+            <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
+            <li><a href="/cnet-podcasts/" data-vanity-rewritten="true">CNET Podcasts</a></li>
+        </ul><ul class="col-2" data-component="mobileFooterLink"><li class="section">More</li>
+            <li><a href="http://www.cbsinteractive.com/">About CBS Interactive</a></li>
+            <li><a href="/about/" data-vanity-rewritten="true">About CNET</a></li>
+            <li><a href="/cnet100/">CNET 100</a></li>
+                            <li><a href="/deals/">CNET Deals</a></li>
+                        <li><a href="/forums/">CNET Forums</a></li>
+            <li><a href="http://subscribe.cnet.com/magazine/subscribe/">CNET Magazine</a></li>
+            <li><a href="/news/mobile/" data-vanity-rewritten="true">CNET Mobile</a></li>
+            <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=cnet.com">Help Center</a></li>
+            <li><a href="http://reprints.ygsgroup.com/m/cnet/">Permissions</a></li>
+        </ul><ul class="col-2 last"><li class="section">Follow CNET via...</li>
+            <li><a href="http://www.facebook.com/cnet" class="social-core-facebook">Facebook</a></li>
+            <li><a href="http://twitter.com/cnet" class="social-core-twitter">Twitter</a></li>
+            <li><a href="https://plus.google.com/u/0/105198124856956810263/posts" class="social-core-google">Google+</a></li>
+            <li><a href="http://www.youtube.com/user/CNETTV" class="social-core-youtube">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/cnet" class="social-core-linkedin">LinkedIn</a></li>
+            <li><a href="http://cnet.tumblr.com/" class="social-core-tumblr">Tumblr</a></li>
+            <li><a href="http://pinterest.com/cnet" class="social-core-pinterest">Pinterest</a></li>
+            <li><a href="/user/join-cnet/" class="social-core-newsletters">Newsletters</a></li>
+            <li><a href="/rss/" class="social-core-rss" data-vanity-rewritten="true">RSS</a></li>
+        </ul></nav></footer><!--Visual Revenue Reader Response Tracking Script (v6) --><script type="text/javascript">
+        function vr_init() {
+            $('.load-more').trigger('click');
+        }
+
+        var _vrq = _vrq || [];
+        _vrq.push(['id', 514]);
+        _vrq.push(['automate', true]);
+        _vrq.push(['track', function(){}]);
+        (function(d, a){
+            var s = d.createElement(a),
+            x = d.getElementsByTagName(a)[0];
+            s.async = true;
+            s.src = 'http://a.visualrevenue.com/vrs.js';
+            x.parentNode.insertBefore(s, x);
+        })(document, 'script');
+    </script><!-- End of VR RR Tracking Script - All rights reserved --><div data-component="yahooBeacon" data-yahoo-beacon-options='{"yahooId":"3dea089e-a865-35a2-aee5-6271e85057cf","yahooClass":"YAD-3dea089e-a865-35a2-aee5-6271e85057cf"}'></div>
+        
+<script data-main="http://cnet3.cbsistatic.com/fly/1918-fly/js/main.default.js" src="http://cnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"252d33b7c9","applicationID":"3674670","transactionName":"Y1xRYUdUX0ICUUxaDloWclZBXF5fTFxdRBJrX1cbQEY=","queueTime":0,"applicationTime":563,"atts":"TxtGFw9OTB1BUxoJGklE","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body></html>

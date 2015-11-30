@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js has-comments blog-bits section-technology"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 has-comments blog-bits section-technology" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 has-comments blog-bits section-technology" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 has-comments blog-bits section-technology" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+		<meta name="communityAssetLabels" content="NYT_Blogs" />
+<meta name="communityAssetTaxonomy" content="blogs/bits/Alphabet Trying to Mix Heft With Start-Up Agility ( 20151124 )" />
+<meta name="communityAssetURL" content="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" />
+<meta name="PT" content="Blogs" />
+<meta name="PST" content="Blog Post" />
+<meta name="sourceApp" content="blogs" />
+<meta itemprop="identifier" name="blogpostid" content="100000004057466"><meta name="author" content="Conor Dougherty" />
+<meta name="CLMST" content="Conor Dougherty" />
+<meta name="byl" content="Conor Dougherty" />
+<meta name="article:author" content="http://topics.nytimes.com/top/reference/timestopics/people/d/conor_dougherty/index.html" /><meta name="GBLC" content="Google;Inside Companies">
+<meta name="PUV" content="normal" />
+<meta property="article:published_time" itemprop="datePublished" content="2015-11-24" />
+<meta name="PUD" content="20151124" />
+<meta name="pdate" content="20151124" />
+<meta name="ptime" content="20151124191127" />
+<meta name="utime" content="20151125001642" />
+<meta property="article:modified_time" itemprop="dateModified" content="2015-11-25T00:16:42-05:00" />
+<meta name="DISPLAYDATE" content="November 24, 2015" />
+<meta name="dat" content="November 24, 2015" />
+<meta itemprop="articleSection" property="article:section" content="Technology" />
+<meta name="CG" content="Technology" />
+<meta name="SCG" content="bits" />
+<meta name="BN" content="bits" />
+<meta name="robots" content="noodp">
+<meta name="per" content="Page, Larry">
+<meta name="des" content="Computers and the Internet;Corporations;Entrepreneurship;Mergers, Acquisitions and Divestitures;Start-ups">
+<meta name="org" content="Alphabet Inc;Google Inc;Niantic Inc">
+<meta property="article:tag" content="Page Larry" />
+<meta property="article:tag" content="Computers and the Internet" />
+<meta property="article:tag" content="Corporations" />
+<meta property="article:tag" content="Entrepreneurship" />
+<meta property="article:tag" content="Mergers Acquisitions and Divestitures" />
+<meta property="article:tag" content="Start-ups" />
+<meta property="article:tag" content="Alphabet Inc" />
+<meta property="article:tag" content="Google Inc" />
+<meta property="article:tag" content="Niantic Inc" />
+<meta property="article:tag" content="Google" />
+<meta property="article:tag" content="Inside Companies" />
+<meta name="keywords" content="Page Larry,Computers and the Internet,Corporations,Entrepreneurship,Mergers Acquisitions and Divestitures,Start-ups,Alphabet Inc,Google Inc,Niantic Inc,Google,Inside Companies" />
+<meta name="news_keywords" content="Companies,Entrepreneurship,Startup" />
+<meta name="description" content="The shape of the company that used to be called Google is starting to become more apparent. What is not so clear is whether a new kind of Google can operate more effectively than the old." />
+<meta name="hdl_p" content="Alphabet Tries for Heft Coupled With Agility" />
+<meta name="hdl" content="Alphabet Trying to Mix Heft With Start-Up Agility" />
+<meta property="og:title" content="Alphabet Trying to Mix Heft With Start-Up Agility" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" />
+<meta property="og:site_name" content="Bits Blog" />
+<meta property="og:description" content="The shape of the company that used to be called Google is starting to become more apparent. What is not so clear is whether a new kind of Google can operate more effectively than the old." />
+<meta property="og:image" content="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-facebookJumbo.jpg"/>
+<meta name="thumbnail_150" content="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-thumbLarge.jpg"/>
+<meta name="twitter:card" value="summary"><meta name="twitter:title" content="Alphabet Trying to Mix Heft With Start-Up Agility" />
+<meta name="twitter:url" content="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" />
+<meta name="twitter:description" content="The shape of the company that used to be called Google is starting to become more apparent. What is not so clear is whether a new kind of Google can operate more effectively than the old." />
+<meta name="twitter:image" content="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-thumbLarge.jpg"/>
+<meta itemprop="thumbnailUrl" content="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-thumbLarge.jpg" name="thumbnail" />
+<meta name="twitter:site" content="@nytimesbits">
+<link rel="alternate" type="application/rss+xml" title="Bits &raquo; Alphabet Trying to Mix Heft With Start-Up Agility Comments Feed" href="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/feed/" />
+<link rel='prev' title='Jonathan Mayer, Well-Known Online Security Expert, Joins F.C.C.' href='http://bits.blogs.nytimes.com/2015/11/24/jonathan-mayer-well-known-online-security-expert-joins-f-c-c/' />
+<link rel='next' title='Daily Report: Turkey, Travel and Technology' href='http://bits.blogs.nytimes.com/2015/11/25/daily-report-turkey-travel-and-technology/' />
+<link rel='canonical' href='http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/' />
+<link rel='shortlink' href='http://nyti.ms/1YsRlU5' />
+<link rel='https://github.com/WP-API/WP-API' href='http://bits.blogs.nytimes.com/json' />
+<meta name="adxPage" content="blog.nytimes.com/bits/post" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://bits.blogs.nytimes.com/feed/" />
+<meta property="article:collection" content="http://json8.nytimes.com/services/json/sectionfronts/technology/index.jsonp" />
+<link rel="alternate" href="http://mobile.nytimes.com/blogs/bits/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" />
+<meta name="dfp-ad-unit-path" content="technology/bits" />			<title>Alphabet Trying to Mix Heft With Start-Up Agility - The New York Times</title>
+            <!--[if (gt IE 9)|!(IE)]> <!-->
+    <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/bits.css" />
+<link rel="stylesheet" type="text/css" media="print" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/styles-print.css" />
+<script>
+var NYT = NYT || {}, NYTD = NYTD || {};
+</script>
+                        	<script src="http://a1.nyt.com/assets/blogs/20151116-121901/js/blogs/layout.js"></script>
+	<script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+<script>
+var require = {
+    baseUrl: 'http://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'blogs/20151116-121901/js/foundation',
+        'shared': 'blogs/20151116-121901/js/shared',
+        'blogs': 'blogs/20151116-121901/js/blogs',
+        'auth/mtr': 'http://graphics8.nytimes.com/js/mtr',
+        'auth/growl': 'http://graphics8.nytimes.com/js/auth/growl/default',
+        'vhs': 'http://graphics8.nytimes.com/video/vhs/build/vhs-2.x.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="http://a1.nyt.com/assets/blogs/20151116-121901/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="http://a1.nyt.com/assets/blogs/20151116-121901/js/foundation/lib/framework.js"></script>
+<![endif]-->
+<script>
+require(['foundation/main'], function () {
+    require(['auth/mtr']);
+});
+</script>
+<script>
+window.magnum.processFlags(["limitFabrikSave","facebookOauthButton","videoVHSCover","videoVHSShareTools","newsEventHierarchy"]);
+</script>
+
+<script id="user-info-data" type="application/json">
+{ "meta": {},
+  "data": {
+    "id": "0",
+    "name": "",
+    "subscription": ["","_RPV"],
+    "demographics": {}
+  }
+}
+</script>
+
+    	</head><body class="single single-post postid-178350 blog-universal nyt-blog-bits" id="" data-env="production" data-region="ewr1">
+	<div id="shell" class="shell">
+			<header id="masthead" class="masthead masthead-theme-standard" role="banner">
+    <div class="container">
+        <div class="quick-navigation button-group">
+            <button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Sections</span></button>
+            <button class="button home-button" data-href="http://www.nytimes.com/" title="Go to the home page to see the latest top stories."><i class="icon sprite-icon"></i>
+                <span class="button-text">Home</span>
+            </button>
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <a class="button skip-button skip-to-content visually-hidden focusable" href="#main">Skip to content</a>
+                                </div><!-- close button-group -->
+        <div class="branding">
+            <h2 class="branding-heading">
+                <a id="branding-heading-link" href="http://www.nytimes.com/">
+                    <span class="visually-hidden">The New York Times</span>
+                </a>
+            </h2>
+            <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/blogs/20151116-121901/images/foundation/logos/', 'Technology', 'masthead-theme-standard', 'standard', 'branding-heading-link');</script>
+        </div><!-- close branding -->
+        <div class="story-meta">
+    <h6 class="kicker">
+        <span class="kicker-label">
+			            <a href="http://bits.blogs.nytimes.com">
+                Bits            </a>
+			        </span>
+
+                <span class="pipe">|</span>
+        Alphabet Trying to Mix Heft With Start-Up Agility        
+    </h6>
+</div><!-- close story-meta -->
+
+
+        <div id="TopNavAd" class="ad top-nav-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+        <div class="user-tools">
+            <div id="sharetools-masthead" class="sharetools theme-classic"
+	 data-shares="email,facebook,twitter,show-all|More"
+	 data-url="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/"
+	 data-title="Alphabet Trying to Mix Heft With Start-Up Agility"
+	 data-description="&lt;span class=&quot;excerpt-inner&quot;&gt;The shape of the company that used to be called Google is starting to become more apparent. What is not so clear is whether a new kind of Google can operate more effectively than the old.&lt;/span&gt;&lt;a href=&quot;http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/&quot; class=&quot;more-link&quot;&gt;Read&nbsp;more...&lt;/a&gt;"
+	data-publish-date="November 24, 2015 7:11 pm">
+<div class="ad sharetools-inline-article-ad hidden"></div>
+</div><!-- close shareTools -->
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <div id="Bar1" class="ad bar1-ad nocontent robots-nocontent"></div>
+            <div class="user-tools-button-group button-group">
+                <button class="button login-button login-modal-trigger hidden">Log In</button>
+                <button class="button comments-button  button-masthead" data-skip-to-para-id="">
+</button>
+                                <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                <button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Settings</span></button>
+            </div><!-- close user-tools-button-group -->
+        </div><!-- close user-tools -->
+    </div><!-- close container -->
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <div class="ad">
+        <div id="SponsorAd" class="sponsor-ad">
+            <small class="ad-sponsor">search sponsored by</small>
+        </div>
+    </div>
+    <nav class="search-form-control form-control layout-horizontal">
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+</header>
+					<nav id="ribbon" class="ribbon ribbon-start nocontent robots-nocontent" aria-hidden="true">
+    <div class="nocontent robots-nocontent">
+        <ol class="ribbon-menu">
+            <li class="collection ribbon-loader">
+                <div class="loader "><span class="visually-hidden">Loading...</span></div>
+            </li>
+        </ol>
+        <div class="ribbon-navigation-container">
+            <nav class="ribbon-navigation next">
+                <span class="visually-hidden">See next articles</span>
+                <div class="arrow arrow-right">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+            <nav class="ribbon-navigation previous">
+                <span class="visually-hidden">See previous articles</span>
+                <div class="arrow arrow-left">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+        </div>
+    </div><!-- close nocontent -->
+</nav>
+						<nav id="navigation" class="navigation" role="navigation">
+</nav> <!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+</nav>
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+				<main id="main" class="main" role="main">
+				<div id="TopAd" class="ad top-ad"></div>
+				<div id="mobilebanner" class="ad mobilebanner"></div>
+								<div id="story" class="story theme-main">
+		<div id="bits" class="spanAC blog">
+			<header id="blogs-masthead" class="wrap">
+	<div class="ad sponsortile-ad hidden nocontent robots-nocontent">
+		<div class="caption">Supported by</div>
+		<div id="sponsortile" class="ad sponsortile-ad-creative"></div>
+	</div>
+		<div class="element1">
+	<div id="logo" ><a href="http://bits.blogs.nytimes.com/?module=BlogMain&action=Click&region=Header&pgtype=Blogs&version=Blog Post&contentCollection=Technology" title="Go to Bits Home"><img src="http://graphics8.nytimes.com/images/blogs_v5/bits/bits_post.png" alt="Bits - Business, Innovation, Technology, Society"/></a></div>    </div>
+    <div class="element2">
+    <div class="inlineSearchControl">
+	<form method="get" id="searchform" action="http://bits.blogs.nytimes.com/">
+		<input type="text" value="" name="s" id="s" class="text" placeholder="Search Bits">
+		<button type="submit" class="searchsubmit">Search</button>
+	</form>
+</div>	</div>
+	<div class="clear"></div>
+		</header>
+	<div class="a-column " id="a-col">
+	<div id="content" class="hfeed">
+	<article class="post-178350 post type-post status-publish hentry category-google-2 category-inside-companies tag-alphabet-inc tag-computers-and-the-internet tag-corporations tag-entrepreneurship tag-google-inc tag-mergers-acquisitions-and-divestitures tag-niantic-inc tag-page-larry tag-start-ups per-page-larry des-computers-and-the-internet des-corporations des-entrepreneurship des-mergers-acquisitions-and-divestitures des-start-ups org-alphabet-inc org-google-inc org-niantic-inc news_keywords-companies news_keywords-entrepreneurship news_keywords-startup splitPostView" id="post-178350">
+	<header class="postHeader">
+				<div class="postKicker">
+			<span class="kicker"><a href="http://bits.blogs.nytimes.com/category/inside-companies/?module=BlogCategory&version=Blog Post&action=Click&contentCollection=Technology&pgtype=Blogs&region=Header">Inside Companies</a></span>
+		</div>
+				<h1 itemprop="headline" class="entry-title">Alphabet Trying to Mix Heft With Start-Up Agility</h1>
+		<div class="story-meta-footer">
+			<address class="byline author vcard" itemprop="author creator" itemtype="http://schema.org/Person">
+				By <a href="http://bits.blogs.nytimes.com/author/conor-dougherty/" class="url fn" title="More Posts by Conor Dougherty" rel="author"><address class="vcard first-byline" itemscope itemprop="author creator" itemtype="http://schema.org/Person" itemid="Conor Dougherty">
+					<span class="fn" itemprop="name">Conor Dougherty</span>
+				</address></a>			</address>
+			<!-- date published --><time class="dateline " datetime="2015-11-25T00:11:27+00:00" itemprop="datePublished">November 24, 2015 7:11 pm</time>
+			<!-- date updated --><span class="visually-hidden updated">November 24, 2015 7:11 pm</span><button class="button comments-button  theme-kicker" data-skip-to-para-id="">
+</button>
+		</div>
+			</header>
+		<div class="entry-content"><div id="sharetools-story" class="sharetools theme-classic sharetools-story" data-shares="email|Email,facebook|Share,twitter|Tweet,save|Save,show-all|More,ad" data-url="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" data-title="Alphabet Trying to Mix Heft With Start-Up Agility" data-description="The shape of the company that used to be called Google is starting to become more apparent. What is not so clear is whether a new kind of Google can operate more effectively than the old.">
+				<div class="ad sharetools-inline-article-ad"></div>
+				<div id="MiddleLeft" class="ad middle-left-ad nocontent robots-nocontent"></div>
+				</div><p class="story-body-text" itemprop="articleBody">The enduring struggle of life is figuring out how to maximize all the good parts and minimize all the bad. So it is with Alphabet, the technology giant formerly known as Google. </p>
+<p class="story-body-text" itemprop="articleBody">Alphabet was created to separate Google, the search giant, from the constellation of appendages &#8212; the self-driving cars, the pharmaceutical company, the two venture capital funds &#8212; that many current and former employees say had made the company too sprawling to manage. The last three months of 2015 were the first quarter of the new holding company’s life, and the contours of the organization are starting to fall into place. </p>
+<p class="story-body-text" itemprop="articleBody">It has hired new leaders, such as an <a href="http://bits.blogs.nytimes.com/2015/09/14/google-hires-auto-veteran-to-lead-self-driving-car-project/?_r=0">auto industry veteran</a> who was recently tapped to run the self-driving-car project. It is developing new processes, like an internal system that would have Alphabet companies pay Google for dull but important services like human resources, accounting or access to Google&#8217;s technological infrastructure, according to people familiar with the matter, something first reported by <a href="http://www.wsj.com/articles/google-parent-to-ask-subsidiaries-to-pay-for-corporate-services-1448325619?mod=WSJ_TechWSJD_NeedToKnow">The Wall Street Journal</a>.</p>
+<p class="story-body-text" itemprop="articleBody">These are normal processes in large companies, used to make sure business units have a handle on expenses.</p>
+<p class="story-body-text" itemprop="articleBody">But the company is also asking questions about how it might achieve the dream that has eluded so many other big companies: find a way to take advantage of its heft while being nimble like a start-up.</p>
+<p class="story-body-text" itemprop="articleBody">Larry Page, Google’s co-founder and chief executive of Alphabet, has said that he wants his company to be a home <a href="http://fortune.com/2015/11/03/larry-page-fortune-global/">for entrepreneurs</a>. If the Alphabet concept plays out as advertised, company chiefs would have more autonomy to make strategic decisions on such matters as whom they hire and how they spend money, or even to raise their public profiles. </p>
+<p class="story-body-text" itemprop="articleBody">But <a href="https://www.theinformation.com/the-problem-with-alphabet">the pitch</a> &#8212; in particular to acquisition targets &#8212; is also about what they would not have to do. They would not have to worry about building a large server infrastructure for their technology to run on. They would not have to worry about whether to use their money to hire another accountant or another engineer. In the case of more mature companies, they could skip the mounds of paperwork and reporting requirements that come with going public. </p>
+<p class="story-body-text" itemprop="articleBody">That broad idea &#8212; that entrepreneurs do best when they are focused squarely on new technology rather than distracted by corporate building blocks that every company needs but also take lots of time to build &#8212; has taken root across Silicon Valley. It is why, in addition to money, venture capital firms now give their companies access to all kinds of marketing, sales and other services in hopes that their start-ups can more quickly become grown-ups. </p>
+<div class="w592"><figure class="media photo promo" itemprop="associatedMedia" itemscope="" itemid="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-tmagArticle.jpg" itemtype="http://schema.org/ImageObject" role="group"><span class="visually-hidden">Photo</span><div class="image"><img itemprop="url" itemid="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-tmagArticle.jpg" src="http://graphics8.nytimes.com/images/2015/11/24/business/24bits-alphabet/24bits-alphabet-tmagArticle.jpg" id="100000004057468" width="592" height="394" alt="Larry Page, Google’s co-founder and chief executive of Alphabet, has said that he wants his company to be a home for entrepreneurs."   /><meta itemprop="height" content="394"><meta itemprop="width" content="592"></div><figcaption class="caption" itemprop="description"><span class="caption-text">Larry Page, Google’s co-founder and chief executive of Alphabet, has said that he wants his company to be a home for entrepreneurs.</span><span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span> David Paul Morris/Bloomberg, via Getty Images</span></figcaption></figure></div>
+<p class="story-body-text" itemprop="articleBody">Alphabet has a lot to offer in this regard. Google has a sprawling human resources department, some of the world’s fastest supercomputers and a near-impenetrable information security system. That infrastructure, which took two decades and untold billions to build, is one of the company’s key competitive advantages and could be a potent accelerant to internal start-ups or companies Alphabet might acquire. </p>
+<p class="story-body-text" itemprop="articleBody">One key question will be how to share those big-company resources without subsidizing a bunch of money-losing companies in perpetuity. So far, Google executives have centered on the idea of a system that would have upstart divisions like X &#8212; home of the self-driving-car project &#8212; pay Google for services like the vast array of servers that make it one of the most dominant technology companies in the world.</p>
+<p class="story-body-text" itemprop="articleBody">An extreme example can be seen at Niantic, a Google-founded company that builds an “augmented reality” video game where players explore the real world. Niantic, which was recently spun off from Alphabet, has had to negotiate deals to license Google mapping technology, according to people familiar with the matter. </p>
+<p class="story-body-text" itemprop="articleBody">That concept, figuring out some price to charge for Google services, is likely to be applied to Alphabet companies, though the exact details would be different since, unlike Niantic, they would still be wholly owned by the same company.  </p>
+<p class="story-body-text" itemprop="articleBody">Of course, some companies are already so dependent on what might be called “Old Google” that it makes sense to let them be. Take YouTube, the video site, which generates billions in annual revenue &#8212; Alphabet does not disclose the exact figure &#8212; but chews up epic amounts of bandwidth and processing power, while getting a lift from Google&#8217;s advertising sales force, resources that it could never replicate on its own. </p>
+<p class="story-body-text" itemprop="articleBody">And then there are the questions of what might stay the same. One of the things that attracted so many great engineers to Google was a fluid culture in which they were encouraged to move among a diverse range of projects, or, in some cases, to create new projects of their own. </p>
+<p class="story-body-text" itemprop="articleBody">The first good glimpse of all this will come early next year, when Alphabet, for the first time, will separate Google&#8217;s search and advertising businesses from Alphabet&#8217;s more speculative divisions. But it will take months or years for Alphabet to figure out how to create the best of all possible worlds. If such a thing exists. </p>
+<footer class="story-footer">
+    <div class="story-meta">
+	<p class="story-print-citation">A version of this article appears in print on 11/30/2015, on page <span itemprop="printSection">B</span><span itemprop="printPage">6</span> of the <span itemprop="printEdition">NewYork</span> edition with the headline: Alphabet Tries for Heft Coupled With Agility.</p>    </div>
+</footer>
+	</div>
+		<footer class="entry-footer">
+			<button class="button comments-button theme-speech-bubble"></button>		<div id="sharetools-post-footer" class="sharetools theme-classic" data-shares="show-all|Share" data-url="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" data-title="Alphabet Trying to Mix Heft With Start-Up Agility" data-description="The shape of the company that used to be called Google is starting to become more apparent. What is not so clear is whether a new kind of Google can operate more effectively than the old.">
+				<div class="ad sharetools-inline-article-ad hidden"></div>
+			</div>		<div class="footer-tags">
+			<span class="categories"><a href="http://bits.blogs.nytimes.com/category/google-2/" rel="category tag">Google</a>, <a href="http://bits.blogs.nytimes.com/category/inside-companies/" rel="category tag">Inside Companies</a>, </span>
+			<span class="tags"><a href="http://bits.blogs.nytimes.com/tag/alphabet-inc/" rel="tag">Alphabet Inc</a>, <a href="http://bits.blogs.nytimes.com/tag/computers-and-the-internet/" rel="tag">Computers and the Internet</a>, <a href="http://bits.blogs.nytimes.com/tag/corporations/" rel="tag">Corporations</a>, <a href="http://bits.blogs.nytimes.com/tag/entrepreneurship/" rel="tag">Entrepreneurship</a>, <a href="http://bits.blogs.nytimes.com/tag/google-inc/" rel="tag">Google Inc</a>, <a href="http://bits.blogs.nytimes.com/tag/mergers-acquisitions-and-divestitures/" rel="tag">Mergers, Acquisitions and Divestitures</a>, <a href="http://bits.blogs.nytimes.com/tag/niantic-inc/" rel="tag">Niantic Inc</a>, <a href="http://bits.blogs.nytimes.com/tag/page-larry/" rel="tag">Page, Larry</a>, <a href="http://bits.blogs.nytimes.com/tag/start-ups/" rel="tag">Start-ups</a> </span>
+		</div>
+		</footer>
+</article>		<section id="whats-next" class="whats-next nocontent robots-nocontent">
+    <div class="nocontent robots-nocontent">
+        <div class="loader-container">
+            <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+        </div>
+    </div><!-- close nocontent -->
+</section>
+
+			</div><!-- end content -->
+</div><!-- end .a-column -->
+<div class="cColumn nocontent robots-nocontent">
+	<aside>
+	<div class="postNavigation">
+	<ul class="opposingFloatControl wrap">
+		<li class="element1">
+						<span class="previous">Previous Post</span>
+			<div class="arrow arrow-left">
+				<div class="arrow-conceal"></div>
+			</div>
+			<a class="postTitle" href="http://bits.blogs.nytimes.com/2015/11/24/jonathan-mayer-well-known-online-security-expert-joins-f-c-c/" title="Jonathan Mayer, Well-Known Online Security Expert, Joins F.C.C.">
+				Jonathan Mayer, Well-Known Online Security Expert, Joins F.C.C.			</a>
+					</li>
+		<li class="element2">
+						<span class="next">Next Post</span>
+			<div class="arrow arrow-right">
+				<div class="arrow-conceal"></div>
+			</div>
+			<a class="postTitle" href="http://bits.blogs.nytimes.com/2015/11/25/daily-report-turkey-travel-and-technology/" title="Daily Report: Turkey, Travel and Technology">
+				Daily Report: Turkey, Travel and Technology			</a>
+					</li>
+	</ul>
+</div>
+<div id="nyt_promo_widget-10" class="module nocontent widget_nyt_promo_widget"><div style="font-family: nyt-franklin, arial, sans-serif; padding-top: 12px; font-size: 14px; line-height: 17px;">
+Visit the <a href="http://nytimes.com/technology" style="font-weight: 600;">Technology section</a> for complete coverage of the industry. <a href="http://nytimes.com/technology" style="font-family: nyt-franklin, arial, sans-serif; font-weight: 600;">»</a>
+</div></div><div id="nyt_most_viewed-4" class="module nocontent widget_nyt_most_viewed"><h4 class="moduleHeader">Most Viewed</h4>	<div class="blog-story">
+		<ol class="customListNumbers">
+		            <li>
+                <span>1.</span>
+                <a href="http://www.nytimes.com/2015/11/19/technology/how-amazons-long-game-yielded-a-retail-juggernaut.html">How Amazon’s Long Game Yielded a Retail Juggernaut</a>
+            </li>
+                        <li>
+                <span>2.</span>
+                <a href="http://www.nytimes.com/2015/10/07/technology/fans-demand-details-after-death-of-a-13-year-old-bratayley-star.html">Fans Demand Details After Death of a 13-Year-Old YouTube Star</a>
+            </li>
+                        <li>
+                <span>3.</span>
+                <a href="http://www.nytimes.com/2015/11/22/technology/livingsocial-once-a-unicorn-is-losing-its-magic.html">LivingSocial Offers a Cautionary Tale to Today’s Unicorns </a>
+            </li>
+                        <li>
+                <span>4.</span>
+                <a href="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html">How Apple TV Stacks Up: A Rundown of Streaming Devices</a>
+            </li>
+                        <li>
+                <span>5.</span>
+                <a href="http://www.nytimes.com/2015/11/15/business/ibms-design-centered-strategy-to-set-free-the-squares.html">IBM’s Design-Centered Strategy to Set Free the Squares</a>
+            </li>
+            		</ol>
+	</div>
+		</div>		<div class="module ad" id="MiddleRight"></div>
+        		<div class="module ad" id="Box3"></div>
+        <div id="nyt_rss_items-4" class="module nocontent widget_nyt_rss_items"><h4 class="moduleHeader">Latest From Bits</h4>		<div class="blog-story">
+			<ul class="refer"><li><a href="http://bits.blogs.nytimes.com/2015/11/30/daily-report-tech-tries-to-keep-up-in-the-new-year/" title="Daily Report: Tech Tries to Keep Up in the New Year">Daily Report: Tech Tries to Keep Up in the New Year</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/29/nokia-tries-to-reinvent-itself-again-by-taking-over-alcatel-lucent/" title="Nokia Tries to Reinvent Itself, Again, by Taking Over Alcatel-Lucent">Nokia Tries to Reinvent Itself, Again, by Taking Over Alcatel-Lucent</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/25/gardening-start-up-in-china-chances-upon-u-s-marijuana-market/" title="Gardening Start-Up in China Chances Upon U.S. Marijuana Market">Gardening Start-Up in China Chances Upon U.S. Marijuana Market</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/25/daily-report-turkey-travel-and-technology/" title="Daily Report: Turkey, Travel and Technology">Daily Report: Turkey, Travel and Technology</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" title="Alphabet Trying to Mix Heft With Start-Up Agility">Alphabet Trying to Mix Heft With Start-Up Agility</a></li></ul>
+		</div>
+		</div>		<div class="module ad" id="Box1"></div>
+        <div id="nyt_blog_social_media-5" class="module nocontent widget_nyt_blog_social_media"><!-- begin #blog-follow-widget -->
+<div id="blog-follow-widget" class="blog-fw-single ">
+<h4 class="">
+<span class="blog-fw-generic-followmessage">Follow <span class="blog-fw-desk">us on</span></span>
+<span class="blog-fw-specific-followmessage"><span class="blog-fw-username"><a href="https://twitter.com/nytimesbits" title="Follow @nytimesbits on twitter">@nytimesbits</a></span> on <span class="blog-fw-twitter">twitter</span></span></h4>
+<ul>
+<li class="blog-fw-twitter single"><a href="https://twitter.com/nytimesbits" title="Follow nytimesbits on Twitter">Twitter</a></li></ul>
+<p class="blog-fw-followbutton"><a href="https://twitter.com/nytimesbits" title="Follow @nytimesbits on twitter">Follow</a></p></div> <!-- end #blog-follow-widget -->
+</div>	</aside>
+</div>		<div class="clear"></div>
+	</div><!-- end blog wrap -->
+	<div class="hideContent"></div>
+
+	
+<!-- Google Analytics start -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4406282-9',  { 'alwaysSendReferrer': true } );
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics end -->
+		<div id="mobilebanner2" class="ad mobilebanner2"></div>
+		<div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<div id="SponLink" class="text-ad bottom-left-ad nocontent robots-nocontent"></div>
+
+		<div id="Top5" class="ad top5-ad hidden nocontent robots-nocontent"></div>
+
+					</div>
+			<div class="search-overlay"></div>
+		</main><!-- close main -->
+		<section id="site-index" class="site-index">
+    <header class="section-header">
+        <p class="user-action"><a href="http://www.nytimes.com/">Go to Home Page &raquo;</a></p>
+        <h2 class="section-heading">
+            <span class="visually-hidden">Site Index</span>
+            <a id="site-index-branding-link" href="http://www.nytimes.com/">
+                <span class="visually-hidden">The New York Times</span>
+            </a>
+        </h2>
+        <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/blogs/20151116-121901/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link');</script>
+    </header>
+
+    <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
+
+        <div class="split-6-layout layout">
+
+                                                                                    
+                    <div class="column">
+                        <h3 class="menu-heading">News</h3>
+                        <ul class="menu">
+
+                                                                                                                                                                                                                                                
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/world/index.html">World</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/politics/index.html">Politics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/technology/index.html">Tech</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/science">Science</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/obituaries/index.html">Obituaries</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/corrections/index.html">Corrections</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Opinion</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html">Today's Opinion</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#columnists">Op-Ed Columnists</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#editorials">Editorials</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#contributing">Contributing Writers</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#op-ed">Op-Ed Contributors</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#opinionator">Opinionator</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#letters">Letters</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#sundayreview">Sunday Review</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#takingNote">Taking Note</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/roomfordebate">Room for Debate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/opinion">Video: Opinion</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Arts</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/index.html">Today's Arts</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/design/index.html">Art & Design</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://artsbeat.blogs.nytimes.com/">ArtsBeat</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/books/index.html">Books</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/movies/index.html">Movies</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/music/index.html">Music</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/television/index.html">Television</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/theater/index.html">Theater</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/video-games/index.html">Video Games</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/arts">Video: Arts</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Living</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/crosswords/">Crossword</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/dining/index.html">Food</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion & Style</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/jobs">Jobs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/magazine/index.html">Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/t-magazine">T Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/weddings/index.html">Weddings & Celebrations</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Listings & More</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/ref/classifieds/">Classifieds</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/marketing/tools-and-services/">Tools & Services</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/topics/">Times Topics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://tvlistings.nytimes.com/tvlistings/ZCGrid.do?aid=nyt">TV Listings</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/interactive/blogs/directory.html">Blogs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/multimedia/index.html">Multimedia</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://lens.blogs.nytimes.com/">Photography</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video">Video</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/store/?&t=qry542&utm_source=nytimes&utm_medium=HPB&utm_content=hp_browsetree&utm_campaign=NYT-HP&module=SectionsNav&action=click&region=TopBar&version=BrowseTree&contentCollection=NYT%20Store&contentPlacement=2&pgtype=Homepage">NYT Store</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/times-journeys/?utm_source=nytimes&utm_medium=HPLink&utm_content=hp_browsetree&utm_campaign=NYT-HP">Times Journeys</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/seeallnav">Subscribe</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/membercenter">Manage My Account</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                            
+            <div class="column last-column">
+                
+<h3 class="menu-heading">Subscribe</h3>
+
+<ul class="menu primary-menu">
+    <li class="menu-label">Subscribe</li>
+    <li class="times-premier">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/tpnav">Times Insider</a>
+    </li>
+
+    <li class="home-delivery">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/hdleftnav">Home Delivery</a>
+            </li>
+    <li class="digital-subscriptions">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/digitalleftnav">Digital Subscriptions</a>
+            </li>
+    <li class="nyt-opinion">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/opinionindex">NYT Opinion</a>
+    </li>
+    <li class="nyt-crossword last-item">
+        <i class="icon sprite-icon"></i>
+        <a id="nyt-crossword" href="http://www.nytimes.com/crosswords/index.html">Crossword</a>
+    </li>
+
+</ul>
+
+<ul class="menu secondary-menu">
+
+    <li>
+        <a href="http://www.nytimes.com/marketing/newsletters">Email Newsletters</a>
+    </li>
+    <li>
+        <a href="https://myaccount.nytimes.com/mem/tnt.html">Alerts</a>
+    </li>
+    <li>
+                    <a href="http://www.nytimes.com/giftleftnav">Gift Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/educationleftnav">Education Rate</a>
+            </li>
+
+</ul>
+<ul class="menu secondary-menu">
+    <li>
+        <a href="http://www.nytimes.com/services/mobile/index.html">Mobile Applications</a>
+    </li>
+    <li>
+                    <a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a>
+            </li>
+                <li>
+            <a href="http://subscribe.inyt.com">International New York Times</a>
+        </li>
+    
+</ul>
+
+            </div><!-- close column -->
+
+        </div><!-- close split-6-layout -->
+
+    </nav><!-- close nav -->
+
+</section><!-- close site-index -->
+				<footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+         <ul>
+             <li>
+                <a href="http://www.nytco.com" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2015</span>
+					<span itemprop="copyrightHolder provider sourceOrganization" itemscope
+						itemtype="http://schema.org/Organization"
+						itemid="http://www.nytimes.com">
+						<span itemprop="name"> The New York Times Company</span>
+						<meta itemprop="tickerSymbol" content="NYSE NYT"/>
+					</span>
+                </a>
+            </li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li><a href="http://www.nytimes.whsites.net/mediakit">Advertise</a></li>
+            <li><a href="http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="last-item"><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+            <li><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+            <li class="last-item"><a href="http://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>		</div><!-- close shell -->
+	<script>
+require(['foundation/main'], function () {
+    require(['blogs/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['http://graphics8.nytimes.com/bi/js/tagx/tagx.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+	<div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"5164608","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRtQWV9TFxtCDkk=","queueTime":0,"applicationTime":52,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+</html>

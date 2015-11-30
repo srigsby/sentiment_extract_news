@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js page-interactive section-personaltech page-theme-standard page-interactive-default  limit-small layout-xlarge app-interactive"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 page-interactive section-personaltech page-theme-standard page-interactive-default  limit-small layout-xlarge app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 page-interactive section-personaltech page-theme-standard page-interactive-default  limit-small layout-xlarge app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 page-interactive section-personaltech page-theme-standard page-interactive-default  limit-small layout-xlarge app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+    <title>How Apple TV Stacks Up: A Rundown of Streaming Devices - The New York Times</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgMFV1FVGwcEXVBWAgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,ee:"QJf3ax"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=t("ee").create(),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="http://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="http://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="http://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="http://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="listy" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<meta name="robots" content="noarchive" />
+<link rel="canonical" href="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html" />
+<meta name="hdl" content="How Apple TV Stacks Up: A Rundown of Streaming Devices" />
+<meta name="slug" content="How-Apple-TV-Stacks-Up" />
+<meta name="channels" content="" />
+<meta itemprop="description" name="description" content="We tested video streaming devices from Apple, Amazon, Roku and Google, and the Apple TV stood out. But it’s not the best for everyone. Here are the pros and cons of each device." />
+<meta itemprop="identifier" name="articleid" content="100000004005098" />
+<meta itemprop="inLanguage" content="en-US" />
+<meta property="article:collection" content="http://json8.nytimes.com/services/json/sectionfronts/technology/personaltech/index.jsonp" />
+<meta property="article:section" itemprop="articleSection" content="Personal Tech" />
+<meta name="PT" content="Multimedia" />
+<meta name="PST" content="Interactive" />
+<meta name="CG" content="technology" />
+<meta name="SCG" content="personaltech" />
+<meta name="tom" content="interactive_feature" />
+<meta name="pdate" content="20151028" />
+<meta name="utime" content="20151028224812" />
+<meta name="ptime" content="20151028210138" />
+<meta name="DISPLAYDATE" content="Oct. 28, 2015" />
+<meta name="dat" content="Oct. 28, 2015" />
+<meta name="lp" content="We tested video streaming devices from Apple, Amazon, Roku and Google, and the Apple TV stood out. But it’s not the best for everyone. Here are the pros and cons of each device." />
+<meta name="byl" content="By BRIAN X. CHEN" />
+<meta property="og:url" content="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How Apple TV Stacks Up: A Rundown of Streaming Devices" />
+<meta property="og:description" content="We tested video streaming devices from Apple, Amazon, Roku and Google, and the Apple TV stood out. But it’s not the best for everyone. Here are the pros and cons of each device." />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="twitter:card" value="summary_large_image" />
+<meta name="twitter:site" value="@nytimes" />
+<meta property="twitter:url" content="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html" />
+<meta property="twitter:title" content="How Apple TV Stacks Up: A Rundown of Streaming Devices" />
+<meta property="twitter:description" content="We tested video streaming devices from Apple, Amazon, Roku and Google, and the Apple TV stood out. But it’s not the best for everyone. Here are the pros and cons of each device." />
+<meta name="author" content="Brian X. Chen" />
+<meta name="og:image" content="http://static01.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-facebookJumbo.jpg" />
+<meta property="article:author" content="http://topics.nytimes.com/top/reference/timestopics/people/c/brian_x_chen/index.html" />
+<meta name="twitter:creator" value="bxchen" />
+<meta name="twitter:image" content="http://static01.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-articleLarge.jpg" />
+<meta name="thumbnail_150" content="http://static01.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-thumbLarge.jpg" />
+<meta name="thumbnail_150_height" content="150" />
+<meta name="thumbnail_150_width" content="150" />
+<meta name="thumbnail_75" content="http://static01.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-thumbStandard.jpg" />
+<meta name="thumbnail_75_height" content="75" />
+<meta name="thumbnail_75_width" content="75" />
+<meta property="article:tag" content="Television Sets and Media Devices" />
+<meta name="des" content="Television Sets and Media Devices" />
+<meta property="article:tag" content="Apple TV" />
+<meta name="org" content="Apple TV" />
+<meta property="article:tag" content="Google Inc" />
+<meta name="org" content="Google Inc" />
+<meta property="article:tag" content="Roku" />
+<meta name="org" content="Roku" />
+<meta property="article:tag" content="Amazon.com Inc" />
+<meta name="org" content="Amazon.com Inc" />
+<meta name="keywords" content="Television Sets and Media Devices,Apple TV,Google Inc,Roku,Amazon.com Inc" />
+<meta name="news_keywords" content="Roku" />
+<meta name="dfp-ad-unit-path" content="technology/personaltech" />
+    
+                <!--[if (gt IE 9)|!(IE)]> <!-->
+        <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/interactive/20151119-084247/css/interactive/styles.css" />
+    <!--<![endif]-->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/interactive/20151119-084247/css/interactive/styles-ie.css" />
+    <![endif]-->
+        <script id="display_overrides">
+    []</script>
+
+
+<script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+
+<script id="abtestconfig" type="application/json">
+
+[
+    {
+        "testId": "0012",
+        "testName": "tallWatchingModule",
+        "throttle": 1.0,
+        "allocation": 0.9,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0033",
+        "testName": "recommendedLabelTest",
+        "throttle": 1,
+        "allocation": 0.833,
+        "variants": 5,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0036",
+        "testName": "velcroSocialFollow",
+        "throttle": 0.1,
+        "allocation": 0.5,
+        "variants": 1,
+        "applications": ["article", "homepage"]
+    },
+    {
+        "testId": "0051",
+        "testName": "shuffleRecommendations",
+        "throttle": 1.0,
+        "allocation": 0.667,
+        "variants": 1,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0052",
+        "testName": "paidPostDriver",
+        "throttle": 1.0,
+        "allocation": 0.875,
+        "variants": 7,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0061",
+        "testName": "paidPostFivePackMock",
+        "throttle": 0,
+        "allocation": 0,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0063",
+        "testName": "paidPostFivePack",
+        "throttle": 1,
+        "allocation": 0.5,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0064",
+        "testName": "realEstateSearch",
+        "throttle": 1,
+        "allocation": 1,
+        "variants": 1,
+        "applications": ["realestate", "article"]
+     },
+     {
+         "testId": "0066",
+         "testName": "ribbonChartbeatMostEmailed",
+         "throttle": 1,
+         "allocation": 0.5,
+         "variants": 1,
+         "applications": ["article"]
+     },
+     {
+         "testId": "0067",
+         "testName": "pinnedMasthead",
+         "throttle": 0.02,
+         "allocation": 0.5,
+         "variants": 1,
+         "applications": ["homepage"]
+     },
+     {
+         "testId": "0069",
+  	 "testName": "coloredSharetools",
+         "throttle": 1,
+         "allocation": 0.5,
+         "variants": 1,
+         "applications": ["slideshow"]
+     }
+]
+
+</script>
+
+
+<script id="user-info-data" type="application/json">
+{ "meta": {},
+  "data": {
+    "id": "0",
+    "name": "",
+    "subscription": ["","_RPV"],
+    "demographics": {}
+  }
+}
+</script>
+
+<script>
+var require = {
+    baseUrl: 'http://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'interactive/20151119-084247/js/foundation',
+        'shared': 'interactive/20151119-084247/js/shared',
+        'interactive': 'interactive/20151119-084247/js/interactive',
+        'application': 'interactive/20151119-084247/js/interactive/',
+        'videoFactory': 'http://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'http://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'http://static01.nyt.com/js/mtr',
+        'auth/growl': 'http://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'http://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="http://a1.nyt.com/assets/interactive/20151119-084247/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="http://a1.nyt.com/assets/interactive/20151119-084247/js/foundation/lib/framework.js"></script>
+<![endif]-->
+<script>
+window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","relatedCoverage","followFeature","directShareOpen","newsEventHierarchy","videoVHSCover","TMagSubnav","videoVHSShareTools"]);
+</script>
+<script>
+require(['foundation/main'], function () {
+    require(['auth/mtr']);
+});
+</script>
+</head>
+<body>
+    
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('http://i1.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+    <header id="masthead" class="masthead masthead-theme-standard" role="banner">
+    <div class="container">
+        <div class="quick-navigation button-group">
+            <button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Sections</span></button>
+            <button class="button home-button" data-href="http://www.nytimes.com/" title="Go to the home page to see the latest top stories."><i class="icon sprite-icon"></i>
+                <span class="button-text">Home</span>
+            </button>
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <a class="button skip-button skip-to-content visually-hidden focusable" href="#main">Skip to content</a>
+                                </div><!-- close button-group -->
+        <div class="branding">
+            <h2 class="branding-heading">
+                <a id="branding-heading-link" href="http://www.nytimes.com/">
+                    <span class="visually-hidden">The New York Times</span>
+                </a>
+            </h2>
+            <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/interactive/20151119-084247/images/foundation/logos/', 'technology', 'masthead-theme-standard', 'standard', 'branding-heading-link');</script>
+        </div><!-- close branding -->
+                <div class="story-meta">
+            <h6 class="kicker"><span class="kicker-label"><a href="http://www.nytimes.com/pages/technology/personaltech/index.html">Personal Tech</a></span><span class="pipe">|</span>How Apple TV Stacks Up: A Rundown of Streaming Devices</h6>
+        </div><!-- close story-meta -->
+        <div id="TopNavAd" class="ad top-nav-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+        <div class="user-tools">
+            <div id="sharetools-masthead" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-masthead  "
+data-shares="email,facebook,twitter,show-all|More"
+data-url="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html"
+data-title="How Apple TV Stacks Up: A Rundown of Streaming Devices"
+data-author="By BRIAN X. CHEN"
+data-media="http://static01.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-jumbo.jpg"
+data-description="We tested video streaming devices from Apple, Amazon, Roku and Google, and the Apple TV stood out. But it’s not the best for everyone. Here are the pros and cons of each device."
+	data-publish-date="October 28, 2015"
+>
+<div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent">
+</div>
+</div><!-- close shareTools -->
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <div id="Bar1" class="ad bar1-ad nocontent robots-nocontent"></div>
+            <div class="user-tools-button-group button-group">
+                <button class="button subscribe-button hidden" data-href="http://www.nytimes.com/subscriptions/Multiproduct/lp3004.html">Subscribe Now</button>
+                <button class="button login-button login-modal-trigger hidden">Log In</button>
+                                                <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                <button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Settings</span></button>
+            </div><!-- close user-tools-button-group -->
+        </div><!-- close user-tools -->
+    </div><!-- close container -->
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <div class="ad">
+        <div id="SponsorAd" class="sponsor-ad">
+            <small class="ad-sponsor">search sponsored by</small>
+        </div>
+    </div>
+    <nav class="search-form-control form-control layout-horizontal">
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+<span class="story-short-url"><a href="http://nyti.ms/1KGJRmz">http://nyti.ms/1KGJRmz</a></span></header>
+            <nav id="ribbon" class="ribbon ribbon-start nocontent robots-nocontent" aria-hidden="true">
+    <div class="nocontent robots-nocontent">
+        <ol class="ribbon-menu">
+            <li class="collection ribbon-loader">
+                <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+            </li>
+        </ol>
+        <div class="ribbon-navigation-container">
+            <nav class="ribbon-navigation next">
+                <span class="visually-hidden">See next articles</span>
+                <div class="arrow arrow-right">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+            <nav class="ribbon-navigation previous">
+                <span class="visually-hidden">See previous articles</span>
+                <div class="arrow arrow-left">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+        </div>
+    </div><!-- close nocontent -->
+</nav>
+        <nav id="navigation" class="navigation" role="navigation">
+</nav> <!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+</nav>
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+    <div id="page" class="page">
+        <main id="main" class="main" role="main">
+        <div id="TopAd" class="ad top-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+
+<article id="story" class="story theme-interactive 
+    theme-main 
+    ">
+                
+    <header class="story-header interactive-header">
+                        <div class="story-meta">
+                                                                <div class="kicker-container">
+                <h2 class="kicker interactive-kicker">
+                                        <span class="kicker-label">
+                        <a href="http://www.nytimes.com/pages/technology/personaltech/index.html">
+                            Personal Tech                        </a>
+                    </span>
+                                                                            </h2>
+                                    <div id="sharetools-interactive" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-interactive  "
+data-shares="show-all|Share"
+data-url="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html"
+data-title="How Apple TV Stacks Up: A Rundown of Streaming Devices"
+data-author="By BRIAN X. CHEN"
+data-media="http://static01.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-jumbo.jpg"
+data-description="We tested video streaming devices from Apple, Amazon, Roku and Google, and the Apple TV stood out. But it’s not the best for everyone. Here are the pros and cons of each device."
+	data-publish-date="October 28, 2015"
+>
+<div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent">
+</div>
+</div><!-- close shareTools -->
+                            </div>
+                                    <h1 class="story-heading interactive-headline" itemprop="headline">How Apple TV Stacks Up: A Rundown of Streaming Devices</h1>
+            
+            <div class="story-meta-footer interactive-meta-footer">
+                <div class="interactive-byline">
+    <p class="byline-dateline"><span class="byline last-byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person"  itemid="http://topics.nytimes.com/top/reference/timestopics/people/c/brian_x_chen/index.html">By <a href="http://topics.nytimes.com/top/reference/timestopics/people/c/brian_x_chen/index.html" rel="author" title="More Articles by BRIAN X. CHEN"><span class="byline-author" data-byline-name="BRIAN X. CHEN" itemprop="name" data-twitter-handle="bxchen">BRIAN X. CHEN</span></a></span>	<time class="dateline" datetime="2015-10-28" itemprop="datePublished" content="2015-10-28">OCT. 28, 2015</time>
+    </p>
+</div>
+                 <p class="interactive-leadin summary">
+    
+        		            </p>
+            </div><!-- close story-meta-footer -->
+
+        </div><!-- close story-meta -->
+        </header>
+    <div id="How-Apple-TV-Stacks-Up" class="interactive-graphic">
+        <script>
+  document.getElementsByTagName("body")[0].classList.add("list-style-news");
+</script>
+<style>
+  .mobile.viewport-medium .story.theme-main .sharetools-story{width:75px}.mobile .sharetools .sharetool{font-size:10px;font-size:0.625rem;line-height:25px;line-height:1.5625rem;overflow:visible}.mobile .sharetools.sharetools-story .sharetool a{height:auto}.mobile .sharetools .sharetool .icon{margin-top:-4px}.mobile .sharetools .sharetool.email-sharetool .icon{background-repeat:no-repeat;background-position:-426px 0;width:16px;height:16px}.mobile .sharetools .sharetool.facebook-sharetool .icon{background-repeat:no-repeat;background-position:-255px -21px;width:16px;height:16px}.mobile .sharetools .sharetool.twitter-sharetool .icon{background-repeat:no-repeat;background-position:-439px -206px;width:16px;height:16px}.mobile .sharetools .sharetool.save-sharetool .icon{background-repeat:no-repeat;background-position:-30px -179px;width:16px;height:16px}.layout-medium .main{max-width:none}@media screen and (max-device-width: 767px), screen and (max-width: 767px){.main{margin:0;padding:0}}.ad.top-ad{overflow:hidden;width:100%;max-width:100%;margin-left:0;margin-right:0}.page-interactive-app .story-header{padding:0 16px}.list-style-news .story.theme-main .story-header{border:0;padding:0 16px}.story.theme-main .story-header .story-meta .story-heading{line-height:1}.list-style-news .story.theme-main .story-header .story-meta .story-heading{font-style:italic;font-weight:700;margin-bottom:10px}.list-style-news .story.theme-main .story-header .story-meta-footer{border-top:1px solid #e2e2e2;padding-top:7px}.list-style-news .story-meta-footer .summary{display:none}.leadin-body,.introduction .listy_body{border-bottom:solid 1px #ccc;padding:0 16px 20px}.introduction .listy_body p:last-of-type{margin-bottom:0}.introduction figure.media{margin-bottom:20px}.list-style-news .introduction .caption{padding:0 16px}.list-style-feature .introduction .media{margin:0 auto 20px auto}.list-style-feature .introduction .media.vertical{float:right;width:120px;margin:5px 0 15px 20px}.list-style-feature .introduction .caption{padding:0 16px}.list-style-feature .introduction .listy_body{margin:0 auto 10px;font-family:georgia,"times new roman",times,serif;font-size:16px;line-height:1.5;padding-top:30px}.list-style-feature .introduction .listy_body p{font-family:inherit;font-size:inherit;line-height:inherit;color:inherit}.sharetools-story{display:none}.comments-button.theme-kicker{display:none}.lede-container-ads{display:none;position:relative}.bottom-container-ads{text-align:center}#sharetools-interactive{top:-6px}.viewport-small-10 #sharetools-interactive{top:0}.video_container .nytd-player-container{margin-bottom:7px}.page-interactive-default .story.theme-main .story-header .story-meta .kicker-container #sharetools-interactive{left:auto;right:16px;bottom:auto;display:block}.page-interactive-default .list-style-feature .story.theme-main .story-header{border:0;margin:0 auto;padding:0 16px}.page-interactive-default .list-style-feature .story.theme-main .story-header .story-meta{margin-bottom:0}.page-interactive-default .list-style-feature .story.theme-main .story-header .story-meta .kicker-container{margin-bottom:10px}.page-interactive-default .list-style-feature .story.theme-main .story-header .story-meta .kicker-container #sharetools-interactive{left:auto;right:16px;bottom:auto;display:block}.page-interactive-default .list-style-feature .story.theme-main .story-header .story-meta .story-heading{font-family:"nyt-cheltenham",georgia,"times new roman",times,serif;font-size:42px;font-weight:200;line-height:1.1;margin:0 auto;text-align:left}.page-interactive-default .list-style-feature .story.theme-main .story-header .story-meta .story-meta-footer .summary{font-family:"nyt-cheltenham",georgia,"times new roman",times,serif;font-size:18px;font-weight:100;margin-top:15px;margin-bottom:0;line-height:1.3;color:#666}.page-interactive-default .list-style-feature .story.theme-main .story-header:after{content:"";display:block;background:#e2e2e2;height:1px;width:auto;margin-top:32px}.media.photo[data-media-action="modal"]{pointer-events:none}.media-viewer-asset img{width:100%}.list_items{list-style-type:none;margin:0 auto;width:auto;padding:0 16px}.list_items .list_item{border-bottom:1px solid #CCC;margin:0 auto;padding-top:20px;padding-bottom:40px;position:relative}.list_items .list_item:last-child{border-bottom:none}.list_items .list_item.advert_item{border:0;margin-left:-16px;margin-right:-16px;margin-top:-1px;padding:0;text-align:center}.list_items .list_item.advert_item .list-ad-container .ad.module>*:first-child{padding-top:20px;padding-bottom:20px}.list_items .list_item.advert_item+.list_item{border-top:1px solid #CCC}.list_items .listy_kicker{color:#333;margin:0 auto 5px auto;font-family:"nyt-franklin",Arial,helvetica,sans-serif;font-weight:500;line-height:16px;font-size:12px;letter-spacing:0.5px;text-transform:uppercase}.list_items .listy_headline{color:#000;font-family:"nyt-franklin",Arial,helvetica,sans-serif;font-size:22px;font-weight:700;line-height:1.1;margin:0 auto 20px;text-rendering:optimizeLegibility;font-feature-settings:"kern";-webkit-font-feature-settings:"kern";-moz-font-feature-settings:"kern";-moz-font-feature-settings:"kern=1";-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;font-smoothing:antialiased}.list_items .listy_headline .number_label{color:#000;display:inline;line-height:1}.list_items .listy_subhead{color:#444;font-family:"nyt-franklin",Arial,helvetica,sans-serif;font-size:15px;font-weight:300;margin:-10px auto 20px;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;font-smoothing:antialiased}.list_items .media{margin:0 auto 20px auto}.list_items .media.vertical{float:right;width:120px;margin:5px 0 15px 20px}.list_items .listy_detail{color:#999;font-family:"nyt-franklin",Arial,helvetica,sans-serif;font-size:13px;font-weight:300;line-height:19px;margin:0 auto}.list_items .listy_detail p{color:#999;font-family:"nyt-franklin",Arial,helvetica,sans-serif;font-size:13px;font-weight:300;line-height:19px}.list_items.feature .list-item{border-bottom-color:#333}.list_items.feature .listy_kicker{font-size:11px;margin-bottom:10px}.list_items.feature .listy_headline{color:#000;font-family:"nyt-cheltenham",georgia,"times new roman",times,serif;font-size:32px;font-weight:300;line-height:1.1}.list_items.feature .listy_headline .number_label{color:#ccc}.list_items.feature .listy_subhead{font-family:"nyt-franklin",Arial,helvetica,sans-serif;font-size:16px;font-weight:200;line-height:1.3;color:#666}.list_items.feature .media.vertical{float:none;width:auto;margin:5px auto 20px auto}.list_items.feature .listy_body{margin:0 auto 10px;font-family:georgia,"times new roman",times,serif;font-size:16px;line-height:1.5}.list_items.feature .listy_body p{font-family:inherit;font-size:inherit;line-height:inherit;color:inherit}.marginalia{display:none;border-top:1px dotted #999;padding-top:7px;width:300px;float:right;clear:right;margin:5px 0 45px 30px;padding-top:10px}.marginalia .module-heading{font-size:11px;font-size:0.6875rem;line-height:11px;line-height:0.6875rem;font-weight:700;font-family:"nyt-franklin",arial,helvetica,sans-serif;color:#000;text-transform:uppercase;margin-bottom:1em}.marginalia ul{margin:0}.marginalia ul li{margin-bottom:0.75em}.marginalia ul li:last-child{margin-bottom:0}.marginalia .story .story-link{text-decoration:none}.story.theme-summary .thumb{float:left;clear:left;margin:0 10px 0 0;width:75px;height:75px}.marginalia .story .thumb{position:relative;max-width:65px;width:21.67%;height:auto;clear:none;margin-left:0}.marginalia .story .thumb img{height:auto;width:auto}.marginalia .story .story-heading{color:#333;font-size:13px;font-size:0.8125rem;line-height:17px;line-height:1.0625rem;font-weight:400;font-family:"nyt-cheltenham-sh",georgia,"times new roman",times,serif}.marginalia .story .thumb+.story-heading{float:left;clear:left;margin:0 0 0 0;width:74.5%;clear:right}.marginalia .story .story-heading .story-heading-text{padding-right:0.75em}.marginalia .story .story-link:hover,.marginalia .story .story-link .story-heading-text{color:#326891}.marginalia .story .story-link:hover .story-heading-text,.marginalia .story .story-link:active .story-heading-text{text-decoration:underline}.related-coverage-marginalia{position:absolute;right:0;top:100%}.related-coverage,.story.theme-main .story-footer{padding:0 16px}.viewport-medium .list-style-feature .story.theme-main .story-header{max-width:auto;margin-top:16px}.viewport-medium .list-style-feature .story.theme-main .story-header .story-meta{margin-bottom:10px}.viewport-medium .list-style-feature .story.theme-main .story-header .story-meta .story-heading{font-size:60px;text-align:center}.viewport-medium .list-style-feature .story.theme-main .story-header .story-meta .story-meta-footer .byline-dateline{text-align:center}.viewport-medium .list-style-feature .story.theme-main .story-header .story-meta .story-meta-footer .summary{text-align:center;margin-left:auto;margin-right:auto;margin-top:20px;max-width:720px;font-size:20px}.viewport-medium .list-style-feature .story.theme-main .story-header:after{margin-top:48px}.viewport-medium .leadin-body,.viewport-medium .introduction .listy_body{margin-left:105px;padding:0 0 32px;width:510px;margin-bottom:16px}.viewport-medium .introduction .media{max-width:600px;margin:0 auto 30px auto;width:100%}.viewport-medium .introduction .media.vertical{width:170px;float:right;margin-left:30px;margin-bottom:20px}.viewport-medium .introduction .media.video_container{max-width:none}.viewport-medium .list-style-news .introduction .intro-content-wrap{float:left}.viewport-medium .list-style-news .introduction .media.horizontal{float:left}.viewport-medium .list-style-news .introduction .caption{padding:0}.viewport-medium .list-style-feature .introduction .media.horizontal{margin-bottom:30px;max-width:100%;width:100%}.viewport-medium .list-style-feature .introduction .media.vertical{margin-right:55px;padding-top:30px;width:270px}.viewport-medium .list-style-feature .introduction .caption{padding:0}.viewport-medium .list-style-feature .introduction .listy_body{font-size:17px;margin-left:auto;max-width:720px;width:600px;padding-top:30px}.viewport-medium .media.photo[data-media-action="modal"]{pointer-events:auto}.viewport-medium #sharetools-interactive{display:block}.viewport-medium .story.theme-main .sharetools-story{clear:left;display:block;float:left;position:relative;width:65px}.viewport-medium .story.theme-main .sharetools-story>ul{position:absolute}.viewport-medium .story.theme-main .sharetools.sharetools-story .sharetool.show-all-sharetool{margin-left:0}.viewport-medium .comments-button.theme-kicker{display:inline-block}.viewport-medium .lede-container-ads{clear:right;display:none;float:right;position:relative}.viewport-medium .lede-container-ads .ad{position:absolute;margin:0 0 40px 7px;top:0;right:0}.viewport-medium .bottom-container-ads{display:none}.viewport-medium .list_items{counter-reset:counter}.viewport-medium .list_items .list_item{padding-top:32px;padding-bottom:30px}.viewport-medium .list_items .list_item:first-child{padding-top:16px}.viewport-medium .list_items div.list_item:first-of-type{padding-top:0}.viewport-medium .list_items .listy_kicker{max-width:600px}.viewport-medium .list_items .listy_headline{position:relative;max-width:600px}.viewport-medium .list_items .listy_subhead{max-width:600px}.viewport-medium .list_items .listy_detail{max-width:600px}.viewport-medium .list_items .media{max-width:600px;margin:0 auto 30px auto}.viewport-medium .list_items .media.vertical{width:170px;float:right;margin-left:30px;margin-bottom:20px}.viewport-medium .list_items .list_item.advert_item{padding:0}.viewport-medium .list_items .list_item.advert_item .list-ad-container .ad.module>*:first-child{padding-top:40px;padding-bottom:40px}.viewport-medium .list_items.feature .list_item{padding-top:48px}.viewport-medium .list_items.feature .listy_headline{font-size:42px;line-height:1}.viewport-medium .list_items.feature .listy_headline .number_label{display:block;margin-right:330px;position:absolute;right:50%;top:0}.viewport-medium .list_items.feature .listy_subhead{font-size:18px;margin-bottom:32px}.viewport-medium .list_items.feature .listy-body{font-size:17px}.viewport-medium .list_items.feature .media.horizontal{margin-bottom:30px;max-width:100%;width:100%}.viewport-medium .list_items.feature .media.vertical{margin-right:55px;width:270px}.viewport-medium .list-style-news .list_items{padding:0}.viewport-medium .list-style-news .list_item{margin-left:105px;width:510px}.viewport-medium .list-style-news .list_item.advert_item{border:0;margin-left:0;margin-right:0;margin-top:-1px;width:720px}.viewport-medium .list-style-feature .list_items{padding:0}.viewport-medium .list-style-feature .list_item{max-width:720px}.viewport-medium .list-style-feature .list_item.advert_item{margin-left:0;margin-right:0;max-width:100%;padding:0}.viewport-medium .list-style-feature .list_item.advert_item div.list-ad-container .ad.module>*:first-child{padding-bottom:30px;padding-top:30px}.viewport-medium .list-style-feature .listy_body{font-size:17px;width:600px}.viewport-medium .related-coverage,.viewport-medium .story.theme-main .story-footer{padding:0}.viewport-medium-10 .list-style-news .story.theme-main .story-header,.viewport-medium-10 .list-style-feature .story.theme-main .story-header{padding:0}.viewport-medium-10 .marginalia{margin-top:720px}.viewport-medium-30 .lede-container-ads{display:block}.viewport-medium-30 .leadin-body,.viewport-medium-30 .introduction .listy_body,.viewport-medium-30 .list-style-news .list_item,.viewport-medium-30 .bottom-container-ads{width:495px;margin-left:120px}.viewport-medium-30 .list-style-news .list_item.advert_item{width:735px}.viewport-medium-30 .marginalia{display:block;float:right;clear:right;margin:720px 0 45px 7px}.viewport-large .list-style-feature .story.theme-main .story-header{max-width:1050px;margin:0 auto}.viewport-large .list-style-feature .story.theme-main .story-header .story-meta .story-heading{max-width:80%}.viewport-large .list-style-feature .introduction .media.vertical{margin-right:170px}.viewport-large .list_items{padding:0}.viewport-large .list_items.feature .list_item{max-width:1050px}.viewport-large .list_items.feature .list_item .media.vertical{margin-right:170px}.viewport-large-30 .leadin-body,.viewport-large-30 .introduction .listy_body,.viewport-large-30 .list-style-news .list_item,.viewport-large-30 .bottom-container-ads{margin-left:135px;width:540px}.viewport-large-30 .list-style-news .list_item.advert_item{width:810px}.viewport-large-30 .introduction .media{max-width:700px}.list_items .media.minWidth-180,.viewport-medium .list_items .media.minWidth-180{min-width:180px}.list_items .media.minWidth-300,.viewport-medium .list_items .media.minWidth-300{min-width:300px}.list_items .media.minWidth-600,.viewport-medium .list_items .media.minWidth-600{min-width:600px}.list_items .media.minWidth-720,.viewport-medium .list_items .media.minWidth-720{min-width:720px}.list_items .media.minWidth-945,.viewport-medium .list_items .media.minWidth-945{min-width:945px}.list_items .media.minWidth-1050,.viewport-medium .list_items .media.minWidth-1050{min-width:1050px}.list_items .media.maxWidth-180,.viewport-medium .list_items .media.maxWidth-180{max-width:180px}.list_items .media.maxWidth-300,.viewport-medium .list_items .media.maxWidth-300{max-width:300px}.list_items .media.maxWidth-600,.viewport-medium .list_items .media.maxWidth-600{max-width:600px}.list_items .media.maxWidth-720,.viewport-medium .list_items .media.maxWidth-720{max-width:720px}.list_items .media.maxWidth-945,.viewport-medium .list_items .media.maxWidth-945{max-width:945px}.list_items .media.maxWidth-1050,.viewport-medium .list_items .media.maxWidth-1050{max-width:1050px}.list_items .media .interactive-headline,.viewport-medium .list_items .media .interactive-headline{font-size:20px;line-height:24px;font-weight:700;font-style:normal;font-family:"nyt-cheltenham",georgia,"times new roman",times,serif;color:#333;margin-bottom:3px}.list_items .media .interactive-leadin,.viewport-medium .list_items .media .interactive-leadin{font-size:14px;line-height:18px;font-weight:400;font-style:normal;font-family:"nyt-cheltenham-sh",georgia,"times new roman",times,serif;color:#666;margin-bottom:10px}.list_items .media .interactive-credit,.list_items .media .interactive-notes,.viewport-medium .list_items .media .interactive-credit,.viewport-medium .list_items .media .interactive-notes{font-size:12px;line-height:14px;font-weight:300;font-style:normal;font-family:"nyt-franklin",arial,helvetica,sans-serif;color:#999;margin-top:8px}
+</style>
+<style type="text/css">
+.listy_body strong, .listy_body b {
+    font-family: nyt-franklin,arial,helvetica;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+</style>
+<div class='introduction clearfix'>
+<div class='intro-content-wrap'>
+<div aria-label='tools' class='sharetools theme-classic sharetools-story' data-shares='email,facebook|Share,twitter|Tweet,save,show-all|more' id='sharetools-story' role='group'></div>
+<div class='listy_body'>
+<p><span>Just in time for the holiday shopping season, Apple, Amazon, Roku and Google have introduced new video streaming devices. They all have features in common — namely, access to popular video streaming services like Netflix, Hulu and HBO. But there are a few characteristics that make each stand apart, like their prices, remote controls or the ability to stream video content for high-end 4K television sets.</span></p><p>After testing all the devices, the Apple TV stood out as the most compelling – albeit priciest – of the pack. But it’s not the best for everyone, so to make picking one easy for you, we assessed the pros and cons of each device.</p>
+</div>
+</div>
+<div class='lede-container-ads' id='TopAd'>
+<div class='ad module' id='MiddleRight1'></div>
+</div>
+</div>
+<ol class='list_items news no_numbers' data-display-style='news' data-number-style='no_numbers'>
+<li class='row list_item clearfix ' id='id-562fa4e95f00170001000005'>
+<figure class='media photo horizontal' data-media-action='modal'>
+<span class='visually-hidden'>
+Photo
+</span>
+<div class='image'>
+<img alt='' class='media-viewer-candidate' data-mediaviewer-caption='' data-mediaviewer-credit='Apple' data-mediaviewer-src='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-jumbo.jpg' data-pattern='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-appleTV/techfix-listy-appleTV-{{size}}.jpg' data-ratio='0.8706118355065195' data-widths='[{"slug":"master1050","size":null},{"slug":"master180","size":180},{"slug":"blog225","size":225},{"slug":"tmagSF","size":362},{"slug":"blog427","size":427},{"slug":"blog480","size":480},{"slug":"master495","size":495},{"slug":"blog533","size":533},{"slug":"tmagArticle","size":592},{"slug":"articleLarge","size":600},{"slug":"master675","size":675},{"slug":"jumbo","size":997},{"slug":"popup","size":575},{"slug":"slide","size":575},{"slug":"superJumbo","size":997},{"slug":"]","size":null}]' src='http://graphics8.nytimes.com/packages/flash/multimedia/ICONS/transparent.png'>
+<div class='media-action-overlay'>
+<i class='icon'></i>
+</div>
+</div>
+<figcaption class='caption'>
+<span class='credit'>
+<span class='visually-hidden'>
+Credit
+</span>
+Apple
+</span>
+</figcaption>
+</figure>
+
+<div class='listy_kicker'>
+​Best All-Around Streamer
+</div>
+<div class='listy_headline'>
+Apple TV
+</div>
+<div class='listy_body'>
+<p><span><strong>PRICE</strong>: $149 (32GB); $199 (64GB)</span><br> </p><p><strong>BEST FOR</strong>: Cordcutters, especially Apple customers, who want a solid general purpose device for TV, apps and gaming. </p><p><strong>SPECIAL FEATURES</strong>: A beautiful user interface; access to third-party apps and games through Apple’s App Store; voice-powered controls with Siri; a comfortable remote control with a touch pad and motion sensors for gaming; Bluetooth support for third-party accessories like game controllers; ability to stream Apple Music. </p><p><strong>DOWNSIDES</strong>: Can’t download unapproved third-party apps outside Apple’s App Store; can’t yet access Amazon’s catalog of streaming content; can’t stream Ultra-HD 4K content.</p>
+</div>
+</li>
+<li class='row list_item clearfix ' id='id-562fa59580e7600001000006'>
+<figure class='media photo horizontal' data-media-action='modal'>
+<span class='visually-hidden'>
+Photo
+</span>
+<div class='image'>
+<img alt='' class='media-viewer-candidate' data-mediaviewer-caption='' data-mediaviewer-credit='' data-mediaviewer-src='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-rokutv/techfix-listy-rokutv-jumbo.jpg' data-pattern='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-rokutv/techfix-listy-rokutv-{{size}}.jpg' data-ratio='0.931640625' data-widths='[{"slug":"master1050","size":1050},{"slug":"master180","size":180},{"slug":"blog225","size":225},{"slug":"tmagSF","size":362},{"slug":"blog427","size":427},{"slug":"blog480","size":480},{"slug":"master495","size":495},{"slug":"blog533","size":533},{"slug":"tmagArticle","size":592},{"slug":"articleLarge","size":600},{"slug":"master675","size":675},{"slug":"jumbo","size":1024},{"slug":"popup","size":537},{"slug":"slide","size":537},{"slug":"superJumbo","size":1500},{"slug":"]","size":null}]' src='http://graphics8.nytimes.com/packages/flash/multimedia/ICONS/transparent.png'>
+<div class='media-action-overlay'>
+<i class='icon'></i>
+</div>
+</div>
+</figure>
+
+<div class='listy_kicker'>
+Best Bet for Ultra HD
+</div>
+<div class='listy_headline'>
+Roku TV
+</div>
+<div class='listy_body'>
+<p><span><strong>P</strong><strong>RICE</strong>: $130</span><br></p><p><strong>BEST FOR</strong><strong></strong>: Early adopters of fancy ultra-HD televisions (or those who plan to buy one very soon).</p><p><strong>SPECIAL FEATURES</strong>: Access to third-party apps and games through Roku’s app store; ability to receive recommendations for programming to watch based on TV shows or actors that you tag; ability to stream some 4K high-definition programming from Netflix, Amazon, Vudu and others; comfortable remote control.</p><p><strong>DOWNSIDES</strong>: At 6.5 inches wide, set-top box is large and unattractive. </p><div><br></div>
+</div>
+</li>
+<li class='row list_item clearfix ' id='id-562fa5c780e7600001000007'>
+<figure class='media photo horizontal' data-media-action='modal'>
+<span class='visually-hidden'>
+Photo
+</span>
+<div class='image'>
+<img alt='' class='media-viewer-candidate' data-mediaviewer-caption='' data-mediaviewer-credit='Amazon' data-mediaviewer-src='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-amazonfire/techfix-listy-amazonfire-jumbo.jpg' data-pattern='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-amazonfire/techfix-listy-amazonfire-{{size}}.jpg' data-ratio='0.75' data-widths='[{"slug":"master1050","size":1050},{"slug":"master180","size":180},{"slug":"blog225","size":225},{"slug":"tmagSF","size":362},{"slug":"blog427","size":427},{"slug":"blog480","size":480},{"slug":"master495","size":495},{"slug":"blog533","size":533},{"slug":"tmagArticle","size":592},{"slug":"articleLarge","size":600},{"slug":"master675","size":675},{"slug":"jumbo","size":1024},{"slug":"popup","size":650},{"slug":"slide","size":600},{"slug":"superJumbo","size":2048},{"slug":"]","size":null}]' src='http://graphics8.nytimes.com/packages/flash/multimedia/ICONS/transparent.png'>
+<div class='media-action-overlay'>
+<i class='icon'></i>
+</div>
+</div>
+<figcaption class='caption'>
+<span class='credit'>
+<span class='visually-hidden'>
+Credit
+</span>
+Amazon
+</span>
+</figcaption>
+</figure>
+
+<div class='listy_kicker'>
+​Good Deal for Amazon Customers
+</div>
+<div class='listy_headline'>
+Amazon Fire TV
+</div>
+<div class='listy_body'>
+<p><span><strong>PRICE</strong>: $100</span><br></p><p><strong>BEST FOR</strong>: Amazon Prime customers; owners of 4K (Ultra-HD) televisions.</p><p><strong>SPECIAL FEATURES</strong>: Easy access to streaming content for Amazon customers, including free content offered through Amazon Prime; voice-powered search capabilities; ability to stream 4K high-definition programming; access to third-party apps and games through Amazon’s app store as well as unauthorized Android TV apps.</p><p><strong>DOWNSIDES</strong>: User interface is confusing and inelegant; difficult to access Android apps that are installed from outside of Amazon’s app store; remote control feels cheap and uncomfortable; third-party apps and games are not compelling.</p>
+</div>
+</li>
+<li class='row list_item clearfix ' id='id-562fa5e080e7600001000009'>
+<figure class='media photo horizontal' data-media-action='modal'>
+<span class='visually-hidden'>
+Photo
+</span>
+<div class='image'>
+<img alt='' class='media-viewer-candidate' data-mediaviewer-caption='' data-mediaviewer-credit='Google' data-mediaviewer-src='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-chromecast/techfix-listy-chromecast-jumbo-v4.jpg' data-pattern='http://i1.nyt.com/images/2015/10/27/technology/techfix-listy-chromecast/techfix-listy-chromecast-{{size}}-v4.jpg' data-ratio='0.8359375' data-widths='[{"slug":"master1050","size":1050},{"slug":"master180","size":180},{"slug":"blog225","size":225},{"slug":"tmagSF","size":362},{"slug":"blog427","size":427},{"slug":"blog480","size":480},{"slug":"master495","size":495},{"slug":"blog533","size":533},{"slug":"tmagArticle","size":592},{"slug":"articleLarge","size":600},{"slug":"master675","size":675},{"slug":"jumbo","size":1024},{"slug":"popup","size":599},{"slug":"slide","size":599},{"slug":"superJumbo","size":2048},{"slug":"]","size":null}]' src='http://graphics8.nytimes.com/packages/flash/multimedia/ICONS/transparent.png'>
+<div class='media-action-overlay'>
+<i class='icon'></i>
+</div>
+</div>
+<figcaption class='caption'>
+<span class='credit'>
+<span class='visually-hidden'>
+Credit
+</span>
+Google
+</span>
+</figcaption>
+</figure>
+
+<div class='listy_kicker'>
+​Compact Device for a Low Price
+</div>
+<div class='listy_headline'>
+Google Chromecast
+</div>
+<div class='listy_body'>
+<p><span><strong>PRICE</strong>: $35</span><br></p><p><strong>BEST FOR</strong>: People who are on a tight budget, or those who travel often and want to stream their own content to a hotel television; Android users. </p><p><strong>SPECIAL FEATURES</strong>: Compact, portable device that can fit in a travel bag pocket; streams content from your smartphone (iPhone or Android), or computer (Macs, Windows PCs and Chromebooks); as cheap as a Blu-ray movie. </p><p><strong>DOWNSIDES</strong>: No physical remote control; pulling content from a smartphone is not as fast or reliable as running a streaming app directly on a device. </p>
+</div>
+</li>
+<li class='row list_item clearfix advert_item' id='id-562fa5c780e7600001000008'>
+<div class='list-ad-container'>
+<div class='ad module articlebig mid1 ad-dfp dfp-size-300x250' data-mobile='TopAd1' id='TopAd1'></div>
+</div>
+</li>
+</ol>
+
+<script>
+  // call some ruby here perhaps... 
+  define('custom_dimensions', function() {
+    return {
+      dimension2: '6.0',
+    };
+  });
+  require(['foundation/main'], function() {
+    require(['http://int.nyt.com/docker/listy/assets/listy-2fc67db90c9f7e2af12f8dd7183a48819f3a30f88847bb9eaff322578bc15825.js?body=1'])
+  });
+</script>
+    </div>
+
+    
+    <section id="related-coverage" class="related-coverage nocontent robots-nocontent">
+    <div class="nocontent robots-nocontent">
+        <header>
+            <h2 class="section-heading">More on NYTimes.com</h2>
+        </header>
+        <ul class="menu layout-horizontal theme-story">
+                            <li>
+    <article class="story theme-summary ">
+        <a href="http://www.nytimes.com/2015/10/29/technology/personaltech/the-new-apple-tv-invigorates-the-set-top-box.html">
+                        <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/10/28/technology/techfix-listy-appletv-screen/techfix-listy-appletv-screen-mediumThreeByTwo225.png" alt="The New Apple TV Invigorates the Set-Top Box" />
+            </div>
+                                    <h3 class="kicker">Tech Fix</h3>
+                        <h2 class="story-heading">The New Apple TV Invigorates the Set-Top Box</h2>
+            <time class="dateline" datetime="2015-10-28" itemprop="datePublished" content="2015-10-28">OCT. 28, 2015</time>
+                    </a>
+    </article>
+</li>
+ 
+                            <li>
+    <article class="story theme-summary ">
+        <a href="http://www.nytimes.com/2015/10/28/technology/apple-iphone-earnings.html">
+                        <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/10/28/business/28apple-web1/28apple-web1-mediumThreeByTwo225.jpg" alt="IPhone Demand Drives Apple Profit, but Outlook Is Muted" />
+            </div>
+                                    <h2 class="story-heading">IPhone Demand Drives Apple Profit, but Outlook Is Muted</h2>
+            <time class="dateline" datetime="2015-10-27" itemprop="datePublished" content="2015-10-27">OCT. 27, 2015</time>
+                    </a>
+    </article>
+</li>
+ 
+                            <li>
+    <article class="story theme-summary ">
+        <a href="http://www.nytimes.com/2015/09/22/technology/personaltech/apple-watch-review.html">
+                        <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/business/22applewatch-websub/22applewatch-websub-mediumThreeByTwo225.jpg" alt="Apple Improves the Watch, Slightly  " />
+            </div>
+                                    <h2 class="story-heading">Apple Improves the Watch, Slightly  </h2>
+            <time class="dateline" datetime="2015-09-21" itemprop="datePublished" content="2015-09-21">SEPT. 21, 2015</time>
+                    </a>
+    </article>
+</li>
+ 
+                            <li>
+    <article class="story theme-summary ">
+        <a href="http://www.nytimes.com/2015/09/22/business/apple-presses-ahead-with-efforts-to-create-car-though-big-issues-remain.html">
+                        <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/business/22APPLECARsub/22APPLECARsub-mediumThreeByTwo225.jpg" alt="Apple Presses Ahead With Efforts to Create Car, Though Big Issues Remain" />
+            </div>
+                                    <h2 class="story-heading">Apple Presses Ahead With Efforts to Create Car, Though Big Issues Remain</h2>
+            <time class="dateline" datetime="2015-09-21" itemprop="datePublished" content="2015-09-21">SEPT. 21, 2015</time>
+                    </a>
+    </article>
+</li>
+ 
+                    </ul><!-- end menu -->
+    </div>
+</section><!-- end main section -->
+
+</article>
+                    <div class="search-overlay"></div>
+            </main><!-- close main -->
+            
+            <footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+         <ul>
+             <li>
+                <a href="http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2015</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+            <li class="visually-hidden"><a href="http://www.nytimes.com">Home</a></li>
+            <li class="visually-hidden"><a href="http://query.nytimes.com/search/sitesearch/#/">Search</a></li>
+            <li class="visually-hidden">Accessibility concerns? Email us at <a href="mailto:accessibility@nytimes.com">accessibility@nytimes.com</a>. We would love to hear from you.</li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.whsites.net/mediakit">Advertise</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="wide-viewport-item last-item"><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+            <li><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+            <li class="wide-viewport-item last-item"><a href="http://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+    <script>
+require(['foundation/main'], function () {
+    require(['interactive/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['http://static01.nyt.com/bi/js/tagx/tagx.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491455","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":257,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+</html>

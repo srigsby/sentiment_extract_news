@@ -1,0 +1,733 @@
+
+        
+        
+    
+
+
+
+
+
+    
+        <!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><!-- MacLeod loves you! --><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgQCVVdaGwAGU1VUAAE="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><meta content="en_US" http-equiv="Content-Language"><title>Amazon delivery drones get a new look - CNET</title><meta name="description" content="Two years on from its unveiling, Amazon Prime Air now features a sleeker, smarter unmanned aircraft. When it will be cleared for takeoff remains anyone's guess."><link rel="canonical" href="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><meta property="al:ios:app_name" content="CNET"><meta property="al:ios:app_store_id" content="383989837"><meta property="al:ios:url" content="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/?search=toapp"><link rel="alternate" hreflang="x-default" href="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><link rel="alternate" hreflang="en-au" href="http://www.cnet.com/au/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><link rel="alternate" hreflang="en-gb" href="http://www.cnet.com/uk/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><link rel="alternate" hreflang="en-ie" href="http://www.cnet.com/uk/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><link rel="alternate" hreflang="en-us" href="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><link rel="search" type="application/opensearchdescription+xml" title="CNET Search" href="http://www.cnet.com/opensearch.xml"><meta property="og:site_name" content="CNET"><meta property="og:title" content="Amazon delivery drones get a new look - CNET"><meta property="og:description" content="Two years on from its unveiling, Amazon Prime Air now features a sleeker, smarter unmanned aircraft. When it will be cleared for takeoff remains anyone's guess."><meta property="og:image" content="http://cnet4.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/670x503/a3a2eb114ff0e927e19b3f29ef80fe00/amazondrone.jpg"><meta property="og:type" content="Article"><meta property="og:url" content="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><meta property="fb:app_id" content="16995676698"><meta property="fb:admins" content="100001036810388"><meta property="article:publisher" content="https://www.facebook.com/cnet"><meta content="30261067" property="twitter:account_id"><meta content="summary" property="twitter:card"><meta content="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/" property="twitter:url"><meta content="Amazon delivery drones get a new look" property="twitter:title"><meta content="Two years on from its unveiling, Amazon Prime Air now features a sleeker, smarter unmanned aircraft. When it will be cleared for takeoff remains anyone's guess." property="twitter:description"><meta content="http://cnet4.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/670x503/a3a2eb114ff0e927e19b3f29ef80fe00/amazondrone.jpg" property="twitter:image"><meta content="670" property="twitter:image:width"><meta content="503" property="twitter:image:height"><meta content="@CNET" property="twitter:site"><meta content="@stevenmusil" property="twitter:creator"><meta content="I1kHyfzmmG1fEVjq8GBUgkfCHc6PNtxce1_VyUuJhws" name="google-site-verification"><meta content="wNWLoFvk5wsdZQ-u75uCNiaHNa7FLFmNtH2t7dZbXmQ" name="google-site-verification"><meta content="47524839a64b83c951afca9ef6c838e0" name="p:domain_verify"><meta content="Product reviews and prices, software downloads, and tech news - CNET" name="msapplication-tooltip"><meta content="http://www.cnet.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#424244" name="msapplication-navbutton-color"><meta content="name=Home; action-uri=http://www.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Downloads; action-uri=http://download.cnet.com/; icon-uri=http://download.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=News; action-uri=http://www.cnet.com/news/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Reviews; action-uri=http://www.cnet.com/reviews/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Videos; action-uri=http://www.cnet.com/videos/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Forums; action-uri=http://forums.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta name="tp:baseUrl" content="http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk"><meta name="viewport" content="width=device-width"><meta name="fragment" content="!"><link rel="manifest" href="/manifest.json"><link rel="stylesheet" href="http://cnet1.cbsistatic.com/fly/css/core/main.desktop-2a0a41418c-rev.css"><link rel="stylesheet" href="http://cnet4.cbsistatic.com/fly/css/article/article.desktop-31009bfb71-rev.css"><!--[if IE 8]> <link rel="stylesheet" href="http://cnet3.cbsistatic.com/fly/css/core/ie/ie8-8b304ec002-rev.css" /> <![endif]--><!--[if IE 9]> <link rel="stylesheet" href="http://cnet2.cbsistatic.com/fly/css/core/ie/ie9-2df090d0d6-rev.css" /> <![endif]--><script src="http://cnet4.cbsistatic.com/fly/bundles/cnetjs/js/libs/boomr.js"></script><script type="text/javascript">
+
+    
+    window.CnetPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"section":"news","pid":"1b653bb7-cb77-4298-bcd9-629995b0d504","tag":["amazon-prime","amazon","drones"],"edition":"us","test":"||","device":"desktop","ptype":"article","cid":"amazon-shows-off-new-prime-air-prototype-delivery-drone","env":"prod"},"adConfig":{"network":{"dev":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye","fr"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","th","id","ph","hk","vn","in","tw"]}],"adUnits":{"intromercial":{"outOfPage":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[371,301]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600],[300,1050]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuPlusTopCallback"}},"marqueeTop":{"sizes":[[300,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuTopCallback"}},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[970,66],[728,90],[970,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardTopPlusCallback"}},"leaderTop":{"sizes":[[970,66],[728,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderTopCallback"}},"buttonTop":{"sizes":[[88,31],[70,20],[155,40]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"omnibarTop":{"sizes":[[980,45]],"position":"top","eventCallbacks":{"slotRenderEnded":"omnibarTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"dynamicTextLinkTop":{"sizes":[[1171,61]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuMiddle2":{"sizes":[[300,250]],"position":"middle2"},"leaderPlusMiddle":{"sizes":[[970,66],[728,90],[970,250]],"position":"middle"},"leaderPlusMantle":{"sizes":[[970,66],[728,90],[970,250]],"position":"mantle","eventCallbacks":{"slotRenderEnded":"leaderPlusMantleCallback"}},"leaderMiddle":{"sizes":[[970,66],[728,90]],"position":"middle"},"leaderMiddle2":{"sizes":[[970,66],[728,90]],"position":"middle2"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"leaderPlusBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"dynamicShowcaseTop":{"sizes":[[371,771]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"infoBoardTop":{"sizes":[[771,201],[620,90]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"infoButtonsTop":{"sizes":[[771,61]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"socialLogoBottom":{"sizes":[[88,31]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"sharebarCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"socialLogoTop":{"sizes":[[88,31]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsoredFeedTop":{"sizes":[[571,121]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"inlineProductCarouselTop":{"sizes":[[621,221],[621,471]],"position":"top","eventCallbacks":{"slotRenderEnded":"inlineProductCarouselTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"inpageVideoTop":{"sizes":[[641,321]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"windowTop":{"sizes":[[120,90]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"windowBottom":{"sizes":[[120,90]],"position":"bottom","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsoredMatchTop":{"sizes":[[971,201]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replaySquareTop":{"sizes":[[271,271]],"position":"top","eventCallbacks":{"slotRenderEnded":"replaySquareCallBack"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideTop":{"sizes":[[771,131],[11,11]],"position":"top","eventCallbacks":{"slotRenderEnded":"replayWideTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideBottom":{"sizes":[[771,131],[11,11]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"replayWideBottomCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayWideEditorspicks":{"sizes":[[771,131],[11,11]],"position":"editorspicks","eventCallbacks":{"slotRenderEnded":"replayWideEditorspicksCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replayShowcaseTop":{"sizes":[[371,291]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"nativeThisweekoncnet":{"sizes":[[11,11]],"position":"thisweekoncnet","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"d320ba44","strb":"2434f2df"}},"nativeCompare":{"sizes":[[11,11]],"position":"compare","eventCallbacks":{"slotRenderEnded":"nativeCompareCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"overgifTop":{"sizes":[[251,11]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"showcaseTop":{"sizes":[[3,3]],"position":"top"},"videoThumbnailTop":{"sizes":[[171,231],[771,131],[11,11]],"position":"thumbnail","eventCallbacks":{"slotRenderEnded":"videoThumbnailTopCallback"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"ec8036a4","strb":"bfdbade1"}},"nativeToc":{"sizes":[[300,90],[11,11]],"position":"toc","eventCallbacks":{"slotRenderEnded":"nativeTocCallBack"},"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strr":"9bebd1e1","strb":"12b2a632"}}},"mobile":{"adUnits":{"hpto":{"outOfPage":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mobileBannerTop":{"sizes":[[320,50],[6,1]],"position":"increment"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"increment"},"mobileBanner":{"sizes":[[320,50]],"position":"increment"},"mobileReplaySquare":{"sizes":[[271,271]],"position":"increment"},"mobileReplayWide":{"sizes":[[771,131],[11,11]],"position":"increment"},"mobileReplayWideInc":{"sizes":[[771,131],[11,11]],"position":"inc"},"mobileReplayWidePlus":{"sizes":[[771,131],[320,50],[11,11]],"position":"increment"},"mobileBannerPlus":{"sizes":[[300,250],[320,50],[621,221]],"position":"increment"},"mobileMpu":{"sizes":[[300,250]],"position":"increment"},"mobileOvergif":{"sizes":[[251,11]],"position":"increment","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"mobileShowcase":{"sizes":[[3,3]],"position":"increment","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cnet","collapseEmptyDiv":false,"setRefreshUnfilledSlots":true,"setClearUnfilledSlots":false,"disableInitialLoad":false,"disableInitialLoadCompanions":false,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["leader_top","leader_plus_top","mpu_top","mpu_plus_top","leader_plus_middle","leader_middle","leader_middle2","mpu_middle","mpu_middle2","mpu_bottom","leader_bottom","skin","omnibar_top","marquee_top","window_top","window_bottom","inpage_video_top","intromercial","replay_wide_top","replay_wide_bottom","replay_wide_editorspicks","video_thumbnail_top","nativ_toc","native_compare","native_thisweekoncnet","inline_product_carousel_top","resource_center_top","social_logo_bottom","showcase_top","info_board_top","sponsored_feed_top","info_buttons_top","dynamic_text_link_top","dynamic_showcase_top"],"disableInitialLoadRefresh":true,"deviceRegions":{"mobile":[{"region":"aw","countries":["all"]}],"desktop":[],"tablet":[]}},"containerId":"565c7d826e3d1","slotVars":{"network":"8264","siteName":"cnet","collapseEmptyDiv":"","topics":"internet","platform":"desktop"},"adType":"gpt","adDivIds":["native-toc-565c7d826e3d1","inpage-video-top-565c7d826e3d1","social-logo-bottom-565c7d826e3d1","mpu-plus-top-565c7d826e3d1","mpu-bottom-565c7d826e3d1","video-thumbnail-top-565c7d826e3d1","leader-bottom-565c7d826e3d1","omnibar-top-565c7d826e3d1","intromercial-565c7d826e3d1","skin-565c7d826e3d1","leader-top-565c7d826e3d1","dynamic-text-link-top-565c7d826e3d1"]},"cookieName":"cnet_ad","cookieServicePath":"http:\/\/www.cnet.com\/ad\/ad-cookie\/","session":4,"subSession":6}
+        },
+        assetsVersion: {
+            version: '1918-fly'
+        },
+        build: true,
+        cmsEdit: {
+            contentId: '1b653bb7-cb77-4298-bcd9-629995b0d504',
+            contentType: 'article'
+        },
+        device: 'desktop',
+        deviceOriginal: 'desktop',
+        edition: {
+            code: 'us'
+        },
+        environment: 'prod',
+        pageType: 'article',
+        promotionals: {
+            flyoutPromo:{
+                url: '/flyout-promo/'
+            }
+        },
+        tracking: {
+            enabled: true
+        },
+        user: {
+            baseUrl: 'https://secure-fly.cnet.com',
+            'urls': {
+                'login': "https://secure-fly.cnet.com/user/login/",
+                'register': "https://secure-fly.cnet.com/user/registration/",
+                'confirmRegistration': "http://www.cnet.com/user/instructions-confirm-registration/",
+                'forgotPassword': "https://secure-fly.cnet.com/user/forgotten-password/",
+                'passwordSent': "http://www.cnet.com/user/password-sent/",
+                'createUsername': "http://www.cnet.com/user/create-username/",
+                'sendConfirmation': "http://www.cnet.com/user/send-confirmation/?registered=1",
+                'userData': "http://www.cnet.com/user/get-data/",
+                'flag': "http://www.cnet.com/user/flag/",
+                'socialAdditionalInformation': "http://www.cnet.com/user/social-additional-information/"
+            }
+        },
+        video: {
+            tpBaseUrl: 'http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk',
+            playCount: 0
+        }
+    };
+
+
+    
+    
+    
+    
+    var utag_data = {"isEnabled":true,"articleAuthorId":["95d547b2-8176-11e2-9d12-0018fe8a00b0"],"articleAuthorName":["steven musil"],"articleId":"1b653bb7-cb77-4298-bcd9-629995b0d504","articlePubDate":"2015-11-29 21:40:09","articleTitle":"amazon delivery drones get a new look","articleType":"magnet_article","collectionId":[],"collectionName":[],"deviceType":"desktop","isDev":"0","pageNum":"1","pageType":"article","siteEdition":"us","siteHier":["news","internet"],"siteSection":"news","siteType":"responsive web","topicId":["1c1356b9-c387-11e2-8208-0291187b029a"],"topicName":["internet"],"dwAccount":"cbsicnetglobalsite","dwHost":"dw.cbsi.com","siteId":1,"reportSuiteId":"cbsicnetglobalsite","bkSiteId":3321,"limit":4,"collectionSlug":[],"tagSlugs":["amazon-prime","amazon","drones"],"topicSlugs":["internet"],"siteName":"cnet","tealium":{"profile":"cnetglobalsite","env":"prod"},"soastaBucket":"","soastaPageType":"article"};
+</script><script type="text/javascript" id="beanstockNucleusInjector">
+        window.CnetPageVars.ads.beanstockNucleus = {
+            isEnabled:      false,
+            isInitialized:  false,
+            isCompleted:    false,
+            isTimedOut:     false,
+            timeout:        null,
+            injector:       'injectBeanStockNucleusTag',
+            tagId:          'cx-nuke',
+            initTime:       new Date().getTime()
+        };
+
+            </script><!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]--></head><body class="not-logged-in
+    us
+        
+    
+    
+" data-cms-edit='{"url":"http:\/\/cms-beta.cnet.com\/content\/article\/1b653bb7-cb77-4298-bcd9-629995b0d504"}'>
+                        
+    
+<header id="rbHeader" class="page-header"><div id="secondary" class="">
+                                    
+<div id="socialHeader">
+    <span>Connect with us</span>
+           	
+            <div class="socialWrapper" data-component='["touchMenuHover","iframeHoverFix"]'>
+                
+                        <div class="networkWrapper">
+        <a target="_blank" href="http://www.facebook.com/CNET" class="social-menu-facebook" data-component="socialTracking" data-social-tracking-options='{"socialSite":"facebook"}'>facebook</a>
+    </div>
+
+        
+                        <div class="networkWrapper">
+        <a target="_blank" href="https://twitter.com/intent/user?screen_name=CNET" class="social-menu-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'>twitter</a>
+    </div>
+
+        
+            </div>
+
+</div>
+                            </div>
+            
+                        <div class="fixation" data-component="stickyElement">
+                                    <div id="omnibar_top">
+                    
+                                    <div id="omnibar-top-565c7d826e3d1" class="ad-omnibar-top" data-ad="omnibar-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing omnibar-top-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("omnibar-top-565c7d826e3d1");
+    </script></div>
+                            </div>
+                        <div id="primary">
+                                    <a id="rbLogo" href="/">CNET</a>
+                
+                                        <form method="get" action="/search/" class="col-3 headerSearchForm single" data-auto-suggest-options='{"url":"\/autosuggest\/xhr\/"}' data-component='["formTrim","autoSuggest"]'>
+    <div class="searchBar">
+        <input type="text" placeholder="Search CNET" id="primarySearch" name="query" value="" autocomplete="off"><button type="submit" class="searchButton" value="Search"></button>
+    </div>
+</form>                
+                                    
+
+<nav id="primaryNav" section="brandnav"><div class="menu single" id="reviewsMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/reviews/">Reviews</a>
+                    <div class="menuWrapper">
+                <!--[if lt IE 9]>
+                <noscript><div class="navTag"></noscript>
+                <![endif]-->
+                <nav><div class="navWrapper">
+                        <ul class="topCategories"><li class="hed">Top Categories</li>
+                            <li><a href="/cnet100/">CNET 100</a></li> <!-- debate with seo over editions, see footer -->
+                            <li><a href="/topics/appliances/">Appliances</a></li>
+                            <li><a href="/topics/audio/">Audio</a></li>
+                            <li><a href="/topics/cameras/">Cameras</a></li>
+                            <li><a href="/topics/car-tech/">Car Tech</a></li>
+                            <li><a href="/topics/desktops/">Desktops</a></li>
+                            <li><a href="/topics/headphones/">Headphones</a></li>
+                            <li><a href="/topics/laptops/">Laptops</a></li>
+                            <li><a href="/topics/networking/">Networking</a></li>
+                            <li><a href="/topics/phones/">Phones</a></li>
+                            <li><a href="/topics/printers/">Printers</a></li>
+                            <li><a href="/smart-home/" data-vanity-rewritten="true">Smart Home</a></li>
+                            <li><a href="/topics/software/">Software</a></li>
+                            <li><a href="/topics/storage/">Storage</a></li>
+                            <li><a href="/topics/tablets/">Tablets</a></li>
+                            <li><a href="/topics/tvs/">TVs</a></li>
+                            <li><a href="/topics/wearable-tech/">Wearable Tech</a></li>
+                                                            <li><a href="/deals/">Deals</a></li>
+                                <li><a href="/web-hosting/" data-vanity-rewritten="true">Web Hosting</a></li>
+                                                        <li><a href="/forums/">Forums</a></li>
+                        </ul><ul class="topItems forums" data-menu="reviews-forums"><li class="hed">Popular Forums</li>
+<li class="topItem">
+    <a href="/forums/computer-help/">
+            <h3>Computer Help</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/computer-newbies/">
+            <h3>Computer Newbies</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/laptops/">
+            <h3>Laptops</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/phones/">
+            <h3>Phones</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/tvs-home-theaters/">
+            <h3>TVs &amp; Home Theaters</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/networking-wireless/">
+            <h3>Networking &amp; Wireless</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-7/">
+            <h3>Windows 7</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-10/">
+            <h3>Windows 10</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/cameras/">
+            <h3>Cameras</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/">
+            <h3>All Forums</h3>
+    </a>
+</li>                        </ul></div>
+                </nav><!--[if lt IE 9]>
+                <noscript></div></noscript>
+                <![endif]--></div>
+            </div>
+    <div class="menu single active" id="newsMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/news/">News</a>
+        <div class="menuWrapper">
+            <!--[if lt IE 9]>
+            <noscript><div class="navTag"></noscript>
+            <![endif]-->
+            <nav><div class="navWrapper">
+                    <ul class="topCategories"><li class="hed">Top Categories</li>
+                        <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
+                        <li><a href="/topics/computers/" data-vanity-rewritten="true">Computers</a></li>
+                        <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
+                                                    <li><a href="/deals/">Deals</a></li>
+                                                <li><a href="/google/" data-vanity-rewritten="true">Google</a></li>
+                        <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
+                        <li><a href="/tags/microsoft/">Microsoft</a></li>
+                        <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
+                        <li><a href="/topics/photography/" data-vanity-rewritten="true">Photography</a></li>
+                        <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
+                        <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
+                        <li><a href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a></li>
+                        <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
+                        <li><a href="/pictures/">Photo Galleries</a></li>
+                        <li><a href="/videos/cnet-news/" data-vanity-rewritten="true">Video</a></li>
+                        <li><a href="/forums/">Forums</a></li>
+                    </ul><ul class="topItems forums" data-menu="news-forums"><li class="hed">Popular Forums</li>
+<li class="topItem">
+    <a href="/forums/computer-help/">
+            <h3>Computer Help</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/computer-newbies/">
+            <h3>Computer Newbies</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/laptops/">
+            <h3>Laptops</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/phones/">
+            <h3>Phones</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/tvs-home-theaters/">
+            <h3>TVs &amp; Home Theaters</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/networking-wireless/">
+            <h3>Networking &amp; Wireless</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-7/">
+            <h3>Windows 7</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/windows-10/">
+            <h3>Windows 10</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/cameras/">
+            <h3>Cameras</h3>
+    </a>
+</li>
+<li class="topItem">
+    <a href="/forums/">
+            <h3>All Forums</h3>
+    </a>
+</li>                    </ul></div>
+            </nav><!--[if lt IE 9]>
+            <noscript></div></noscript>
+            <![endif]--></div>
+    </div>
+    <div class="menu single" id="videoMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/videos/">Video</a>
+        <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><div class="navWrapper">
+                <ul class="topCategories"><li class="hed">Top Categories</li>
+                    <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
+                    <li><a href="/topics/car-tech/videos/" data-vanity-rewritten="true">Car Tech</a></li>
+                    <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
+                    <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
+                    <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
+                    <li><a href="/googlicious/" data-vanity-rewritten="true">Googlicious</a></li>
+                    <li><a href="/how-to/videos/" data-vanity-rewritten="true">How To</a></li>
+                    <li><a href="/netpicks/" data-vanity-rewritten="true">Netpicks</a></li>
+                    <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
+                    <li><a href="/videos/cnet-news/" data-vanity-rewritten="true">News</a></li>
+                    <li><a href="/topics/phones/videos/" data-vanity-rewritten="true">Phones</a></li>
+                    <li><a href="/prizefight/" data-vanity-rewritten="true">Prizefight</a></li>
+                    <li><a href="/topics/tablets/videos/" data-vanity-rewritten="true">Tablets</a></li>
+                    <li><a href="/tomorrow-daily/" data-vanity-rewritten="true">Tomorrow Daily</a></li>
+                    <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
+                    <li><a href="/cnet-podcasts/" data-vanity-rewritten="true">CNET Podcasts</a></li>
+                </ul></div>
+        </nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+    </div>
+    <div class="menu single" id="howtoMenu" data-component="touchMenuHover">
+        <a class="menuHead" data-trigger="menu" href="/how-to/">How To</a>
+        <div class="menuWrapper">
+            <!--[if lt IE 9]>
+            <noscript><div class="navTag"></noscript>
+            <![endif]-->
+            <nav><ul class="topCategories"><li class="hed">Top Categories</li>
+                    <li><a href="/topics/appliances/how-to/">Appliances</a></li>
+                    <li><a href="/topics/computers/how-to/">Computers</a></li>
+                    <li><a href="/topics/gaming/how-to/">Gaming</a></li>
+                    <li><a href="/topics/home-entertainment/how-to/">Home Entertainment</a></li>
+                    <li><a href="/topics/internet/how-to/">Internet</a></li>
+                    <li><a href="/topics/mobile-apps/how-to/">Mobile Apps</a></li>
+                    <li><a href="/topics/phones/how-to/">Phones</a></li>
+                    <li><a href="/topics/photography/how-to/">Photography</a></li>
+                    <li><a href="/topics/security/how-to/">Security</a></li>
+                    <li><a href="/topics/smart-home/how-to/">Smart Home</a></li>
+                    <li><a href="/topics/tablets/how-to/">Tablets</a></li>
+                    <li><a href="/topics/wearable-tech/how-to/">Wearable Tech</a></li>
+                    <li><a href="/forums/">Forums</a></li>
+                    <li><a href="/internet-speed-test/" data-vanity-rewritten="true">Speed Test</a></li>
+                </ul></nav><!--[if lt IE 9]>
+            <noscript></div></noscript>
+            <![endif]--></div>
+    </div>
+            <div class="menu single " id="dealsMenu" data-component="touchMenuHover">
+            <a class="menuHead" href="/deals/" data-vanity-rewritten="true">Deals</a>
+            <div class="menuWrapper">
+                <!--[if lt IE 9]>
+                <noscript><div class="navTag"></noscript>
+                <![endif]-->
+                <nav><ul class="topCategories"><li class="hed">Top Categories</li>
+                        <li><a href="/deals/" data-vanity-rewritten="true">All Deals</a></li>
+                        <li><a href="/cheapskate/" data-vanity-rewritten="true">Cheapskate</a></li>
+                        <li><a href="/holiday-gift-guide/cyber-monday/" data-vanity-rewritten="true">Black Friday Deals</a></li>
+                        <li><a href="/web-hosting/" data-vanity-rewritten="true">Web Hosting Deals</a></li>
+                    </ul></nav><!--[if lt IE 9]>
+                <noscript></div></noscript>
+                <![endif]--></div>
+        </div>
+        <div class="menu" id="download">
+        <a class="menuHead" href="http://download.cnet.com" data-user-action="legacy" data-component="trackDownload">Download</a>
+    </div>
+
+                    
+    
+<div id="headerLogin" class="menu single" data-component="touchMenuHover">
+    <div class="menuHead" data-trigger="menu">
+        <span data-user-var="userName">Log In / Join</span>
+        <div class="user-avatar" data-user-var="avatar"></div>
+    </div>
+    <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><ul class="topCategories logged-out"><li>
+                    <a data-user-show='{"action":"login","params":{"appId":376},"suppressReload":true}'>Log In to CNET</a>
+                </li>
+                <li class="social-login">
+                    <span class="sign-in-with">Sign In with</span>
+                                            <span class="social-site sa-facebook" data-user-social='{"socialSite":"facebook","action":"login","params":{"appId":376}}'>Facebook</span>
+                                            <span class="social-site sa-googleplus" data-user-social='{"socialSite":"googleplus","action":"login","params":{"appId":376}}'>Googleplus</span>
+                                            <span class="social-site sa-yahoo" data-user-social='{"socialSite":"yahoo","action":"login","params":{"appId":376}}'>Yahoo</span>
+                                    </li>
+                <li>
+                    <a data-user-show='{"action":"register","params":{"appId":376}}'>Join CNET</a>
+                </li>
+                <li><a href="/user/join-cnet/">Member Benefits</a></li>
+            </ul><ul class="topCategories logged-in"><li class="social-login">
+                    <span>
+                                            <span class="social-site sa-facebook" data-user-link="facebook">Facebook</span>
+                                            <span class="social-site sa-googleplus" data-user-link="googleplus">Googleplus</span>
+                                            <span class="social-site sa-yahoo" data-user-link="yahoo">Yahoo</span>
+                                        </span>
+                </li>
+                <li><a data-user-var="profileLink" data-template="/profiles/__username__/">My Profile</a></li>
+                <li><a href="/forums/">Forums</a></li>
+                <li><a href="/user/logout/" data-user-action="logout" data-user-suppress-refresh="true">Log Out</a></li>
+            </ul></nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+</div>
+
+    
+<div class="menu single" id="editionMenu" data-component="touchMenuHover">
+    <span class="menuHead" data-trigger="menu"><span id="selectedEdition">US</span> Edition</span>
+    <div class="menuWrapper">
+        <!--[if lt IE 9]>
+        <noscript><div class="navTag"></noscript>
+        <![endif]-->
+        <nav><ul class="topCategories" data-component="editionToggler"><li class="hed">Other editions</li>
+                                                    <li><a data-edition="uk" href="/uk/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/">United Kingdom</a></li>
+                                                    <li><a data-edition="au" href="/au/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/">Australia</a></li>
+                                <li><a target="_blank" href="http://www.cnetnews.com.cn/">China</a></li>
+                <li><a target="_blank" href="http://www.cnetfrance.fr/">France</a></li>
+                <li><a target="_blank" href="http://www.cnet.de/">Germany</a></li>
+                <li><a target="_blank" href="http://japan.cnet.com/">Japan</a></li>
+                <li><a target="_blank" href="http://www.cnet.co.kr/">Korea</a></li>
+                                    <li><a data-edition="es" href="/es/">CNET en Español</a></li>
+                            </ul></nav><!--[if lt IE 9]>
+        <noscript></div></noscript>
+        <![endif]--></div>
+</div>
+</nav></div>
+        </div>
+    </header><div class="container">
+    <div class="row">
+                    <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                    <div class="col-8">
+                                                    
+                                                        
+                                            
+
+
+        
+                        
+    <nav class="tocNav" section="tocNav" data-component="tocNav"><a class="rbLogo" href="/" section="rbLogo">CNET</a>
+        <div class="expand"><div></div></div>
+        <ul><li class="selected">
+                        
+                        <a href="/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/" data-toc-asset-options='{"id":"1b653bb7-cb77-4298-bcd9-629995b0d504","ajaxUrl":"\/news\/amazon-shows-off-new-prime-air-prototype-delivery-drone\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/70x70/65352c13fbde05fb71af703de1ad56a7/amazondrone.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/70x70/65352c13fbde05fb71af703de1ad56a7/amazondrone.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Amazon delivery drones get a new look</span>
+                            </div>
+                        </a>
+                    </li>
+                                            <li class="topStoriesHeading">
+                            <h5>Top Stories</h5>
+                        </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/the-biggest-tech-turkeys-of-2015/" data-toc-asset-options='{"id":"bd58d597-04ad-429d-966a-1be0049df9df","ajaxUrl":"\/news\/the-biggest-tech-turkeys-of-2015\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2012/11/19/b32cef4b-f0e3-11e2-8c7c-d4ae52e62bcc/thumbnail/70x70/c68e1be04b7f0edaad3e409db956aca8/tech-turkeys-header-v2_1.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2012/11/19/b32cef4b-f0e3-11e2-8c7c-d4ae52e62bcc/thumbnail/70x70/c68e1be04b7f0edaad3e409db956aca8/tech-turkeys-header-v2_1.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">The biggest tech turkeys of 2015</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/firefox-maker-mozilla-we-dont-need-googles-money-anymore/" data-toc-asset-options='{"id":"cf2db9f5-3087-4cdb-b539-37193d130c95","ajaxUrl":"\/news\/firefox-maker-mozilla-we-dont-need-googles-money-anymore\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2014/06/13/c582d2aa-092e-4d29-a616-a1e5c9403b36/thumbnail/70x70/a12e8411e546b136cae723ffc7d93630/firefox-logo-2014-vertical-4sts.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2014/06/13/c582d2aa-092e-4d29-a616-a1e5c9403b36/thumbnail/70x70/a12e8411e546b136cae723ffc7d93630/firefox-logo-2014-vertical-4sts.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Firefox maker Mozilla: We don't need Google's money anymore</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/sonys-ps4-sales-top-30-million/" data-toc-asset-options='{"id":"025b4b06-7038-43ff-a8c3-5ed3d527d250","ajaxUrl":"\/news\/sonys-ps4-sales-top-30-million\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/18/ec5ba0a0-51c6-4a54-b858-942ef9d772c3/thumbnail/70x70/1b2eccf7d692a06609c63674c2a08a69/ps4.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/18/ec5ba0a0-51c6-4a54-b858-942ef9d772c3/thumbnail/70x70/1b2eccf7d692a06609c63674c2a08a69/ps4.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Sony dominates as PS4 sales top 30 million</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/star-wars-goes-virtual-reality-with-google-cardboard/" data-toc-asset-options='{"id":"db6960a8-f9e8-4a8c-80f1-ae678f8d1f5a","ajaxUrl":"\/news\/star-wars-goes-virtual-reality-with-google-cardboard\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet3.cbsistatic.com/hub/i/r/2015/11/24/8971d927-438d-4463-9ef4-36dd5179d65e/thumbnail/70x70/341abfedfc176b4d620535e58f520596/atfwimage-1536x864-184826374286.jpg"><noscript><img src="http://cnet3.cbsistatic.com/hub/i/r/2015/11/24/8971d927-438d-4463-9ef4-36dd5179d65e/thumbnail/70x70/341abfedfc176b4d620535e58f520596/atfwimage-1536x864-184826374286.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Star Wars goes virtual reality with Google Cardboard</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/amazon-adorns-new-york-subway-with-nazi-insignia/" data-toc-asset-options='{"id":"6d039ea4-c069-470c-bb72-45a7eb9fa28c","ajaxUrl":"\/news\/amazon-adorns-new-york-subway-with-nazi-insignia\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/331c62e0-ecb4-4a43-95cd-0c8182c7d62e/thumbnail/70x70/7a3ac7330422d5f165a30180e689a1b7/nazi8.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/331c62e0-ecb4-4a43-95cd-0c8182c7d62e/thumbnail/70x70/7a3ac7330422d5f165a30180e689a1b7/nazi8.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Amazon adorns New York subway with Nazi insignia</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/apple-pencil-powered-by-amazingly-tiny-tech/" data-toc-asset-options='{"id":"77fa6132-8036-4a96-8053-840c0533298f","ajaxUrl":"\/news\/apple-pencil-powered-by-amazingly-tiny-tech\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/90bc42bf-88f6-4c04-b463-c2065e53824e/thumbnail/70x70/d7a0c1426aac9b1c3b8e0af94d1574fb/applepencilteardown002.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/90bc42bf-88f6-4c04-b463-c2065e53824e/thumbnail/70x70/d7a0c1426aac9b1c3b8e0af94d1574fb/applepencilteardown002.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">We cracked open an Apple Pencil so you don't have to</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/what-makes-a-kickstarter-campaign-kick/" data-toc-asset-options='{"id":"11d40779-6026-4779-a813-916c1d5b2889","ajaxUrl":"\/news\/what-makes-a-kickstarter-campaign-kick\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/7a294f21-7e9b-4919-a379-71fd7621e6a2/thumbnail/70x70/dd4c102890a79d8352c448986c55352b/kickstarter.png"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/25/7a294f21-7e9b-4919-a379-71fd7621e6a2/thumbnail/70x70/dd4c102890a79d8352c448986c55352b/kickstarter.png" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">What makes a Kickstarter campaign kick?</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/watch-this-teen-destroy-the-rubiks-cube-world-record/" data-toc-asset-options='{"id":"7ea9bff9-30b9-4324-9f56-905c2b9400b8","ajaxUrl":"\/news\/watch-this-teen-destroy-the-rubiks-cube-world-record\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/1bee71b9-d0ee-4b0d-aee9-15b866af4bcf/thumbnail/70x70/a53cad5abac6ee5fc2a3332376f7144a/rubikscubeetterworldrecord.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/1bee71b9-d0ee-4b0d-aee9-15b866af4bcf/thumbnail/70x70/a53cad5abac6ee5fc2a3332376f7144a/rubikscubeetterworldrecord.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Watch this teen destroy the Rubik's Cube world record</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/nasa-tries-to-rattle-people-in-its-sonic-boom-room/" data-toc-asset-options='{"id":"60aa7021-29ab-40a8-9108-181df0132357","ajaxUrl":"\/news\/nasa-tries-to-rattle-people-in-its-sonic-boom-room\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/21dd93ce-283c-44d5-a1ed-a2dfae74f5f0/thumbnail/70x70/fa88a9eea94d928f6f66b553ec35aae1/nasa-jet.jpg"><noscript><img src="http://cnet4.cbsistatic.com/hub/i/r/2015/11/24/21dd93ce-283c-44d5-a1ed-a2dfae74f5f0/thumbnail/70x70/fa88a9eea94d928f6f66b553ec35aae1/nasa-jet.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">NASA tries to rattle people in its sonic-boom room</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/crazy-bright-90000-lumens-flashlight-turns-night-into-day/" data-toc-asset-options='{"id":"4527b028-75a6-4a0a-8a08-ed1fa9ef3f6c","ajaxUrl":"\/news\/crazy-bright-90000-lumens-flashlight-turns-night-into-day\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/c7d8c01b-b5fa-4684-83aa-000a4eee3562/thumbnail/70x70/0cab92478a173d7ff8af7ec5b6ae27e5/flashlight.jpg"><noscript><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/24/c7d8c01b-b5fa-4684-83aa-000a4eee3562/thumbnail/70x70/0cab92478a173d7ff8af7ec5b6ae27e5/flashlight.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Crazy-bright 90,000-lumen LED flashlight turns night into day</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                                                        <li>
+                        
+                        <a href="/news/j-j-abrams-reveals-the-first-word-spoken-in-star-wars-the-force-awakens/" data-toc-asset-options='{"id":"5fc5dc51-998c-44a5-95b9-58576d591c96","ajaxUrl":"\/news\/j-j-abrams-reveals-the-first-word-spoken-in-star-wars-the-force-awakens\/xhr\/"}'>
+                                        
+                                <figure class="col-1 img"><img src="" class="lazy " alt="" height="70" width="70" data-original="    http://cnet1.cbsistatic.com/hub/i/r/2015/11/24/1fdad6c4-1d4e-47fc-b0a7-02600b56419a/thumbnail/70x70/923f58a612cf317058f213cd3e3377c7/jjabrams.jpg"><noscript><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/24/1fdad6c4-1d4e-47fc-b0a7-02600b56419a/thumbnail/70x70/923f58a612cf317058f213cd3e3377c7/jjabrams.jpg" class="" alt="" height="70" width="70"></noscript></figure><div class="desc">
+                                <span class="hed">Revealed: The first word spoken in 'Star Wars: The Force Awakens'</span>
+                            </div>
+                        </a>
+                    </li>
+                                                                            </ul><div id="native-toc-565c7d826e3d1" class="ad-native-toc" data-ad="native-toc">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-toc-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-toc-565c7d826e3d1");
+    </script></div>
+                </nav></div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+
+                            
+                                    <div id="intromercial-565c7d826e3d1" class="ad-intromercial" data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-565c7d826e3d1");
+    </script></div>
+            
+                    <div id="rbContent" class="" data-component="magnet">
+                <div class="pageContainer" data-container-asset-id="1b653bb7-cb77-4298-bcd9-629995b0d504" data-teads-num="1">
+        
+        <div class="container"><div class="row"><div class="col-8"><ul class="breadcrumb" section="bc"><li><a href="/">CNET</a><span class="divider"></span></li><li><a href="/topics/internet/">Internet</a><span class="divider"></span></li><li>Amazon delivery drones get a new look</li></ul></div></div><div class="articleHead"><h1>Amazon delivery drones get a new look</h1><p class="article-dek">Two years on from its unveiling, Amazon Prime Air now features a sleeker, smarter unmanned aircraft. When it will be cleared for takeoff remains anyone's guess.</p><div class="authorInfo article-byline"><span class="byText">by</span><a rel="author" class="author" href="http://www.cnet.com/profiles/stevenmusil/">
+                            Steven Musil
+                        </a><span class="asset-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'><a class="twitterIcon" target="_blank" href="https://twitter.com/intent/user?screen_name=stevenmusil"><div class="twitter"><div class="icon icon-twitter-red"></div></div></a><a class="twitterHandle" target="_blank" href="https://twitter.com/intent/user?screen_name=stevenmusil">@stevenmusil</a></span><span> / </span><time><span class="formattedDate">November 29, 2015</span><span class="formattedTime">1:40 PM PST</span></time></div></div></div><div id="rbSkin" data-article-num="1"><span id="adSkinLeft"></span><span id="adSkinRight"></span><div id="skin-565c7d826e3d1" class="ad-skin" data-ad="skin"><script>
+        window.console && console.log && console.log("ADS: queuing skin-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-565c7d826e3d1");
+    </script></div><div class="sticky-leader" data-component="stickyLeader"><div id="leader-top-565c7d826e3d1" class="ad-leader-top" data-ad="leader-top"><script>
+        window.console && console.log && console.log("ADS: queuing leader-top-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-565c7d826e3d1");
+    </script></div></div><div class="articleContent container  "><div class="container"><div class="row"><div class="row"><div class="col-12"><div class="row"><div class="col-8"></div><div class="col-4"></div></div></div></div><div class="row"><div class="col-12"><article itemscope itemtype="http://schema.org/Article" id="article-body" section="articleBody"><meta itemprop="thumbnailUrl" content="http://cnet4.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/thumbnail/770x433/b16d26c31586b3e60043663051b3241e/amazondrone.jpg"><meta itemprop="keywords" content="Internet, Amazon Prime, Amazon, Drones"><meta itemprop="url" content="http://www.cnet.com/news/amazon-shows-off-new-prime-air-prototype-delivery-drone/"><meta itemprop="headline" content="Amazon delivery drones get a new look"><meta itemprop="description" content="Two years on from its unveiling, Amazon Prime Air now features a sleeker, smarter unmanned aircraft. When it will be cleared for takeoff remains anyone's guess."><div class="col-2"><div id="article-info" class="sideBar article-byline" section="author"><h6><a href="/topics/internet/">Internet</a></h6><time itemprop="datePublished" content="2015-11-29T13:40:00-0800"><span class="formattedDate">November 29, 2015</span><span class="formattedTime">1:40 PM PST</span></time><ul><li itemscope itemtype="http://schema.org/Person"><div class="col-1 profilePic articleProfilePic"><a itemprop="name"><figure class=" img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2013/07/29/d7513a63-f8ee-11e2-8c7c-d4ae52e62bcc/thumbnail/70x70/8320d8fd3f3699566f4f13bf28f99b88/Steven_Musil2.jpg" class="" alt="Steven Musil mugshot" height="70" width="70"></figure></a></div><div class="col-2 profileInfo articleProfileInfo"><span class="byText">by</span><a itemprop="name" rel="author" class="author" href="http://www.cnet.com/profiles/stevenmusil/">
+                                    Steven Musil
+                                </a><span class="asset-twitter" data-component="socialTracking" data-social-tracking-options='{"socialSite":"twitter"}'><a class="twitterIcon" target="_blank" href="https://twitter.com/intent/user?screen_name=stevenmusil"><div class="twitter"><div class="icon icon-twitter-red"></div></div></a><a class="twitterHandle" target="_blank" href="https://twitter.com/intent/user?screen_name=stevenmusil">@stevenmusil</a></span></div></li></ul></div></div><div class="col-10 article-main-body row" itemprop="articleBody" data-use-autolinker="true" data-component="lazyloadImages"><div class="sharebarRedesign inline-view atTop" section="topSharebar" data-component="sharebar" data-sharebar-options='{"title":"Amazon delivery drones get a new look","description":"Two years on from its unveiling, Amazon Prime Air now features a sleeker, smarter unmanned aircraft. When it will be cleared for takeoff remains anyone\u0027s guess.","url":"http:\/\/www.cnet.com\/news\/amazon-shows-off-new-prime-air-prototype-delivery-drone\/","popupWidth":780,"popupHeight":510,"data":{"media":"http:\/\/cnet2.cbsistatic.com\/hub\/i\/r\/2015\/11\/29\/6f6a94e7-c154-4f35-a251-75396f5f0cbf\/thumbnail\/170x128\/0cf00d2b08705ad1d4baad82e4618582\/amazondrone.jpg"}}'><div class="sharebarWrapper "><ul class="sharebarContainer"><li class="share-button sharebarRedesignButton"><a data-popup="facebook"><div class="social-button-small-redesign facebook"><div class="icon icon-small-facebook">facebook</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="twitter"><div class="social-button-small-redesign twitter"><div class="icon icon-small-twitter">twitter</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="linkedin"><div class="social-button-small-redesign linkedin"><div class="icon icon-small-linkedin">linkedin</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="googleplus"><div class="social-button-small-redesign googleplus"><div class="icon icon-small-googleplus">googleplus</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="email"><div class="social-button-small-redesign email"><div class="icon icon-small-email">email</div></div></a></li><li class="share-button sharebarRedesignButton comment-count-redesign" data-livefyre-count-redesign="1b653bb7-cb77-4298-bcd9-629995b0d504"><a href="#comments"><div class="social-button-small-redesign comments"><div class="icon icon-small-comments">comments</div></div></a></li><li class="share-button sharebarRedesignButton moreButton" data-component="touchMenuHover"><span class="moreWrap"><a><div class="social-button-small-redesign more"><div class="icon icon-small-more">more</div></div></a></span><div class="hoverWrap"><ul><li class="share-button sharebarRedesignButton"><a data-popup="reddit"><div class="social-button-small-redesign reddit"><div class="icon icon-small-reddit">reddit</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="pinterest"><div class="social-button-small-redesign pinterest"><div class="icon icon-small-pinterest">pinterest</div></div></a></li><li class="share-button sharebarRedesignButton"><a data-popup="tumblr"><div class="social-button-small-redesign tumblr"><div class="icon icon-small-tumblr">tumblr</div></div></a></li></ul></div></li></ul></div><div id="sponsor_ad" class="sponsor"><div id="social-logo-bottom-565c7d826e3d1" class="ad-social-logo-bottom" data-ad="social-logo-bottom"><script>
+        window.console && console.log && console.log("ADS: queuing social-logo-bottom-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("social-logo-bottom-565c7d826e3d1");
+    </script></div></div></div><div class="col-8"><div id="mpu-plus-top-565c7d826e3d1" class="ad-mpu-plus-top" data-ad="mpu-plus-top"><script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-565c7d826e3d1");
+    </script></div><figure class="image image-medium
+                pull-none  col-6
+                " section="shortcodeImage"><div class="originalImage" data-open="modal" data-target="#6f6a94e7-c154-4f35-a251-75396f5f0cbf" data-component="modalEnlargeImage"><img src="http://cnet2.cbsistatic.com/hub/i/r/2015/11/29/6f6a94e7-c154-4f35-a251-75396f5f0cbf/resize/570xauto/d1a1d0c46511b09a335564d7c6a8691a/amazondrone.jpg" class="" alt="amazondrone.jpg" itemprop="image" height="auto" width="570"><a class="clickToEnlarge"><button type="submit" class="searchButton" value="Search"></button><span>Enlarge Image</span></a><div id="6f6a94e7-c154-4f35-a251-75396f5f0cbf" class="enlargeImage" data-component="globalModal" data-global-modal-options='{"content":"&lt;img src=\u0027http:\/\/cnet2.cbsistatic.com\/hub\/i\/2015\/11\/29\/6f6a94e7-c154-4f35-a251-75396f5f0cbf\/684b23ed2dfd439c3b9357f460de11f0\/amazondrone.jpg\u0027&gt;","modalTemplate":"&lt;div class=\u0022enlargeContainer\u0022&gt;&lt;div class=\u0022enlargeImageWrapper\u0022&gt;&lt;a class=\u0022close\u0022 data-close=\u0022modal\u0022&gt;&lt;\/a&gt;{{content}}&lt;\/div&gt;&lt;\/div&gt;"}'></div></div><figcaption><span class="caption"><p>Amazon's hybrid drone behaves as both a helicopter and airplane.</p></span><span class="credit">
+                                            Amazon
+                                        </span></figcaption></figure><p>Whenever Amazon's Prime Air plan finally gets off the ground, watch for more than just one type of drone coming to your doorstep.</p><p>The e-commerce powerhouse has unveiled a new design for its delivery drones,  nearly two years to the day after it first teased us with its ambitions for the diminutive and unmanned aerial vehicles.</p><p>In a <a href="https://www.youtube.com/watch?v=MXo_d6tNWuY&amp;feature=youtu.be" target="_blank" data-component="externalLink">video posted to YouTube</a> on Sunday (embedded below), Amazon showed off a sleeker, smarter prototype drone it hopes to use to deliver small packages to customers in less than 30 minutes. Unlike a previous demonstration offered by Amazon that showed packages being carried below the drone, the new video shows the prototype accepting a package into its fuselage before delivery.</p><p>Retailers such as Amazon and Walmart are continually looking for new  ways to get a jump on the competition and attract customers. Speedy delivery is one method -- or, in Amazon's case, many methods. The Seattle-based company is building out its Prime Now service, which aims for one- or two-hour deliveries of certain goods, and in September it kicked off a program that lets everyday folks, not just delivery professionals, cart packages to consumers' homes.</p><p>Small, commercial aerial drones, meanwhile, could avoid  the delays of terrestrial deliveries by flying above traffic and avoiding circuitous roadways.</p><div id="inpage-video-top-565c7d826e3d1" class="ad-inpage-video-top" data-ad="inpage-video-top"><script>
+        window.console && console.log && console.log("ADS: queuing inpage-video-top-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("inpage-video-top-565c7d826e3d1");
+    </script></div><p>In the new video, Amazon's "hybrid" drone is shown taking off vertically like a helicopter and then switching to a more airplane-like flight. Using "sense and avoid" technology, it can avoid  obstacles in the air and on the ground for a range of 15 miles, Amazon said. </p><p>"In time there will be a whole family of Amazon drones, different designs for different environments," said  Jeremy Clarkson, the former "Top Gear" host who presents the video, and who will <a href="http://www.cnet.com/news/clarkson-and-the-top-gear-team-are-very-very-very-expensive-says-amazon-boss/">front a new car show on Amazon Video</a>.</p><div class="shortcode iframe">
+    <iframe src="https://www.youtube.com/embed/MXo_d6tNWuY" width="620" height="349" frameborder="0" allowfullscreen>
+    </iframe>
+</div><p>Amazon made a splash in December 2013 when it announced it was <a href="http://www.cnet.com/news/amazon-testing-octocopter-package-delivery-drones/">testing its Prime Air delivery service</a>. The aircraft at that time featured an "octocopter" design, similar to that found in a number of recreational drones, meant to deliver shoebox-sized packages. The service can't take off, however, until the US Federal Aviation Administration figures out how it will regulate unmanned aircraft when they're used for commercial purposes.</p><p>The creation of new drones and the interest in using them commercially  has exploded in the past few years. The Association for Unmanned Vehicle  Systems International claims the first three years of integration of  drones in the US skies will create more than 70,000 jobs and create an  economic impact of $13.6 billion.</p><p>Even as the FAA enforces its ban on unlicensed commercial drone operations, it is working on rules to <a href="http://www.cnet.com/news/faa-liberal-proposed-rules-win-allies-in-drone-business/">permit the use of drones without businesses having to secure specific permission</a>. It has released draft regulations but missed a September deadline to finalize those rules.</p><div id="mpu-bottom-565c7d826e3d1" class="ad-mpu-bottom" data-ad="mpu-bottom"><script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-565c7d826e3d1");
+    </script></div><p>Amazon is working with regulators and policymaker to make the delivery service a reality as soon as possible, an Amazon spokeswoman said Sunday evening. </p><p>"We will deploy when  and where we have the regulatory support needed to safely realize our vision," Kristen Kish said.</p><p><strong>Updated at 6:20 p.m. PT</strong><em>with comment from Amazon.</em></p></div><footer><div class="row collections-topics-and-tags" section="tag"><dl><dt><b>Tags: </b></dt><dd><a href="/topics/internet/">Internet</a></dd><dd><a href="/tags/amazon-prime/">Amazon Prime</a></dd><dd><a href="/tags/amazon/">Amazon</a></dd><dd><a href="/tags/drones/">Drones</a></dd></dl></div></footer></div></article><div class="row"><div class="col-8 subfooter"><div class="collapsible hidden" data-component="toggle" data-toggle-options='{"openOnInit":false}'><!-- General comments --><div id="livefyreContainer-1b653bb7-cb77-4298-bcd9-629995b0d504" class="livefyreContainer"><a name="comments" class="livefyreJumpTarget"> </a><h3><span>Discuss: Amazon delivery drones get a new look</span></h3><div id="livefyreConversation-1b653bb7-cb77-4298-bcd9-629995b0d504" class="livefyreConversation" data-component="livefyreConversation" data-livefyre-conversation-options='{"globalConfig":{"network":"cnet.fyre.co","stringOverrides":[]},"commentStreamConfigs":{"initialNumVisible":5,"maxVisible":5,"siteId":311569,"articleId":"1b653bb7-cb77-4298-bcd9-629995b0d504","el":"livefyreConversation-1b653bb7-cb77-4298-bcd9-629995b0d504","checksum":"4d824213e8518dcc64065c46f4e8427f","collectionMeta":"eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6IkFtYXpvbiBkZWxpdmVyeSBkcm9uZXMgZ2V0IGEgbmV3IGxvb2siLCJ1cmwiOiJodHRwOlwvXC93d3cuY25ldC5jb21cL25ld3NcL2FtYXpvbi1zaG93cy1vZmYtbmV3LXByaW1lLWFpci1wcm90b3R5cGUtZGVsaXZlcnktZHJvbmVcLyIsImNoZWNrc3VtIjoiNGQ4MjQyMTNlODUxOGRjYzY0MDY1YzQ2ZjRlODQyN2YiLCJhcnRpY2xlSWQiOiIxYjY1M2JiNy1jYjc3LTQyOTgtYmNkOS02Mjk5OTViMGQ1MDQifQ.lqMajxpixvThXlWGctmumOx29p5fxa_r2HEfj6cvTt4"},"profileURL":"\/profiles\/%7Busername%7D\/"}'></div><div class="livefyreFooter"><p class="livefyrePowered">Conversation powered by Livefyre</p></div></div><div class="toggleComments" data-item="trigger"><span class="showComments">Show Comments</span><span class="hideComments">Hide Comments</span></div></div><div class="fixate-bottom-anchor"></div></div></div><div class="row"><div class="col-2"></div><div class="col-8 videoPromoContainer"><div class="videoWrapper"><div section="videoPromo" class="videoPromo" data-component="productReviewVideo" data-product-review-video-options='{"videoParent":"[data-container-asset-id=1b653bb7-cb77-4298-bcd9-629995b0d504] .videoPromo","closeButtonParent":"[data-container-asset-id=1b653bb7-cb77-4298-bcd9-629995b0d504] .videoPromo"}'><h6><span>Featured Video</span></h6><div class="cnetVideoPlayer hide" data-tpbaseurl="http://cnet2.cbsistatic.com/fly/bundles/cnetmpxpdk/pdk" data-component="cnetVideo" data-cnet-video-options='{"video":null,"videos":[{"id":"8822f48b-3888-4c31-ab3a-f9be30b8c8d5","title":"Top 5 ways to reuse an Android device","description":"Got an old Android device not doing anything? Find out what else it can do other than collect dust.","slug":"top-5-ways-to-reuse-an-android-device","chapters":"","mpxId":"574326339629","mpxRefId":"HJ6t0kqzE99thmti6l471jeAf3eTTMTS","primaryTopic":{"id":""},"author":{"id":"74504c8d-a5f9-4894-9cc3-b7e94f30d64b","firstName":"Iyaz","lastName":"Akhtar"},"primaryCollection":{"id":"62f3b410-203f-49d9-b99b-fd2c2c2da1a2","title":"CNET Top 5"},"duration":158,"files":{"hds":"cbSxI6RQBk1n","3g":"pkrP1c9Sv4XG","wifi":"C8lXrv3Qn4TG","hls_phone":"l7b0YnNjlImT","hls_tablet":"8OibU9jrTbZY"}},{"id":"8fe4f70d-3973-475b-9c15-adaa964f4327","title":"Price-tracking tools to help you save money","description":"Don\u0027t pay more than you should for holiday gifts. In this Tech Minute, CNET\u0027s Sharon Profis shares three ways to help you comparison shop online and get price alerts.","slug":"price-tracking-tools-to-help-you-save-money","chapters":"","mpxId":565762116002,"mpxRefId":"Ji9NhOSpxm3ANWC678Pbv3_Sjwa71pGz","primaryTopic":{"id":""},"author":{"id":"fdbb6182-8175-11e2-9d12-0018fe8a00b0","firstName":"Sharon","lastName":"Profis"},"primaryCollection":{"id":"64b3d9f5-98b6-486d-8b82-93c1c149ca3a","title":["Tech Minute"]},"duration":63,"files":{"hds":"M43qPiuaughJ","hls_tablet":"CrViLnIk19zc","3g":"xv5hyGNpmwbl","wifi":"_jq3eHOeLPtP","hls_phone":"YSrR5YJy7U2K"}},{"id":"b62de56a-9952-4e09-93c7-13eec7ba27fd","title":"No-fail ways to clean up your inbox","description":"Is your inbox flooded with thousands of unread and unsorted emails? In this Tech Minute, CNET\u0027s Sharon Profis has three easy ways to clear away the clutter.","slug":"no-fail-ways-to-clean-up-your-inbox","chapters":"","mpxId":563918915585,"mpxRefId":"2Dn4Qg423_aKXeL8h37x_YTo8TUHgzXz","primaryTopic":{"id":""},"author":{"id":"fdbb6182-8175-11e2-9d12-0018fe8a00b0","firstName":"Sharon","lastName":"Profis"},"primaryCollection":{"id":"64b3d9f5-98b6-486d-8b82-93c1c149ca3a","title":["Tech Minute"]},"duration":60,"files":{"hds":"ANhoGNnVSDTg","hls_phone":"X16AKNP_4gyv","hls_tablet":"b2EoRgBIStzb","wifi":"8r951NTio7Ps","3g":"xbwkCgp2pFvr"}},{"id":"a1534fee-6931-4d2b-b3aa-75c3d6b1b536","title":"What Google knows about you","description":"It\u0027s no surprise Google keeps track of your usage habits. But just how much of your data is it holding on to? Here\u0027s how to find out.","slug":"what-google-knows-about-you","chapters":"","mpxId":500021827517,"mpxRefId":"_sJvVWHVX1d4KLEoour0klpfH4zB8RA4","primaryTopic":{"id":""},"author":{"id":"fdbb6182-8175-11e2-9d12-0018fe8a00b0","firstName":"Sharon","lastName":"Profis"},"primaryCollection":{"id":"6fcb322f-9ea7-49cc-873e-a56053cd663f","title":["Special Features","Special Features","Special Features","Special Features"]},"duration":122,"files":{"wifi":"sLvjV41lJmhV","hls_phone":"w1KclgEXTnW1","hds":"kvZCjLaBnEGF","3g":"Atgx_AOdhx8A","hls_tablet":"aYM_6vqmx3c2"}},{"id":"d6d6b009-3b63-4861-8a6a-d0285eb4287c","title":"Explaining the Reddit Revolt","description":"CNET\u0027s Dan Graziano explains why Reddit has been in the news.","slug":"explaining-the-reddit-revolt","chapters":"","mpxId":484211779755,"mpxRefId":"WCVbaih87FpJWJNh_rGz2YuHDVI_hfMk","primaryTopic":{"id":""},"author":{"id":"96bc906f-8245-11e3-b21f-14feb5ca9861","firstName":"Dan","lastName":"Graziano"},"primaryCollection":{"id":"6fcb322f-9ea7-49cc-873e-a56053cd663f","title":["Special Features","Special Features","Special Features","Special Features"]},"duration":166,"files":{"hds":"wT2sRRhm5bvP","3g":"ChxWmm3fkFLk","wifi":"A_qjLN_D_Um_","hls_phone":"xf2A7g_bLr2N","hls_tablet":"2rDjpCCvECOE"}},{"id":"6a2968fd-543e-4553-95f3-26ea32f53d84","title":"What to watch on HBO Now and what\u0027s coming to iTunes, July 2015","description":"HBO is adding and losing some quality movies. Meanwhile, Apple\u0027s got a bunch of movies you could catch at home instead of at the theater.","slug":"what-to-watch-on-hbo-now-and-whats-coming-to-itunes-july-2015-netpicks","chapters":"","mpxId":475148355938,"mpxRefId":"v9g63sX59gjk_I_xmIR2uNvOT8gu000I","primaryTopic":{"id":""},"author":{"id":"74504c8d-a5f9-4894-9cc3-b7e94f30d64b","firstName":"Iyaz","lastName":"Akhtar"},"primaryCollection":{"id":"eee6e8de-9fdf-4c2c-9979-79a08531a1c4","title":["Netpicks","Netpicks","Netpicks","Netpicks"]},"duration":115,"files":{"hds":"72kAMD7WlfQO","hls_phone":"BLbj_AHh7tKt","wifi":"tX27zx4qckpr","3g":"RMu3MledWmZo","hls_tablet":"khkPTYOynmSe"}},{"id":"7156a18c-5deb-4202-8094-db2be83ed81e","title":"Search bookmarks and history super quick in Google Chrome","description":"Time is precious. Don\u0027t waste it with inefficiency. Learn the fastest way to find pretty much anything within your Google-powered web browser.","slug":"search-bookmarks-and-history-super-quick-in-google-chrome","chapters":"","mpxId":474318915842,"mpxRefId":"D5jcVPdwZvlHNgkqGas2sRArw6vgTNtu","primaryTopic":{"id":""},"author":{"id":"74504c8d-a5f9-4894-9cc3-b7e94f30d64b","firstName":"Iyaz","lastName":"Akhtar"},"primaryCollection":{"id":"043b8a15-f01d-441a-8401-7db7466c3747","title":["How To Video","How To Video","How To Video","How To Video"]},"duration":94,"files":{"3g":"Is79Pf3nHPn8","wifi":"pysXYEFTRxJg","hds":"WcUXGvqI4_hV","hls_tablet":"HSCoqRasHyXb","hls_phone":"YXEhYMiKVWW9"}},{"id":"40de86b3-7184-47c6-ae65-b8868616cebe","title":"Undo sending those embarrassing emails","description":"Gmail now officially supports an \u0027Undo Send\u0027 feature that puts the brakes on those emails you really didn\u0027t mean to send. Here is how to enable it now.","slug":"undo-sending-those-embarrassing-emails","chapters":"","mpxId":470207555760,"mpxRefId":"aE_wT26EnGV7fjqYp5aGzQk4o_WpE_Qb","primaryTopic":{"id":""},"author":{"id":"7cbbe78d-a591-11e2-8a8e-0291187978f3","firstName":"Lexy","lastName":"Savvides"},"primaryCollection":{"id":"043b8a15-f01d-441a-8401-7db7466c3747","title":["How To Video","How To Video","How To Video","How To Video"]},"duration":96,"files":{"hds":"4gZnsMeXkGd4","3g":"lhUCQb69nITb","hls_phone":"zk5Mf_AEygOA","hls_tablet":"7NpntynOQ387","wifi":"I9vNtXUiiL7r"}},{"id":"294a1eda-c355-4271-8913-263bd05c4126","title":"4 ways to perfect your Netflix experience","description":"These tips from CNET\u0027s Dan Graziano could greatly improve your viewing experience on Netflix.","slug":"4-ways-to-perfect-your-netflix-experience","chapters":"","mpxId":419206211553,"mpxRefId":"3u83OJFT38QGcBlup3dN5jhZQd6aXux6","primaryTopic":{"id":""},"author":{"id":"96bc906f-8245-11e3-b21f-14feb5ca9861","firstName":"Dan","lastName":"Graziano"},"primaryCollection":{"id":"043b8a15-f01d-441a-8401-7db7466c3747","title":["How To Video","How To Video","How To Video","How To Video"]},"duration":137,"files":{"wifi":"4TRDjwQKY7Sk","hds":"nfeB_wxUGmtb","rtmp":"2V3Q_3WApL8z","hls_tablet":"9clkDsU1NzEt","3g":"_mvJiPrVfMRJ","hls_phone":"Qj9T0I__8QjF"}},{"id":"601339a3-d061-491e-beb5-05f34fe70d90","title":"Enable \u0027God Mode\u0027 for better Netflix browsing","description":"CNET\u0027s Dan Graziano shows how to disable horizontal scrolling on the Netflix website.","slug":"enable-god-mode-for-better-netflix-browsing","chapters":"","mpxId":418115651790,"mpxRefId":"U7xnTAEz0ld_UQQZdWmpqBSLMfFeytiW","primaryTopic":{"id":""},"author":{"id":"96bc906f-8245-11e3-b21f-14feb5ca9861","firstName":"Dan","lastName":"Graziano"},"primaryCollection":{"id":"043b8a15-f01d-441a-8401-7db7466c3747","title":["How To Video","How To Video","How To Video","How To Video"]},"duration":73,"files":{"rtmp":"fWtLxmTE_wQG","hds":"qlwi46g0hwn3","3g":"cRHgUfpUTG3K","wifi":"TpKQL6_K8eUU","hls_tablet":"jaW3IC8yRgqK","hls_phone":"zE4DsZcyfNTp"}},{"id":"8121eeac-4c7b-491c-928e-1eee92ed5bef","title":"Get connected with the Alcatel OneTouch Wi-Fi Link hotspots","description":"With 4G+, 4G, and 3G models, these Wi-Fi Link hotspots from Alcatel keep you connected.","slug":"get-connected-with-the-alcatel-onetouch-wi-fi-link-hotspots","chapters":"","mpxId":406050883923,"mpxRefId":"R11AvZjfQRzLQFK3602Z0Dx372bgI8PU","primaryTopic":{"id":""},"author":{"id":"88acc048-8175-11e2-9d12-0018fe8a00b0","firstName":"Lynn","lastName":"La"},"primaryCollection":{"id":"4dfce24e-19d8-460e-a9a3-b970c6f3e39f","title":["Mobile World Congress 2015","Mobile World Congress 2015","Mobile World Congress 2015","Mobile World Congress 2015","First Look","First Look","First Look","First Look"]},"duration":54,"files":{"hds":"9Yu3_VHtuGpg","3g":"EGzDvLV2x7_e","wifi":"xlrDO70kU2F1","rtmp":"YXKjpCcgsNjW","hls_tablet":"ateUnR7TrPbW","hls_phone":"u_SiEbdmm4x1"}}],"relatedItems":null,"autoplay":"false","timelineContainer":".videoPromo","vidInfoContainer":null,"monitorProgress":null,"refreshAds":["mpu-plus-top","skin","leader-bottom","leader-top","social-logo-bottom","inline-product-carousel-top"],"timeRange":"","popOnScroll":false,"config":{"policies":{"default":11417438},"players":{"default":{"mpx_account":"kYEXFC","runtimes":"Flash,HTML5","playerUrl":"http:\/\/player.theplatform.com\/p\/kYEXFC\/cnet-video-player","layoutUrl":{"desktop":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.desktop.xml","mobile":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.mobile.xml","videoDoor":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.videoDoor.xml"},"skinUrl":{"desktop":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetSkin.desktop.json","mobile":"\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetSkin.mobile.json"},"colors":{"controlFrameColor":"0x3e3e3e","controlBackgroundColor":"0x656565","controlHoverColor":"0xffffff","controlSelectedColor":"0xffffff","controlColor":"0xbbbbbb","frameColor":"0x3e3e3e","playProgressColor":"0x4583b2","scrubberFrameColor":"0x61809e","scrubberColor":"0xffffff","scrubTrackColor":"0x3a424d","pageBackgroundColor":"0x000000"},"plugins":{"1":"vast","2":"omniture","3":"dw","4":"comscore","5":"nielsen"}}},"tracking":{"can_partner_id":"canPartnerID","comscore_id":"3000085","comscore_home":"3000085","comscore_news":"3000078","comscore_reviews":"3000087","comscore_videos":"3000088","nielsen_cid":"us-200330","nielsen_vcid":"c07","nielsen_vcid_reviews":"c05","nielsen_vcid_home":"c07","nielsen_vcid_news":"c08","nielsen_vcid_how_to":"c09","nielsen_vcid_videos":"c20"}},"layoutUrl":"http:\/\/cnet4.cbsistatic.com\/fly\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetLayout.desktop.xml","skinUrl":"http:\/\/cnet1.cbsistatic.com\/fly\/bundles\/cnetvideo\/pdk\/skins\/cnet\/cnetSkin.desktop.json","baseUrl":"http:\/\/www.cnet.com\/","runtime":"Flash","policy":null,"adBlockTitle":"Sorry about that","adBlockMessage":"It looks like you\u0027re using an ad blocker. We know you don\u0027t love ads. But they allow us to pay the writers, editors and producers who work to make your favorite CNET videos. To watch this video, please disable your ad blocker and refresh the page. Thanks for tuning in. You\u0027re the best.","noFlashTitle":"Flash Player upgrade required","noFlashMessage":"Please &lt;a href=\u0022http:\/\/get.adobe.com\/flashplayer\/\u0022 target=\u0022_new\u0022&gt;download and install&lt;\/a&gt;  the latest version of the Adobe Flash Player to watch this video.","hideItem":null,"targetItem":null,"partnerId":null}'><div data-item="loadingCircle" id="countdownSpinner" data-iteration="5"><div id="countdownCount"></div></div><script type="text/javascript">
+
+            if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+                document.getElementById('countdownSpinner').setAttribute('id', 'loadingCircle');
+                document.getElementById('countdownCount').innerHTML = "";
+            }
+
+            var cdcIntervalId = setInterval(function () {
+                var iteration = (document.getElementById('countdownSpinner')) ? document.getElementById('countdownSpinner').getAttribute('data-iteration') : 0;
+                if (iteration == undefined || iteration == 'NaN' || iteration == 0) {
+                    clearInterval(cdcIntervalId);
+                } else {
+                    document.getElementById('countdownCount').innerHTML = iteration;
+                    document.getElementById('countdownSpinner').setAttribute('data-iteration', iteration - 1);
+                }
+            }, 1000);
+        </script><div id="customPlayerCards"></div><script data-item="abCheck" src="http://cnet2.cbsistatic.com/fly/bundles/cnetjs/js/utils/advertisement3.js" type="text/javascript"></script></div><div class="videoSlide"><div><div class="playOverlay" data-item="playOverlay"></div><figure class=" img"><img src="http://cnet1.cbsistatic.com/hub/i/r/2015/11/25/8ab70ddc-4fb3-497f-94b6-3053d53a5c53/thumbnail/770x433/83a17a28c326873de8039db2fde05546/reuse-final.png" class="photo" alt="" height="433" width="770"></figure></div><div class="meta"><h4>Top 5 ways to reuse an Android device</h4><p class="dek">Got an old Android device not doing anything? Find out what else it can do other than collect dust.</p><span class="author">by <span class="name">Iyaz Akhtar</span></span><span class="date"><time datetime="November 30, 2015">November 30, 2015</time></span></div></div></div></div><div class="sponsoredContentHeader"><h6></h6></div><div id="video-thumbnail-top-565c7d826e3d1" class="ad-video-thumbnail-top" data-ad="video-thumbnail-top"><script>
+        window.console && console.log && console.log("ADS: queuing video-thumbnail-top-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("video-thumbnail-top-565c7d826e3d1");
+    </script></div></div><div class="col-2"></div></div><div id="leader-bottom-565c7d826e3d1" class="ad-leader-bottom" data-ad="leader-bottom"><script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-565c7d826e3d1");
+    </script></div><div class="col-8 yad-magnet yad-amazon-shows-off-new-prime-air-prototype-delivery-drone" data-component="yahooAdSearch" data-yahoo-ad-search-options='{"yahooId":"2e80adb3-3fdc-3b4c-98c3-bb7c086a50c1","yahooSelector":".yad-amazon-shows-off-new-prime-air-prototype-delivery-drone","ftag":"YHRbd38a98"}'></div></div></div></div></div></div></div>    </div>
+        </div>
+
+                                    
+<footer id="rbFooter"><div id="footerCopyright" class="col-12">
+        <span class="copyright">© CBS Interactive Inc.  /  All Rights Reserved.</span>
+        <div id="legal">
+            <a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow">Privacy Policy</a>
+            <a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow">Ad Choice</a>
+            <a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow">Terms of Use</a>
+            <a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow">Mobile User Agreement</a>
+        </div>
+    </div>
+
+    <div class="container">
+        
+                                    <div id="dynamic-text-link-top-565c7d826e3d1" class="ad-dynamic-text-link-top" data-ad="dynamic-text-link-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing dynamic-text-link-top-565c7d826e3d1 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("dynamic-text-link-top-565c7d826e3d1");
+    </script></div>
+                </div>
+
+    <nav id="footerMap" class="container"><ul class="col-2 first"><li><a href="/">cnet</a></li>
+        </ul><ul class="col-2"><li class="section">Reviews</li>
+            <li><a href="/reviews/">All Reviews</a></li>
+            <li><a href="/topics/audio/">Audio</a></li>
+            <li><a href="/topics/cameras/">Cameras</a></li>
+            <li><a href="/topics/car-tech/">Car Tech</a></li>
+            <li><a href="/topics/desktops/">Desktops</a></li>
+            <li><a href="/topics/laptops/">Laptops</a></li>
+            <li><a href="/topics/phones/">Phones</a></li>
+            <li><a href="/topics/tablets/">Tablets</a></li>
+            <li><a href="/topics/tvs/">TVs</a></li>
+        </ul><ul class="col-2"><li class="section">News</li>
+            <li><a href="/news/">All News</a></li>
+            <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
+            <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
+            <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
+            <li><a href="/tags/microsoft/">Microsoft</a></li>
+            <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
+            <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
+            <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
+            <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
+        </ul><ul class="col-2"><li class="section">Video</li>
+            <li><a href="/videos/">All Video</a></li>
+            <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
+            <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
+            <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
+            <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
+            <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
+            <li><a href="/tomorrow-daily/" data-vanity-rewritten="true">Tomorrow Daily</a></li>
+            <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
+            <li><a href="/cnet-podcasts/" data-vanity-rewritten="true">CNET Podcasts</a></li>
+        </ul><ul class="col-2" data-component="mobileFooterLink"><li class="section">More</li>
+            <li><a href="http://www.cbsinteractive.com/">About CBS Interactive</a></li>
+            <li><a href="/about/" data-vanity-rewritten="true">About CNET</a></li>
+            <li><a href="/cnet100/">CNET 100</a></li>
+                            <li><a href="/deals/">CNET Deals</a></li>
+                        <li><a href="/forums/">CNET Forums</a></li>
+            <li><a href="http://subscribe.cnet.com/magazine/subscribe/">CNET Magazine</a></li>
+            <li><a href="/news/mobile/" data-vanity-rewritten="true">CNET Mobile</a></li>
+            <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=cnet.com">Help Center</a></li>
+            <li><a href="http://reprints.ygsgroup.com/m/cnet/">Permissions</a></li>
+        </ul><ul class="col-2 last"><li class="section">Follow CNET via...</li>
+            <li><a href="http://www.facebook.com/cnet" class="social-core-facebook">Facebook</a></li>
+            <li><a href="http://twitter.com/cnet" class="social-core-twitter">Twitter</a></li>
+            <li><a href="https://plus.google.com/u/0/105198124856956810263/posts" class="social-core-google">Google+</a></li>
+            <li><a href="http://www.youtube.com/user/CNETTV" class="social-core-youtube">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/cnet" class="social-core-linkedin">LinkedIn</a></li>
+            <li><a href="http://cnet.tumblr.com/" class="social-core-tumblr">Tumblr</a></li>
+            <li><a href="http://pinterest.com/cnet" class="social-core-pinterest">Pinterest</a></li>
+            <li><a href="/user/join-cnet/" class="social-core-newsletters">Newsletters</a></li>
+            <li><a href="/rss/" class="social-core-rss" data-vanity-rewritten="true">RSS</a></li>
+        </ul></nav></footer><!--Visual Revenue Reader Response Tracking Script (v6) --><script type="text/javascript">
+        function vr_init() {
+            $('.load-more').trigger('click');
+        }
+
+        var _vrq = _vrq || [];
+        _vrq.push(['id', 514]);
+        _vrq.push(['automate', false]);
+        _vrq.push(['track', function(){}]);
+        (function(d, a){
+            var s = d.createElement(a),
+            x = d.getElementsByTagName(a)[0];
+            s.async = true;
+            s.src = 'http://a.visualrevenue.com/vrs.js';
+            x.parentNode.insertBefore(s, x);
+        })(document, 'script');
+    </script><!-- End of VR RR Tracking Script - All rights reserved --><div data-component="yahooBeacon" data-yahoo-beacon-options='{"yahooId":"3dea089e-a865-35a2-aee5-6271e85057cf","yahooClass":"YAD-3dea089e-a865-35a2-aee5-6271e85057cf"}'></div>
+        
+<script data-main="http://cnet3.cbsistatic.com/fly/1918-fly/js/main.default.js" src="http://cnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"252d33b7c9","applicationID":"3674670","transactionName":"Y1xRYUdUX0ICUUxaDloWclZBXF5fTFNKRwhXVVZqRlxfVg9XFkYS","queueTime":0,"applicationTime":437,"atts":"TxtGFw9OTB1BUxoJGklE","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body></html>
+
+    

@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js section-travel format-medium tone-feature app-article page-theme-standard has-comments" itemid="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html" itemtype="http://schema.org/NewsArticle"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 section-travel format-medium tone-feature app-article page-theme-standard has-comments" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 section-travel format-medium tone-feature app-article page-theme-standard has-comments" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 section-travel format-medium tone-feature app-article page-theme-standard has-comments" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+    <title>With Google’s Offline Maps, Getting Around Gets Cheaper - The New York Times</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="http://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="http://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="http://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="http://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="article" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<link rel="canonical" href="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html" />
+<link rel="alternate" href="http://mobile.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html" />
+<link rel="amphtml" href="http://mobile.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.amp.html" />
+<meta property="al:android:url" content="nytimes://reader/id/100000004044526" />
+<meta property="al:android:package" content="com.nytimes.android" />
+<meta property="al:android:app_name" content="NYTimes" />
+<meta name="twitter:app:name:googleplay" content="NYTimes" />
+<meta name="twitter:app:id:googleplay" content="com.nytimes.android" />
+<meta name="twitter:app:url:googleplay" content="nytimes://reader/id/100000004044526" />
+<link rel="alternate" href="android-app://com.nytimes.android/nytimes/reader/id/100000004044526" />
+<meta name="robots" content="noarchive" />
+<meta itemprop="alternativeHeadline" name="hdl_p" content="Find Your Way Without Losing Your Wallet" />
+<meta name="channels" content="" />
+<meta itemprop="description" name="description" content="Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there." />
+<meta itemprop="genre" content="News" />
+<meta itemprop="identifier" name="articleid" content="100000004044526" />
+<meta itemprop="usageTerms" name="usageTerms" content="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html" />
+<meta itemprop="inLanguage" content="en-US" />
+<meta name="hdl" content="With Google’s Offline Maps, Getting Around Gets Cheaper" />
+<meta name="col" content="The Getaway" id="column-name" />
+<meta name="pdate" content="20151123" />
+<meta name="utime" content="20151129022738" />
+<meta name="ptime" content="20151123054508" />
+<meta name="DISPLAYDATE" content="Nov. 23, 2015" />
+<meta name="dat" content="Nov. 23, 2015" />
+<meta name="lp" content="Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there." />
+<meta name="msapplication-starturl" content="http://www.nytimes.com" />
+<meta name="cre" content="The New York Times" />
+<meta name="slug" content="29Getaway" />
+<meta property="article:collection" content="http://json8.nytimes.com/services/json/sectionfronts/travel/index.jsonp" />
+<meta name="sectionfront_jsonp" content="http://json8.nytimes.com/services/json/sectionfronts/travel/index.jsonp" />
+<meta property="og:url" content="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="With Google’s Offline Maps, Getting Around Gets Cheaper" />
+<meta property="og:description" content="Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there." />
+<meta property="article:published" itemprop="datePublished" content="2015-11-23" />
+<meta property="article:section" itemprop="articleSection" content="Travel" />
+<meta property="article:section-taxonomy-id" itemprop="articleSection" content="FDA10AC4-4738-4099-91E8-15584765C8D7" />
+<meta property="article:section_url" content="http://www.nytimes.com/section/travel" />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:site" value="@nytimes" />
+<meta property="twitter:url" content="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html" />
+<meta property="twitter:title" content="With Google’s Offline Maps, Getting Around Gets Cheaper" />
+<meta property="twitter:description" content="Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there." />
+<meta name="author" content="Stephanie Rosenbloom" />
+<meta name="tone" content="feature" id="article-tone" />
+<meta name="byl" content="By STEPHANIE ROSENBLOOM" />
+<meta name="PT" content="article" />
+<meta name="CG" content="travel" />
+<meta name="SCG" content="" />
+<meta name="PST" content="News" />
+<meta name="tom" content="News" />
+<meta name="edt" content="NewYork" />
+<meta property="og:image" content="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-facebookJumbo.jpg" />
+<meta property="article:author" content="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html" />
+<meta name="twitter:creator" value="stephronyt" />
+<meta property="article:tag" content="Travel and Vacations" />
+<meta name="des" content="Travel and Vacations" />
+<meta property="article:tag" content="Maps" />
+<meta name="des" content="Maps" />
+<meta property="article:tag" content="Google Inc" />
+<meta name="org" content="Google Inc" />
+<meta name="keywords" content="Travel and Vacations,Maps,Google Inc" />
+<meta name="news_keywords" content="Map" />
+<meta property="article:modified" itemprop="dateModified" content="2015-11-29" />
+<meta name="thumbnail_150" content="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-thumbLarge.jpg" />
+<meta name="thumbnail_150_height" content="150" />
+<meta name="thumbnail_150_width" content="150" />
+<meta property="twitter:image:alt" content="Google&rsquo;s Offline Maps lets you see turn-by-turn directions, without Wi-Fi or a data connection." />
+<meta property="twitter:image" content="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-thumbLarge.jpg" />
+<meta itemprop="thumbnailUrl" name="thumbnail" content="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-thumbStandard.jpg" />
+<meta name="thumbnail_height" content="75" />
+<meta name="thumbnail_width" content="75" />
+<meta name="nyt-collection:display-name" content="The Getaway" />
+<meta name="nyt-collection:identifier" content="the-getaway" />
+<meta name="nyt-collection:url" content="http://www.nytimes.com/column/the-getaway" />
+<meta name="nyt-collection:tone" content="feature" />
+<meta name="nyt-collection:tagline" content="Each week, Stephanie Rosenbloom helps travelers get the most out of their trips, with reviews, deals and tips." />
+<meta name="nyt-collection:type" content="column" />
+<meta name="CN" content="the-getaway" />
+<meta name="CT" content="column" />
+<meta name="dfp-ad-unit-path" content="travel" />
+<meta name="dfp-amazon-enabled" content="false" />
+    
+                <!--[if (gt IE 9)|!(IE)]> <!-->
+        <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/article/20151124-164811/css/article/article/styles.css" />
+    <!--<![endif]-->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/article/20151124-164811/css/article/article/styles-ie.css" />
+    <![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="http://a1.nyt.com/assets/article/20151124-164811/css/article/article/styles-print.css" />
+                <script id="page-config-data" type="text/json">
+{"pageconfig":{"ledeMediaSize":"none","keywords":["The Getaway","the-getaway","article-medium"]}}</script>
+<script id="display_overrides">
+            []    </script>
+
+			<!-- Media.net Initialization Script -->
+<script type="text/javascript">
+var PREBID_TIMEOUT = 300;
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function (){
+    window.advBidxc = window.advBidxc || {};
+    window.advBidxc.renderAd = function (){};
+    window.advBidxc.startTime = new Date().getTime();
+    function loadScript(tagSrc) {
+        if (tagSrc.substr(0, 4) !== 'http') {
+            var isSSL = 'https:' == document.location.protocol;
+            tagSrc = (isSSL ? 'https:' : 'http:') + tagSrc;
+        }   
+        var scriptTag = document.createElement('script'),
+            placeTag = document.getElementsByTagName("script")[0];
+        scriptTag.type = 'text/javascript';
+        scriptTag.async = true;
+        scriptTag.src = tagSrc;
+        placeTag.parentNode.insertBefore(scriptTag, placeTag);
+    }
+    function loadGPT(){
+        if(!window.advBidxc.isAdServerLoaded){
+            loadScript('//www.googletagservices.com/tag/js/gpt.js');
+            window.advBidxc.isAdServerLoaded = true;
+        }
+    }
+
+    window.advBidxc.loadGPT = loadGPT;
+    setTimeout(window.advBidxc.loadGPT,PREBID_TIMEOUT);// Timeout in case of loading error
+    var mnSrc = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//contextual.media.net/bidexchange.js?cid=8CU2553YN';
+    document.write('<scr' + 'ipt type="text/javascript" src="' + mnSrc + '"></scr' + 'ipt>');
+})();
+</script>	
+<script type="text/json" id="trending-link-json">
+	</script>
+
+<script id="abtestconfig" type="application/json">
+
+[
+    {
+        "testId": "0012",
+        "testName": "tallWatchingModule",
+        "throttle": 1.0,
+        "allocation": 0.9,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0033",
+        "testName": "recommendedLabelTest",
+        "throttle": 1,
+        "allocation": 0.833,
+        "variants": 5,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0036",
+        "testName": "velcroSocialFollow",
+        "throttle": 0.1,
+        "allocation": 0.5,
+        "variants": 1,
+        "applications": ["article", "homepage"]
+    },
+    {
+        "testId": "0051",
+        "testName": "shuffleRecommendations",
+        "throttle": 1.0,
+        "allocation": 0.667,
+        "variants": 1,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0052",
+        "testName": "paidPostDriver",
+        "throttle": 1.0,
+        "allocation": 0.875,
+        "variants": 7,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0061",
+        "testName": "paidPostFivePackMock",
+        "throttle": 0,
+        "allocation": 0,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0063",
+        "testName": "paidPostFivePack",
+        "throttle": 1,
+        "allocation": 0.5,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0064",
+        "testName": "realEstateSearch",
+        "throttle": 1,
+        "allocation": 1,
+        "variants": 1,
+        "applications": ["realestate", "article"]
+     },
+     {
+         "testId": "0066",
+         "testName": "ribbonChartbeatMostEmailed",
+         "throttle": 1,
+         "allocation": 0.5,
+         "variants": 1,
+         "applications": ["article"]
+     },
+     {
+         "testId": "0067",
+         "testName": "pinnedMasthead",
+         "throttle": 0.02,
+         "allocation": 0.5,
+         "variants": 1,
+         "applications": ["homepage"]
+     },
+     {
+         "testId": "0069",
+  	 "testName": "coloredSharetools",
+         "throttle": 1,
+         "allocation": 0.5,
+         "variants": 1,
+         "applications": ["slideshow"]
+     }
+]
+
+</script>
+
+
+<script id="user-info-data" type="application/json">
+{ "meta": {},
+  "data": {
+    "id": "0",
+    "name": "",
+    "subscription": ["","_RPV"],
+    "demographics": {}
+  }
+}
+</script>
+
+<script>
+var require = {
+    baseUrl: 'http://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'article/20151124-164811/js/foundation',
+        'shared': 'article/20151124-164811/js/shared',
+        'article': 'article/20151124-164811/js/article',
+        'application': 'article/20151124-164811/js/article/article',
+        'videoFactory': 'http://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'http://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'http://static01.nyt.com/js/mtr',
+        'auth/growl': 'http://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'http://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+    },
+    map: {
+        '*': {
+            'article/main': 'article/article/main'
+        }
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="http://a1.nyt.com/assets/article/20151124-164811/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map['*']['foundation/main'] = 'foundation/legacy_main';
+</script>
+<script data-main="foundation/legacy_main" src="http://a1.nyt.com/assets/article/20151124-164811/js/foundation/lib/framework.js"></script>
+<![endif]-->
+<script>
+window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","unfollowComments","followFeature","fullbleedTweaks","videoVHSCover","videoVHSShareTools","allTheEmphases","androidDeepLinks","autoPlayVideos","newsEventHierarchy","standaloneSlideshowPromo","freeTrial","dedupeWhatsNext","ribbonNavArrowVisibility","trendingPageLinks","sprinklePaidPost","TMagFonts3","headerBidder","largeLedeXXL","standardizeWhatsNextCollection","onlyLayoutA","simpleExtendedByline","TMagSubnav","iOSDeepLinks"]);
+</script>
+<script>
+require(['foundation/main'], function () {
+    require(['auth/mtr', 'auth/growl']);
+});
+</script>
+<script src="http://a1.nyt.com/assets/article/20151124-164811/js/article/common/layout.js"></script></head>
+<body>
+    
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('http://i1.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+    <header id="masthead" class="masthead masthead-theme-standard" role="banner">
+    <div class="container">
+        <div class="quick-navigation button-group">
+            <button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Sections</span></button>
+            <button class="button home-button" data-href="http://www.nytimes.com/" title="Go to the home page to see the latest top stories."><i class="icon sprite-icon"></i>
+                <span class="button-text">Home</span>
+            </button>
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <a class="button skip-button skip-to-content visually-hidden focusable" href="#story-header">Skip to content</a>
+                        <a class="button skip-button skip-to-navigation visually-hidden focusable" href="#site-index-navigation">Skip to navigation</a>
+                                    <a class="button skip-button skip-to-mobile visually-hidden focusable" href="http://mobile.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html">View mobile version</a>
+                    </div><!-- close button-group -->
+        <div class="branding">
+            <h2 class="branding-heading">
+                <a id="branding-heading-link" href="http://www.nytimes.com/">
+                    <span class="visually-hidden">The New York Times</span>
+                </a>
+            </h2>
+            <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/article/20151124-164811/images/foundation/logos/', 'travel', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');</script>
+        </div><!-- close branding -->
+                <div class="story-meta">
+            <h6 class="kicker"><span class="kicker-label"><a href="http://www.nytimes.com/section/travel">Travel</a></span><span class="pipe">|</span>With Google’s Offline Maps, Getting Around Gets Cheaper</h6>
+        </div><!-- close story-meta -->
+        <div id="TopNavAd" class="ad top-nav-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+        <div class="user-tools">
+            <div id="sharetools-masthead" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-masthead  "
+data-shares="email,facebook,twitter,pinterest,show-all|More"
+data-url="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html"
+data-title="With Google’s Offline Maps, Getting Around Gets Cheaper"
+data-author="By STEPHANIE ROSENBLOOM"
+data-media="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-jumbo.jpg"
+data-description="Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there."
+	data-publish-date="November 23, 2015"
+>
+<div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent">
+</div>
+</div><!-- close shareTools -->
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <div id="Bar1" class="ad bar1-ad nocontent robots-nocontent"></div>
+            <div class="user-tools-button-group button-group">
+                <button class="button subscribe-button hidden" data-href="http://www.nytimes.com/subscriptions/Multiproduct/lp3004.html">Subscribe Now</button>
+                <button class="button login-button login-modal-trigger hidden">Log In</button>
+                <button class="button comments-button  button-masthead" data-skip-to-para-id="">
+</button>
+                                <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                <button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Settings</span></button>
+            </div><!-- close user-tools-button-group -->
+        </div><!-- close user-tools -->
+    </div><!-- close container -->
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <div class="ad">
+        <div id="SponsorAd" class="sponsor-ad">
+            <small class="ad-sponsor">search sponsored by</small>
+        </div>
+    </div>
+    <nav class="search-form-control form-control layout-horizontal">
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+<span class="story-short-url"><a href="http://nyti.ms/1QDruaw">http://nyti.ms/1QDruaw</a></span></header>
+            <nav id="ribbon" class="ribbon ribbon-start nocontent robots-nocontent" aria-hidden="true">
+    <div class="nocontent robots-nocontent">
+        <ol class="ribbon-menu">
+            <li class="collection ribbon-loader">
+                <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+            </li>
+        </ol>
+        <div class="ribbon-navigation-container">
+            <nav class="ribbon-navigation next">
+                <span class="visually-hidden">See next articles</span>
+                <div class="arrow arrow-right">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+            <nav class="ribbon-navigation previous">
+                <span class="visually-hidden">See previous articles</span>
+                <div class="arrow arrow-left">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+        </div>
+    </div><!-- close nocontent -->
+</nav>
+        <nav id="navigation" class="navigation" role="navigation">
+</nav> <!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+</nav>
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+    <div id="page" class="page">
+        <main id="main" class="main" role="main">
+                <div id="TopAd" class="ad top-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+
+<article id="story" class="story theme-main">
+
+        
+    <header id="story-header" class="story-header">
+        
+                <div id="story-meta" class="story-meta ">
+                            <div class="ad sponsortile-ad hidden nocontent robots-nocontent">
+                    <div class="caption">Supported by</div>
+                    <div id="sponsortile" class="ad sponsortile-ad-creative"></div>
+                </div>
+                                        <h3 class="kicker">
+                        <span class="kicker-label"><a href="http://www.nytimes.com/section/travel">Travel</a></span>                                                                </h3>
+                        	<h1 itemprop="headline" id="story-heading" class="story-heading">With Google’s Offline Maps, Getting Around Gets Cheaper</h1>
+                        <div id="story-meta-footer" class="story-meta-footer">
+                                    <div class="simple-extended-byline">
+    <div class="simple-thumb">
+        <a href="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html">            <img src="http://static01.nyt.com/images/2013/11/25/travel/rosenbloom-column-pic/getaway-inline-sf-image-thumbLarge-v2.jpg" title="Stephanie Rosenbloom" />
+        </a>    </div>
+        <p class="simple-byline">
+        <span itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html">
+            <a href="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html" rel="author" title="More Articles by STEPHANIE ROSENBLOOM">                <span class="simple-byline-author" data-byline-name="Stephanie Rosenbloom" itemprop="name">Stephanie Rosenbloom</span>
+            </a>        </span>
+    </p>
+        <p class="simple-byline-column ">
+                    <a class="simple-byline-column-link" href="http://www.nytimes.com/column/the-getaway">THE GETAWAY</a>
+                <span class='simple-byline-date'>NOV. 23, 2015</span>
+    </p>
+</div>
+
+                                <p class="byline-dateline">
+<time class="dateline" datetime="2015-11-23" itemprop="datePublished" content="2015-11-23">NOV. 23, 2015</time>
+</p>
+
+                                                    <div class="inside-story">
+                        <span class="menu-label">Inside</span>
+                        <ul class="inside-story-menu"></ul>
+                    </div>
+                                                    <button class="button comments-button  theme-kicker" data-skip-to-para-id="">
+</button>
+                            </div><!-- close story-meta-footer -->
+        </div><!-- close story-meta -->
+    </header>
+
+    <div id="story-body" class="story-body">
+
+        
+        
+        <div class="lede-container">
+                        <div class="lede-container-ads">
+                                                    <div id="lede-ad" class="ad lede-ad marginalia-anchor-ad nocontent robots-nocontent"><div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<a class="visually-hidden skip-to-text-link" href="#story-continues-1">Continue reading the main story</a>
+</div>
+                                                            </div>
+        </div>
+
+        <div id="byline-sharetools-container" class="byline-sharetools-container">
+            <div class="extended-byline">
+    <div class="thumb">
+        <a href="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html">            <img src="http://static01.nyt.com/images/2013/11/25/travel/rosenbloom-column-pic/getaway-inline-sf-image-thumbLarge-v2.jpg" title="Stephanie Rosenbloom" />
+        </a>    </div>
+    <p class="byline">
+        <span itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html">
+            <a href="http://topics.nytimes.com/top/reference/timestopics/people/r/stephanie_rosenbloom/index.html" rel="author" title="More Articles by STEPHANIE ROSENBLOOM">                <span class="byline-author" data-byline-name="Stephanie Rosenbloom" itemprop="name">Stephanie Rosenbloom</span>
+            </a>        </span>
+    </p>
+        <p class="byline-column">
+        <a href="http://www.nytimes.com/column/the-getaway">THE GETAWAY</a>    </p>
+            <div class="follow-button-placeholder" data-collection-id="column.the-getaway"></div>
+    </div>
+
+                                        <div id="sharetools-story" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-story  "
+data-shares="email,facebook|Share,twitter|Tweet,pinterest|Pin,save,show-all|more,ad"
+data-url="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html"
+data-title="With Google’s Offline Maps, Getting Around Gets Cheaper"
+data-author="By STEPHANIE ROSENBLOOM"
+data-media="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-jumbo.jpg"
+data-description="Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there."
+	data-publish-date="November 23, 2015"
+>
+<a class="visually-hidden skip-to-text-link" href="#story-continues-1">Continue reading the main story</a>
+<span class="sharetools-label visually-hidden">Share This Page</span>
+<div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent">
+<a class="visually-hidden skip-to-text-link" href="#story-continues-1">Continue reading the main story</a>
+</div>
+<div id="MiddleLeft" class="ad middle-left-ad hidden nocontent robots-nocontent">
+<a class="visually-hidden skip-to-text-link" href="#story-continues-1">Continue reading the main story</a>
+</div>
+</div><!-- close shareTools -->
+                    </div>
+
+
+                
+        <p class="story-body-text story-content" data-para-count="242" data-total-count="242" itemprop="articleBody" id="story-continues-1">Using your smartphone to look up a museum address or get turn-by-turn directions on a street in a foreign city can end up costing a small fortune in data charges. Those who download Google Maps’s new Offline Maps won’t have to pay a dime.</p><aside id='middle-right-paid-post-container' class='ad middle-right-ad paid-post-ad hidden nocontent robots-nocontent'>
+                                <h2 class='marginalia-heading'></h2>
+                                    <ul class='story-menu'>
+                                        <li id='MiddleRightPaidPost1' class='story-menu-item ad'></li>
+                                        <li id='MiddleRightPaidPost2' class='story-menu-item ad'></li>
+                                        <li id='MiddleRightPaidPost3' class='story-menu-item ad'></li>
+                                        <li id='MiddleRightPaidPost4' class='story-menu-item ad'></li>
+                                    </ul>
+                                </aside><p class="story-body-text story-content" data-para-count="357" data-total-count="599" itemprop="articleBody" id="story-continues-2">The tool allows users to be in a place without Internet access — whether on a sidewalk in New York City or a back road in Tuscany — and pull up a map that lets them get directions and use turn-by-turn voice navigation, as well as search for places (art galleries, restaurants, hotels, museums) and see details including hours, phone numbers and reviews.</p><aside class="marginalia collection-marginalia collection collection-type-column collection-tone-feature collection-section-travel collection-theme-latest-headlines nocontent robots-nocontent" role="complementary">
+    <div class="nocontent robots-nocontent">
+                <header>
+                        <div class="thumb">
+                <img src="http://static01.nyt.com/images/2013/11/25/travel/rosenbloom-column-pic/getaway-inline-sf-image-blogSmallThumb-v2.jpg" alt="" />
+            </div>
+                        <div class="collection-meta">
+                <div class="follow-button-placeholder" data-collection-id="column.the-getaway"></div>
+                <h2 class="collection-marginalia-heading"><a href="http://www.nytimes.com/column/the-getaway">The Getaway</a></h2>
+                <h3 class="collection-marginalia-subheading">Each week, Stephanie Rosenbloom helps travelers get the most out of their trips, with reviews, deals and tips.</h3>
+            </div>
+        </header>
+        <ul>
+                        <li><article class="story theme-summary">
+    <a class="story-link" href="http://www.nytimes.com/2015/12/06/travel/frequent-flyer-hotel-credit-cards.html?rref=collection%2Fcolumn%2FThe Getaway">
+        <h2 class="story-heading">
+            <span class="story-heading-text">
+                                Making the Most of Evolving Airline and Hotel Reward Programs            </span>
+            <time class="dateline" datetime="2015-11-30">NOV 30</time>
+        </h2>
+    </a>
+</article>
+</li>
+                        <li><article class="story theme-summary">
+    <a class="story-link" href="http://www.nytimes.com/2015/11/22/travel/black-friday-cyber-monday-cheap-flights.html?rref=collection%2Fcolumn%2FThe Getaway">
+        <h2 class="story-heading">
+            <span class="story-heading-text">
+                                Finding Cheap Flights and More on Black Friday            </span>
+            <time class="dateline" datetime="2015-11-16">NOV 16</time>
+        </h2>
+    </a>
+</article>
+</li>
+                        <li><article class="story theme-summary">
+    <a class="story-link" href="http://www.nytimes.com/2015/11/15/travel/thanksgiving-holiday-travel.html?rref=collection%2Fcolumn%2FThe Getaway">
+        <h2 class="story-heading">
+            <span class="story-heading-text">
+                                How to Upgrade Your Thanksgiving Road Trip            </span>
+            <time class="dateline" datetime="2015-11-09">NOV 9</time>
+        </h2>
+    </a>
+</article>
+</li>
+                        <li><article class="story theme-summary">
+    <a class="story-link" href="http://www.nytimes.com/2015/11/08/travel/vacation-ideas-hotels-airlines.html?rref=collection%2Fcolumn%2FThe Getaway">
+        <h2 class="story-heading">
+            <span class="story-heading-text">
+                                Finding Vacation Deals With a Surprise Built In            </span>
+            <time class="dateline" datetime="2015-11-02">NOV 2</time>
+        </h2>
+    </a>
+</article>
+</li>
+                        <li><article class="story theme-summary">
+    <a class="story-link" href="http://www.nytimes.com/2015/10/25/travel/south-africa-flight-time.html?rref=collection%2Fcolumn%2FThe Getaway">
+        <h2 class="story-heading">
+            <span class="story-heading-text">
+                                Want to Visit South Africa? How to Survive a Long Flight            </span>
+            <time class="dateline" datetime="2015-10-19">OCT 19</time>
+        </h2>
+    </a>
+</article>
+</li>
+                    </ul>
+        <footer>
+            <p class="user-action"><a href="http://www.nytimes.com/column/the-getaway">See More &raquo;</a></p>
+        </footer>
+    </div><!-- close nocontent -->
+</aside>
+<p class="story-body-text story-content" data-para-count="418" data-total-count="1017" itemprop="articleBody">Offline Maps, introduced this month, is one of a handful of free tools being rolled out by <a href="http://topics.nytimes.com/top/news/business/companies/google_inc/index.html?inline=nyt-org" title="More information about Google Inc." class="meta-org">Google</a> as the company further extends its reach in the travel realm. It also recently began promoting a rewards program for people who post online reviews and tips about restaurants, concert halls, botanical gardens, hotels, shops, markets, museums and practically any other place one might want to go, as part of Local Guides.</p><figure id="media-100000004047234" class="media photo embedded has-adjacency has-lede-adjacency layout-large-vertical media-100000004047234" data-media-action="modal" itemprop="associatedMedia" itemscope itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-blog427.jpg" itemtype="http://schema.org/ImageObject" aria-label="media" role="group">
+    <span class="visually-hidden">Photo</span>
+    <div class="image">
+            <img src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-blog427.jpg" alt="" class="media-viewer-candidate" data-mediaviewer-src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-superJumbo.jpg" data-mediaviewer-caption="Google&rsquo;s Offline Maps lets you see turn-by-turn directions, without Wi-Fi or a data connection." data-mediaviewer-credit=""  itemprop="url" itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-blog427.jpg"/>
+            <meta itemprop="height" content="732" />
+            <meta itemprop="width" content="427" />
+    </div>
+        <figcaption class="caption" itemprop="caption description">
+                <span class="caption-text">Google’s Offline Maps lets you see turn-by-turn directions, without Wi-Fi or a data connection.</span>
+                    </figcaption>
+    </figure>
+<p class="story-body-text story-content" data-para-count="359" data-total-count="1376" itemprop="articleBody">And in July the company announced that it was displaying bar charts in Google Search that show the most and least popular hours at places including monuments, aquariums, cinemas, stores, bars and restaurants, so visitors can plan accordingly. Together the tools are poised to help millions of travelers figure out where to go, when to go and how to get there.</p><h4 id="subhead-1" class="story-subheading story-content" data-para-count="12" data-total-count="1388" itemprop="articleBody">Offline Maps</h4><p class="story-body-text story-content" data-para-count="349" data-total-count="1737" itemprop="articleBody">Google Maps users have previously been able to look at offline maps they downloaded over Wi-Fi. But being able to use turn-by-turn voice directions, or search within a map for galleries, coffee shops and other destinations along with their details while being offline is new. (Even the autocomplete feature in the Maps search box now works offline.)</p><aside class="marginalia comments-marginalia  featured-comment-marginalia" data-marginalia-type="sprinkled" data-skip-to-para-id="story-continues-3">
+</aside>
+<p class="story-body-text story-content" data-para-count="327" data-total-count="2064" itemprop="articleBody" id="story-continues-3">Using Google Maps offline requires minimal planning. When you’re in a place that has Wi-Fi, simply download a map to your smartphone by opening the app, then go to “offline areas,” and tap the “+” button. Alternatively, you can search for a city, county or country and then tap the “download” button. That’s it.</p><figure id="media-100000004047235" class="media photo embedded has-adjacency layout-large-vertical media-100000004047235" data-media-action="modal" itemprop="associatedMedia" itemscope itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY2/29GETAWAY2-blog427.jpg" itemtype="http://schema.org/ImageObject" aria-label="media" role="group">
+    <span class="visually-hidden">Photo</span>
+    <div class="image">
+            <img src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY2/29GETAWAY2-blog427.jpg" alt="" class="media-viewer-candidate" data-mediaviewer-src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY2/29GETAWAY2-superJumbo.jpg" data-mediaviewer-caption="When you&rsquo;re in a place that has Wi-Fi, download a map by opening the app, go to &ldquo;offline areas&rdquo; and tap the &ldquo;+&rdquo; button." data-mediaviewer-credit=""  itemprop="url" itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY2/29GETAWAY2-blog427.jpg"/>
+            <meta itemprop="height" content="732" />
+            <meta itemprop="width" content="427" />
+    </div>
+        <figcaption class="caption" itemprop="caption description">
+                <span class="caption-text">When you’re in a place that has Wi-Fi, download a map by opening the app, go to “offline areas” and tap the “+” button.</span>
+                    </figcaption>
+    </figure>
+<p class="story-body-text story-content" data-para-count="582" data-total-count="2646" itemprop="articleBody">There are limits to the size of the offline map you can download, but you can download multiple maps. So if you wanted, say, an entire country, you could save multiple maps of its different areas. More likely, you’ll just want a large metro area, like the one surrounding San Francisco or New York. Or let’s say you downloaded Dublin. Now, when you’re in an area without an Internet connection, or when you’re in a pub and your service is spotty, Google Maps will automatically switch into offline mode. When you’re back in a place with Wi-Fi, Google switches back online.</p><div id="MiddleRight1" class="ad ad-placeholder nocontent robots-nocontent"><div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<a class="visually-hidden skip-to-text-link" href="#story-continues-4">Continue reading the main story</a>
+</div><p class="story-body-text story-content" data-para-count="411" data-total-count="3057" itemprop="articleBody" id="story-continues-4">Google certainly is not the only option. App stores are full of detailed offline maps that can be downloaded onto your smartphone, including <strong><a href="http://maps.me/en/home">Maps.me</a></strong>, <strong><a href="http://www.ulmon.com/#get-the-app">City Maps 2Go</a></strong>, and <strong><a href="https://pocketearth.com/">Pocket Earth Pro</a></strong>. Several of these kinds of apps allow you to search for streets and nearby points of interest, be it a fast-food joint or a planetarium. Some have reviews. A number of them are free. Or you can go retro and carry a paper map.</p><p class="story-body-text story-content" data-para-count="269" data-total-count="3326" itemprop="articleBody">Many people are used to navigating with Google Maps, though. It, too, is free, and unlike some competitors, its new offline maps have turn-by-turn voice directions as well as museum and restaurant reviews (sourced from a larger audience than most apps) and information.</p><aside class="marginalia comments-marginalia  comment-prompt-marginalia" data-marginalia-type="sprinkled" data-skip-to-para-id="story-continues-5">
+</aside>
+<p class="story-body-text story-content" data-para-count="118" data-total-count="3444" itemprop="articleBody" id="story-continues-5">Currently, Offline Maps is available to Android users; iOS users will likely be able to get it by the end of the year.</p><figure id="media-100000004047236" class="media photo embedded has-adjacency layout-large-horizontal media-100000004047236 ratio-tall" data-media-action="modal" itemprop="associatedMedia" itemscope itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY3/29GETAWAY3-articleLarge.jpg" itemtype="http://schema.org/ImageObject" aria-label="media" role="group">
+    <span class="visually-hidden">Photo</span>
+    <div class="image">
+            <img src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY3/29GETAWAY3-articleLarge.jpg" alt="" class="media-viewer-candidate" data-mediaviewer-src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY3/29GETAWAY3-superJumbo.jpg" data-mediaviewer-caption="Local Guides provide reviews for places like restaurants and answer questions in Google Maps and search. Guides can earn points for providing assistance." data-mediaviewer-credit=""  itemprop="url" itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY3/29GETAWAY3-articleLarge.jpg"/>
+            <meta itemprop="height" content="490" />
+            <meta itemprop="width" content="600" />
+    </div>
+        <figcaption class="caption" itemprop="caption description">
+                <span class="caption-text">Local Guides provide reviews for places like restaurants and answer questions in Google Maps and search. Guides can earn points for providing assistance.</span>
+                    </figcaption>
+    </figure>
+<h4 id="subhead-2" class="story-subheading story-content" data-para-count="12" data-total-count="3456" itemprop="articleBody">Local Guides</h4><aside class="marginalia comments-marginalia  selected-comment-marginalia" data-marginalia-type="sprinkled" data-skip-to-para-id="story-continues-6">
+</aside>
+<p class="story-body-text story-content" data-para-count="184" data-total-count="3640" itemprop="articleBody" id="story-continues-6">Also this month, Google announced it was expanding its Local Guides program, whose members provide reviews for places including restaurants and hotels in Google Maps and Google search.</p><p class="story-body-text story-content" data-para-count="350" data-total-count="3990" itemprop="articleBody">To encourage people to share information about places they visit, there’s a rewards program. After signing up at <a href="https://www.google.com/local/guides/signup">Google.com/local/guides/signup</a>, members can earn points by writing reviews, uploading photos, answering questions and updating information. Points can be used for rewards including early access to new products, and online data storage.</p><p class="story-body-text story-content" data-para-count="802" data-total-count="4792" itemprop="articleBody">The program has five levels. The lowest, Level 1 (0 to 4 points), allows users to enter contests for things such as the latest Google devices. Level 2 users (5 to 49 points) can get early access to new Google products and features. For those who want their expertise recognized, Level 3 users (50 to 199 points) appear in the Google Maps app with a Local Guides badge. Level 4 users (200 to 499 points) receive 1 terabyte of free Google Drive storage. And Level 5 users (500 or more points) can apply to attend what Google is calling an “inaugural summit” next year in a place yet to be announced “where you’ll be able to meet other top guides from around the world, explore the Google campus and get the latest info about Google Maps” (the company said it will offer more details next year).</p><figure id="media-100000004047237" class="media photo embedded has-adjacency layout-large-vertical media-100000004047237" data-media-action="modal" itemprop="associatedMedia" itemscope itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY4/29GETAWAY4-blog427.jpg" itemtype="http://schema.org/ImageObject" aria-label="media" role="group">
+    <span class="visually-hidden">Photo</span>
+    <div class="image">
+            <img src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY4/29GETAWAY4-blog427.jpg" alt="" class="media-viewer-candidate" data-mediaviewer-src="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY4/29GETAWAY4-superJumbo.jpg" data-mediaviewer-caption="Google allows you to see the most popular times at places like museums and restaurants." data-mediaviewer-credit=""  itemprop="url" itemid="http://static01.nyt.com/images/2015/11/29/travel/29GETAWAY4/29GETAWAY4-blog427.jpg"/>
+            <meta itemprop="height" content="732" />
+            <meta itemprop="width" content="427" />
+    </div>
+        <figcaption class="caption" itemprop="caption description">
+                <span class="caption-text">Google allows you to see the most popular times at places like museums and restaurants.</span>
+                    </figcaption>
+    </figure>
+<button class="button comments-button  theme-speech-bubble" data-skip-to-para-id="subhead-3">
+</button>
+<h4 id="subhead-3" class="story-subheading story-content" data-para-count="18" data-total-count="4810" itemprop="articleBody">Popular Times Tool</h4><p class="story-body-text story-content" data-para-count="463" data-total-count="5273" itemprop="articleBody">Once you’ve found the places you want to go, there’s the matter of when to get there. Back in the old days, you hoped for the best. These days, when you search Google for Madame Tussauds or Shake Shack, you sometimes see in your search results a bar graph that shows how busy the place is at different hours during the course of a particular day of the week, based on historical visits. (The graphs show up for places and on days when there is adequate data.)</p><div id="MiddleRight2" class="ad ad-placeholder nocontent robots-nocontent"><div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<a class="visually-hidden skip-to-text-link" href="#story-continues-7">Continue reading the main story</a>
+</div>
+    	<div id="MiddleRightN" class="ad text-ad middle-right-ad nocontent robots-nocontent"><div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<a class="visually-hidden skip-to-text-link" href="#story-continues-7">Continue reading the main story</a>
+</div><p class="story-body-text story-content" data-para-count="803" data-total-count="6076" itemprop="articleBody" id="story-continues-7">New Yorkers and tourists alike can discover, for instance, that on a Tuesday the Metropolitan Museum of Art is least crowded at the opening hour, 10 a.m., while you may be vying for a spot in front of van Gogh’s “Wheat Field With Cypresses” if you show up between 1:30 and 3:30 p.m. For discount Broadway tickets, the line at the TKTS booth in South Street Seaport is longest at the opening hour (11 a.m.), so if you have your heart set on a particular play, arrive early. If you’re willing to roll the dice, go at 4 or 5 p.m. when the crowds are gone. As for the High Line, the elevated park on Manhattan’s west side, use it to bookend your day: You’re most likely to have a peaceful stroll at 7 a.m. or 10 p.m. That is, of course, unless everyone begins using the “popular times” tool.</p>
+        
+                                        <footer class="story-footer story-content">
+    <div class="story-meta">
+                        
+        
+        <p class="story-print-citation">A version of this article appears in print on November 29, 2015, on page TR2 of the <span itemprop="printEdition">New York edition</span> with the headline: Find Your Way Without Losing Your Wallet. <span class="story-footer-links">  <span><a href="https://s100.copyright.com/AppDispatchServlet?contentID=http%3A%2F%2Fwww.nytimes.com%2F2015%2F11%2F29%2Ftravel%2Ffind-your-way-without-losing-your-wallet.html&publisherName=The+New+York+Times&publication=nytimes.com&token=&orderBeanReset=true&postType=&wordCount=1058&title=With+Google%E2%80%99s+Offline+Maps%2C+Getting+Around+Gets+Cheaper&publicationDate=November+23%2C+2015&author=By Stephanie Rosenbloom" target="_blank">Order Reprints</a><span class="pipe">|</span></span>  <span><a href="http://www.nytimes.com/pages/todayspaper/index.html" target="_blank">Today's Paper</a><span class="pipe">|</span></span><span><a href="http://www.nytimes.com/subscriptions/Multiproduct/lp839RF.html?campaignId=48JQY" target="_blank">Subscribe</a></span>
+</span>
+</p>
+    </div><!-- close story-meta -->
+    </footer>
+
+        
+                    <nav id="next-in"></nav><!-- close next-in -->
+            </div><!-- close story-body -->
+</article>
+<aside class="marginalia most-emailed-marginalia hidden nocontent robots-nocontent" data-truncate-enabled="true"></aside>
+<section id="whats-next" class="whats-next nocontent robots-nocontent">
+    <div class="nocontent robots-nocontent">
+        <div class="loader-container">
+            <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+        </div>
+    </div><!-- close nocontent -->
+</section>
+<div id="TopAd1" class="text-ad bottom-left-ad nocontent robots-nocontent"></div>
+<div id="Top5" class="ad top5-ad hidden nocontent robots-nocontent"></div>
+                    <div class="search-overlay"></div>
+            </main><!-- close main -->
+            <section id="site-index" class="site-index">
+    <header class="section-header">
+        <p class="user-action"><a href="http://www.nytimes.com/">Go to Home Page &raquo;</a></p>
+        <h2 class="section-heading">
+            <span class="visually-hidden">Site Index</span>
+            <a id="site-index-branding-link" href="http://www.nytimes.com/">
+                <span class="visually-hidden">The New York Times</span>
+            </a>
+        </h2>
+        <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/article/20151124-164811/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');</script>
+    </header>
+
+    <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
+
+        <div class="split-6-layout layout">
+
+                                                                                    
+                    <div class="column">
+                        <h3 class="menu-heading">News</h3>
+                        <ul class="menu">
+
+                                                                                                                                                                                                                                                
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/world/index.html">World</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/politics/index.html">Politics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/technology/index.html">Tech</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/science">Science</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/obituaries/index.html">Obituaries</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/corrections/index.html">Corrections</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Opinion</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html">Today's Opinion</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#columnists">Op-Ed Columnists</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#editorials">Editorials</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#contributing">Contributing Writers</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#op-ed">Op-Ed Contributors</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#opinionator">Opinionator</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#letters">Letters</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#sundayreview">Sunday Review</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#takingNote">Taking Note</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/roomfordebate">Room for Debate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/opinion">Video: Opinion</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Arts</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/index.html">Today's Arts</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/design/index.html">Art & Design</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://artsbeat.blogs.nytimes.com/">ArtsBeat</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/books/index.html">Books</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/movies/index.html">Movies</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/music/index.html">Music</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/television/index.html">Television</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/theater/index.html">Theater</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/video-games/index.html">Video Games</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/arts">Video: Arts</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Living</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/crosswords/">Crossword</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/dining/index.html">Food</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion & Style</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/jobs">Jobs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/magazine/index.html">Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/t-magazine">T Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/weddings/index.html">Weddings & Celebrations</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Listings & More</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/ref/classifieds/">Classifieds</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/marketing/tools-and-services/">Tools & Services</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/topics/">Times Topics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://tvlistings.nytimes.com/tvlistings/ZCGrid.do?aid=nyt">TV Listings</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/interactive/blogs/directory.html">Blogs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/multimedia/index.html">Multimedia</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://lens.blogs.nytimes.com/">Photography</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video">Video</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/store/?&t=qry542&utm_source=nytimes&utm_medium=HPB&utm_content=hp_browsetree&utm_campaign=NYT-HP&module=SectionsNav&action=click&region=TopBar&version=BrowseTree&contentCollection=NYT%20Store&contentPlacement=2&pgtype=Homepage">NYT Store</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/times-journeys/?utm_source=nytimes&utm_medium=HPLink&utm_content=hp_browsetree&utm_campaign=NYT-HP">Times Journeys</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/seeallnav">Subscribe</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/membercenter">Manage My Account</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                            
+            <div class="column last-column">
+                
+<h3 class="menu-heading">Subscribe</h3>
+
+<ul class="menu primary-menu">
+    <li class="menu-label">Subscribe</li>
+    <li class="times-premier">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/tpnav">Times Insider</a>
+    </li>
+
+    <li class="home-delivery">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/hdleftnav">Home Delivery</a>
+            </li>
+    <li class="digital-subscriptions">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/digitalleftnav">Digital Subscriptions</a>
+            </li>
+    <li class="nyt-opinion">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/opinionindex">NYT Opinion</a>
+    </li>
+    <li class="nyt-crossword last-item">
+        <i class="icon sprite-icon"></i>
+        <a id="nyt-crossword" href="http://www.nytimes.com/crosswords/index.html">Crossword</a>
+    </li>
+
+</ul>
+
+<ul class="menu secondary-menu">
+
+    <li>
+        <a href="http://www.nytimes.com/marketing/newsletters">Email Newsletters</a>
+    </li>
+    <li>
+        <a href="https://myaccount.nytimes.com/mem/tnt.html">Alerts</a>
+    </li>
+    <li>
+                    <a href="http://www.nytimes.com/giftleftnav">Gift Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/educationleftnav">Education Rate</a>
+            </li>
+
+</ul>
+<ul class="menu secondary-menu">
+    <li>
+        <a href="http://www.nytimes.com/services/mobile/index.html">Mobile Applications</a>
+    </li>
+    <li>
+                    <a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a>
+            </li>
+                <li>
+            <a href="http://subscribe.inyt.com">International New York Times</a>
+        </li>
+    
+</ul>
+
+            </div><!-- close column -->
+
+        </div><!-- close split-6-layout -->
+
+    </nav><!-- close nav -->
+
+</section><!-- close site-index -->
+
+            <footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+         <ul>
+             <li>
+                <a href="http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2015</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+            <li class="visually-hidden"><a href="http://www.nytimes.com">Home</a></li>
+            <li class="visually-hidden"><a href="http://query.nytimes.com/search/sitesearch/#/">Search</a></li>
+            <li class="visually-hidden">Accessibility concerns? Email us at <a href="mailto:accessibility@nytimes.com">accessibility@nytimes.com</a>. We would love to hear from you.</li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.whsites.net/mediakit">Advertise</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="wide-viewport-item last-item"><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+            <li><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+            <li class="wide-viewport-item last-item"><a href="http://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+    <script>
+require(['foundation/main'], function () {
+    require(['article/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['http://static01.nyt.com/bi/js/tagx/tagx.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491457","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":321,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+</html>

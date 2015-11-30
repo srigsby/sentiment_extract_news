@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js has-comments blog-bits section-technology"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 has-comments blog-bits section-technology" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 has-comments blog-bits section-technology" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 has-comments blog-bits section-technology" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+		<meta name="communityAssetLabels" content="NYT_Blogs" />
+<meta name="communityAssetTaxonomy" content="blogs/bits/Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook ( 20151120 )" />
+<meta name="communityAssetURL" content="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/" />
+<meta name="PT" content="Blogs" />
+<meta name="PST" content="Blog Post" />
+<meta name="sourceApp" content="blogs" />
+<meta itemprop="identifier" name="blogpostid" content="100000004051116"><meta name="author" content="Katie Benner" />
+<meta name="CLMST" content="Katie Benner" />
+<meta name="byl" content="Katie Benner" />
+<meta name="article:author" content="http://ktbenner" /><meta name="GBLC" content="Executives and Management;Social">
+<meta name="PUV" content="normal" />
+<meta property="article:published_time" itemprop="datePublished" content="2015-11-20" />
+<meta name="PUD" content="20151120" />
+<meta name="pdate" content="20151120" />
+<meta name="ptime" content="20151120193842" />
+<meta name="utime" content="20151121003842" />
+<meta property="article:modified_time" itemprop="dateModified" content="2015-11-21T00:38:42-05:00" />
+<meta name="DISPLAYDATE" content="November 20, 2015" />
+<meta name="dat" content="November 20, 2015" />
+<meta itemprop="articleSection" property="article:section" content="Technology" />
+<meta name="CG" content="Technology" />
+<meta name="SCG" content="bits" />
+<meta name="BN" content="bits" />
+<meta name="robots" content="noodp">
+<meta name="per" content="Zuckerberg, Mark E">
+<meta name="des" content="Family Leaves;Paid Time Off;Parenting;Work-Life Balance;Workplace Environment">
+<meta name="org" content="Facebook Inc">
+<meta name="geo" content="Silicon Valley (Calif)">
+<meta name="ticker" content="Facebook Inc|FB|NASDAQ" />
+<meta property="article:tag" content="Zuckerberg Mark E" />
+<meta property="article:tag" content="Family Leaves" />
+<meta property="article:tag" content="Paid Time Off" />
+<meta property="article:tag" content="Parenting" />
+<meta property="article:tag" content="Work-Life Balance" />
+<meta property="article:tag" content="Workplace Environment" />
+<meta property="article:tag" content="Facebook Inc" />
+<meta property="article:tag" content="Silicon Valley (Calif)" />
+<meta property="article:tag" content="Executives and Management" />
+<meta property="article:tag" content="Social" />
+<meta name="keywords" content="Zuckerberg Mark E,Family Leaves,Paid Time Off,Parenting,Work-Life Balance,Workplace Environment,Facebook Inc,Silicon Valley (Calif),Executives and Management,Social" />
+<meta name="news_keywords" content="Parenting" />
+<meta name="description" content="Family leave policies have become the subject of much discussion in the tech industry, and a number of top companies have increased the parental leave they offer." />
+<meta name="hdl" content="Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook" />
+<meta property="og:title" content="Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/" />
+<meta property="og:site_name" content="Bits Blog" />
+<meta property="og:description" content="Family leave policies have become the subject of much discussion in the tech industry, and a number of top companies have increased the parental leave they offer." />
+<meta property="og:image" content="http://graphics8.nytimes.com/images/blogs_v5/../../images/icons/t_logo_291_black.png"/>
+<meta name="thumbnail_150" content="http://graphics8.nytimes.com/packages/images/icons/t_logo_300_black.png"/>
+<meta name="twitter:card" value="summary"><meta name="twitter:title" content="Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook" />
+<meta name="twitter:url" content="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/" />
+<meta name="twitter:description" content="Family leave policies have become the subject of much discussion in the tech industry, and a number of top companies have increased the parental leave they offer." />
+<meta name="twitter:image" content="http://graphics8.nytimes.com/packages/images/icons/t_logo_300_black.png"/>
+<meta itemprop="thumbnailUrl" content="http://graphics8.nytimes.com/packages/images/icons/t_logo_300_black.png" name="thumbnail" />
+<meta name="twitter:site" content="@nytimesbits">
+<link rel="alternate" type="application/rss+xml" title="Bits &raquo; Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook Comments Feed" href="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/feed/" />
+<link rel='prev' title='Yahoo Restricts Ad-Blocking Software for Some Email Users' href='http://bits.blogs.nytimes.com/2015/11/20/yahoo-restricts-ad-blocking-software-for-some-email-users/' />
+<link rel='next' title='Daily Report: Tech&#8217;s Push Into Political Circles' href='http://bits.blogs.nytimes.com/2015/11/23/daily-report-techs-push-into-political-circles/' />
+<link rel='canonical' href='http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/' />
+<link rel='shortlink' href='http://nyti.ms/1kMcjPo' />
+<link rel='https://github.com/WP-API/WP-API' href='http://bits.blogs.nytimes.com/json' />
+<meta name="adxPage" content="blog.nytimes.com/bits/post" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://bits.blogs.nytimes.com/feed/" />
+<meta property="article:collection" content="http://json8.nytimes.com/services/json/sectionfronts/technology/index.jsonp" />
+<link rel="alternate" href="http://mobile.nytimes.com/blogs/bits/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/" />
+<meta name="dfp-ad-unit-path" content="technology/bits" />			<title>Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook - The New York Times</title>
+            <!--[if (gt IE 9)|!(IE)]> <!-->
+    <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/bits.css" />
+<link rel="stylesheet" type="text/css" media="print" href="http://a1.nyt.com/assets/blogs/20151116-121901/css/blogs/styles-print.css" />
+<script>
+var NYT = NYT || {}, NYTD = NYTD || {};
+</script>
+                        	<script src="http://a1.nyt.com/assets/blogs/20151116-121901/js/blogs/layout.js"></script>
+	<script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+<script>
+var require = {
+    baseUrl: 'http://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'blogs/20151116-121901/js/foundation',
+        'shared': 'blogs/20151116-121901/js/shared',
+        'blogs': 'blogs/20151116-121901/js/blogs',
+        'auth/mtr': 'http://graphics8.nytimes.com/js/mtr',
+        'auth/growl': 'http://graphics8.nytimes.com/js/auth/growl/default',
+        'vhs': 'http://graphics8.nytimes.com/video/vhs/build/vhs-2.x.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="http://a1.nyt.com/assets/blogs/20151116-121901/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="http://a1.nyt.com/assets/blogs/20151116-121901/js/foundation/lib/framework.js"></script>
+<![endif]-->
+<script>
+require(['foundation/main'], function () {
+    require(['auth/mtr']);
+});
+</script>
+<script>
+window.magnum.processFlags(["limitFabrikSave","facebookOauthButton","videoVHSCover","videoVHSShareTools","newsEventHierarchy"]);
+</script>
+
+<script id="user-info-data" type="application/json">
+{ "meta": {},
+  "data": {
+    "id": "0",
+    "name": "",
+    "subscription": ["","_RPV"],
+    "demographics": {}
+  }
+}
+</script>
+
+    	</head><body class="single single-post postid-178285 blog-universal nyt-blog-bits" id="" data-env="production" data-region="ewr1">
+	<div id="shell" class="shell">
+			<header id="masthead" class="masthead masthead-theme-standard" role="banner">
+    <div class="container">
+        <div class="quick-navigation button-group">
+            <button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Sections</span></button>
+            <button class="button home-button" data-href="http://www.nytimes.com/" title="Go to the home page to see the latest top stories."><i class="icon sprite-icon"></i>
+                <span class="button-text">Home</span>
+            </button>
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <a class="button skip-button skip-to-content visually-hidden focusable" href="#main">Skip to content</a>
+                                </div><!-- close button-group -->
+        <div class="branding">
+            <h2 class="branding-heading">
+                <a id="branding-heading-link" href="http://www.nytimes.com/">
+                    <span class="visually-hidden">The New York Times</span>
+                </a>
+            </h2>
+            <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/blogs/20151116-121901/images/foundation/logos/', 'Technology', 'masthead-theme-standard', 'standard', 'branding-heading-link');</script>
+        </div><!-- close branding -->
+        <div class="story-meta">
+    <h6 class="kicker">
+        <span class="kicker-label">
+			            <a href="http://bits.blogs.nytimes.com">
+                Bits            </a>
+			        </span>
+
+                <span class="pipe">|</span>
+        Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook        
+    </h6>
+</div><!-- close story-meta -->
+
+
+        <div id="TopNavAd" class="ad top-nav-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+        <div class="user-tools">
+            <div id="sharetools-masthead" class="sharetools theme-classic"
+	 data-shares="email,facebook,twitter,show-all|More"
+	 data-url="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/"
+	 data-title="Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook"
+	 data-description="&lt;span class=&quot;excerpt-inner&quot;&gt;Family leave policies have become the subject of much discussion in the tech industry, and a number of top companies have increased the parental leave they offer.&lt;/span&gt;&lt;a href=&quot;http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/&quot; class=&quot;more-link&quot;&gt;Read&nbsp;more...&lt;/a&gt;"
+	data-publish-date="November 20, 2015 7:38 pm">
+<div class="ad sharetools-inline-article-ad hidden"></div>
+</div><!-- close shareTools -->
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <div id="Bar1" class="ad bar1-ad nocontent robots-nocontent"></div>
+            <div class="user-tools-button-group button-group">
+                <button class="button login-button login-modal-trigger hidden">Log In</button>
+                <button class="button comments-button  button-masthead" data-skip-to-para-id="">
+</button>
+                                <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                <button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Settings</span></button>
+            </div><!-- close user-tools-button-group -->
+        </div><!-- close user-tools -->
+    </div><!-- close container -->
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <div class="ad">
+        <div id="SponsorAd" class="sponsor-ad">
+            <small class="ad-sponsor">search sponsored by</small>
+        </div>
+    </div>
+    <nav class="search-form-control form-control layout-horizontal">
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+</header>
+					<nav id="ribbon" class="ribbon ribbon-start nocontent robots-nocontent" aria-hidden="true">
+    <div class="nocontent robots-nocontent">
+        <ol class="ribbon-menu">
+            <li class="collection ribbon-loader">
+                <div class="loader "><span class="visually-hidden">Loading...</span></div>
+            </li>
+        </ol>
+        <div class="ribbon-navigation-container">
+            <nav class="ribbon-navigation next">
+                <span class="visually-hidden">See next articles</span>
+                <div class="arrow arrow-right">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+            <nav class="ribbon-navigation previous">
+                <span class="visually-hidden">See previous articles</span>
+                <div class="arrow arrow-left">
+                    <div class="arrow-conceal"></div>
+                </div>
+            </nav>
+        </div>
+    </div><!-- close nocontent -->
+</nav>
+						<nav id="navigation" class="navigation" role="navigation">
+</nav> <!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+</nav>
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+				<main id="main" class="main" role="main">
+				<div id="TopAd" class="ad top-ad"></div>
+				<div id="mobilebanner" class="ad mobilebanner"></div>
+								<div id="story" class="story theme-main">
+		<div id="bits" class="spanAC blog">
+			<header id="blogs-masthead" class="wrap">
+	<div class="ad sponsortile-ad hidden nocontent robots-nocontent">
+		<div class="caption">Supported by</div>
+		<div id="sponsortile" class="ad sponsortile-ad-creative"></div>
+	</div>
+		<div class="element1">
+	<div id="logo" ><a href="http://bits.blogs.nytimes.com/?module=BlogMain&action=Click&region=Header&pgtype=Blogs&version=Blog Post&contentCollection=Technology" title="Go to Bits Home"><img src="http://graphics8.nytimes.com/images/blogs_v5/bits/bits_post.png" alt="Bits - Business, Innovation, Technology, Society"/></a></div>    </div>
+    <div class="element2">
+    <div class="inlineSearchControl">
+	<form method="get" id="searchform" action="http://bits.blogs.nytimes.com/">
+		<input type="text" value="" name="s" id="s" class="text" placeholder="Search Bits">
+		<button type="submit" class="searchsubmit">Search</button>
+	</form>
+</div>	</div>
+	<div class="clear"></div>
+		</header>
+	<div class="a-column " id="a-col">
+	<div id="content" class="hfeed">
+	<article class="post-178285 post type-post status-publish hentry category-executives-and-management category-social tag-facebook-inc tag-family-leaves tag-paid-time-off tag-parenting tag-silicon-valley-calif tag-work-life-balance tag-workplace-environment tag-zuckerberg-mark-e per-zuckerberg-mark-e des-family-leaves des-paid-time-off des-parenting-2 des-work-life-balance des-workplace-environment org-facebook-inc geo-silicon-valley-calif news_keywords-parenting" id="post-178285">
+	<header class="postHeader">
+				<div class="postKicker">
+			<span class="kicker"><a href="http://bits.blogs.nytimes.com/category/executives-and-management/?module=BlogCategory&version=Blog Post&action=Click&contentCollection=Technology&pgtype=Blogs&region=Header">Executives and Management</a></span>
+		</div>
+				<h1 itemprop="headline" class="entry-title">Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook</h1>
+		<div class="story-meta-footer">
+			<address class="byline author vcard" itemprop="author creator" itemtype="http://schema.org/Person">
+				By <a href="http://bits.blogs.nytimes.com/author/katie-benner/" class="url fn" title="More Posts by Katie Benner" rel="author"><address class="vcard first-byline" itemscope itemprop="author creator" itemtype="http://schema.org/Person" itemid="Katie Benner">
+					<span class="fn" itemprop="name">Katie Benner</span>
+				</address></a>			</address>
+			<!-- date published --><time class="dateline " datetime="2015-11-21T00:38:42+00:00" itemprop="datePublished">November 20, 2015 7:38 pm</time>
+			<!-- date updated --><span class="visually-hidden updated">November 20, 2015 7:38 pm</span><button class="button comments-button  theme-kicker" data-skip-to-para-id="">
+</button>
+		</div>
+			</header>
+		<div class="entry-content"><div id="sharetools-story" class="sharetools theme-classic sharetools-story" data-shares="email|Email,facebook|Share,twitter|Tweet,save|Save,show-all|More,ad" data-url="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/" data-title="Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook" data-description="Family leave policies have become the subject of much discussion in the tech industry, and a number of top companies have increased the parental leave they offer.">
+				<div class="ad sharetools-inline-article-ad"></div>
+				<div id="MiddleLeft" class="ad middle-left-ad nocontent robots-nocontent"></div>
+				</div><p class="story-body-text" itemprop="articleBody">Facebook&#8217;s chief executive, Mark Zuckerberg, said he planned to take two months of paternity leave after his daughter is born this year, amid a debate about work-life balance at technology companies. </p>
+<p class="story-body-text" itemprop="articleBody">In a <a href="https://www.facebook.com/photo.php?fbid=10102486605494451&#038;set=a.529237706231.2034669.4&#038;type=3&#038;theater">post on Facebook</a> on Friday, Mr. Zuckerberg said it was &#8220;a personal decision,&#8221; and added that &#8220;studies show that when working parents take time to be with their newborns, outcomes are better for the children and families.&#8221; Facebook gives employees in the United States as much as four months of paid maternity or paternity leave, he said.  </p>
+<p class="story-body-text" itemprop="articleBody">Facebook declined to comment.</p>
+<p class="story-body-text" itemprop="articleBody">Family leave policies have become the subject of much discussion in the tech industry. In August, Netflix, the streaming video service, said it was beginning an <a href="http://www.nytimes.com/2015/08/05/business/netflix-offers-expanded-maternity-and-paternity-leave.html">unlimited leave policy</a> for new mothers and fathers for the first year after the birth or adoption of a child. That same month, <a href="http://bits.blogs.nytimes.com/2015/08/05/following-netflix-microsoft-sweetens-parental-leave-benefits/">Microsoft said</a> it would offer new parents an additional eight weeks of paid time off, in a boost to its previous policy. Adobe also shifted its leave policies, as did Amazon in November by offering <a href="http://www.nytimes.com/2015/11/03/technology/amazon-adds-new-perks-for-workers-and-opens-a-bookstore.html">20 weeks of leave for birth mothers </a>and as much as six weeks for fathers. </p>
+<p class="story-body-text" itemprop="articleBody">Silicon Valley investors and executives have also debated what it takes to work at technology companies after The New York Times published <a href="http://www.nytimes.com/2015/08/16/technology/inside-amazon-wrestling-big-ideas-in-a-bruising-workplace.html">an article</a> in August about Amazon&#8217;s bruising workplace culture. At the time, Jeff Bezos, Amazon&#8217;s chief executive, <a href="http://www.nytimes.com/2015/08/18/technology/amazon-bezos-workplace-management-practices.html">said</a> he did not &#8220;recognize this Amazon and I very much hope you don&#8217;t, either.&#8221;</p>
+<p class="story-body-text" itemprop="articleBody">Mr. Zuckerberg revealed in July in a Facebook post that he and his wife, Priscilla Chan, were <a href="http://bits.blogs.nytimes.com/2015/07/31/the-zuckerbergs-announce-theyre-expecting-a-baby-after-a-personal-struggle/">expecting their first child.</a> He said he and Ms. Chan had had three miscarriages before this pregnancy, an unusually personal disclosure for an executive who has been largely private.</p>
+<p class="story-body-text" itemprop="articleBody">In response to the paternity leave announcement, Sheryl Sandberg, Facebook&#8217;s chief operating officer, posted: &#8220;Enjoy the precious early months with your daughter &#8212; I can&#8217;t wait to meet her.&#8221;</p>
+	</div>
+		<footer class="entry-footer">
+			<button class="button comments-button theme-speech-bubble"></button>		<div id="sharetools-post-footer" class="sharetools theme-classic" data-shares="show-all|Share" data-url="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/" data-title="Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook" data-description="Family leave policies have become the subject of much discussion in the tech industry, and a number of top companies have increased the parental leave they offer.">
+				<div class="ad sharetools-inline-article-ad hidden"></div>
+			</div>		<div class="footer-tags">
+			<span class="categories"><a href="http://bits.blogs.nytimes.com/category/executives-and-management/" rel="category tag">Executives and Management</a>, <a href="http://bits.blogs.nytimes.com/category/social/" rel="category tag">Social</a>, </span>
+			<span class="tags"><a href="http://bits.blogs.nytimes.com/tag/facebook-inc/" rel="tag">Facebook Inc</a>, <a href="http://bits.blogs.nytimes.com/tag/family-leaves/" rel="tag">Family Leaves</a>, <a href="http://bits.blogs.nytimes.com/tag/paid-time-off/" rel="tag">Paid Time Off</a>, <a href="http://bits.blogs.nytimes.com/tag/parenting/" rel="tag">Parenting</a>, <a href="http://bits.blogs.nytimes.com/tag/silicon-valley-calif/" rel="tag">Silicon Valley (Calif)</a>, <a href="http://bits.blogs.nytimes.com/tag/work-life-balance/" rel="tag">Work-Life Balance</a>, <a href="http://bits.blogs.nytimes.com/tag/workplace-environment/" rel="tag">Workplace Environment</a>, <a href="http://bits.blogs.nytimes.com/tag/zuckerberg-mark-e/" rel="tag">Zuckerberg, Mark E</a> </span>
+		</div>
+		</footer>
+</article>		<section id="whats-next" class="whats-next nocontent robots-nocontent">
+    <div class="nocontent robots-nocontent">
+        <div class="loader-container">
+            <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+        </div>
+    </div><!-- close nocontent -->
+</section>
+
+			</div><!-- end content -->
+</div><!-- end .a-column -->
+<div class="cColumn nocontent robots-nocontent">
+	<aside>
+	<div class="postNavigation">
+	<ul class="opposingFloatControl wrap">
+		<li class="element1">
+						<span class="previous">Previous Post</span>
+			<div class="arrow arrow-left">
+				<div class="arrow-conceal"></div>
+			</div>
+			<a class="postTitle" href="http://bits.blogs.nytimes.com/2015/11/20/yahoo-restricts-ad-blocking-software-for-some-email-users/" title="Yahoo Restricts Ad-Blocking Software for Some Email Users">
+				Yahoo Restricts Ad-Blocking Software for Some Email Users			</a>
+					</li>
+		<li class="element2">
+						<span class="next">Next Post</span>
+			<div class="arrow arrow-right">
+				<div class="arrow-conceal"></div>
+			</div>
+			<a class="postTitle" href="http://bits.blogs.nytimes.com/2015/11/23/daily-report-techs-push-into-political-circles/" title="Daily Report: Tech&#039;s Push Into Political Circles">
+				Daily Report: Tech&#8217;s Push Into Political Circles			</a>
+					</li>
+	</ul>
+</div>
+<div id="nyt_promo_widget-10" class="module nocontent widget_nyt_promo_widget"><div style="font-family: nyt-franklin, arial, sans-serif; padding-top: 12px; font-size: 14px; line-height: 17px;">
+Visit the <a href="http://nytimes.com/technology" style="font-weight: 600;">Technology section</a> for complete coverage of the industry. <a href="http://nytimes.com/technology" style="font-family: nyt-franklin, arial, sans-serif; font-weight: 600;">»</a>
+</div></div><div id="nyt_most_viewed-4" class="module nocontent widget_nyt_most_viewed"><h4 class="moduleHeader">Most Viewed</h4>	<div class="blog-story">
+		<ol class="customListNumbers">
+		            <li>
+                <span>1.</span>
+                <a href="http://www.nytimes.com/2015/11/19/technology/how-amazons-long-game-yielded-a-retail-juggernaut.html">How Amazon’s Long Game Yielded a Retail Juggernaut</a>
+            </li>
+                        <li>
+                <span>2.</span>
+                <a href="http://www.nytimes.com/2015/10/07/technology/fans-demand-details-after-death-of-a-13-year-old-bratayley-star.html">Fans Demand Details After Death of a 13-Year-Old YouTube Star</a>
+            </li>
+                        <li>
+                <span>3.</span>
+                <a href="http://www.nytimes.com/2015/11/22/technology/livingsocial-once-a-unicorn-is-losing-its-magic.html">LivingSocial Offers a Cautionary Tale to Today’s Unicorns </a>
+            </li>
+                        <li>
+                <span>4.</span>
+                <a href="http://www.nytimes.com/interactive/2015/10/28/technology/personaltech/How-Apple-TV-Stacks-Up.html">How Apple TV Stacks Up: A Rundown of Streaming Devices</a>
+            </li>
+                        <li>
+                <span>5.</span>
+                <a href="http://www.nytimes.com/2015/11/15/business/ibms-design-centered-strategy-to-set-free-the-squares.html">IBM’s Design-Centered Strategy to Set Free the Squares</a>
+            </li>
+            		</ol>
+	</div>
+		</div>		<div class="module ad" id="MiddleRight"></div>
+        		<div class="module ad" id="Box3"></div>
+        <div id="nyt_rss_items-4" class="module nocontent widget_nyt_rss_items"><h4 class="moduleHeader">Latest From Bits</h4>		<div class="blog-story">
+			<ul class="refer"><li><a href="http://bits.blogs.nytimes.com/2015/11/30/daily-report-tech-tries-to-keep-up-in-the-new-year/" title="Daily Report: Tech Tries to Keep Up in the New Year">Daily Report: Tech Tries to Keep Up in the New Year</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/29/nokia-tries-to-reinvent-itself-again-by-taking-over-alcatel-lucent/" title="Nokia Tries to Reinvent Itself, Again, by Taking Over Alcatel-Lucent">Nokia Tries to Reinvent Itself, Again, by Taking Over Alcatel-Lucent</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/25/gardening-start-up-in-china-chances-upon-u-s-marijuana-market/" title="Gardening Start-Up in China Chances Upon U.S. Marijuana Market">Gardening Start-Up in China Chances Upon U.S. Marijuana Market</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/25/daily-report-turkey-travel-and-technology/" title="Daily Report: Turkey, Travel and Technology">Daily Report: Turkey, Travel and Technology</a></li><li><a href="http://bits.blogs.nytimes.com/2015/11/24/alphabet-trying-to-mix-heft-with-start-up-agility/" title="Alphabet Trying to Mix Heft With Start-Up Agility">Alphabet Trying to Mix Heft With Start-Up Agility</a></li></ul>
+		</div>
+		</div>		<div class="module ad" id="Box1"></div>
+        <div id="nyt_blog_social_media-5" class="module nocontent widget_nyt_blog_social_media"><!-- begin #blog-follow-widget -->
+<div id="blog-follow-widget" class="blog-fw-single ">
+<h4 class="">
+<span class="blog-fw-generic-followmessage">Follow <span class="blog-fw-desk">us on</span></span>
+<span class="blog-fw-specific-followmessage"><span class="blog-fw-username"><a href="https://twitter.com/nytimesbits" title="Follow @nytimesbits on twitter">@nytimesbits</a></span> on <span class="blog-fw-twitter">twitter</span></span></h4>
+<ul>
+<li class="blog-fw-twitter single"><a href="https://twitter.com/nytimesbits" title="Follow nytimesbits on Twitter">Twitter</a></li></ul>
+<p class="blog-fw-followbutton"><a href="https://twitter.com/nytimesbits" title="Follow @nytimesbits on twitter">Follow</a></p></div> <!-- end #blog-follow-widget -->
+</div>	</aside>
+</div>		<div class="clear"></div>
+	</div><!-- end blog wrap -->
+	<div class="hideContent"></div>
+
+	
+<!-- Google Analytics start -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4406282-9',  { 'alwaysSendReferrer': true } );
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics end -->
+		<div id="mobilebanner2" class="ad mobilebanner2"></div>
+		<div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+<div id="SponLink" class="text-ad bottom-left-ad nocontent robots-nocontent"></div>
+
+		<div id="Top5" class="ad top5-ad hidden nocontent robots-nocontent"></div>
+
+					</div>
+			<div class="search-overlay"></div>
+		</main><!-- close main -->
+		<section id="site-index" class="site-index">
+    <header class="section-header">
+        <p class="user-action"><a href="http://www.nytimes.com/">Go to Home Page &raquo;</a></p>
+        <h2 class="section-heading">
+            <span class="visually-hidden">Site Index</span>
+            <a id="site-index-branding-link" href="http://www.nytimes.com/">
+                <span class="visually-hidden">The New York Times</span>
+            </a>
+        </h2>
+        <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/blogs/20151116-121901/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link');</script>
+    </header>
+
+    <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
+
+        <div class="split-6-layout layout">
+
+                                                                                    
+                    <div class="column">
+                        <h3 class="menu-heading">News</h3>
+                        <ul class="menu">
+
+                                                                                                                                                                                                                                                
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/world/index.html">World</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/politics/index.html">Politics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/technology/index.html">Tech</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/science">Science</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/obituaries/index.html">Obituaries</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/corrections/index.html">Corrections</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Opinion</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html">Today's Opinion</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#columnists">Op-Ed Columnists</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#editorials">Editorials</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#contributing">Contributing Writers</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#op-ed">Op-Ed Contributors</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#opinionator">Opinionator</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#letters">Letters</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#sundayreview">Sunday Review</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#takingNote">Taking Note</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/roomfordebate">Room for Debate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/opinion">Video: Opinion</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Arts</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/index.html">Today's Arts</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/design/index.html">Art & Design</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://artsbeat.blogs.nytimes.com/">ArtsBeat</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/books/index.html">Books</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/movies/index.html">Movies</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/music/index.html">Music</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/television/index.html">Television</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/theater/index.html">Theater</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/video-games/index.html">Video Games</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/arts">Video: Arts</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Living</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/crosswords/">Crossword</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/dining/index.html">Food</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion & Style</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/jobs">Jobs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/magazine/index.html">Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/t-magazine">T Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/weddings/index.html">Weddings & Celebrations</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Listings & More</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/ref/classifieds/">Classifieds</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/marketing/tools-and-services/">Tools & Services</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/topics/">Times Topics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://tvlistings.nytimes.com/tvlistings/ZCGrid.do?aid=nyt">TV Listings</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/interactive/blogs/directory.html">Blogs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/multimedia/index.html">Multimedia</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://lens.blogs.nytimes.com/">Photography</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video">Video</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/store/?&t=qry542&utm_source=nytimes&utm_medium=HPB&utm_content=hp_browsetree&utm_campaign=NYT-HP&module=SectionsNav&action=click&region=TopBar&version=BrowseTree&contentCollection=NYT%20Store&contentPlacement=2&pgtype=Homepage">NYT Store</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/times-journeys/?utm_source=nytimes&utm_medium=HPLink&utm_content=hp_browsetree&utm_campaign=NYT-HP">Times Journeys</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/seeallnav">Subscribe</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/membercenter">Manage My Account</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                            
+            <div class="column last-column">
+                
+<h3 class="menu-heading">Subscribe</h3>
+
+<ul class="menu primary-menu">
+    <li class="menu-label">Subscribe</li>
+    <li class="times-premier">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/tpnav">Times Insider</a>
+    </li>
+
+    <li class="home-delivery">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/hdleftnav">Home Delivery</a>
+            </li>
+    <li class="digital-subscriptions">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/digitalleftnav">Digital Subscriptions</a>
+            </li>
+    <li class="nyt-opinion">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/opinionindex">NYT Opinion</a>
+    </li>
+    <li class="nyt-crossword last-item">
+        <i class="icon sprite-icon"></i>
+        <a id="nyt-crossword" href="http://www.nytimes.com/crosswords/index.html">Crossword</a>
+    </li>
+
+</ul>
+
+<ul class="menu secondary-menu">
+
+    <li>
+        <a href="http://www.nytimes.com/marketing/newsletters">Email Newsletters</a>
+    </li>
+    <li>
+        <a href="https://myaccount.nytimes.com/mem/tnt.html">Alerts</a>
+    </li>
+    <li>
+                    <a href="http://www.nytimes.com/giftleftnav">Gift Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/educationleftnav">Education Rate</a>
+            </li>
+
+</ul>
+<ul class="menu secondary-menu">
+    <li>
+        <a href="http://www.nytimes.com/services/mobile/index.html">Mobile Applications</a>
+    </li>
+    <li>
+                    <a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a>
+            </li>
+                <li>
+            <a href="http://subscribe.inyt.com">International New York Times</a>
+        </li>
+    
+</ul>
+
+            </div><!-- close column -->
+
+        </div><!-- close split-6-layout -->
+
+    </nav><!-- close nav -->
+
+</section><!-- close site-index -->
+				<footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+         <ul>
+             <li>
+                <a href="http://www.nytco.com" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2015</span>
+					<span itemprop="copyrightHolder provider sourceOrganization" itemscope
+						itemtype="http://schema.org/Organization"
+						itemid="http://www.nytimes.com">
+						<span itemprop="name"> The New York Times Company</span>
+						<meta itemprop="tickerSymbol" content="NYSE NYT"/>
+					</span>
+                </a>
+            </li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li><a href="http://www.nytimes.whsites.net/mediakit">Advertise</a></li>
+            <li><a href="http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="last-item"><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+            <li><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+            <li class="last-item"><a href="http://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>		</div><!-- close shell -->
+	<script>
+require(['foundation/main'], function () {
+    require(['blogs/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['http://graphics8.nytimes.com/bi/js/tagx/tagx.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+	<div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"5164608","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRtQWV9TFxtCDkk=","queueTime":0,"applicationTime":87,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+</html>

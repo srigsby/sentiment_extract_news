@@ -1,0 +1,1073 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta name="viewport" content="width=1140"> <title>Tesla fixes bug after hackers hijack Model S - Aug. 6, 2015 </title> <link rel="image_src" href="http://i2.cdn.turner.com/money/dam/assets/150805000436-tesla-model-s-hack-780x439.jpg" /> <link rel="canonical" href="http://money.cnn.com/2015/08/06/technology/tesla-hack/index.html" /> <link rel="shortlink" href="http://cnnmon.ie/1Mcx5CR" /> <meta name="date" content="2015-08-06 06:41:50" /> <meta name="title" content="Tesla fixes bug after hackers hijack Model S" /> <meta name="description" content="Tesla Model S cars had a flaw -- until recently -- that let hackers hijack the controls." /> <meta name="keywords" content="tesla hack, tesla hacked, tesla remote control, tesla model s hack, tesla s software flaw, tesla s software bug, tesla 0day, tesla zero day, jose pagliery, pagliery, tech news, infosec, cybersecurity, hack, hacker, hackers, hacking, defcon, defcon hacking conference, defcon 23" /> <meta name="news_keywords" content="tesla hack, tesla hacked, tesla remote control, tesla model s hack, tesla s software flaw, tesla s software bug, tesla 0day, tesla zero day, jose pagliery, pagliery, tech news, infosec, cybersecurity, hack, hacker, hackers, hacking, defcon, defcon hacking conference, defcon 23" /> <meta name="author" content="Jose Pagliery" /> <meta name="section" content="technology" /> <meta name="subsection" content="" /> <meta property="og:title" content="Tesla fixes bug after hackers hijack Model S" /> <meta property="og:type" content="article" /> <meta property="og:url" content="http://money.cnn.com/2015/08/06/technology/tesla-hack/index.html" /> <meta property="og:image" content="http://i2.cdn.turner.com/money/dam/assets/150805000436-tesla-model-s-hack-780x439.jpg" /> <meta property="og:site_name" content="CNNMoney" /> <meta property="og:description" content="Tesla Model S cars had a flaw -- until recently -- that let hackers hijack the controls." /> <meta property="fb:app_id" content="521848191196480"/>
+ <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content="@CNNMoney"> <meta name="twitter:url" content="http://money.cnn.com/2015/08/06/technology/tesla-hack/index.html"> <meta name="twitter:title" content="Tesla fixes bug after hackers hijack Model S"> <meta name="twitter:description" content="Tesla Model S cars had a flaw -- until recently -- that let hackers hijack the controls."> <meta name="twitter:image" content="http://i2.cdn.turner.com/money/dam/assets/150805000436-tesla-model-s-hack-540x304.jpg"> <meta name="DC.date.issued" content="2015-08-06T06:41:50" /> <meta property="vr:type" content="Article" /> <meta property="vr:category" content="technology" /> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <style>
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Light.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Light.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Light.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Light.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Light.svg#regular") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Roman.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Roman.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Roman.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Roman.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Roman.svg#regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Medium.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Medium.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Medium.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Medium.svg#regular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Bold.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Bold.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Bold.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Bold.svg#regular") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Light-Italic.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Light-Italic.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Light-Italic.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Light-Italic.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Light-Italic.svg#regular") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Italic.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Italic.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Italic.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Italic.svg#regular") format("svg");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Medium-Italic.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Medium-Italic.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Medium-Italic.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Medium-Italic.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Medium-Italic.svg#regular") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: "CNN";
+  src: url("/.element/font/8.0/HelveticaNeue-Bold-Italic.eot");
+  src: url("/.element/font/8.0/HelveticaNeue-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("/.element/font/8.0/HelveticaNeue-Bold-Italic.woff") format("woff"), url("/.element/font/8.0/HelveticaNeue-Bold-Italic.ttf") format("truetype"), url("/.element/font/8.0/HelveticaNeue-Bold-Italic.svg#regular") format("svg");
+  font-weight: 700;
+  font-style: italic; }
+
+
+/* icons*/
+
+@font-face {
+    font-family: "cnnmoney-icons";
+    src: url("/.element/font/icons/1.0/cnnmoney-icons.eot");
+    src: url("/.element/font/icons/1.0/cnnmoney-icons.eot?#iefix") format("embedded-opentype"),
+         url("/.element/font/icons/1.0/cnnmoney-icons.woff") format("woff"),
+         url("/.element/font/icons/1.0/cnnmoney-icons.ttf") format("truetype"),
+         url("/.element/font/icons/1.0/cnnmoney-icons.svg?#cnnmoney-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+</style> <link rel="stylesheet" type="text/css" href="http://z.cdn.turner.com/money/tmpl_asset/static/style/1198/css/cnnm-ocean.story-min.css" /> <script type="text/javascript" src="http://z.cdn.turner.com/money/tmpl_asset/static/script/920/js/cnnmoney.main-min.js"></script> <script type="text/javascript" src="http://z.cdn.turner.com/money/.e/script/jquery/1.11.1/jquery.min.js"></script> <script type="text/javascript" src="http://z.cdn.turner.com/money/.e/script/jquery.migrate/jquery.migrate.min.js"></script> <script language="JavaScript" type="text/javascript">var cnnSiteWideCurrDate = new Date(2014, 11, 4);</script> <!--[if lt IE 9]>
+<script src = "http://z.cdn.turner.com/money/.element/script/html5shiv/3.7.0/html5shiv.js"> </script>
+<![endif]-->
+
+<!--// Optimizely script include //-->
+<script src = "//cdn.optimizely.com/js/59492907.js"> </script>
+
+<!--// Outbrain VR: generic //-->
+<script type= "text/javascript">
+var _vrq_automate = false;
+/* Home and international pages */
+var _vrq_pathname = location.pathname.toLowerCase();
+if (location.pathname == '/' || location.pathname == '/index.html' || (_vrq_pathname.match('news/world') != null) || (_vrq_pathname.match('/international') != null)) {
+    _vrq_automate = true;
+}
+var _vrq = _vrq || [];
+_vrq.push(['id', 454]);
+_vrq.push(['automate', _vrq_automate]);
+_vrq.push(['track',
+    function() {}
+]);
+(function(d, a) {
+    var s = d.createElement(a),
+        x = d.getElementsByTagName(a)[0];
+    s.async = true;
+    s.src = 'http://a.visualrevenue.com/vrs.js';
+    x.parentNode.insertBefore(s, x);
+})(document, 'script'); 
+
+/** HOT FIX HACK **/
+_vrtrack = function (Object) {};
+
+</script> 
+
+
+
+<style>
+.cmmtcount {display: none;}
+</style>
+
+<!--// MSIB SDK for login //-->
+<script type = "text/javascript">
+if (window.location.hostname.match(/^money.cnn.com$/i)) {
+    document.write(' <scr' + 'ipt src="https://s.cdn.turner.com/money/.element/script/msib/msib_sdk.min.js"></scr' + 'ipt>');
+} else {
+    /* document.write(' <scr' + 'ipt src="http://aud-qai.cnn.com/services/money/sdk/msib_sdk.js"></scr' + 'ipt>'); */
+    document.write(' <scr' + 'ipt src="https://s.cdn.turner.com/money/.element/script/msib/msib_sdk.min.js"></scr' + 'ipt>');
+} 
+</script>
+
+<!-- Facebook Conversion Code for Key Page Views - CNNMoney1 -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6025147318758',
+{'value':'0.00','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none"
+src="https://www.facebook.com/tr?ev=6025147318758&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1"
+/></noscript>
+
+
+<!-- Facebook Custom Audience pixel -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '687168111412131']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none"
+src="https://www.facebook.com/tr?id=687168111412131&amp;ev=PixelInitialized"
+/></noscript>
+ <script type="text/javascript"> var cnnActivePlayer = null; var cnnPlayers = []; var vidConfig = []; </script> 
+<script type="text/javascript">
+var _sf_startpt=(new Date()).getTime();
+document.adoffset = 0;
+</script>
+<script type="text/javascript" src="http://i.cdn.turner.com/analytics/mon/ais.js"></script>
+<script type="text/javascript" src="http://z.cdn.turner.com/ads/adfuel/adfuel-0.9.2.min.js"></script>
+<script>
+var CNNMONEY = window.CNNMONEY || {};
+CNNMONEY.adTargets = {}; 
+    
+if(document.referrer.match("edition|us|www.cnn.com"))
+{
+	CNNMONEY.adTargets.refdom = "cnn";
+}
+else if(document.referrer.match("money.cnn.com"))
+{
+	CNNMONEY.adTargets.refdom = "money"; 
+}
+else if(document.referrer.match("facebook.com"))
+{
+	CNNMONEY.adTargets.refdom = "facebook"; 
+}
+else if(document.referrer.match("twitter.com") || document.referrer.match("/t.co/"))
+{
+	CNNMONEY.adTargets.refdom = "twitter"; 
+}
+else if(document.referrer.match("google.com"))
+{
+	CNNMONEY.adTargets.refdom = "google"; 
+}  
+else
+{
+	CNNMONEY.adTargets.refdom = "other"; 
+}      
+</script>
+ <script type="text/javascript"> CNNMONEY.adTargets.c_type = 'article'; CNNMONEY.adTargets.spec = 'cyber_safe'; </script> <script src="http://i.cdn.turner.com/ads/cnn_money/cnnmoney_tech.js"></script> </head> <body class="cnn-story"> <div class="moneyTechNav"> <!--script language="JavaScript" src="http://i.cdn.turner.com/money/.element/ssi/javascript/1.1/cnnhat_section.js"></script-->
+
+
+
+<header class="main-banner js-banner banner-intl">
+  <div class="container">
+   <!--
+    <a href="/" class="main-banner-logo">
+		<img src="http://i.cdn.turner.com/money/.element/img/8.0/logos/CNNMoney-logo.png" width="220" height="82" class="cnnmoney-logo" />
+    </a>
+   -->
+   <a href="http://edition.cnn.com/" class="main-banner-logo">
+   	<img src="http://i.cdn.turner.com/money/.element/img/8.0/logos/cnn-logo.png" width="82" height="82" class="cnn-logo" />
+   </a>
+   <a href="/" class="main-banner-logo">
+   	<img src="http://i.cdn.turner.com/money/.element/img/8.0/logos/money-logo.png" width="140" height="82" class="money-logo" />
+   </a>
+    <nav class="main-nav js-nav" role="navigation">
+      <ul class="main-nav-ul">
+      	<li class="main-nav-li" id="main-nav--business">
+            <a class="main-nav-a" id="business-link" href="/news/">Business</a>
+            
+
+
+
+
+	
+    <div class="flyout-nav business">
+        <div class="row flyout-business">
+		    <div class="column" data-vr-zone="Nav-business col1">
+		        <article class="summary hero" data-vr-contentbox="">
+		            <a class="flyout-nav-link" href="/gallery/technology/2015/11/23/hyperloop-11-things-elon-evolution/index.html">
+		                <figure class="summary-image">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/151123125926-hyperloop-still-8-336x188.png" width="298" height="168" alt="HYPERLOOP STILL 8" border="0"
+			
+			
+			 />
+
+	
+
+		                </figure>
+		                <figcaption class="nav-summary-hed">
+		                The Hyperloop: 11 things to know
+		                </figcaption>
+		            </a>
+		        </article>
+		    </div>
+	            <div class="column">
+	<ul class="flyout-nav-list" data-vr-zone="Nav-business col2">
+	    <li data-vr-contentbox=""><a href="/media/" class="flyout-nav-link">Media</a></li>
+	    <li data-vr-contentbox=""><a href="/news/companies/access/" class="flyout-nav-link">Access</a></li>
+	    <li data-vr-contentbox=""><a href="/news/economy/davos/" class="flyout-nav-link">Davos</a></li>
+	</ul>
+	<ul class="flyout-nav-list" data-vr-zone="Nav-business col3">
+	    <li data-vr-contentbox=""><a href="/news/companies/who-is/" class="flyout-nav-link">Who is..?</a></li>
+	    <li data-vr-contentbox=""><a href="/news/companies/5-stunning-stats/" class="flyout-nav-link">5 Stunning Stats</a></li>
+	</ul>
+</div>
+
+        </div>
+    </div>
+
+  
+        </li>
+        <li class="main-nav-li" id="main-nav--markets">
+            <a class="main-nav-a" id="markets-link" href="/markets/">Markets</a>
+            
+
+
+
+
+	
+    <div class="flyout-nav markets">
+        <div class="row flyout-markets">
+		    <div class="column" data-vr-zone="Nav-markets col1">
+		        <article class="summary hero" data-vr-contentbox="">
+		            <a class="flyout-nav-link" href="/2015/11/30/investing/warren-buffett-hillary-clinton-campaign/index.html">
+		                <figure class="summary-image">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/150401220316-warren-buffett-hillary-clinton-336x188.jpg" width="298" height="168" alt="warren buffett hillary clinton" border="0"
+			
+			
+			 />
+
+	
+
+		                </figure>
+		                <figcaption class="nav-summary-hed">
+		                Warren Buffett to campaign for Hillary Clinton 
+		                </figcaption>
+		            </a>
+		        </article>
+		    </div>
+	            <div class="column">
+	<ul class="flyout-nav-list" data-vr-zone="Nav-markets col2">
+	    <li data-vr-contentbox=""><a href="/data/markets/trade/" class="flyout-nav-link">Trade</a></li>
+	    <li data-vr-contentbox=""><a href="/investing/thebuzz/" class="flyout-nav-link">Buzz</a></li>
+	    <li data-vr-contentbox=""><a href="/data/markets/profit/" class="flyout-nav-link">Profit</a></li>
+	    <li data-vr-contentbox=""><a href="/investing/" class="flyout-nav-link">Investing</a></li>
+	    <li data-vr-contentbox=""><a href="/news/economy/" class="flyout-nav-link">Economy</a></li>
+	</ul>
+	<ul class="flyout-nav-list" data-vr-zone="Nav-markets col3">
+	    <li data-vr-contentbox=""><a href="/data/premarket/" class="flyout-nav-link">Premarkets</a></li>
+	    <li data-vr-contentbox=""><a href="/data/hotstocks/" class="flyout-nav-link">Market Movers</a></li>
+	    <li data-vr-contentbox=""><a href="/data/dow30/" class="flyout-nav-link">Dow 30</a></li>
+	    <li data-vr-contentbox=""><a href="/data/afterhours/" class="flyout-nav-link">After-Hours</a></li>
+	    <li data-vr-contentbox=""><a href="/data/world_markets/americas/" class="flyout-nav-link">World Markets</a></li>
+	</ul>
+	<ul class="flyout-nav-list" data-vr-zone="Nav-markets col4">
+	    <li data-vr-contentbox=""><a href="/data/markets/investing-guide/" class="flyout-nav-link">Investing Guide</a></li>
+	    <li data-vr-contentbox=""><a href="/data/markets/the-open" class="flyout-nav-link">The Open</a></li>
+	    <li data-vr-contentbox=""><a href="/data/markets/stockswatch/" class="flyout-nav-link">Stockswatch</a></li>
+	    <li data-vr-contentbox=""><a href="/technology/tech30" class="flyout-nav-link">Tech30</a></li>
+	    <li data-vr-contentbox=""><a href="/data/fear-and-greed" class="flyout-nav-link">Fear &amp; Greed</a></li>
+	    <!---<li data-vr-contentbox=""><a href="/news/specials/jobs" class="flyout-nav-link">Jobs</a></li>-->
+	</ul>
+</div>
+
+        </div>
+    </div>
+
+  
+        </li>
+        <li class="main-nav-li" id="main-nav--tech">
+            <a class="main-nav-a" href="/technology/">Tech</a>
+            
+
+
+
+
+	
+    <div class="flyout-nav tech">
+        <div class="row flyout-tech">
+		    <div class="column" data-vr-zone="Nav-tech col1">
+		        <article class="summary hero" data-vr-contentbox="">
+		            <a class="flyout-nav-link" href="/2015/11/30/technology/vtech-hack-kids/index.html">
+		                <figure class="summary-image">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/151130101341-vtech-hack-336x188.jpg" width="298" height="168" alt="vtech hack" border="0"
+			
+			
+			 />
+
+	
+
+		                </figure>
+		                <figcaption class="nav-summary-hed">
+		                Kids' info is exposed in toymaker hack
+		                </figcaption>
+		            </a>
+		        </article>
+		    </div>
+	            <div class="column">
+	<ul class="flyout-nav-list" data-vr-zone="Nav-tech col2">
+	    <li data-vr-contentbox=""><a href="/technology/innovate/" class="flyout-nav-link">Innovate</a></li>
+	    <li data-vr-contentbox=""><a href="/technology/gadget/" class="flyout-nav-link">Gadget</a></li>
+	    <li data-vr-contentbox=""><a href="/technology/connect/" class="flyout-nav-link">Connect</a></li>
+	</ul>
+	<ul class="flyout-nav-list" data-vr-zone="Nav-tech col3">
+	    <li data-vr-contentbox=""><a href="/technology/best-in-tech/" class="flyout-nav-link">Best In Tech</a></li>
+	    <li data-vr-contentbox=""><a href="/technology/cybercrime_economy/" class="flyout-nav-link">Cyber-Safe</a></li>
+	    <li data-vr-contentbox=""><a href="/technology/ces/" class="flyout-nav-link">CES</a></li>
+	</ul>
+	<ul class="flyout-nav-list" data-vr-zone="Nav-tech col4">
+	    <!--<li data-vr-contentbox=""><a href="/technology/evolution/" class="flyout-nav-link">Evolution</a></li>
+	    <li data-vr-contentbox=""><a href="/technology/love-inc/" class="flyout-nav-link">Love Inc.</a></li>-->
+	    <li data-vr-contentbox=""><a href="/technology/most-innovative-cities/" class="flyout-nav-link">Innovative Cities</a></li>
+	</ul>
+</div>
+
+        </div>
+    </div>
+
+  
+        </li>
+        <li class="main-nav-li" id="main-nav--media">
+            <a class="main-nav-a" href="/media/">Media</a>
+        </li>
+        <li class="main-nav-li" id="main-nav--luxury">
+            <a class="main-nav-a" href="/luxury/">Luxury</a>
+            
+
+
+
+
+	
+    <div class="flyout-nav luxury">
+        <div class="row flyout-luxury">
+		    <div class="column" data-vr-zone="Nav-luxury col1">
+		        <article class="summary hero" data-vr-contentbox="">
+		            <a class="flyout-nav-link" href="/gallery/luxury/2015/11/25/mercedes-benz-300-sc/index.html">
+		                <figure class="summary-image">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/151125114803-gallery-1956-mercedes-benz-300-sc-driving-336x188.jpg" width="298" height="168" alt="gallery mercedes benz" border="0"
+			
+			
+			 />
+
+	
+
+		                </figure>
+		                <figcaption class="nav-summary-hed">
+		                Driving the ultimate in '50s Mercedes-Benz style
+		                </figcaption>
+		            </a>
+		        </article>
+		    </div>
+	            <div class="column">
+	<ul class="flyout-nav-list" data-vr-zone="Nav-luxury col2">
+	    <li data-vr-contentbox=""><a href="/luxury/voyage/" class="flyout-nav-link">Voyage</a></li>
+	    <li data-vr-contentbox=""><a href="/luxury/rare" class="flyout-nav-link">Rare</a></li>
+	    <li data-vr-contentbox=""><a href="/pf/wealth" class="flyout-nav-link">Wealth</a></li>
+	</ul>
+	<ul class="flyout-nav-list" data-vr-zone="Nav-luxury col3">
+	    <li data-vr-contentbox=""><a href="/calculator/pf/millionaire/index.html" class="flyout-nav-link">Millionaire Calculator</a></li>
+	    <li data-vr-contentbox=""><a href="/interactive/luxury/rich-quiz/" class="flyout-nav-link">Rich Quiz</a></li>
+	    <li data-vr-contentbox=""><a href="/interactive/luxury/expensive-real-estate/" class="flyout-nav-link">$25 Million Homes</a></li>
+	</ul>
+</div>
+
+        </div>
+    </div>
+
+  
+        </li>
+      </ul>
+    </nav>
+    <div class="main-banner-right">
+
+        <div class="main-banner-eyebrow">
+          <a href="http://cnn.com">CNN</a>
+          <span class="editionizer js-editionizer">
+            <a class="editionizer-display"><span class="js-editionDisplay">International</span><span class="icon icon--arrow-down"></span></a>
+            <a class="js-editionOption editionizer-option" id="www">U.S.</a>
+          </span>
+
+          <span class="login">
+            <span class="username js-username-display" style="display: none;"></span>
+            <span class="status js-logged-in-display">
+              <a href="javascript:void(0)" class="cnnLogin">Log In</a>
+            </span>
+            <span class="status js-logged-out-display" style="display: none;">
+              <a href="javascript:void(0)" class="cnnLogout">Log Out</a>
+            </span>
+          </span>
+        </div>
+        
+    <form role="search" class="search" method="get" action="http://searchapp.cnn.com/money-search/validate.jsp" name="quoteForm">
+		<input type="text" id="symb" title="Search" name="symbols" autocomplete="off" class="blur search--input" placeholder="stock tickers">
+		<span id="search_button" class="search-icon" onclick="document.quoteForm.submit();"><img src="http://i.cdn.turner.com/money/.element/img/8.0/misc/icon-search.png" class="search-icon-img" width="24px" height="25px" /></span>
+    </form>
+        
+    </div>
+  </div>
+</header>
+ </div> <div id="adBanner"><div id="ad_bnr_atf_01"></div></div> <main class="container js-social-anchor-start" role="main"> <header> <div class="row"> <div class="column"> <div class="breadcrumb"> <a href="/technology/cyber-safe/">Cyber-Safe</a> </div> <h1 class="article-title">Tesla fixes bug after hackers hijack Model S</h1> </div> </div> <div class="row"> <div class="column"> <!-- main --> <div class="share-tools pull-left" id="js-sharebar-main"></div>
+ <div class="pull-right"> <span class="cnnbyline js-vid-byline-"> <span class="byline">By <a href='mailto:Jose.Pagliery@CNN.com' target='_blank'>Jose Pagliery</a> </span>&nbsp; <a href="https://twitter.com/intent/user?screen_name=Jose_Pagliery" class="soc-twtname">@Jose_Pagliery</a> </span> </div> </div> </div> </header> <div class="row two-columns-fixed-rr"> <section class="column"> <article class="module"> <div id="storycontent" > <!--storytext--> <div id="storytext"> <div id="js-ie-storytop" class="ie--storytop"> <figure id="ie_dottop"> <img src="http://i2.cdn.turner.com/money/dam/assets/150805000436-tesla-model-s-hack-780x439.jpg" width="780" height="439" alt="tesla model s hack" border="0" /> <figcaption class="caption">Tesla Model S cars had a flaw -- until recently -- that let hackers hijack the controls.</figcaption> </figure> </div> <div class="share-tools share-tools--floater" id="js-sharebar-floater"></div>
+ <h2>Until this week, a deranged mechanic could remotely hack and hijack a Tesla Model S car long after it left the shop.</h2> <p> There were computer flaws in the car's software, according to two security researchers who plan to reveal their discoveries at the DEF CON hacking conference on Friday. They gave CNNMoney a preview of their findings. </p> <div id="ie_column"> <div id="ie_column"> <div id="quigo220"><!-- ADSPACE: technology/quigo/ctr.220x200 -->
+	<div id="ad_ns_btf_03"></div>
+<!-- ADSPACE-END --></div> </div> </div> <p> Anyone with physical access to the inside of the Model S could infect it with malware that later gave them remote control of the car. A hacker could turn it off without warning, open doors or make the electronics display faulty information. </p> <p> Moved by the findings, <span>Tesla</span> <span>(<span class='inlink_chart'><a href='http://money.cnn.com/quote/quote.html?symb=TSLA&amp;source=story_quote_link' class='inlink'>TSLA</a></span>)</span> just issued a fix. Cars will automatically receive software updates over their existing wireless Internet connections on Thursday, the company said. </p> <p> Tesla stressed that this particular hack required initial physical access to the inside of the car. </p> <p> The researchers were Kevin Mahaffey, who co-founded the cybersecurity startup Lookout, and Marc Rogers, a security researcher at CloudFlare which protects websites from hacks. </p> <p> The duo said they found half a dozen other flaws with the Model S. For instance, Tesla cars were using an outdated, four-year-old Web browser. That means it was susceptible to all sorts of known hacks that other browsers, like Google Chrome and Mozilla Firefox, have already fixed. </p> <p> Heading to the wrong website could let the car get infected -- giving hackers remote control of the car, Rogers explained. That's because the sensitive instruments inside the car weren't verifying that they were getting instructions from a legitimate source (for example, the brakes). </p> <p> After accessing the car's dashboard and loading it with malware, Mahaffey and Rogers took the Tesla to an empty parking lot in Los Angeles and sent remote commands to the car from an iPhone. Rogers was able to unlock the car's doors pop open the trunk and (at extremely slow speeds) lurch the car to a halt while making everything inside go dark. </p> <p> To Tesla's credit, at high speeds, the command to shut the car off just put the vehicle in neutral and let the driver steer it to a safe spot. </p> <p> Rogers said that, despite the flaws they found, Tesla is actually way ahead of all other car manufacturers. He called them proactive and very receptive to security advice. </p> <p> "In the auto industry, that's unusual," Rogers said. </p> <p> <a href='http://money.cnn.com/2014/06/01/technology/security/car-hack/'>Cars are still mostly dumb on the inside -- yet companies are rushing to slap Internet connectivity on them anyway</a>. The end result is like having a smartphone on wheels, except it's a device that's incredibly susceptible to computer viruses -- and travels at highway speeds. </p> <p> "Modern cars have more in common with a laptop than they do with the Ford Model T," Mahaffey stressed. </p> <p> This flaw in Teslas is only the latest example. In July, Chrysler was forced to recall Jeeps and other models after researchers revealed <a href='http://money.cnn.com/2015/07/21/technology/chrysler-hack/'>Chryslers can be hacked over the Internet</a>. </p> <script type="text/javascript"> vidConfig.push({ videoArray : [ {id : "/video/technology/2015/07/22/segall-car-hack.cnnmoney", collection: "", hed : "What a hacked Jeep looks like on the road"} ], playerprofile : 'story', playerid : 'cvp_story_0', divid : 'vid0', hedtarget : '#cnnplayer0 .cnnHeadline' }); </script> <div class="cnnplayer" id="cnnplayer0"> <div class="cnnVidplayer"> <a class="summaryImg" id="vid0" href="/video/technology/2015/07/22/segall-car-hack.cnnmoney" onclick="javascript:VideoPlayerManager.playVideos('cvp_story_0'); return false;"> <img src="http://i2.cdn.turner.com/money/dam/assets/150722154347-segall-car-hack-00001026-1024x576.jpg" width="780" height="439" alt="What a hacked Jeep looks like on the road" border="0" /> <span class="button video-play"><i class="icon icon--type-video"></i></span> </a> </div> <div class="cnnVidFooter"> <div class="js-vid-hed-cvp_story_0 cnnHeadline">What a hacked Jeep looks like on the road</div> <div class="js-vid-countdown-cvp_story_0 countdown"></div> </div> </div> <p> </p> <p> <a href='http://money.cnn.com/2015/07/21/technology/chrysler-hack/index.html'><span class='inStoryHeading'>Related: Chryslers can be hacked over the Internet</span></a> </p> <p> <a href='http://money.cnn.com/2015/07/29/technology/hack-smart-rifle/index.html'><span class='inStoryHeading'>Related: You can hack this high-tech rifle</span></a> </p> <p> <a href='https://flipboard.com/@cnnmoney/cybersecurity%3A-how-safe-are-you%3F-9llr7ig2z' target='_blank'><span class='inStoryHeading'>Related: CNN's cybersecurity Flipboard magazine</span></a> </p> <div id="storyFooter"></div> <div class="clearfix"></div> <div class="storytimestamp"> <span class="cnnStorySource"> CNNMoney (New York) </span> <span class="cnnDateStamp">August 6, 2015: 7:00 AM ET</span> </div> </div> <!--/storytext--> <div class="foot"> <div id="postedin"></div> <div class="clearFloat"></div> </div> </div> <!-- main --> <div class="share-tools pull-left" id="js-sharebar-main"></div>
+ </article> <div class="cnnoutbrain outbrain-recommended" id="js-outbrain-recommended"></div>
+ <div class="cnnoutbrain outbrain-relateds" id="js-outbrain-relateds"></div>
+ <section class="row"> <div class="column"> <div class="module"> <div id="quigo628"><div id="ad_ns_btf_02"></div></div> </div> </div> </section> <section class="row module-comments"> <div class="column"> <aside class="module"> <h3 class="module-header">Comments</h3> <div class="module-body"> <div class="js-livefyre-comments" data-article-id="article_3B9F1728-398C-C7F1-D3B3-DF8552EEDF3E" data-checksum="87f28b96db66e531ca641c86bc024002" data-collection-meta="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWdzIjoiIiwidGl0bGUiOiJUZXNsYSBmaXhlcyBidWcgYWZ0ZXIgaGFja2VycyBoaWphY2sgTW9kZWwgUyIsImNoZWNrc3VtIjoiODdmMjhiOTZkYjY2ZTUzMWNhNjQxYzg2YmMwMjQwMDIiLCJ0eXBlIjoibGl2ZWNvbW1lbnRzIiwidXJsIjoiaHR0cDovL21vbmV5LmNubi5jb20vMjAxNS8wOC8wNi90ZWNobm9sb2d5L3Rlc2xhLWhhY2svaW5kZXguaHRtbCIsImFydGljbGVJZCI6ImFydGljbGVfM0I5RjE3MjgtMzk4Qy1DN0YxLUQzQjMtREY4NTUyRUVERjNFIn0.1gAfhYR8klV-w8q3HJ23ijmSMSIdzkUo-EVW7o1JYC4"></div> </div> </aside> </div> </section> </section> <section class="column"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="module module-surge-story js-surge-module">
+      <a href="http://money.cnn.com/surge/">
+        <h3 class="module-header">Social Surge - What's Trending</h3>
+        <div class="module-surge-story-icon"></div>
+      </a>
+      <div class="module-body">
+      <ul class="summary-list summary-list-thumbs summary-list-numbered">
+        
+                  
+
+
+
+          <li>
+                <a class="summary summary-hed" href="/2015/11/29/news/economy/bill-gates-breakthrough-energy-coalition/index.html">
+
+                          <figure class="thumb-image pull-left">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/151129185040-bill-gates-energy-fund-124x70.jpg" width="124" height="70" alt="Bill Gates launches multi-billion dollar clean energy fund" border="0"
+			
+			
+			 />
+
+	
+
+                          </figure>
+  
+                <figcaption class="thumb-caption">
+                  Bill Gates launches multi-billion dollar clean energy fund
+                </figcaption>
+                <div style="clear:both"></div>
+                </a>
+          </li>
+
+
+
+
+
+
+
+          <li>
+                <a class="summary summary-hed" href="/2015/11/28/investing/stocks-to-buy-strong-dollar-chipotle/index.html">
+
+                          <figure class="thumb-image pull-left">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/141205064122-global-markets-last-decade-america-124x70.png" width="124" height="70" alt="These 6 American stocks can handle the stronger dollar and higher rates" border="0"
+			
+			
+			 />
+
+	
+
+                          </figure>
+  
+                <figcaption class="thumb-caption">
+                  These 6 American stocks can handle the stronger dollar and higher rates
+                </figcaption>
+                <div style="clear:both"></div>
+                </a>
+          </li>
+
+
+
+
+
+
+
+          <li>
+                <a class="summary summary-hed" href="/2015/11/20/investing/solar-powers-oil-fields-middle-east/index.html">
+
+                          <figure class="thumb-image pull-left">
+
+
+
+
+		
+			<img src="http://i2.cdn.turner.com/money/dam/assets/151119104338-solar-oil-middle-east-124x70.jpg" width="124" height="70" alt="This solar company will power Middle East oil" border="0"
+			
+			
+			 />
+
+	
+
+                          </figure>
+  
+                <figcaption class="thumb-caption">
+                  This solar company will power Middle East oil
+                </figcaption>
+                <div style="clear:both"></div>
+                </a>
+          </li>
+
+
+
+
+    </ul>
+    </div>
+  </div>
+
+ <div id="adsquare"><div id="ad_rect_atf_01"></div></div> 
+ 
+<div class="module glass-door">
+    <h3 class="module-header">Search for Jobs</h3>
+    <div class="module-body sponsored">
+        <!--BEGIN: Indeed widget include -->
+        <div id="gdWidgetStatic">
+            <div class="cnnrow">
+                <div class="defaultWidgetBody widgetBody">
+                    <div id="Content">
+                        <div id="Contentrow">
+                            <div class="col1 searchFormrow defaultSearchForm">
+                                <div class="h2">Millions of job openings!</div>
+        
+                                <form action="http://www.indeed.com/jobs" class="clear" id="gd_jsform" name="gd_jsform" target="_job">
+                                    <input type="hidden" name="indpubnum" value="7133302637958085">
+                                    <div class="inputrow">
+                                        <fieldset>
+                                            <input class="sbox keyword" id="keyword" name="q" placeholder="Job title" type="text">
+                                        </fieldset>
+        
+                                        <fieldset>
+                                            <input class="sbox location" id="location" name="l" placeholder="Location" type="text">
+                                        </fieldset>
+                                    </div>
+                                    <button class="cnnm-btn" id="searchButton" type="submit">Find Jobs <i class="icon icon--arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+        
+                            <div class="row three-equal-columns categories">
+                                <div class="column">
+                                    <ul>
+                                        <li>
+                                            <a href="http://www.indeed.com/jobs?q=Accounting&indpubnum=7133302637958085" target="_blank">Accounting</a>
+                                        </li>
+        
+                                        <li>
+                                            <a href="http://www.indeed.com/jobs?q=Finance&indpubnum=7133302637958085" target="_blank">Finance</a>
+                                        </li>
+        
+                                        <li>
+                                            <a href=" http://www.indeed.com/jobs?q=Marketing&indpubnum=7133302637958085" target="_blank">Marketing</a>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                                <div class="column">
+                                    <ul>
+                                        <li>
+                                            <a href="http://www.indeed.com/jobs?q=Engineering&indpubnum=7133302637958085" target="_blank">Engineering</a>
+                                        </li>
+        
+                                        <li>
+                                            <a href="http://www.indeed.com/jobs?q=Management&indpubnum=7133302637958085" target="_blank">Management</a>
+                                        </li>
+        
+                                        <li>
+                                            <a href="http://www.indeed.com/jobs?q=Sales&indpubnum=7133302637958085" target="_blank">Sales</a>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                                <div class="column">
+                                	<ul>
+                                		<li>
+                                			<a href="http://www.indeed.com/jobs?q=Developer&indpubnum=7133302637958085" target="_blank">Developer</a>
+                                		</li>
+                                		
+                                		<li>
+                                			<a href="http://www.indeed.com/jobs?q=Media&indpubnum=7133302637958085" target="_blank">Media</a>
+                                		</li>
+                                		
+                                		<li>
+                                			<a href="http://www.indeed.com/jobs?indpubnum=7133302637958085" target="_blank">See all jobs</a>
+                                		</li>
+                                	</ul>
+                                </div>
+                            </div>
+                            
+        					<a href="http://www.indeed.com/hire?indpubnum=7133302637958085" target="_blank">Employers / Post a Job</a>
+                            <div class="clear"></div>
+                            <blockquote class="sponsor">
+                                <span id="indeed_at">
+                             		<a href="http://www.indeed.com/?indpubnum=7133302637958085" style="text-decoration: none; color: #000" target="_blank">jobs</a> by<a href="http://www.indeed.com/?indpubnum=7133302637958085" target="_blank" title="Job Search" style="float:right; margin-top:2px;"><img src="/.element/ssi/partners/indeed/8.0/indeed_blue.png" style="border: 0; vertical-align: middle" alt="job search">
+                             		</a>
+                             	</span>
+                            </blockquote>
+                        </div>
+                    </div>
+        
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!--END: Indeed widget include-->
+    </div>
+</div> <div class="cnnoutbrain outbrain-module" id="js-outbrain-rightrail-ads-module"></div>
+ <div class="cnnoutbrain outbrain-hotlist" id="js-outbrain-hotlist"></div>
+ <style>
+	body.blog .cnnoutbrain {
+		border: 1px solid #ddd;
+		background-color: #fff;
+		margin-bottom: 5px;
+		padding: 10px 9px;
+	}
+</style>
+<div class="cnnoutbrain outbrain-module" id="js-outbrain-module"></div>
+ <div id="moneySponsors" class="module">
+	<h3 class="boxHeading module-header">CNNMoney Sponsors</h3>
+	<div class="module-body">
+		<ul class="summary-list">
+			<li>
+				<!-- http://i.cdn.turner.com/ads/cnn_money/singles/cnnmoney_sponcenter1.js -->
+				<div id="ad_mod_048fa0f34">
+					<script type="text/javascript">
+						/* Deployed On: 2015-01-08 14:12:04 */
+						AMPTManager.renderSingleSlot("ad_mod_048fa0f34", [
+						    [300, 25],
+						    [300, 50]
+						], [
+						    ["transId", cnnad_transactionID],
+						    ["kuid", Krux.user],
+						    ["ksg", Krux.segments],
+						    ["guid", AMPTManager.readCookie("ug")],
+						    ["pos", ["ns_btf_01"]],
+						    ["mod", ["sc1"]]
+						], [], "8663477/CNNMoney", 0);
+					</script>
+				</div>
+			</li>
+			<li>
+				<!-- http://i.cdn.turner.com/ads/cnn_money/singles/cnnmoney_sponcenter2.js -->
+				<div id="ad_mod_439fb79c2">
+					<script type="text/javascript">
+						/* Deployed On: 2015-01-08 10:50:32 */
+						AMPTManager.renderSingleSlot("ad_mod_439fb79c2", [
+						    [300, 25],
+						    [300, 50]
+						], [
+						    ["transId", cnnad_transactionID],
+						    ["kuid", Krux.user],
+						    ["ksg", Krux.segments],
+						    ["guid", AMPTManager.readCookie("ug")],
+						    ["pos", ["ns_btf_02"]],
+						    ["mod", ["sc2"]]
+						], [], "8663477/CNNMoney", 0);
+					</script>
+				</div>
+			</li>
+			<li>
+				<!-- http://i.cdn.turner.com/ads/cnn_money/singles/cnnmoney_sponcenter3.js -->
+				<div id="ad_mod_f5abb3fc6">
+					<script type="text/javascript">
+						/* Deployed On: 2015-01-08 09:50:57 */
+						AMPTManager.renderSingleSlot("ad_mod_f5abb3fc6", [
+						    [300, 25],
+						    [300, 50]
+						], [
+						    ["transId", cnnad_transactionID],
+						    ["kuid", Krux.user],
+						    ["ksg", Krux.segments],
+						    ["guid", AMPTManager.readCookie("ug")],
+						    ["pos", ["ns_btf_03"]],
+						    ["mod", ["sc3"]]
+						], [], "8663477/CNNMoney", 0);
+					</script>
+				</div>
+			</li>
+			<li>
+				<!-- http://i.cdn.turner.com/ads/cnn_money/singles/cnnmoney_sponcenter4.js -->
+				<div id="ad_mod_a60ca7487">
+					<script type="text/javascript">
+						/* Deployed On: 2015-01-08 11:07:12 */
+						AMPTManager.renderSingleSlot("ad_mod_a60ca7487", [
+						    [300, 25],
+						    [300, 50]
+						], [
+						    ["transId", cnnad_transactionID],
+						    ["kuid", Krux.user],
+						    ["ksg", Krux.segments],
+						    ["guid", AMPTManager.readCookie("ug")],
+						    ["pos", ["ns_btf_04"]],
+						    ["mod", ["sc4"]]
+						], [], "8663477/CNNMoney", 0);
+					</script>
+				</div>
+			</li>
+			<li>
+				<!-- http://i.cdn.turner.com/ads/cnn_money/singles/cnnmoney_sponcenter5.js -->
+				<div id="ad_mod_a7cebd199">
+					<script type="text/javascript">
+						/* Deployed On: 2015-01-08 09:52:46 */
+						AMPTManager.renderSingleSlot("ad_mod_a7cebd199", [
+						    [300, 25],
+						    [300, 50]
+						], [
+						    ["transId", cnnad_transactionID],
+						    ["kuid", Krux.user],
+						    ["ksg", Krux.segments],
+						    ["guid", AMPTManager.readCookie("ug")],
+						    ["pos", ["ns_btf_05"]],
+						    ["mod", ["sc5"]]
+						], [], "8663477/CNNMoney", 0);
+					</script>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="module">
+				<h3 class="module-header">Partner Offers</h3>
+			<div class="module-body">
+				<ul class="summary-list">
+								<iframe valign="middle" width="300" height="400" marginheight=0 marginwidth=0 frameborder=0 vspace=0 hspace=0 scrolling=NO  src="http://www.dianomi.com/smartads.epl?id=2024"></iframe>
+
+				</ul>
+			</div>
+		</div>
+	
+		<div class="module">
+				<h3><a class="module-header" target="_other" href="https://campaigns.gobankingrates.com/r/55d5097d7f/?subid=cnnmoney-pdbanner01">GoBankingRates <i class="icon icon--arrow-right"></i></a></h3>
+			<div class="module-body">
+				<ul class="summary-list">
+									<li><a class="summary summary-hed " href="https://campaigns.gobankingrates.com/r/55ccb8c751/?subid=" target="_blank">Refinance your debt with a 5% APR personal loan</a></li> 
+	<li><a class="summary summary-hed " href="https://campaigns.gobankingrates.com/r/56171e73ba/" target="_blank">Featured checking accounts; no fee’s and cash back opportunities</a></li> 
+	<li><a class="summary summary-hed " href="https://campaigns.gobankingrates.com/r/5579fac152/" target="_blank">Explore and compare CD rates – open a new account today</a></li> 
+	<li><a class="summary summary-hed last" href="https://campaigns.gobankingrates.com/r/5579d4d35f/" target="_blank">You can earn more money in your savings account with an online bank – find out how.</a></li> 
+
+				</ul>
+			</div>
+		</div>
+ <div id="adsquare"><div id="ad_rect_btf_01"></div></div> </section> </div> </main> <script language="javascript" type="text/javascript"> var cnnBrandingValue = "cyber_safe"; var cnnAuthor = "Jose Pagliery"; var cnnSource = "CNN"; var cnnPublishDate = "2015-08-06"; var cnnContentType = "article"; var cnnOmniture_videoopps = "1"; </script> <script language="JavaScript"> if(window.btnDone) btnDone(); </script> <div id="csiIframe"></div> <script>
+	function getCookie( check_name ) {
+		var a_all_cookies = document.cookie.split( ';' );
+		var a_temp_cookie = '';
+		var ck_name = '';
+		var cookie_value = '';
+		var b_cookie_found = false; 
+		for ( i = 0; i < a_all_cookies.length; i++ ) {
+			a_temp_cookie = a_all_cookies[i].split( '=' );
+			ck_name = a_temp_cookie[0].replace(/^\s+|\s+$/g, '');
+			if ( ck_name == check_name ) {
+				b_cookie_found = true;
+				if ( a_temp_cookie.length > 1 )	{
+					cookie_value = unescape( a_temp_cookie[1].replace(/^\s+|\s+$/g, '') );
+				}
+				return cookie_value;
+				break;
+			}
+			a_temp_cookie = null;
+			ck_name = '';
+		}
+		if ( !b_cookie_found ) {
+			return null;
+		}
+	}			
+	function setCookie(c_name,value) {
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate()+365);
+		document.cookie=c_name+ "=" +escape(value) + ";expires="+exdate.toUTCString()+";path=/;domain=cnn.com";
+		return;
+	}
+	function checkCookie(set_value) {
+		if(getCookie('SelectedEdition')==null || getCookie('SelectedEdition')==""){
+			setCookie('SelectedEdition', set_value);
+		}
+		return;
+	}
+	try {
+		checkCookie('www');
+	}
+	catch(e){}			
+</script>
+
+
+<footer class="footer">
+    <section class="container">
+      <nav class="row four-equal-columns">
+          <div class="column">
+            <div class="list-header"><div class="footer-cnnmoney-logo">
+          		<img src="http://i.cdn.turner.com/money/.element/img/8.0/logos/CNNMoney-logo.png" width="220" height="82" class="cnnmoney-logo" />
+            </div></div>
+            <ul class="footer-links first">
+              <li class="footer-link"><a rel="nofollow" href="/services/speakup/speakup.html">Contact Us</a></li>
+              <li class="footer-link"><a rel="nofollow" href="/services/advertise/"target="_blank" >Advertise with Us</a></li>
+              <li class="footer-link"><a rel="nofollow" href="/profile/">User Preferences</a></li>
+              <li class="footer-link"><a rel="nofollow" href="/services/closed-captioning.html">Closed Captioning</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <div class="list-header"> Content</div>
+            <ul class="footer-links">
+              <div class="row two-equal-columns">
+			  <div class="column">
+              <li class="footer-link"><a href="/news/">Business</a></li>
+              <li class="footer-link"><a href="/markets/">Markets</a></li>
+              <li class="footer-link"><a href="/investing/">Investing</a></li>
+              <li class="footer-link"><a href="/news/economy/">Economy</a></li>
+              <li class="footer-link"><a href="/technology/">Tech</a></li>
+             </div>
+             <div class="column">
+              <li class="footer-link"><a href="/pf/">Personal Finance</a></li>
+              <li class="footer-link"><a href="/smallbusiness/">Small Business</a></li>
+              <li class="footer-link"><a href="/luxury/">Luxury</a></li>
+              <li class="footer-link"><a href="/media/">Media</a></li>
+              <li class="footer-link"><a href="/video/">Video</a></li>
+             </div>
+            </ul>
+          </div>
+
+          <div class="column">
+            <div class="list-header"> Tools</div>
+            <ul class="footer-links">
+              <div class="row two-equal-columns">
+			  <div class="column">
+              <li class="footer-link"><a href="/services/sitemap/">Site Map</a></li>
+              <li class="footer-link"><a href="/interactive/">Interactive</a></li>
+              <li class="footer-link"><a href="http://jobsearch.money.cnn.com/a/all-jobs/list" target="_blank">Job Search</a></li>
+              <li class="footer-link"><a href="http://realestate.money.cnn.com/">Real Estate Search</a></li>
+              </div>
+              <div class="column">
+              <li class="footer-link"><a href="/pf/loan_center/">Loan Center</a></li>
+              <li class="footer-link"><a href="/tools/">Calculators</a></li>
+              <li class="footer-link"><a href="/news/corrections/">Corrections</a></li>
+              <li class="footer-link"><a href="/profile/">Market Data Alerts</a></li>
+              <li class="footer-link"><a href="/profile/">News Alerts</a></li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="column">
+            <div class="list-header">Connect</div>
+            <ul class="footer-links">
+              <div class="row two-equal-columns">
+			  <div class="column">
+              <li class="footer-link"><a href="/profile/" rel="nofollow">My Account</a></li>
+              <li class="footer-link"><a href="/services/mobile/" rel="nofollow">Mobile Site &amp; Apps</a></li>
+              <li class="footer-link"><a href="http://facebook.com/cnnmoney" target="_blank">Facebook</a></li>
+              <li class="footer-link"><a href="http://twitter.com/cnnmoney" target="_blank">Twitter</a></li>
+              <li class="footer-link"><a href="http://www.linkedin.com/today/money.cnn.com" target="_blank">LinkedIn</a></li>
+              </div>
+              <div class="column">
+              <li class="footer-link"><a href="http://www.youtube.com/CNNMoney" target="_blank">YouTube</a></li>
+              <li class="footer-link"><a href="/services/rss/">RSS Feeds</a></li>
+              <li class="footer-link"><a href="/profile/">Newsletters</a></li>
+              <li class="footer-link"><a href="https://plus.google.com/115995105609774588517/" rel="publisher" target="_blank">Google+</a></li>
+              </div>
+             </ul>
+          </div>
+      </nav>
+      <p class="disclaimer" id="market-copyright">
+		    <p>Most stock quote data provided by BATS. Market indices are shown in real time, except for the DJIA, which is delayed by two minutes. All times are ET. <a href="http://money.cnn.com/services/disclaimer.html">Disclaimer</a>. Morningstar: © 2015 Morningstar, Inc. All Rights Reserved. Factset: FactSet Research Systems Inc. 2015. All rights reserved. Chicago Mercantile Association: Certain market data is the property of Chicago Mercantile Exchange Inc. and its licensors. All rights reserved. Dow Jones: The Dow Jones branded indices are proprietary to and are calculated, distributed and marketed by DJI Opco, a subsidiary of S&amp;P Dow Jones Indices LLC and have been licensed for use to S&amp;P Opco, LLC and CNN. Standard &amp; Poor's and S&amp;P are registered trademarks of Standard &amp; Poor’s Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC. All content of the Dow Jones branded indices &#169; S&amp;P Dow Jones Indices LLC 2015 and/or its affiliates.</p>
+      </p>
+      <p class="copyright">
+		    <style>
+img#adchoice-logo {
+	display: initial;
+	margin-left: 5px;
+}
+</style>
+&copy; 2014 Cable News Network. A Time Warner Company. All Rights Reserved. <a href="/services/terms.html" rel="nofollow"> Terms</a> under which this service is provided to you. <a href="/services/privacy/"> Privacy Policy</a>. <a id="trusteLink"><script type="text/javascript" src="http://consent.truste.com/notice?domain=turner.com&c=trusteLink&text=true"></script></a><img id="adchoice-logo" src="http://i2.cdn.turner.com/money/.element/img/1.0/services/advertise/adchoiceslogo_footer.png" width="12" height="12">.
+
+<!-- legal docs include -->
+<script type="text/javascript" src="http://z.cdn.turner.com/money/tmpl_asset/static/script/920/js/cnnmoney.legal.docs-min.js"></script>
+      </p>
+    </section>
+</footer>
+<script>
+if (window.location.hostname === "ref2.money.cnn.com") {
+    var cnnOmniture_prodenv = false;
+}
+else if (window.location.hostname === "dev.money.cnn.com") {
+    var cnnOmniture_prodenv = false;
+}
+else if (window.location.hostname === "train.money.cnn.com") {
+    var cnnOmniture_prodenv = false;
+}
+else if (window.location.hostname === "stage.money.cnn.com") {
+    var cnnOmniture_prodenv = false;
+}
+else { 
+    var cnnOmniture_prodenv = true;
+}
+</script>
+
+<script language="JavaScript" src="http://i.cdn.turner.com/analytics/mon/jsmd-prod.js"></script>
+<script language="JavaScript">
+<!--
+if (window.location.pathname.indexOf(".element") == -1 && window.location.href.indexOf("?fb_xd_fragment#?=&") == -1 && window.location.href.indexOf("search/index.html?") == -1) {
+	var jsmd=_jsmd.init(); 
+	jsmd.send(); 
+}
+//--></script>
+<script type="text/javascript" src="http://z.cdn.turner.com/money/.element/script/6.0/newsbeat/newsbeat.js"></script>
+	
+<!-- STILL NEEDED? 
+<script language="JavaScript">
+	var R = new String(document.referrer);
+	var serveAd=1;
+	if(R.length > 0)
+	{
+		if (R.indexOf("yahoo.com") >= 0)
+			serveAd=0;
+	}
+	if(serveAd)
+	{
+		/* dynamic logic */
+		document.write('<scr'+'ipt src="http://content.dl-rms.com/rms/mother/8101/nodetag.js"></scr'+'ipt>');
+		/* ADSPACE: ros/popunders/bot.1x1 */
+		cnnad_createAd("229469","http://ads.cnn.com/html.ng/site=cnn_money&cnn_money_position=1x1_bot&params.styles=fs","1","1");
+		try { selectSurvey(); }	catch(e){}
+	}
+</script>-->
+	
+<!-- Begin: www.iperceptions.com -->
+<script src="http://ips-invite.iperceptions.com/webValidator.aspx?sdfc=8903e7fe-104983-4d96497c-d068-4528-a4f9-0dbb51a45963&lID=1&loc=STUDY&cD=90&rF=False&iType=1&domainname=0" type="text/javascript" defer="defer"></script>
+<!-- End: www.iperceptions.com -->
+
+
+
+<!-- ClickTale Bottom part -->
+<script type='text/javascript'>
+(function(win,doc){
+
+var scriptElement, scrSrc;
+
+if (typeof (win.ClickTaleCreateDOMElement) != "function")
+{
+	win.ClickTaleCreateDOMElement = function(tagName)
+	{
+		if (doc.createElementNS)
+		{
+			return doc.createElementNS('http://www.w3.org/1999/xhtml', tagName);
+		}
+		return doc.createElement(tagName);
+	}
+}
+
+win.WRInitTime=(new Date()).getTime();
+
+scriptElement = ClickTaleCreateDOMElement('script');
+scriptElement.type = "text/javascript";
+
+scrSrc = doc.location.protocol=='https:'? 'https://cdnssl.clicktale.net/':	'http://cdn.clicktale.net/';
+
+scrSrc += 'www04/ptc/1db4a0f2-17e4-45f8-b5fd-5fd78f545b59.js';
+
+scriptElement.src = scrSrc;
+
+doc.getElementsByTagName('body')[0].appendChild(scriptElement);
+})(window,document);
+</script>
+<!-- ClickTale end of Bottom part -->
+
+ <img src="http://i.cdn.turner.com/money/video/bvp/images/1.gif" alt="" width="0" height="0" border="0" vspace="0" hspace="0" name="OmnitureTrack" id="OmnitureTrack" align="right"> <img src="http://i.cdn.turner.com/money/images/1.gif" alt="" width="0" height="0" border="0" vspace="0" hspace="0" name="cookieCrumb" id="cookieCrumb" align="right"> <script type="text/javascript"> var urlPre="http://markets.money.cnn.com/"; var cnnDomain="http://money.cnn.com/"; var cookieDomain="cnn.com"; var tzOffset= -240; </script> <script type="text/javascript" src="http://z.cdn.turner.com/xslo/cvp/ads/freewheel/js/fwjslib_1.1.js?version=1.1"></script> <script type="text/javascript" src="http://z.cdn.turner.com/xslo/cvp/js/cvp/2.8.4.1/cvp.min.js"></script> <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({doNotHash:true});</script> <script type='text/javascript' src='http://i.cdn.turner.com/xslo/aspen/js/1.3/aspenweb_1.3.0.min.js'></script> <script type="text/javascript" src="http://z.cdn.turner.com/money/tmpl_asset/static/script/920/js/cnnm-ocean.story-min.js"></script> <!--// Nativo/Post Release //--> <!--// Nativo/Post Release //-->
+<script type="text/javascript" src="http://a.postrelease.com/serve/load.js?async=true" async="async"></script> <div id="ad_oop_skin_01"></div> </body> </html>

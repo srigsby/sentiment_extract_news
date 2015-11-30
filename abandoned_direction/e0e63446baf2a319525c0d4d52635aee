@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en" class="NYT5Style">
+<head>
+<title>Technology News - The New York Times</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="noarchive">
+<meta name="description" content="Find breaking news, tech news and multimedia on the Internet, telecommunications, wireless applications, electronics, science, computers, e-mail and the Web." />
+<meta name="sourceApp" content="nyt4" />
+<meta name="keywords" content="Computer Security,Police,Cyberharassment,Computers and the Internet,Parking Garages and Lots,Robots and Robotics,Greenhouse Gas Emissions,Alternative and Renewable Energy,United States International Relations,Gates, Bill,Gates, Bill and Melinda, Foundation,Global Warming,Paris (France),Computers and the Internet,Silicon Valley (Calif),Family Leaves,Facebook Inc,Polls and Public Opinion,Parenting,CB Insights,Work-Life Balance,Computers and the Internet,Windows (Operating System),Chrome (Browser),Android (Operating System),Mobile Applications,Google Now,Consumer Reviews,Advertising and Marketing,Suits and Litigation (Civil),Yelp,Verizon Communications Inc,Thanksgiving Day,Smartphones,Advertising and Marketing,Accidents and Safety,Skateboarding,Law and Legislation,Motorcycles, Motor Bikes and Motorscooters,Paris Attacks (November 2015),Social Media,Islamic State in Iraq and Syria (ISIS),Anonymous (Internet Group),Twitter,Terrorism,Cyberattacks and Hackers,Zuckerberg, Mark E,Women and Girls,Family Leaves,Start-ups,Work-Life Balance,Credit Unions,National Credit Union Administration,Banking and Financial Institutions,Kahle, Brewster,Bitcoin (Currency),Internet Archive Federal Credit Union,Regulation and Deregulation of Industry,PMC-Sierra Inc,Computer Chips,Mergers, Acquisitions and Divestitures,Microsemi Corporation,Nuclear Weapons,Iran,United States International Relations,Cyberwarfare and Defense,State Department,Bezos, Jeffrey P,Rocket Science and Propulsion,Private Spaceflight,Space and Astronomy,Blue Origin,Company Reports,Hewlett-Packard Company,Whitman, Margaret C,Federal Trade Commission,YouTube.com,Center for Digital Democracy,Children and Childhood,Video Recordings, Downloads and Streaming,Google Inc,Advertising and Marketing,Campaign for a Commercial-Free Childhood,Online Advertising,Luxembourg,Advertising and Marketing,Censorship,China Unicom (Hong Kong) Ltd,China Mobile Ltd,Xinjiang (China),Mobile Applications,Surveillance of Citizens by Government,Cellular Telephones,China,China Telecom,Polymers,Berggren, Magnus (1968- ),Flowers and Plants,Science Advances (Journal),Electric Light and Power,Drones (Pilotless Planes),Federal Aviation Administration,Regulation and Deregulation of Industry,Fuel Emissions (Transportation),Automobiles,National Automobile Dealers Assn,Consumer Reports,J D Power &amp; Associates,Greenhouse Gas Emissions,California,Nissan Motor Co,Energy Efficiency,New York State,Electric and Hybrid Vehicles,Fuel Efficiency,Tesla Motors Inc,Prices (Fares, Fees and Rates),Black Friday and Cyber Monday (Shopping),E-Commerce,Black Friday and Cyber Monday (Shopping),E-Commerce,Mobile Applications,Shopping and Retail,Travel and Vacations,Maps,Google Inc,Thanksgiving Day,Cooking and Cookbooks,Mobile Applications,Computer and Video Games,Virtual Reality (Computers),Oculus VR Inc,Headphones and Headsets,Wearable Computing,Smartphones,Samsung Electronics Co,E-Mail,Computers and the Internet,Privacy,Instacart,Amazon.com Inc,Delivery Services,Prices (Fares, Fees and Rates),Postmates Inc,Uber Technologies Inc,Mobile Applications,Computers and the Internet,Apple TV,Google Inc,Microsoft Corp,Television Sets and Media Devices,Windows (Operating System)" />
+<meta name="asset_id" content="100000003659214">
+<meta name="CG" content="technology">
+<meta name="SCG" content="">
+<meta name="PT" content="Section Front">
+<meta name="PST" content="">
+<link rel="canonical" href="http://www.nytimes.com/pages/technology/index.html">
+<meta name="msapplication-starturl" content="http://www.nytimes.com/" />
+<meta name="dfp-ad-path" content="none" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.nytimes.com/services/xml/rss/nyt/Technology.xml"/>
+
+
+<link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/css/0.1/screen/build/sectionfront/technology/styles.css" />
+<link rel="stylesheet" type="text/css" media="print" href="http://graphics8.nytimes.com/css/0.1/print/styles.css">
+<!--[if IE]>
+	    <style type="text/css">
+	        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
+	    </style>
+	<![endif]-->
+<!--[if IE 6]>
+	    <style type="text/css">
+	        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie6.css);
+	    </style>
+	<![endif]-->
+<!--[if lt IE 9]>
+        <script src="http://graphics8.nytimes.com/js/html5shiv.js"></script>
+    <![endif]-->
+<script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/common.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/common/screen/DropDown.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/util/tooltip.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/common/screen/updateTimeStamps.js"></script>
+<script type="text/JavaScript">
+		var static_kw = "Computer Security;Police;Cyberharassment;Computers and the Internet;Parking Garages and Lots;Robots and Robotics;Greenhouse Gas Emissions;Alternative and Renewable Energy;United States International Relations;Gates; Bill;Gates; Bill and Melinda; Foundation;Global Warming;Paris (France);Computers and the Internet;Silicon Valley (Calif);Family Leaves;Facebook Inc;Polls and Public Opinion;Parenting;CB Insights;Work-Life Balance;Computers and the Internet;Windows (Operating System);Chrome (Browser);Android (Operating System);Mobile Applications;Google Now;Consumer Reviews;Advertising and Marketing;Suits and Litigation (Civil);Yelp;Verizon Communications Inc;Thanksgiving Day;Smartphones;Advertising and Marketing;Accidents and Safety;Skateboarding;Law and Legislation;Motorcycles; Motor Bikes and Motorscooters;Paris Attacks (November 2015);Social Media;Islamic State in Iraq and Syria (ISIS);Anonymous (Internet Group);Twitter;Terrorism;Cyberattacks and Hackers;Zuckerberg; Mark E;Women and Girls;Family Leaves;Start-ups;Work-Life Balance;Credit Unions;National Credit Union Administration;Banking and Financial Institutions;Kahle; Brewster;Bitcoin (Currency);Internet Archive Federal Credit Union;Regulation and Deregulation of Industry;PMC-Sierra Inc;Computer Chips;Mergers; Acquisitions and Divestitures;Microsemi Corporation;Nuclear Weapons;Iran;United States International Relations;Cyberwarfare and Defense;State Department;Bezos; Jeffrey P;Rocket Science and Propulsion;Private Spaceflight;Space and Astronomy;Blue Origin;Company Reports;Hewlett-Packard Company;Whitman; Margaret C;Federal Trade Commission;YouTube.com;Center for Digital Democracy;Children and Childhood;Video Recordings; Downloads and Streaming;Google Inc;Advertising and Marketing;Campaign for a Commercial-Free Childhood;Online Advertising;Luxembourg;Advertising and Marketing;Censorship;China Unicom (Hong Kong) Ltd;China Mobile Ltd;Xinjiang (China);Mobile Applications;Surveillance of Citizens by Government;Cellular Telephones;China;China Telecom;Polymers;Berggren; Magnus (1968- );Flowers and Plants;Science Advances (Journal);Electric Light and Power;Drones (Pilotless Planes);Federal Aviation Administration;Regulation and Deregulation of Industry;Fuel Emissions (Transportation);Automobiles;National Automobile Dealers Assn;Consumer Reports;J D Power & Associates;Greenhouse Gas Emissions;California;Nissan Motor Co;Energy Efficiency;New York State;Electric and Hybrid Vehicles;Fuel Efficiency;Tesla Motors Inc;Prices (Fares; Fees and Rates);Black Friday and Cyber Monday (Shopping);E-Commerce;Black Friday and Cyber Monday (Shopping);E-Commerce;Mobile Applications;Shopping and Retail;Travel and Vacations;Maps;Google Inc;Thanksgiving Day;Cooking and Cookbooks;Mobile Applications;Computer and Video Games;Virtual Reality (Computers);Oculus VR Inc;Headphones and Headsets;Wearable Computing;Smartphones;Samsung Electronics Co;E-Mail;Computers and the Internet;Privacy;Instacart;Amazon.com Inc;Delivery Services;Prices (Fares; Fees and Rates);Postmates Inc;Uber Technologies Inc;Mobile Applications;Computers and the Internet;Apple TV;Google Inc;Microsoft Corp;Television Sets and Media Devices;Windows (Operating System)";
+		var dynamic_kw = "Computer+Security;Police;Cyberharassment;Computers+and+the+Internet;Parking+Garages+and+Lots;Robots+and+Robotics;Greenhouse+Gas+Emissions;Alternative+and+Renewable+Energy;United+States+International+Relations;Gates;+Bill;Gates;+Bill+and+Melinda;+Foundation;Global+Warming;Paris+%28France%29;Computers+and+the+Internet;Silicon+Valley+%28Calif%29;Family+Leaves;Facebook+Inc;Polls+and+Public+Opinion;Parenting;CB+Insights;Work-Life+Balance;Computers+and+the+Internet;Windows+%28Operating+System%29;Chrome+%28Browser%29;Android+%28Operating+System%29;Mobile+Applications;Google+Now;Consumer+Reviews;Advertising+and+Marketing;Suits+and+Litigation+%28Civil%29;Yelp;Verizon+Communications+Inc;Thanksgiving+Day;Smartphones;Advertising+and+Marketing;Accidents+and+Safety;Skateboarding;Law+and+Legislation;Motorcycles;+Motor+Bikes+and+Motorscooters;Paris+Attacks+%28November+2015%29;Social+Media;Islamic+State+in+Iraq+and+Syria+%28ISIS%29;Anonymous+%28Internet+Group%29;Twitter;Terrorism;Cyberattacks+and+Hackers;Zuckerberg;+Mark+E;Women+and+Girls;Family+Leaves;Start-ups;Work-Life+Balance;Credit+Unions;National+Credit+Union+Administration;Banking+and+Financial+Institutions;Kahle;+Brewster;Bitcoin+%28Currency%29;Internet+Archive+Federal+Credit+Union;Regulation+and+Deregulation+of+Industry;PMC-Sierra+Inc;Computer+Chips;Mergers;+Acquisitions+and+Divestitures;Microsemi+Corporation;Nuclear+Weapons;Iran;United+States+International+Relations;Cyberwarfare+and+Defense;State+Department;Bezos;+Jeffrey+P;Rocket+Science+and+Propulsion;Private+Spaceflight;Space+and+Astronomy;Blue+Origin;Company+Reports;Hewlett-Packard+Company;Whitman;+Margaret+C;Federal+Trade+Commission;YouTube.com;Center+for+Digital+Democracy;Children+and+Childhood;Video+Recordings;+Downloads+and+Streaming;Google+Inc;Advertising+and+Marketing;Campaign+for+a+Commercial-Free+Childhood;Online+Advertising;Luxembourg;Advertising+and+Marketing;Censorship;China+Unicom+%28Hong+Kong%29+Ltd;China+Mobile+Ltd;Xinjiang+%28China%29;Mobile+Applications;Surveillance+of+Citizens+by+Government;Cellular+Telephones;China;China+Telecom;Polymers;Berggren;+Magnus+%281968-+%29;Flowers+and+Plants;Science+Advances+%28Journal%29;Electric+Light+and+Power;Drones+%28Pilotless+Planes%29;Federal+Aviation+Administration;Regulation+and+Deregulation+of+Industry;Fuel+Emissions+%28Transportation%29;Automobiles;National+Automobile+Dealers+Assn;Consumer+Reports;J+D+Power+%26+Associates;Greenhouse+Gas+Emissions;California;Nissan+Motor+Co;Energy+Efficiency;New+York+State;Electric+and+Hybrid+Vehicles;Fuel+Efficiency;Tesla+Motors+Inc;Prices+%28Fares;+Fees+and+Rates%29;Black+Friday+and+Cyber+Monday+%28Shopping%29;E-Commerce;Black+Friday+and+Cyber+Monday+%28Shopping%29;E-Commerce;Mobile+Applications;Shopping+and+Retail;Travel+and+Vacations;Maps;Google+Inc;Thanksgiving+Day;Cooking+and+Cookbooks;Mobile+Applications;Computer+and+Video+Games;Virtual+Reality+%28Computers%29;Oculus+VR+Inc;Headphones+and+Headsets;Wearable+Computing;Smartphones;Samsung+Electronics+Co;E-Mail;Computers+and+the+Internet;Privacy;Instacart;Amazon.com+Inc;Delivery+Services;Prices+%28Fares;+Fees+and+Rates%29;Postmates+Inc;Uber+Technologies+Inc;Mobile+Applications;Computers+and+the+Internet;Apple+TV;Google+Inc;Microsoft+Corp;Television+Sets+and+Media+Devices;Windows+%28Operating+System%29";
+		var nyt_google_contents = dynamic_kw + static_kw;
+		var nyt_google_ad_channel = "technology";
+	</script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/nyt5/reskin/masthead.js"></script>
+<script type="text/javascript" src="//typeface.nytimes.com/zam5nzz.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script src="//cdn.optimizely.com/js/3013110282.js"></script>
+</head>
+<body>
+<a name="top"></a>
+<div id="shell">
+<ul id="memberTools">
+
+<!-- ADXINFO classification="Text_Link" campaign="inyt2015_bar1_digi_nov_holi_no_text" priority="8000" isInlineSafe="Y" width="0" height="0" --><!-- INYT Sale Bar1 20140929 ~dj.paris -->
+
+<style>
+.NYT5Style .masthead-tools #bar1-singlepanel  {
+    display: inline;
+    vertical-align: top;
+    background-image: none;
+    padding: 0 !important;
+}
+#bar1-singlepanel {
+    border:none;
+    position: relative;
+}
+.bar1_hover {
+    opacity: 0;
+}
+.sub_small_hide{
+    display: none;
+}
+#nyt-button-sub  {
+    -moz-box-sizing: border-box;
+    background-color: #6288A5;
+    border: 1px solid #4D7B9F;
+    border-radius: 3px;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: nyt-franklin,nyt-franklin-1,'Helvetica Neue',Arial,sans-serif;
+    padding: 7px 10px 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#nyt-button-sub a:hover {
+    background-color: #326891;
+    border: 1px solid #265E8B;
+    text-decoration: none;
+}
+#hovercard {
+    width: 450px;
+    height: 328px;
+    display:none;
+    margin-left: -360px;
+    z-index: 1000000152;
+    background-color:#fff;
+    border: 0;
+    position:absolute;
+    left: 77%;
+    top: 30px;
+    text-align:left;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+    white-space: normal;
+}
+
+#hovercard img {
+     width: 450px;
+     height: 328px;
+}
+#hovercard:after {
+        bottom: 100%;
+	left: 350px;
+	border: solid transparent;
+	content: " ";
+	width: 0;
+	height: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: #2e2e2e;
+	border-width: 8px;
+	margin: 0;
+}
+.NYT5Style #hovercard {
+        top: 18px;
+}
+.NYT5Style #hovercard  a:hover {
+  background-color: #414042;
+}
+/* WEBKIT ONLY RULES */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #hovercard {
+    top: 31px !important;
+  }
+  .NYT5Style #hovercard {
+    top: 28px !important;
+    margin-left: -283px;
+  }
+  .NYT5Style #hovercard:after {
+    left: 273px;
+  }
+}
+/* EXCLUDING NYT4 INTERACTIVES */
+#interactiveABC #bar1-singlepanel {
+   display: none;
+}
+#bar1-end a {
+            padding-right: 10px;
+            text-decoration: none;
+        }
+         #bar1-end a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<li id="bar1-singlepanel" class="user-subscriptions-menu user-subscriptions-group bar1_hover">
+    <a id="nyt-button-sub" class="" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/pages/technology/index.html&pos=Bar1&sn2=2630ddf6/7cfc6770&sn1=730dcdf/72c16765&camp=inyt2015_bar1_digi_nov_holi_no_text&ad=1_CRS-8548_inyt2015_bar1_digi_nov_holi_reg_no_text&goto=http%3A%2F%2Finternational%2Enytimes%2Ecom%2Fsubscriptions%2Finyt%2Flp8U87X%2Ehtml%3Fadxc%3D282665%26adxa%3D411537%26page%3Dwww.nytimes.com/pages/technology/index.html%26pos%3DBar1%26campaignId%3D4WKYY" target="_blank" data-content-collection="inyt2015_bar1_digi_nov_holi_no_text" data-content-placement="1">Subscribe Now</a>
+
+    <div id="hovercard" data-campaign-name="inyt2015_bar1_digi_nov_holi_no_text">
+        <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/pages/technology/index.html&pos=Bar1&sn2=2630ddf6/7cfc6770&sn1=730dcdf/72c16765&camp=inyt2015_bar1_digi_nov_holi_no_text&ad=1_CRS-8548_inyt2015_bar1_digi_nov_holi_reg_no_text&goto=http%3A%2F%2Finternational%2Enytimes%2Ecom%2Fsubscriptions%2Finyt%2Flp8U87X%2Ehtml%3Fadxc%3D282665%26adxa%3D411537%26page%3Dwww.nytimes.com/pages/technology/index.html%26pos%3DBar1%26campaignId%3D4WKYY" target="_blank" data-content-collection="inyt2015_bar1_digi_nov_holi_no_text" data-content-placement="2"><img src="http://graphics8.nytimes.com/adx/images/ADS/41/15/ad.411537/bar1_reg.jpg" alt=""></a>
+    </div>
+</li>
+
+<!-- for small viewports -->
+<!--[if gt IE 8]><!--><a id="subscribe_small" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/pages/technology/index.html&pos=Bar1&sn2=2630ddf6/7cfc6770&sn1=730dcdf/72c16765&camp=inyt2015_bar1_digi_nov_holi_no_text&ad=1_CRS-8548_inyt2015_bar1_digi_nov_holi_reg_no_text&goto=http%3A%2F%2Finternational%2Enytimes%2Ecom%2Fsubscriptions%2Finyt%2Flp8U87X%2Ehtml%3Fadxc%3D282665%26adxa%3D411537%26page%3Dwww.nytimes.com/pages/technology/index.html%26pos%3DBar1%26campaignId%3D4WKYY" class="subscribe-link sub_small_hide" data-content-collection="inyt2015_bar1_digi_nov_holi_no_text" data-content-placement="1">Subscribe</a><!--<![endif]-->
+
+<script src="http://graphics8.nytimes.com/marketing/ADX/bar1/bar1_eventtracker_v1_2.js"></script>
+
+<!-- iCrossing Floodlight -->
+<div id="mkt-floodlight" style="display:inline"></div>
+<noscript>
+    <iframe src="https://3951336.fls.doubleclick.net/activityi;src=3951336;type=remar664;cat=Bar1J0;ord=1?" width="1" height="1" style="display:none;"></iframe>
+</noscript>
+<span class="adxInfo" style="display:none;">campaign: inyt2015_bar1_digi_nov_holi_no_text -- 282665, creative: 1_CRS-8548_inyt2015_bar1_digi_nov_holi_reg_no_text -- 411537, page: www.nytimes.com/pages/technology/index.html, targetedPage: www.nytimes.com/pages/technology/index.html, position: Bar1</span>
+
+ 
+                        <li><a id="memberToolsLogin" href="https://myaccount.nytimes.com/auth/login">Log In</a></li>
+            <li><a href="https://myaccount.nytimes.com/gst/regi.html" onClick="dcsMultiTrack('WT.z_ract', 'Regnow', 'WT.z_rprod', 'Masthead','WT.z_dcsm','1');">Register Now</a></li>
+                            
+
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+</ul>
+<div class="mainTabsContainer tabsContainer">
+<ul id="mainTabs" class="mainTabs tabs">
+<li class="first mainTabHome"><a href="http://www.nytimes.com">Home Page</a></li>
+<li class="mainTabTodaysPaper"><a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li class="mainTabVideo"><a href="http://www.nytimes.com/video">Video</a></li>
+<li class="mainTabMostPopular"><a href="http://www.nytimes.com/mostpopular">Most Popular</a></li>
+</ul>
+</div>
+<div id="editionToggle" class="editionToggle">
+Edition: <span id="editionToggleUS"><a href="http://www.nytimes.com" onmousedown="dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/toggleIHTtoNYT.html','WT.ti','toggleIHTtoNYT','WT.z_dcsm','1');" onclick="NYTD.EditionPref.setUS();">U.S.</a></span> / <span id="editionToggleGlobal"><a href="http://global.nytimes.com" onmousedown="dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/toggleNYTtoIHT.html','WT.ti','toggleNYTtoIHT','WT.z_dcsm','1');" onclick="NYTD.EditionPref.setGlobal();">Global</a></span>
+</div><!--close editionToggle -->
+<script type="text/javascript">
+        NYTD.loadEditionToggle();
+
+        window.setTimeout(function() {
+          var login = document.getElementById('memberToolsLogin');
+          if (login) {
+            login.href += "?URI=" + window.location.href;
+          }
+        }, 0)
+        </script>
+<div id="page" class="tabContent active">
+<div id="masthead" class="wrap">
+<div class="singleAd" id="Middle1C" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("Middle1C");
+					});
+				</script>
+</div>
+<div id="searchWidget">
+<div class="inlineSearchControl">
+<form enctype="application/x-www-form-urlencoded" action="http://query.nytimes.com/search/sitesearch" method="get" name="searchForm" id="searchForm">
+<input type="hidden" value="full" name="date_select"/>
+<label for="searchQuery">Search All NYTimes.com</label>
+<input type="text" class="text" value="" size="" name="query" id="searchQuery"/>
+<input type="hidden" id="searchAll" name="type" value="nyt"/>
+<input type="image" id="searchSubmit" title="Search" alt="Search" width="22" height="19" src="http://graphics8.nytimes.com/images/global/buttons/go.gif"/>
+</form>
+</div>
+</div>
+
+<div id="branding"  itemscope itemtype="http://schema.org/Organization">
+<a href="http://www.nytimes.com" itemprop="url"><img src="http://graphics8.nytimes.com/images/misc/nytlogo152x23.gif" alt="New York Times" id="NYTLogo" itemprop="logo" /></a>
+</div>
+
+<div id="date">
+<p>
+Sunday, November 29, 2015
+</p>
+</div>
+
+<h1 class="pageHeaderWithLabel">
+
+<span><a href="http://www.nytimes.com/pages/business/index.html">Business Day</a></span>
+
+<a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>        
+</h1>
+
+</div>
+<div class="navigation tabsContainer">
+<ul class="tabs">
+<li id="navWorld" class="first ">
+<a href="http://www.nytimes.com/pages/world/index.html">World</a>
+</li>	<li id="navUs" >
+<a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>	<li id="navNyregion" >
+<a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>	<li id="navBusiness" >
+<a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>	<li id="navTechnology" class="selected">
+<a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>	<li id="navScience" >
+<a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>	<li id="navHealth" >
+<a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>	<li id="navSports" >
+<a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>	<li id="navOpinion" >
+<a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>	<li id="navArts" >
+<a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>	<li id="navStyle" >
+<a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>	<li id="navTravel" >
+<a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>	<li id="navJobs" >
+<a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>	<li id="navRealestate" >
+<a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>	<li id="navAutomobiles" >
+<a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li></ul>
+</div>
+<div class="singleAd" id="TopAd" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("TopAd");
+					});
+				</script>
+</div>
+<div id="main">
+<div class="spanAB wrap">
+<div class="wideA">
+<div class="abColumn">
+<div class="aColumn">
+<!--cur:LedeStory395 prev:-->
+<div class="columnGroup first">
+<h6 class="sectionHeader">Featured</h6>
+<div class="ledeStory">
+<div class="storyHeader">
+<h6 class="kicker">Feature</h6>
+<h2><a href="http://www.nytimes.com/2015/11/29/magazine/the-serial-swatter.html?ref=technology">
+The Serial Swatter</a></h2>
+<h6 class="byline">
+By JASON FAGONE            </h6>
+</div>
+<div class="ledePhoto">
+<div class="image">
+<a href="http://www.nytimes.com/2015/11/29/magazine/the-serial-swatter.html?ref=technology"><img src="http://graphics8.nytimes.com/images/2015/11/29/magazine/29swatting1/29swatting1-sfSpan-v2.jpg" border="0" width="395" height="263" alt="" /></a>
+</div>
+<h6 class="credit">Illustration by Robert Sammelin</h6>
+</div>
+<p class="summary">
+Internet trolls have learned to exploit our over-militarized police. It's a crime that's hard to stop — and hard to prosecute.</p>
+<ul class="refer commentsRefer">
+<li  style="background-image: none; padding-left: 0pt;"><span class="commentCountLink" articleid="http://www.nytimes.com/2015/11/29/magazine/the-serial-swatter.html" overflowurl="http://community.nytimes.com/comments/www.nytimes.com/2015/11/29/magazine/the-serial-swatter.html?ref=technology&target=comments" articletitle="The Serial Swatter"></span></li>
+</ul>
+</div>
+</div>
+<!--cur:LedeStory190 prev:LedeStory395-->
+<div class="columnGroup singleRule ">
+<div class="ledeStory">
+<div class="ledePhoto runaroundRight w190">
+<div class="image"> 
+<a href="http://www.nytimes.com/2015/11/28/us/road-to-robotic-parking-islittered-with-faulty-projects.html?ref=technology"><img border="0" height="117" width="190" alt="An automated parking garage on Collins Avenue in Miami Beach was built for 139 cars, but cars were smashed, and faulty machinery fell several stories to the ground." src="http://graphics8.nytimes.com/images/2015/11/08/us/00parking-web02/00parking-web02-articleInline.jpg"/></a>
+</div>
+<h6 class="credit">Ryan Stone for The New York Times</h6>
+<p class="caption">An automated parking garage on Collins Avenue in Miami Beach was built for 139 cars, but cars were smashed, and faulty machinery fell several stories to the ground.</p>
+</div>
+<div class="storyHeader">
+<h2><a href="http://www.nytimes.com/2015/11/28/us/road-to-robotic-parking-islittered-with-faulty-projects.html?ref=technology">
+Road to Robotic Parking Is Littered With Faulty Projects</a></h2>
+<h6 class="byline">
+By FRANCES ROBLES            			<span class="timestamp" data-eastern-timestamp=" 8:01 PM" data-utc-timestamp="1448672467000"></span>
+</h6>
+</div>
+<p class="summary">
+Software and hardware mishaps, including some that have smashed or trapped cars, have occurred at robotic garages around the country, but dozens of them are proposed or underway.</p>
+</div>
+<div class="doubleRuleDivider"></div>	</div>
+<!--cur:StandardThumb prev:LedeStory190-->
+<div class="columnGroup ">
+<div class="story">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/28/us/politics/bill-gates-expected-to-create-billion-dollar-fund-for-clean-energy.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/28/us/28climate-web/28climate-web-thumbStandard.jpg" width="75" height="75" alt="Bill Gates, in New York in January, is expected to announce the creation of a multibillion-dollar clean energy fund on Monday." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/28/us/politics/bill-gates-expected-to-create-billion-dollar-fund-for-clean-energy.html?ref=technology">
+Bill Gates Expected to Create Billion-Dollar Fund for Clean Energy</a></h3>
+<h6 class="byline">
+By CORAL DAVENPORT				<span class="timestamp" data-eastern-timestamp=" 6:06 PM" data-utc-timestamp="1448665576000"></span>
+</h6>
+<p class="summary">
+An announcement is anticipated on Monday at the global summit meeting on climate in Paris, as Mr. Gates takes a major step to cut global-warming emissions.</p>
+</div>
+<div class="story">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/27/us/parents-ready-for-some-love-from-silicon-valley-companies.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/27/us/27up-tech/27up-tech-thumbStandard.jpg" width="75" height="75" alt="Both Clara Shih and Daniel Chao, with their son, Blake, in San Francisco this week, have started and run tech companies." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/27/us/parents-ready-for-some-love-from-silicon-valley-companies.html?ref=technology">
+Parents Ready for Some Love From Silicon Valley Companies</a></h3>
+<h6 class="byline">
+By CLAIRE CAIN MILLER				<span class="timestamp" data-eastern-timestamp=" 8:24 PM" data-utc-timestamp="1448587485000"></span>
+</h6>
+<p class="summary">
+Mark Zuckerberg’s decision to take two months of parental leave is a sign of a shifting culture.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Q&A</h6>
+<h3><a href="http://www.nytimes.com/2015/11/28/technology/personaltech/allowing-pop-up-windows-from-approved-sites.html?ref=technology">
+Allowing Pop-Up Windows From Approved Sites</a></h3>
+<h6 class="byline">
+By J. D. BIERSDORFER				<span class="timestamp" data-eastern-timestamp="10:34 AM" data-utc-timestamp="1448638465000"></span>
+</h6>
+<p class="summary">
+Pop-up windows are often quashed by default in a web browser’s settings, but most programs let you add a list of exceptions.</p>
+</div>
+</div>
+<!--cur:StandardThumb prev:StandardThumb-->
+<div class="columnGroup ">
+<h6 class="sectionHeader">More News</h6><div class="story">
+<h6 class="kicker">Bits Blog</h6>
+<h3><a href="http://bits.blogs.nytimes.com/2015/11/29/nokia-tries-to-reinvent-itself-again-by-taking-over-alcatel-lucent/?ref=technology">
+Nokia Tries to Reinvent Itself, Again, by Taking Over Alcatel-Lucent</a></h3>
+<h6 class="byline">
+By MARK SCOTT				<span class="timestamp" data-eastern-timestamp=" 5:06 PM" data-utc-timestamp="1448834805000"></span>
+</h6>
+<p class="summary">
+Rajeev Suri, Nokia’s 48-year-old chief executive, says his company’s $16.6 billion takeover of Alcatel-Lucent is exactly what Nokia needs to execute its yearslong makeover, which has included layoffs and the sale of unwanted assets.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Tech Tip</h6>
+<h3><a href="http://www.nytimes.com/2015/11/30/technology/personaltech/how-to-use-google-now-on-tap.html?ref=technology">
+How to Use Google Now on Tap</a></h3>
+<h6 class="byline">
+By J. D. BIERSDORFER				<span class="timestamp" data-eastern-timestamp=" 2:00 PM" data-utc-timestamp="1448823627000"></span>
+</h6>
+<p class="summary">
+Tips on activating and taking advantage of Google Now on Tap, which can be handy in providing more details about what you’re seeing on your smartphone or tablet screen.</p>
+</div>
+<div class="story">
+<h3><a href="http://www.nytimes.com/2015/11/28/business/judge-dismisses-yelp-suit-brought-by-shareholders.html?ref=technology">
+Judge Dismisses Yelp Suit Brought by Shareholders</a></h3>
+<h6 class="byline">
+By REUTERS				<span class="timestamp" data-eastern-timestamp=" 7:47 PM" data-utc-timestamp="1448671621000"></span>
+</h6>
+<p class="summary">
+Yelp won the dismissal of a lawsuit by shareholders who claimed they had been fraudulently misled about the authenticity and quality of its reviews.</p>
+</div>
+<div class="story">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/business/media/verizon-commercial-suggests-a-thanksgiving-without-phones.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/26/business/26verizon-web1/26verizon-web1-thumbStandard.jpg" width="75" height="75" alt="An image from Verizon's new commercial, which encourages users to set aside their phones and socialize during the holidays." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/26/business/media/verizon-commercial-suggests-a-thanksgiving-without-phones.html?ref=technology">
+Verizon Commercial Suggests a Thanksgiving Without Phones</a></h3>
+<h6 class="byline">
+By SYDNEY EMBER				<span class="timestamp" data-eastern-timestamp=" 9:23 PM" data-utc-timestamp="1448504586000"></span>
+</h6>
+<p class="summary">
+Verizon is introducing a television ad encouraging people to enjoy family and friends rather than their small screens.</p>
+</div>
+<div class="story">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/us/laws-struggle-to-keep-up-as-hoverboards-popularity-soars.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/20/multimedia/hoverboards-trend/hoverboards-trend-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/26/us/laws-struggle-to-keep-up-as-hoverboards-popularity-soars.html?ref=technology">
+Laws Struggle to Keep Up as Hoverboards’ Popularity Soars</a></h3>
+<h6 class="byline">
+By LAURA M. HOLSON				<span class="timestamp" data-eastern-timestamp=" 9:25 AM" data-utc-timestamp="1448547940000"></span>
+</h6>
+<p class="summary">
+Self-balancing motorized boards, known as hoverboards, Swagways, self-balancing scooters or personal transporters, have forced lawmakers to figure out how safe they are and how to regulate them.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Bits Blog</h6>
+<h3><a href="http://bits.blogs.nytimes.com/2015/11/25/gardening-start-up-in-china-chances-upon-u-s-marijuana-market/?ref=technology">
+Gardening Start-Up in China Chances Upon U.S. Marijuana Market</a></h3>
+<h6 class="byline">
+By PAUL MOZUR				<span class="timestamp" data-eastern-timestamp="11:11 AM" data-utc-timestamp="1448467865000"></span>
+</h6>
+<p class="summary">
+Lennon Tsai started a company to supply urban Chinese farmers with all the necessary hydroponics equipment, but he found a surprising secondary market in America.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Bits Daily Report</h6>
+<div class="thumbnail">
+<a href="http://bits.blogs.nytimes.com/2015/11/25/daily-report-turkey-travel-and-technology/?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://bits.blogs.nytimes.com/2015/11/25/daily-report-turkey-travel-and-technology/?ref=technology">
+Turkey, Travel and Technology</a></h3>
+<h6 class="byline">
+By JOSEPH PLAMBECK				<span class="timestamp" data-eastern-timestamp="10:11 AM" data-utc-timestamp="1448464300000"></span>
+</h6>
+<p class="summary">
+Traveling during the holiday can be difficult, let’s be thankful for a minute — for the intersection of technology and travel.</p>
+</div>
+<div class="story">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/world/europe/anonymous-hackers-fight-isis-but-reactions-are-mixed.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/20/business/20anonymous/20anonymous-thumbStandard.jpg" width="75" height="75" alt="A man wearing a mask associated with the hacking collective Anonymous making a statement a day after the attacks in Paris." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/26/world/europe/anonymous-hackers-fight-isis-but-reactions-are-mixed.html?ref=technology">
+Anonymous Hackers Fight ISIS but Reactions Are Mixed</a></h3>
+<h6 class="byline">
+By KATIE ROGERS				<span class="timestamp" data-eastern-timestamp=" 9:15 AM" data-utc-timestamp="1448460906000"></span>
+</h6>
+<p class="summary">
+Wholesale efforts to block Twitter activity sometimes sweep up journalists and others who track the terror group.</p>
+</div>
+<div class="story">
+<h6 class="kicker">The Upshot</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/upshot/silicon-valley-is-growing-up-giving-parents-a-break.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/26/upshot/26UP-Tech-family/26UP-Tech-family-thumbStandard.jpg" width="75" height="75" alt="Daniel Chao and Clara Shih with their son, Blake, in San Francisco. Both parents have started and run tech companies." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/26/upshot/silicon-valley-is-growing-up-giving-parents-a-break.html?ref=technology">
+Silicon Valley Is Growing Up, Giving Parents a Break</a></h3>
+<h6 class="byline">
+By CLAIRE CAIN MILLER				<span class="timestamp" data-eastern-timestamp=" 7:17 AM" data-utc-timestamp="1448453868000"></span>
+</h6>
+<p class="summary">
+Mark Zuckerberg’s decision to take two months of parental leave is a sign of a shifting culture.</p>
+<ul class="refer commentsRefer">
+<li  style="background-image: none; padding-left: 0pt;"><span class="commentCountLink" articleid="http://www.nytimes.com/2015/11/26/upshot/silicon-valley-is-growing-up-giving-parents-a-break.html" overflowurl="http://community.nytimes.com/comments/www.nytimes.com/2015/11/26/upshot/silicon-valley-is-growing-up-giving-parents-a-break.html?ref=technology&target=comments" articletitle="Silicon Valley Is Growing Up, Giving Parents a Break"></span></li>
+</ul>
+</div>
+</div>
+<!--cur:HeadlineOnly prev:StandardThumb-->
+<div class="columnGroup singleRule ">
+<ul class="headlinesOnly multiline flush">
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/25/business/dealbook/dream-of-new-kind-of-credit-union-is-burdened-by-bureaucracy.html?ref=technology">
+Dream of New Kind of Credit Union Is Extinguished by Bureaucracy</a>
+<span class="timestamp" data-eastern-timestamp=" 6:13 PM" data-utc-timestamp="1448406794000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/25/business/dealbook/microsemi-wins-pmc-sierra-with-a-2-5-billion-bid.html?ref=technology">
+Microsemi Wins PMC-Sierra With a $2.5 Billion Bid</a>
+<span class="timestamp" data-eastern-timestamp="10:19 AM" data-utc-timestamp="1448378387000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/25/world/middleeast/iran-hackers-cyberespionage-state-department-social-media.html?ref=technology">
+Iranian Hackers Attack State Dept. via Social Media Accounts</a>
+<span class="timestamp" data-eastern-timestamp="10:22 AM" data-utc-timestamp="1448378534000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/25/science/space/blue-origins-rocket-launches-and-lands.html?ref=technology">
+Blue Origin Launches Bezos’s Space Dreams and Lands a Rocket</a>
+<span class="timestamp" data-eastern-timestamp=" 5:00 PM" data-utc-timestamp="1448402403000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/25/technology/hewlett-packard-hp-quarterly-earnings.html?ref=technology">
+Final Earnings at the Old Hewlett-Packard Fall Short of Wall St. Expectations</a>
+<span class="timestamp" data-eastern-timestamp=" 7:06 PM" data-utc-timestamp="1448410007000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/25/technology/youtube-kids-app-faces-new-complaints.html?ref=technology">
+YouTube Kids App Faces New Complaints Over Ads for Junk Food</a>
+<span class="timestamp" data-eastern-timestamp="12:06 PM" data-utc-timestamp="1448384795000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/24/business/international/luxembourg-goes-in-for-an-image-makeover.html?ref=technology">
+Luxembourg Goes in for an Image Makeover</a>
+<span class="timestamp" data-eastern-timestamp=" 6:51 PM" data-utc-timestamp="1448322670000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/24/business/international/china-cuts-mobile-service-of-xinjiang-residents-evading-internet-filters.html?ref=technology">
+China Cuts Mobile Service of Xinjiang Residents Evading Internet Filters</a>
+<span class="timestamp" data-eastern-timestamp=" 9:56 PM" data-utc-timestamp="1448333760000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/24/science/flower-power-blooms-in-the-lab.html?ref=technology">
+Observatory: Flower Power Blooms in the Lab</a>
+<span class="timestamp" data-eastern-timestamp=" 6:04 PM" data-utc-timestamp="1448319861000"></span>
+</h6>
+</li>
+<li>
+<h6><a href="http://www.nytimes.com/2015/11/24/technology/proposed-regulations-for-drones-are-released.html?ref=technology">
+Drone Shopping? F.A.A. Rules May Hover Over Holidays</a>
+<span class="timestamp" data-eastern-timestamp=" 8:17 PM" data-utc-timestamp="1448327850000"></span>
+</h6>
+</li>
+</ul>
+</div>
+<!--cur:StandardThumb prev:HeadlineOnly-->
+<div class="columnGroup singleRule last">
+<style type="text/css">
+
+
+.NYT5Style .bColumn .doubleRule, .bColumn .doubleRule, .NYT5Style .bColumn .columnGroup.singleRule, .bColumn .singleRule { background: none !important; border-top: none }
+.bColumn .columnGroup { margin-bottom: 12px; }
+.NYT5Style .bColumn .columnGroup.singleRule { padding-top: 0px; }
+
+</style>
+</div>
+</div><!--close .aColumn -->
+<div class="bColumn">
+<div class="columnGroup SectionFront3Col first">
+<div class="story">
+<a href="http://bits.blogs.nytimes.com/"><img src="http://graphics8.nytimes.com/images/blogs_v3/bits/bits_190.gif" />
+</a>
+<p style="padding-top: 5px;">A blog filled with news, insight and analysis on Silicon Valley and beyond.</p>
+</div>
+<h6 style="font-family: nyt-franklin, arial, helvetica, sans-serif; padding: 0 0 20px 0px;"><a href="http://bits.blogs.nytimes.com/">Continue to Bits »</a></h6><style type="text/css">
+.NYT5Style .bColumn .doubleRule, .NYT5Style .bColumn .doubleRuleDivider {margin-top: 0 !important; padding-top: 0 !important; }
+</style>
+<div class="doubleRuleDivider"></div>    
+</div>
+<div class="columnGroup doubleRule ">
+<h6 class="sectionHeader"><a href="http://www.nytimes.com/pages/technology/personaltech/index.html">Personal Technology</a></h6><div class="story">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/12/01/science/electric-car-auto-dealers.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/25/science/01electric2/01electric2-thumbStandard-v2.jpg" width="75" height="75" alt="Robert Kast with his 2015 Volkswagen e-Golf SEL in Maplewood, N.J. He says he knew more about the car than the dealers who sold it to him." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/12/01/science/electric-car-auto-dealers.html?ref=technology">
+A Car Dealers Won’t Sell: It’s Electric</a></h3>
+<h6 class="byline">
+By MATT RICHTEL				<span class="timestamp" data-eastern-timestamp="11:23 AM" data-utc-timestamp="1448382188000"></span>
+</h6>
+<p class="summary">
+Car dealers are showing scant enthusiasm for putting consumers into electric cars, despite large fan clubs and governmental pledges.</p>
+<ul class="refer commentsRefer">
+<li  style="background-image: none; padding-left: 0pt;"><span class="commentCountLink" articleid="http://www.nytimes.com/2015/12/01/science/electric-car-auto-dealers.html" overflowurl="http://community.nytimes.com/comments/www.nytimes.com/2015/12/01/science/electric-car-auto-dealers.html?ref=technology&target=comments" articletitle="A Car Dealers Won’t Sell: It’s Electric"></span></li>
+</ul>
+</div>
+</div>
+<div class="columnGroup doubleRule ">
+<div class="story">
+<h6 class="kicker">Tech Fix</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/technology/personaltech/black-friday-deal-or-dud-how-to-shop-smart-this-holiday-season.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/25/business/26TECHFIX-web/26TECHFIX-web-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/black-friday-deal-or-dud-how-to-shop-smart-this-holiday-season.html?ref=technology">
+Black Friday Deal or Dud? How to Shop Smart This Holiday Season</a></h3>
+<h6 class="byline">
+By BRIAN X. CHEN				<span class="timestamp" data-eastern-timestamp="11:28 AM" data-utc-timestamp="1448468936000"></span>
+</h6>
+<p class="summary">
+Only a small fraction of Black Friday discounts are true bargains, according to the editor of The Wirecutter, a product recommendation site. But there’s a way to check which purchases are worthwhile.</p>
+</div>
+<div class="story mediaStory videoStory">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/technology/personaltech/video-feature-replacing-the-black-friday-rush-with-a-few-leisurely-taps.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/24/multimedia/appsmart-blackfriday/appsmart-blackfriday-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+<div class="mediaStoryOverlay"></div>
+</a>
+</div>
+<h6 class="kicker">App Smart</h6>
+<h3>
+<a href="http://www.nytimes.com/2015/11/26/technology/personaltech/video-feature-replacing-the-black-friday-rush-with-a-few-leisurely-taps.html?ref=technology">Video Feature: Replacing the Black Friday Rush With a Few Leisurely Taps</a>
+</h3>
+<h6 class="byline">
+By KIT EATON                			<span class="timestamp" data-eastern-timestamp="12:53 PM" data-utc-timestamp="1448473992000"></span>
+</h6>
+<p class="summary">
+Shopping apps that help buyers build wish lists, track prices and find the best deals.</p>
+</div>
+<div class="story">
+<h6 class="kicker">The Getaway</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/29/travel/29GETAWAY1/29GETAWAY1-thumbStandard.jpg" width="75" height="75" alt="Google’s Offline Maps lets you see turn-by-turn directions, without Wi-Fi or a data connection." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html?ref=technology">
+With Google’s Offline Maps, Getting Around Gets Cheaper</a></h3>
+<h6 class="byline">
+By STEPHANIE ROSENBLOOM				<span class="timestamp" data-eastern-timestamp=" 5:45 AM" data-utc-timestamp="1448275501000"></span>
+</h6>
+<p class="summary">
+Google is rolling out a set of tools designed to help millions of travelers figure out where to go, when to go and how to get there.</p>
+<ul class="refer commentsRefer">
+<li  style="background-image: none; padding-left: 0pt;"><span class="commentCountLink" articleid="http://www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html" overflowurl="http://community.nytimes.com/comments/www.nytimes.com/2015/11/29/travel/find-your-way-without-losing-your-wallet.html?ref=technology&target=comments" articletitle="With Google’s Offline Maps, Getting Around Gets Cheaper"></span></li>
+</ul>
+</div>
+<div class="story mediaStory videoStory">
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/19/technology/personaltech/video-feature-apps-to-streamline-thanksgiving-at-every-step-of-the-process.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/17/multimedia/appsmart-thanksgiving/appsmart-thanksgiving-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+<div class="mediaStoryOverlay"></div>
+</a>
+</div>
+<h6 class="kicker">App Smart</h6>
+<h3>
+<a href="http://www.nytimes.com/2015/11/19/technology/personaltech/video-feature-apps-to-streamline-thanksgiving-at-every-step-of-the-process.html?ref=technology">Video Feature: Apps to Streamline Thanksgiving at Every Step of the Process</a>
+</h3>
+<h6 class="byline">
+By KIT EATON                			<span class="timestamp" data-eastern-timestamp=" 2:20 PM" data-utc-timestamp="1447874416000"></span>
+</h6>
+<p class="summary">
+A selection of apps to make your Thanksgiving go as smoothly as possible, from the preparation of a shopping list to after-dinner diversions.</p>
+</div>
+</div>
+<div class="columnGroup doubleRule last">
+<div class="story">
+<h6 class="kicker">Well</h6>
+<div class="thumbnail">
+<a href="http://well.blogs.nytimes.com/2015/11/16/special-section-wired-well/?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/17/science/wellcover/wellcover-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://well.blogs.nytimes.com/2015/11/16/special-section-wired-well/?ref=technology">
+Special Section: Wired Well</a></h3>
+<h6 class="byline">
+By TARA PARKER-POPE				<span class="timestamp" data-eastern-timestamp=" 8:49 PM" data-utc-timestamp="1447724977000"></span>
+</h6>
+<p class="summary">
+We explore the lives of newly wired consumers and the consequences, good and bad, that arise from our increasing reliance on trackers, monitors, guides and a vast array of other devices to better our health.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Tech Fix</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/23/technology/personaltech/gear-vr-offers-a-preview-of-virtual-reality-in-the-home.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/20/business/20techfix1/20techfix1-thumbStandard.jpg" width="75" height="75" alt="An image from the game Jurassic World, available in virtual reality on the Gear VR." border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/23/technology/personaltech/gear-vr-offers-a-preview-of-virtual-reality-in-the-home.html?ref=technology">
+Gear VR Offers a Preview of Virtual Reality in the Home</a></h3>
+<h6 class="byline">
+By BRIAN X. CHEN				<span class="timestamp" data-eastern-timestamp=" 9:00 AM" data-utc-timestamp="1448028002000"></span>
+</h6>
+<p class="summary">
+For an early stab at consumer virtual reality, the Gear VR is a work in progress that can cause eye strain and weigh heavily on the head.</p>
+<ul class="refer commentsRefer">
+<li><a href="http://www.nytimes.com/2015/11/21/business/media/martian-trailer-in-virtual-reality-is-released.html">‘Martian’ Trailer in Virtual Reality Is Released</a> </li>
+</ul>
+</div>
+<div class="story">
+<h6 class="kicker">Tech Fix</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/19/technology/personaltech/foiling-electronic-snoops-in-email.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/19/business/19techfix/19techfix-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/19/technology/personaltech/foiling-electronic-snoops-in-email.html?ref=technology">
+Foiling Electronic Snoops in Email</a></h3>
+<h6 class="byline">
+By BRIAN X. CHEN				<span class="timestamp" data-eastern-timestamp="11:01 AM" data-utc-timestamp="1447862503000"></span>
+</h6>
+<p class="summary">
+Trackers inserted into email can detect when a person opens a message and where they are when they do so. And it’s not easy to thwart them.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Tech Fix</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/05/technology/personaltech/the-high-price-of-delivery-app-convenience.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/04/business/04TECHFIX-web/04TECHFIX-web-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/05/technology/personaltech/the-high-price-of-delivery-app-convenience.html?ref=technology">
+The High Price of Delivery App Convenience</a></h3>
+<h6 class="byline">
+By BRIAN X. CHEN				<span class="timestamp" data-eastern-timestamp=" 5:00 AM" data-utc-timestamp="1446631203000"></span>
+</h6>
+<p class="summary">
+With a tap on a smartphone, consumers in some areas can have almost anything delivered within hours. But the cost of that is significant, and not always obvious.</p>
+</div>
+<div class="story">
+<h6 class="kicker">Q&amp;A</h6>
+<div class="thumbnail">
+<a href="http://www.nytimes.com/2015/11/26/technology/personaltech/updating-windows-10.html?ref=technology">
+<img src="http://graphics8.nytimes.com/images/2015/11/26/business/26askk-web1/26askk-web1-thumbStandard.jpg" width="75" height="75" alt="" border="0" />
+</a>
+</div>
+<h3><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/updating-windows-10.html?ref=technology">
+Updating Windows 10</a></h3>
+<h6 class="byline">
+By J. D. BIERSDORFER				<span class="timestamp" data-eastern-timestamp=" 1:11 PM" data-utc-timestamp="1448561471000"></span>
+</h6>
+<p class="summary">
+As part of its switch to Windows 10 as a “service” that automatically updates itself, Microsoft has pushed out its Windows 10 November Update.</p>
+</div>
+</div>
+</div><!--close .bColumn -->
+</div><!--close .abColumn -->
+<div class="cColumn">
+<!--Ads  -->                    <div class="columnGroup first">
+<div class="singleAd" id="SFHalf" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("SFHalf");
+					});
+				</script>
+</div>
+<div class="singleAd" id="Spon1" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("Spon1");
+					});
+				</script>
+</div>
+</div>
+<!--Simple Ads -->                    <div class="columnGroup ">
+<style type="text/css">
+#nyttech_ccol_scuttle {
+    background: url("http://graphics8.nytimes.com/packages/images/technology/static-scuttle-alt.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 39px;
+    margin: -7px 0 12px;
+    text-indent: -9999px;
+}
+.scuttlebot .sectionHeader, .scuttlebot .subHeader, .scuttlebot .singleRuleDivider { 
+    display: none !important;
+}
+.scuttlebot .story h3 a {
+    font-family: nyt-franklin, arial, helvetica, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}  
+.scuttlebot .story h3 span {
+    font-family: nyt-franklin, arial, helvetica, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+}  
+.scuttlebot .summary {
+    font-family: nyt-franklin, arial, helvetica, sans-serif !important;
+    color: #4d4d4d;
+    font-size: 12px;
+    line-height: 16px;
+}    
+</style>
+<div id="nyttech_ccol_scuttle"><a href="http://bits.blogs.nytimes.com/around-the-web/"></a></div>
+<div class="relatedStories scuttlebot">
+<h3 class="sectionHeader flushBottom">
+<a href="" title="Scuttlebot"></a>
+</h3>
+<p class="subHeader">News from the Web,<br> annotated by our staff</p>
+<div class="singleRuleDivider flushTop"></div>
+<div class="story first">
+<h3>
+<a href="http://www.theverge.com/2015/11/24/9790324/dell-eDellRoot-ssl-certificate-removal-instructions-response">
+Dell Apologizes for Laptop Security Scare; Will Remove Vulnerability Today</a>
+<span class="kicker">| The Verge</span>
+</h3>
+<p class="summary">The company has been shipping an SSL certificate on a number of its laptops, generating security concerns that hackers could misuse the certificate to spy on web traffic.<span><i> -&nbsp;
+<a class="byline" href="">Kelly Couturier</a>
+</i></span>
+</p>
+</div>
+<div class="story">
+<h3>
+<a href="http://www.bbc.com/news/blogs-news-from-elsewhere-34869142">
+Bangladesh Government ‘Mistakenly’ Cuts Off Internet in Country</a>
+<span class="kicker">| BBC News</span>
+</h3>
+<p class="summary">Attempting to block some social networks in the wake of a Supreme Court ruling upholding death sentences for two men convicted of war crimes, authorities accidentally cut off access to the Internet for the entire country earlier this week.<span><i> -&nbsp;
+<a class="byline" href="">Ashwin Seshagiri</a>
+</i></span>
+</p>
+</div>
+<div class="story">
+<h3>
+<a href="http://www.theverge.com/2015/11/19/9759874/microsoft-windows-visual-history-30-years">
+A Visual History of Windows as It Turns 30</a>
+<span class="kicker">| The Verge</span>
+</h3>
+<p class="summary">Windows has now dominated personal computing for 30 years, and no amount of Mac vs. PC campaigns have come close to changing that, but they've certainly been entertaining.<span><i> -&nbsp;
+<a class="byline" href="">Ashwin Seshagiri</a>
+</i></span>
+</p>
+</div>
+<div class="story">
+<h3>
+<a href="http://money.cnn.com/video/media/2015/11/18/barry-diller-match-tinder-ipo.cnnmoney/">
+Billionaire Barry Diller: ’I’d Use a Dating App’</a>
+<span class="kicker">| CNNMoney</span>
+</h3>
+<p class="summary">The chairman of IAC/InterActiveCorp discusses the role of dating apps like Tinder and the soon-to-be-public Match within his conglomerate.<span><i> -&nbsp;
+<a class="byline" href="">Ashwin Seshagiri</a>
+</i></span>
+</p>
+</div>
+</div>
+</div>
+<!--StandardThumb Simple -->                    <div class="columnGroup ">
+<div id="extendedVideoPlayerModule" class="extendedVideoPlayerModule extendedVideoPlayerSectionFrontModule">
+<div class="extVidPlayerHeader clearfix">
+<h5 class="extVidPlayerMainHeaderLink"><a href="http://www.nytimes.com/video" target="_blank">Times<span>Video</span></a></h5>
+<a href="http://www.nytimes.com/video" class="extVidPlayerSectionHeaderLink" target="_blank">More <span></span> Videos &raquo;</a>
+</div>
+<div class="videoContainer">
+<div id="vhsVideoContainer" class="extendedVideoPocketPlayerContainer"></div>
+<div class="videoShare shareTools shareToolsThemeClassic shareToolsThemeClassicHorizontal slideshowShareTools" 
+            data-shares="showall|Share,email|E-mail,twitter|Twitter,facebook|Facebook" 
+            data-url="" 
+            data-title="" 
+            data-description="">
+</div>
+<div class="videoDetails">
+<p class="kicker"></p>
+<a href="#" class="shortDescription" target="_blank"></a>
+<p class="longDescription"></p>
+</div>
+</div>
+<div class="extVidPlayerThumbsContainer">
+<div class="extVidPlayerThumbsContainerShadow"></div>
+<div class="extVidPlayerNav clearfix">
+<div class="extVidPlayerNavContent clearfix">
+<a href="#" class="previousVideo previousVideoInactive">previous</a>
+<a href="#" class="nextVideo">next</a>
+</div>
+</div>
+<div id="extVidPlayerThumbsWrapper" class="extVidPlayerThumbsWrapper">
+<ul id="extVidPlayerThumbs" class="videoThumbs clearfix"></ul>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/app/lib/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/video/vhs/build/vhs-2.x.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/video/sectionfront/sectionfront.min.js"></script>
+<script type="text/javascript">
+$.noConflict();
+jQuery(document).ready(function( $ ) {
+    var vhsconfig = {
+        name: "Technology",
+        container: "extendedVideoPlayerModule",
+        playlistId: "1194811622271",
+        thumbsVisible: 4,
+        thumbWidth: "90",
+        videoWidth: "336",
+        videoHeight: "189",
+        thumbsDistance: 7,
+        playerType: "sectionfront|technology",
+        moreVideos: "http://www.nytimes.com/video/landing/technology/1194811622271/index.html"
+    };
+
+    var player = new VHS.NYTD.SectionFrontPlayer(vhsconfig);
+});
+</script>  <link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/projects/2013/follow-widget/c/nytint_follow_widget.css?v=4" />
+<div id="nytint-follow-widget" class="nytint-fw-single nytint-fw-staff-active">
+<h4>
+<span class="nytint-fw-generic-followmessage">Follow <span class="nytint-fw-desk"></span></span>
+<span class="nytint-fw-specific-followmessage"><span class="nytint-fw-username"><a href="https://twitter.com/nytimesbits">@NYTimesBits</a></span> on <span class="nytint-fw-service">Twitter</span></span>
+</h4>
+<ul>
+<li class="nytint-fw-twitter single"><a href="https://twitter.com/nytimesbits">Twitter</a></li>
+</ul>
+<div class="nytint-fw-desc-container">
+<p class="nytint-fw-description">For news and analysis, plus interesting links curated by our journalists. <span class="nytint-fw-staffdirectory"><a href="https://twitter.com/nytimesbits/lists/nyt-bits-team-and-friends">Staff Twitter List »</a></span></p>
+</div>
+<p class="nytint-fw-followbutton"><a href="https://twitter.com/nytimesbits">Follow</a></p>
+</div>
+<!--div class="singleRuleDivider"></div-->        	</div>
+<!--Ads StandardThumb -->                    <div class="columnGroup ">
+<div class="bigAd" id="SFMiddle" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("SFMiddle");
+					});
+				</script>
+</div>
+<div class="singleAd" id="PaidPost" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("PaidPost");
+					});
+				</script>
+</div>
+<div class="singleAd" id="Box3" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("Box3");
+					});
+				</script>
+</div>
+<div class="bigAd" id="SFFranchise" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("SFFranchise");
+					});
+				</script>
+</div>
+</div>
+<!--StandardThumb Ads -->                    <div class="columnGroup ">
+<div id="mostPopWidget" class="singleRule"> 
+
+      <!-- MOST POPULAR MODULE STARTS -->
+      <h4>MOST POPULAR - TECHNOLOGY</h4>
+         <div id="tabsContainer">
+         <ul class="tabs">
+            <li class="selected"><a href="#">Emailed</a></li>
+            
+            <li><a href="#">Viewed</a></li>
+            
+         </ul>
+         </div>
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HEAD><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></HEAD><div class="tabContent tabContentActive" id="mostEmailed">
+<ol>
+<li img="http://static01.nyt.com/images/2015/11/26/business/26askk-web1/26askk-web1-thumbStandard.jpg" kicker="Q&amp;amp;A"><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/updating-windows-10.html?src=me" title="Click to go to this article">Q&amp;A: Updating Windows 10</a></li>
+<li img="http://static01.nyt.com/images/2015/11/24/multimedia/appsmart-blackfriday/appsmart-blackfriday-thumbStandard.jpg" kicker="App Smart"><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/video-feature-replacing-the-black-friday-rush-with-a-few-leisurely-taps.html?src=me" title="Click to go to this article">App Smart: Video Feature: Replacing the Black Friday Rush With a Few Leisurely Taps</a></li>
+<li img="http://static01.nyt.com/images/2015/11/25/business/26TECHFIX-web/26TECHFIX-web-thumbStandard.jpg" kicker="Tech Fix"><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/black-friday-deal-or-dud-how-to-shop-smart-this-holiday-season.html?src=me" title="Click to go to this article">Tech Fix: Black Friday Deal or Dud? How to Shop Smart This Holiday Season</a></li>
+<li kicker="Q&amp;A"><a href="http://www.nytimes.com/2015/11/28/technology/personaltech/allowing-pop-up-windows-from-approved-sites.html?src=me" title="Click to go to this article">Q&A: Allowing Pop-Up Windows From Approved Sites</a></li>
+<li img="http://static01.nyt.com/images/2015/11/24/multimedia/appsmart-blackfriday/appsmart-blackfriday-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/video/technology/personaltech/100000004058538/app-smart-beating-black-friday.html?src=me" title="Click to go to this article">App Smart | Beating Black Friday</a></li>
+<li img="http://static01.nyt.com/images/2015/09/29/business/29google-web/29google-web-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2015/09/29/technology/google-virtual-reality-system-aims-to-enliven-education.html?src=me" title="Click to go to this article">Google Virtual-Reality System Aims to Enliven Education</a></li>
+<li img="http://static01.nyt.com/images/2015/11/12/technology/personaltech/12askk-web/12askk-web-thumbStandard.jpg" kicker="Q&amp;A"><a href="http://www.nytimes.com/2015/11/12/technology/personaltech/weighing-benefits-of-windows-10-upgrade.html?src=me" title="Click to go to this article">Q&A: Weighing Benefits of Windows 10 Upgrade</a></li>
+<li img="http://static01.nyt.com/images/2015/11/03/business/03teens/03teens-thumbStandard.jpg" kicker="Bits"><a href="http://bits.blogs.nytimes.com/2015/11/03/the-digital-disparities-facing-lower-income-teens/?src=me" title="Click to go to this article">Bits: The Digital Disparities Facing Lower-Income Teenagers</a></li>
+<li img="http://static01.nyt.com/images/2015/07/29/business/29reboot1/29reboot1-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2015/07/29/technology/code-academy-as-career-game-changer.html?src=me" title="Click to go to this article">As Tech Booms, Workers Turn to Coding for Career Change</a></li>
+<li img="http://static01.nyt.com/images/2015/11/01/business/01-IBM/01-IBM-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2015/11/15/business/ibms-design-centered-strategy-to-set-free-the-squares.html?src=me" title="Click to go to this article">IBM’s Design-Centered Strategy to Set Free the Squares</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostemailed.html">Go to Complete List »</a>
+</div><!-- #most emailed top10 -->
+
+            
+            <div class="tabContent" id="mostViewed">
+<ol>
+<li img="http://static01.nyt.com/images/2015/11/23/technology/23bits-deliveroo/23bits-deliveroo-thumbStandard-v2.jpg" kicker="Bits"><a href="http://bits.blogs.nytimes.com/2015/11/23/deliveroo-an-on-demand-food-delivery-service-raises-100-million/?src=mv" title="Click to go to this article">Bits: Deliveroo, an On-Demand Food Delivery Service, Raises $100 Million</a></li>
+<li kicker="Bits"><a href="http://bits.blogs.nytimes.com/2015/11/20/mark-zuckerberg-plans-2-month-paternity-leave-from-facebook/?src=mv" title="Click to go to this article">Bits: Mark Zuckerberg Plans 2-Month Paternity Leave From Facebook</a></li>
+<li img="http://static01.nyt.com/images/2015/11/19/technology/19bits-fb/19bits-fb-thumbStandard.png" kicker="Bits"><a href="http://bits.blogs.nytimes.com/2015/11/19/facebook-to-make-breaking-up-easier-to-do/?src=mv" title="Click to go to this article">Bits: Facebook to Make Breaking Up Easier to Do</a></li>
+<li img="http://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard.jpg" kicker="Bits"><a href="http://bits.blogs.nytimes.com/2015/11/24/daily-report-cool-drone-is-it-registered/?src=mv" title="Click to go to this article">Bits: Daily Report: Cool Drone. Is It Registered?</a></li>
+<li img="http://static01.nyt.com/images/2015/10/06/us/07YOUTUBE-web/07YOUTUBE-thumbStandard-v3.jpg" kicker=""><a href="http://www.nytimes.com/2015/10/07/technology/fans-demand-details-after-death-of-a-13-year-old-bratayley-star.html?src=mv" title="Click to go to this article">Fans Demand Details After Death of a 13-Year-Old YouTube Star</a></li>
+<li img="http://static01.nyt.com/images/2015/11/25/business/26TECHFIX-web/26TECHFIX-web-thumbStandard.jpg" kicker="Tech Fix"><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/black-friday-deal-or-dud-how-to-shop-smart-this-holiday-season.html?src=mv" title="Click to go to this article">Tech Fix: Black Friday Deal or Dud? How to Shop Smart This Holiday Season</a></li>
+<li img="http://static01.nyt.com/images/2015/11/26/business/26askk-web1/26askk-web1-thumbStandard.jpg" kicker="Q&amp;amp;A"><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/updating-windows-10.html?src=mv" title="Click to go to this article">Q&amp;A: Updating Windows 10</a></li>
+<li kicker="Q&amp;A"><a href="http://www.nytimes.com/2015/11/28/technology/personaltech/allowing-pop-up-windows-from-approved-sites.html?src=mv" title="Click to go to this article">Q&A: Allowing Pop-Up Windows From Approved Sites</a></li>
+<li img="http://static01.nyt.com/images/2015/11/19/business/19techfix/19techfix-thumbStandard.jpg" kicker="Tech Fix"><a href="http://www.nytimes.com/2015/11/19/technology/personaltech/foiling-electronic-snoops-in-email.html?src=mv" title="Click to go to this article">Tech Fix: Foiling Electronic Snoops in Email</a></li>
+<li img="http://static01.nyt.com/images/2015/11/24/multimedia/appsmart-blackfriday/appsmart-blackfriday-thumbStandard.jpg" kicker="App Smart"><a href="http://www.nytimes.com/2015/11/26/technology/personaltech/video-feature-replacing-the-black-friday-rush-with-a-few-leisurely-taps.html?src=mv" title="Click to go to this article">App Smart: Video Feature: Replacing the Black Friday Rush With a Few Leisurely Taps</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/most-popular-viewed">Go to Complete List »</a>
+</div><!-- #most viewed top10 -->
+
+            
+         <script type="text/javascript">new Accordian("mostPopWidget");</script>
+      <!-- MOST POPULAR MODULE ENDS -->
+   
+<div class="moduleAd" id="MostPop" name="dfp">
+<script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display("MostPop");
+                });    
+            </script>
+</div>
+</div><!--close mostPopWidget -->
+</div>
+<!--Ads StandardThumb -->                    <div class="columnGroup ">
+<div class="bigAd" id="SFMiddle2" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("SFMiddle2");
+					});
+				</script>
+</div>
+<div class="bigAd" id="Box1" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("Box1");
+					});
+				</script>
+</div>
+<div class="singleAd" id="Middle5" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("Middle5");
+					});
+				</script>
+</div>
+
+</div>
+<!--Ads Ads -->                    <div class="columnGroup last">
+<div class="singleAd" id="Feature1" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("Feature1");
+					});
+				</script>
+</div>
+<div class="singleAd" id="SponLink" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("SponLink");
+					});
+				</script>
+</div>
+<div class="singleAd" id="SFBottom1" name="dfp">
+<script type="text/javascript">
+					googletag.cmd.push(function() {
+						googletag.display("SFBottom1");
+					});
+				</script>
+</div>
+</div>
+</div><!--close cColumn -->
+</div><!--close wideA -->
+</div><!--close spanAB -->
+</div><!--close main -->
+<footer class="pageFooter">
+<div class="inset">
+<nav class="pageFooterNav">
+<ul class="pageFooterNavList wrap">
+<li class="firstItem"><a href="http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html">&copy; 2015 The New York Times Company</a></li>
+<li><a href="http://spiderbites.nytimes.com/">Site Map</a></li>
+<li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+<li><a href="http://www.nytimes.com/ref/membercenter/help/privacy.html#pp">Your Ad Choices</a></li>
+<li><a href="http://www.nytimes.whsites.net/mediakit/">Advertise</a></li>
+<li><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html ">Terms of Sale</a></li>
+<li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html">Terms of Service</a></li>
+<li><a href="http://www.nytco.com/careers">Work With Us</a></li>
+<li><a href="http://www.nytimes.com/rss">RSS</a></li>
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li class="lastItem"><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+</ul>
+</nav>
+</div><!--close inset -->
+</footer><!--close pageFooter -->
+</div><!--close page -->
+</div><!--close shell -->
+<script language="JavaScript" type="text/javascript">
+				NYTD.require('http://graphics8.nytimes.com/js/app/opinionlab/oo_engine_c.js');
+			</script>	
+<script language="JavaScript" type="text/javascript">
+				NYTD.require('http://graphics8.nytimes.com/js/app/opinionlab/oo_conf_en-US_float.js');
+			</script>	
+<script type = "text/javascript" language = "JavaScript">
+    var NYTArticleCommentCounts = {"http:\/\/cooking.nytimes.com\/recipes\/1016393":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016393"},"http:\/\/cooking.nytimes.com\/recipes\/1013372":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013372"},"http:\/\/cooking.nytimes.com\/recipes\/7452":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/7452"},"http:\/\/cooking.nytimes.com\/recipes\/1014396":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014396"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/29\/moneymaking-skill\/":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/29\/moneymaking-skill\/"},"http:\/\/www.nytimes.com\/2015\/11\/30\/us\/politics\/paris-climate-talks.html":{"count":48,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/30\/us\/politics\/paris-climate-talks.html"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/29\/nokia-tries-to-reinvent-itself-again-by-taking-over-alcatel-lucent\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/29\/nokia-tries-to-reinvent-itself-again-by-taking-over-alcatel-lucent\/"},"http:\/\/cooking.nytimes.com\/recipes\/472":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/472"},"http:\/\/cooking.nytimes.com\/recipes\/12948":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12948"},"http:\/\/cooking.nytimes.com\/recipes\/1012847":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1012847"},"http:\/\/cooking.nytimes.com\/recipes\/1014465":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014465"},"http:\/\/cooking.nytimes.com\/recipes\/12963":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12963"},"http:\/\/cooking.nytimes.com\/recipes\/1015786":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015786"},"http:\/\/cooking.nytimes.com\/recipes\/1017856":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017856"},"http:\/\/www.nytimes.com\/2015\/11\/30\/us\/politics\/illinois-campaign-money-bruce-rauner.html":{"count":361,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/30\/us\/politics\/illinois-campaign-money-bruce-rauner.html"},"http:\/\/cooking.nytimes.com\/recipes\/1016331":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016331"},"http:\/\/cooking.nytimes.com\/recipes\/1017853":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017853"},"http:\/\/cooking.nytimes.com\/recipes\/1016921":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016921"},"http:\/\/www.nytimes.com\/2015\/11\/29\/arts\/design\/black-artists-and-the-march-into-the-museum.html":{"count":75,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/arts\/design\/black-artists-and-the-march-into-the-museum.html"},"http:\/\/cooking.nytimes.com\/recipes\/1012661":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1012661"},"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/29\/as-world-leaders-kick-off-paris-climate-talks-prescriptions-abound-from-a-carbon-tax-to-a-new-nuclear-push\/":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/29\/as-world-leaders-kick-off-paris-climate-talks-prescriptions-abound-from-a-carbon-tax-to-a-new-nuclear-push\/"},"http:\/\/cooking.nytimes.com\/recipes\/280":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/280"},"http:\/\/www.nytimes.com\/2015\/11\/29\/world\/middleeast\/isis-grip-on-libyan-city-gives-it-a-fallback-option.html":{"count":259,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/world\/middleeast\/isis-grip-on-libyan-city-gives-it-a-fallback-option.html"},"http:\/\/cooking.nytimes.com\/recipes\/5595":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/5595"},"http:\/\/cooking.nytimes.com\/recipes\/1016089":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016089"},"http:\/\/cooking.nytimes.com\/recipes\/3653":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/3653"},"http:\/\/www.nytimes.com\/2015\/11\/29\/us\/robert-dear-suspect-in-colorado-killings-preferred-to-be-left-alone.html":{"count":1598,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/us\/robert-dear-suspect-in-colorado-killings-preferred-to-be-left-alone.html"},"http:\/\/www.nytimes.com\/2015\/12\/02\/dining\/cookbook-review-baking-books-2015.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/12\/02\/dining\/cookbook-review-baking-books-2015.html"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/28\/four-letter-words\/":{"count":84,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/28\/four-letter-words\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/at-home-with-the-wildlife-of-industrial-chicago.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/at-home-with-the-wildlife-of-industrial-chicago.html"},"http:\/\/cooking.nytimes.com\/recipes\/1017852":{"count":8,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017852"},"http:\/\/cooking.nytimes.com\/recipes\/1372":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1372"},"http:\/\/cooking.nytimes.com\/recipes\/1017832":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017832"},"http:\/\/cooking.nytimes.com\/recipes\/8138":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/8138"},"http:\/\/cooking.nytimes.com\/recipes\/1017857":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017857"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/could-your-healthy-diet-make-me-fat.html":{"count":106,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/could-your-healthy-diet-make-me-fat.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/king-kevin-versus-queen-cersei.html":{"count":574,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/king-kevin-versus-queen-cersei.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/digital-culture-meet-analog-fever.html":{"count":138,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/digital-culture-meet-analog-fever.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/what-the-paris-climate-meeting-must-do.html":{"count":181,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/what-the-paris-climate-meeting-must-do.html"},"http:\/\/cooking.nytimes.com\/recipes\/1015961":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015961"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/tales-of-a-warmer-planet.html":{"count":89,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/tales-of-a-warmer-planet.html"},"http:\/\/cooking.nytimes.com\/recipes\/1430":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1430"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/contaminating-our-bodies-with-everyday-products.html":{"count":313,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/contaminating-our-bodies-with-everyday-products.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/spain-yesterday-syria-today.html":{"count":198,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/spain-yesterday-syria-today.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/one-governors-extraordinary-year.html":{"count":115,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/one-governors-extraordinary-year.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/sports\/basketball\/with-steve-kerr-sidelined-warriors-perfect-start-raises-questions-of-credit.html":{"count":21,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/sports\/basketball\/with-steve-kerr-sidelined-warriors-perfect-start-raises-questions-of-credit.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/us\/politics\/marco-rubio-bets-the-grand-old-party-is-ready-for-his-younger-face.html":{"count":281,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/us\/politics\/marco-rubio-bets-the-grand-old-party-is-ready-for-his-younger-face.html"},"http:\/\/cooking.nytimes.com\/recipes\/1016984":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016984"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/28\/demand-supply-and-macroeconomic-models\/":{"count":73,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/28\/demand-supply-and-macroeconomic-models\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/sports\/baseball\/a-pitch-is-framed-by-diplomacy-in-cuba.html":{"count":12,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/sports\/baseball\/a-pitch-is-framed-by-diplomacy-in-cuba.html"},"http:\/\/cooking.nytimes.com\/recipes\/1016952":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016952"},"http:\/\/cooking.nytimes.com\/recipes\/1017006":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017006"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/28\/variety-an-acrostic-that-floats\/":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/28\/variety-an-acrostic-that-floats\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/sports\/ncaafootball\/ohio-state-band-shows-flair-even-as-it-sticks-to-the-script.html":{"count":16,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/sports\/ncaafootball\/ohio-state-band-shows-flair-even-as-it-sticks-to-the-script.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/realestate\/plumbing-tax-and-smoke-detector-questions-answered.html":{"count":10,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/realestate\/plumbing-tax-and-smoke-detector-questions-answered.html"},"http:\/\/cooking.nytimes.com\/recipes\/9655":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/9655"},"http:\/\/cooking.nytimes.com\/recipes\/5784":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/5784"},"http:\/\/cooking.nytimes.com\/recipes\/1017833":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017833"},"http:\/\/cooking.nytimes.com\/recipes\/10270":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/10270"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/20\/the-weekly-health-quiz-coffee-twitches-and-an-unusual-transplant\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/20\/the-weekly-health-quiz-coffee-twitches-and-an-unusual-transplant\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/28\/the-knick-recap-a-dazzling-shot-and-other-developments\/":{"count":7,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/28\/the-knick-recap-a-dazzling-shot-and-other-developments\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/26\/trifonov-joins-philharmonic-board\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/26\/trifonov-joins-philharmonic-board\/"},"http:\/\/cooking.nytimes.com\/recipes\/1016954":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016954"},"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/addicted-to-distraction.html":{"count":266,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/opinion\/sunday\/addicted-to-distraction.html"},"http:\/\/cooking.nytimes.com\/recipes\/1017834":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017834"},"http:\/\/cooking.nytimes.com\/recipes\/8244":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/8244"},"http:\/\/cooking.nytimes.com\/recipes\/1015853":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015853"},"http:\/\/cooking.nytimes.com\/recipes\/1013073":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013073"},"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/frances-cult-of-fearlessness.html":{"count":256,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/frances-cult-of-fearlessness.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/affordable-housing-vs-gentrification.html":{"count":227,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/affordable-housing-vs-gentrification.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/the-new-atomic-age-we-need.html":{"count":478,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/the-new-atomic-age-we-need.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/president-obamas-hypocrisy-on-syria.html":{"count":433,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/opinion\/president-obamas-hypocrisy-on-syria.html"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/27\/unblinking-gazer\/":{"count":134,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/27\/unblinking-gazer\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015793":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015793"},"http:\/\/cooking.nytimes.com\/recipes\/8197":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/8197"},"http:\/\/cooking.nytimes.com\/recipes\/12068":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12068"},"http:\/\/cooking.nytimes.com\/recipes\/10405":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/10405"},"http:\/\/cooking.nytimes.com\/recipes\/1013991":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013991"},"http:\/\/www.nytimes.com\/2015\/11\/29\/fashion\/when-cupid-is-a-prying-journalist.html":{"count":12,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/fashion\/when-cupid-is-a-prying-journalist.html"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/27\/friday-night-music-the-civil-wars-billie-jean\/":{"count":13,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/27\/friday-night-music-the-civil-wars-billie-jean\/"},"http:\/\/cooking.nytimes.com\/recipes\/8256":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/8256"},"http:\/\/www.nytimes.com\/2015\/11\/27\/dining\/thanksgiving-leftovers.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/dining\/thanksgiving-leftovers.html"},"http:\/\/cooking.nytimes.com\/recipes\/12154":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12154"},"http:\/\/www.nytimes.com\/2015\/11\/28\/us\/colorado-planned-parenthood-shooting.html":{"count":2872,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/us\/colorado-planned-parenthood-shooting.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/your-money\/navigating-the-takata-airbag-recall.html":{"count":25,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/your-money\/navigating-the-takata-airbag-recall.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/nyregion\/metropolitan-diary-farewell-to-skid-row.html":{"count":7,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/nyregion\/metropolitan-diary-farewell-to-skid-row.html"},"http:\/\/cooking.nytimes.com\/recipes\/717":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/717"},"http:\/\/cooking.nytimes.com\/recipes\/12918":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12918"},"http:\/\/cooking.nytimes.com\/recipes\/1730":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1730"},"http:\/\/cooking.nytimes.com\/recipes\/722":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/722"},"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/27\/as-world-leaders-launch-paris-climate-talks-monday-bill-gates-will-launch-a-supporting-science-push\/":{"count":38,"commentsEnabled":true,"assetUrl":"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/27\/as-world-leaders-launch-paris-climate-talks-monday-bill-gates-will-launch-a-supporting-science-push\/"},"http:\/\/cooking.nytimes.com\/recipes\/81":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/81"},"http:\/\/www.nytimes.com\/2015\/12\/02\/dining\/hungry-city-amaranto-bushwick-brooklyn.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/12\/02\/dining\/hungry-city-amaranto-bushwick-brooklyn.html"},"http:\/\/cooking.nytimes.com\/recipes\/12953":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12953"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/27\/billy-strayhorn-centennial-take-the-a-train\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/27\/billy-strayhorn-centennial-take-the-a-train\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015450":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015450"},"http:\/\/cooking.nytimes.com\/recipes\/721":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/721"},"http:\/\/www.nytimes.com\/2015\/11\/29\/nyregion\/gentrification-in-a-brooklyn-neighborhood-forces-residents-to-move-on.html":{"count":184,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/nyregion\/gentrification-in-a-brooklyn-neighborhood-forces-residents-to-move-on.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/world\/asia\/china-guo-feixiong-yang-maodong.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/world\/asia\/china-guo-feixiong-yang-maodong.html"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/27\/roman-polanski-will-not-be-extradited-to-u-s-poland-says\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/27\/roman-polanski-will-not-be-extradited-to-u-s-poland-says\/"},"http:\/\/cooking.nytimes.com\/recipes\/200":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/200"},"http:\/\/cooking.nytimes.com\/recipes\/1015722":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015722"},"http:\/\/cooking.nytimes.com\/recipes\/1015801":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015801"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/27\/iceland-ireland-and-devaluation-denial\/":{"count":66,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/27\/iceland-ireland-and-devaluation-denial\/"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/27\/ask-well-how-many-miles-a-week-should-i-run\/":{"count":36,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/27\/ask-well-how-many-miles-a-week-should-i-run\/"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/27\/what-is-holding-back-the-economy\/":{"count":117,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/27\/what-is-holding-back-the-economy\/"},"http:\/\/www.nytimes.com\/2015\/11\/27\/insider\/1957-when-pfizer-and-the-times-worked-closely.html":{"count":8,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/insider\/1957-when-pfizer-and-the-times-worked-closely.html"},"http:\/\/cooking.nytimes.com\/recipes\/4530":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/4530"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/26\/storm-king-to-present-earthworks-by-dennis-oppenheim\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/26\/storm-king-to-present-earthworks-by-dennis-oppenheim\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/upshot\/student-debt-in-america-lend-with-a-smile-collect-with-a-fist.html":{"count":219,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/upshot\/student-debt-in-america-lend-with-a-smile-collect-with-a-fist.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/world\/asia\/china-art-lu-yang-venice-biennale.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/world\/asia\/china-art-lu-yang-venice-biennale.html"},"http:\/\/cooking.nytimes.com\/recipes\/9744":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/9744"},"http:\/\/lens.blogs.nytimes.com\/2015\/11\/27\/finding-the-noir-without-looking\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/lens.blogs.nytimes.com\/2015\/11\/27\/finding-the-noir-without-looking\/"},"http:\/\/www.nytimes.com\/2015\/11\/27\/nyregion\/new-york-today-the-real-deal.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/nyregion\/new-york-today-the-real-deal.html"},"http:\/\/www.nytimes.com\/2015\/11\/26\/arts\/television\/empire-recap-season-2-episode-9-review.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/arts\/television\/empire-recap-season-2-episode-9-review.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/business\/black-friday-retail-workers-try-to-make-the-most-of-a-shopping-slump.html":{"count":161,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/business\/black-friday-retail-workers-try-to-make-the-most-of-a-shopping-slump.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/upshot\/online-polls-are-rising-so-are-concerns-about-their-results.html":{"count":233,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/upshot\/online-polls-are-rising-so-are-concerns-about-their-results.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/us\/2015-11-27-us-animal-gene-editing.html":{"count":217,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/us\/2015-11-27-us-animal-gene-editing.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/world\/europe\/russia-turkey-plane-downing.html":{"count":250,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/world\/europe\/russia-turkey-plane-downing.html"},"http:\/\/www.nytimes.com\/2015\/11\/28\/us\/politics\/tighter-lid-on-records-threatens-to-defang-government-watchdogs.html":{"count":308,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/28\/us\/politics\/tighter-lid-on-records-threatens-to-defang-government-watchdogs.html"},"http:\/\/cooking.nytimes.com\/recipes\/1013351":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013351"},"http:\/\/cooking.nytimes.com\/recipes\/362":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/362"},"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/black-tape-at-harvard-law.html":{"count":458,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/black-tape-at-harvard-law.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/turn-the-volume-down-on-drug-ads.html":{"count":571,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/turn-the-volume-down-on-drug-ads.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/donald-trumps-police-state.html":{"count":670,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/donald-trumps-police-state.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/world-war-iii.html":{"count":249,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/world-war-iii.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/europe-the-unready.html":{"count":443,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/europe-the-unready.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/communities-of-character.html":{"count":255,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/opinion\/communities-of-character.html"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/25\/news-qs-chicago-officer-charged-in-death-of-black-teenager\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/25\/news-qs-chicago-officer-charged-in-death-of-black-teenager\/"},"http:\/\/cooking.nytimes.com\/recipes\/4442":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/4442"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/26\/fall-out-of-line\/":{"count":79,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/26\/fall-out-of-line\/"},"http:\/\/cooking.nytimes.com\/recipes\/12111":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12111"},"http:\/\/www.nytimes.com\/2015\/11\/27\/movies\/review-the-danish-girl-about-a-transgender-pioneer.html":{"count":30,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/movies\/review-the-danish-girl-about-a-transgender-pioneer.html"},"http:\/\/cooking.nytimes.com\/recipes\/1015472":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015472"},"http:\/\/cooking.nytimes.com\/recipes\/1014739":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014739"},"http:\/\/cooking.nytimes.com\/recipes\/1016906":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016906"},"http:\/\/www.nytimes.com\/2015\/11\/26\/nyregion\/metropolitan-diary-west-end-avenue-two-days-before-thanksgiving.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/nyregion\/metropolitan-diary-west-end-avenue-two-days-before-thanksgiving.html"},"http:\/\/cooking.nytimes.com\/recipes\/751":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/751"},"http:\/\/cooking.nytimes.com\/recipes\/297":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/297"},"http:\/\/cooking.nytimes.com\/recipes\/1013346":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013346"},"http:\/\/cooking.nytimes.com\/recipes\/12460":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12460"},"http:\/\/cooking.nytimes.com\/recipes\/6278":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/6278"},"http:\/\/cooking.nytimes.com\/recipes\/1017838":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017838"},"http:\/\/cooking.nytimes.com\/recipes\/155":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/155"},"http:\/\/cooking.nytimes.com\/recipes\/3394":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/3394"},"http:\/\/cooking.nytimes.com\/recipes\/229":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/229"},"http:\/\/cooking.nytimes.com\/recipes\/417":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/417"},"http:\/\/cooking.nytimes.com\/recipes\/5327":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/5327"},"http:\/\/cooking.nytimes.com\/recipes\/1014110":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014110"},"http:\/\/cooking.nytimes.com\/recipes\/730":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/730"},"http:\/\/cooking.nytimes.com\/recipes\/2479":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/2479"},"http:\/\/www.nytimes.com\/2015\/11\/26\/dining\/thanksgiving-hotline-bling.html":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/dining\/thanksgiving-hotline-bling.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/sports\/soccer\/fifa-watches-parmigiani-fleurier.html":{"count":14,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/sports\/soccer\/fifa-watches-parmigiani-fleurier.html"},"http:\/\/cooking.nytimes.com\/recipes\/27":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/27"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/26\/a-very-trump-thanksgiving\/":{"count":107,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/26\/a-very-trump-thanksgiving\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015567":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015567"},"http:\/\/cooking.nytimes.com\/recipes\/1017821":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017821"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/25\/zachary-quinto-and-robin-tunney-to-star-in-smokefall-off-broadway\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/25\/zachary-quinto-and-robin-tunney-to-star-in-smokefall-off-broadway\/"},"http:\/\/cooking.nytimes.com\/recipes\/1013365":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013365"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/26\/a-doctor-revisits-his-own-trauma\/":{"count":53,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/26\/a-doctor-revisits-his-own-trauma\/"},"http:\/\/www.nytimes.com\/2015\/11\/27\/world\/asia\/china-animal-cloning.html":{"count":12,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/world\/asia\/china-animal-cloning.html"},"http:\/\/www.nytimes.com\/2015\/11\/27\/upshot\/politics-at-thanksgiving-table-thats-the-least-of-the-problem.html":{"count":9,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/27\/upshot\/politics-at-thanksgiving-table-thats-the-least-of-the-problem.html"},"http:\/\/bits.blogs.nytimes.com\/2015\/10\/29\/xbox-game-titanfall-makes-the-jump-to-mobile\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/10\/29\/xbox-game-titanfall-makes-the-jump-to-mobile\/"},"http:\/\/www.nytimes.com\/2015\/11\/26\/opinion\/donald-trump-meet-a-syrian-refugee-named-heba.html":{"count":757,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/opinion\/donald-trump-meet-a-syrian-refugee-named-heba.html"},"http:\/\/cooking.nytimes.com\/recipes\/1015039":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015039"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/25\/friday-night-lights-spoof-musical-planned-in-los-angeles\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/25\/friday-night-lights-spoof-musical-planned-in-los-angeles\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/magazine\/what-is-it-about-adele.html":{"count":28,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/magazine\/what-is-it-about-adele.html"},"http:\/\/cooking.nytimes.com\/recipes\/12657":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12657"},"http:\/\/www.nytimes.com\/2015\/11\/26\/sports\/ncaabasketball\/ncaa-clears-players-then-absolves-itself.html":{"count":22,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/sports\/ncaabasketball\/ncaa-clears-players-then-absolves-itself.html"},"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/25\/what-will-your-kids-cook-for-thanksgiving\/":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/25\/what-will-your-kids-cook-for-thanksgiving\/"},"http:\/\/cooking.nytimes.com\/recipes\/781":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/781"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/25\/you-might-be-indignant\/":{"count":80,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/25\/you-might-be-indignant\/"},"http:\/\/www.nytimes.com\/2015\/11\/26\/opinion\/freeing-thanksgiving-from-my-family.html":{"count":218,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/opinion\/freeing-thanksgiving-from-my-family.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/arts\/television\/jessica-jones-episode-6-the-truth-comes-out.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/arts\/television\/jessica-jones-episode-6-the-truth-comes-out.html"},"http:\/\/cooking.nytimes.com\/recipes\/32":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/32"},"http:\/\/kristof.blogs.nytimes.com\/2015\/11\/25\/q-a-with-austin-meyer-2015-win-a-trip-winner\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/kristof.blogs.nytimes.com\/2015\/11\/25\/q-a-with-austin-meyer-2015-win-a-trip-winner\/"},"http:\/\/cooking.nytimes.com\/recipes\/1472":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1472"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/vegetarian-thanksgiving-vegan-oven-roasted-pumpkin-wedges-with-cranberry-pecan-and-chili-pesto\/":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/vegetarian-thanksgiving-vegan-oven-roasted-pumpkin-wedges-with-cranberry-pecan-and-chili-pesto\/"},"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/25\/perfect-black-friday-fare-an-oversized-book-about-overconsumption\/":{"count":34,"commentsEnabled":true,"assetUrl":"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/25\/perfect-black-friday-fare-an-oversized-book-about-overconsumption\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015451":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015451"},"http:\/\/www.nytimes.com\/2015\/11\/25\/magazine\/the-near-impossibility-of-assimilation-in-belgium.html":{"count":194,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/magazine\/the-near-impossibility-of-assimilation-in-belgium.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/realestate\/our-year-of-living-airbnb.html":{"count":371,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/realestate\/our-year-of-living-airbnb.html"},"http:\/\/cooking.nytimes.com\/recipes\/1013093":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013093"},"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/on-the-eve-of-the-feast.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/on-the-eve-of-the-feast.html"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/25\/an-unwelcome-loophole-for-robocalls\/":{"count":32,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/25\/an-unwelcome-loophole-for-robocalls\/"},"http:\/\/cooking.nytimes.com\/recipes\/6755":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/6755"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/25\/classical-playlist-beethoven-handel-and-bach\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/25\/classical-playlist-beethoven-handel-and-bach\/"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/25\/kentuckys-governor-lets-the-formerly-incarcerated-people-vote\/":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/25\/kentuckys-governor-lets-the-formerly-incarcerated-people-vote\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/sleep-apnea.html":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/sleep-apnea.html"},"http:\/\/cooking.nytimes.com\/recipes\/1017835":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017835"},"http:\/\/cooking.nytimes.com\/recipes\/1017798":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017798"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/25\/its-a-conspiracy\/":{"count":207,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/25\/its-a-conspiracy\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/hbo-sets-its-sesame-street-debut\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/hbo-sets-its-sesame-street-debut\/"},"http:\/\/cooking.nytimes.com\/recipes\/1016981":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016981"},"http:\/\/cooking.nytimes.com\/recipes\/742":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/742"},"http:\/\/www.nytimes.com\/2015\/11\/26\/sports\/football\/fantasy-sports-real-crime-dehumanizing-the-athletes.html":{"count":93,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/sports\/football\/fantasy-sports-real-crime-dehumanizing-the-athletes.html"},"http:\/\/www.nytimes.com\/2015\/11\/26\/sports\/ncaabasketball\/william-paterson-forfeits-game-after-coachs-departure.html":{"count":2,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/sports\/ncaabasketball\/william-paterson-forfeits-game-after-coachs-departure.html"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/25\/gardening-start-up-in-china-chances-upon-u-s-marijuana-market\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/25\/gardening-start-up-in-china-chances-upon-u-s-marijuana-market\/"},"http:\/\/cooking.nytimes.com\/recipes\/323":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/323"},"http:\/\/cooking.nytimes.com\/recipes\/1017850":{"count":8,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017850"},"http:\/\/www.nytimes.com\/2015\/11\/26\/nyregion\/im-frightened-after-paris-terrorist-attacks-new-york-city-muslims-cope-with-a-backlash.html":{"count":1086,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/nyregion\/im-frightened-after-paris-terrorist-attacks-new-york-city-muslims-cope-with-a-backlash.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/nyregion\/metropolitan-diary-golden-anniversary-on-the-west-side.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/nyregion\/metropolitan-diary-golden-anniversary-on-the-west-side.html"},"http:\/\/www.nytimes.com\/2015\/11\/26\/world\/asia\/afghanistan-kunduz-hospital-airstrike.html":{"count":312,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/world\/asia\/afghanistan-kunduz-hospital-airstrike.html"},"http:\/\/theater.nytimes.com\/2015\/11\/24\/theater\/review-in-important-hats-of-the-twentieth-century-saggy-jeans-and-sweatshirts-make-a-1930s-incursion.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/2015\/11\/24\/theater\/review-in-important-hats-of-the-twentieth-century-saggy-jeans-and-sweatshirts-make-a-1930s-incursion.html"},"http:\/\/lens.blogs.nytimes.com\/2015\/11\/25\/world-press-photo-introduces-new-ethics-guidelines-for-contest\/":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/lens.blogs.nytimes.com\/2015\/11\/25\/world-press-photo-introduces-new-ethics-guidelines-for-contest\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015244":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015244"},"http:\/\/cooking.nytimes.com\/recipes\/1766":{"count":10,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1766"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/should-my-rich-friends-apply-for-financial-aid.html":{"count":71,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/should-my-rich-friends-apply-for-financial-aid.html"},"http:\/\/cooking.nytimes.com\/recipes\/3070":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/3070"},"http:\/\/travel.nytimes.com\/interactive\/2015\/11\/24\/travel\/paris-tourism-terror-attack.html":{"count":15,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/interactive\/2015\/11\/24\/travel\/paris-tourism-terror-attack.html"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/25\/which-is-more-ludicrous-donald-trump-edition\/":{"count":266,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/25\/which-is-more-ludicrous-donald-trump-edition\/"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/25\/daily-report-turkey-travel-and-technology\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/25\/daily-report-turkey-travel-and-technology\/"},"http:\/\/cooking.nytimes.com\/recipes\/1017805":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017805"},"http:\/\/cooking.nytimes.com\/recipes\/1017849":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017849"},"http:\/\/cooking.nytimes.com\/recipes\/1014367":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014367"},"http:\/\/www.nytimes.com\/2015\/11\/26\/upshot\/silicon-valley-is-growing-up-giving-parents-a-break.html":{"count":36,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/upshot\/silicon-valley-is-growing-up-giving-parents-a-break.html"},"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/25\/giving-thanks-for-a-proper-got-your-nose-bit\/":{"count":9,"commentsEnabled":true,"assetUrl":"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/25\/giving-thanks-for-a-proper-got-your-nose-bit\/"},"http:\/\/cooking.nytimes.com\/recipes\/1017851":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017851"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/drinking-food.html":{"count":26,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/drinking-food.html"},"http:\/\/cooking.nytimes.com\/recipes\/1017830":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017830"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/to-understand-the-past-visit-a-living-history-museum":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/to-understand-the-past-visit-a-living-history-museum"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/a-national-holiday-to-simply-express-thanks":{"count":31,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/a-national-holiday-to-simply-express-thanks"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/how-to-navigate-by-the-stars.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/how-to-navigate-by-the-stars.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/judge-john-hodgman-on-the-elaborate-handshake.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/judge-john-hodgman-on-the-elaborate-handshake.html"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/25\/what-are-you-grateful-for-2\/":{"count":42,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/25\/what-are-you-grateful-for-2\/"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/lets-all-tell-the-true-story-about-thanksgiving":{"count":78,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/lets-all-tell-the-true-story-about-thanksgiving"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/25\/ask-well-do-cranberries-offer-any-health-benefits\/":{"count":39,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/25\/ask-well-do-cranberries-offer-any-health-benefits\/"},"http:\/\/cooking.nytimes.com\/recipes\/10580":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/10580"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/an-inquiry-based-education-approach-to-thanksgiving":{"count":40,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/an-inquiry-based-education-approach-to-thanksgiving"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/edmund-de-waal-and-the-strange-alchemy-of-porcelain.html":{"count":10,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/edmund-de-waal-and-the-strange-alchemy-of-porcelain.html"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/25\/counting-your-bites-for-weight-loss\/":{"count":59,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/25\/counting-your-bites-for-weight-loss\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/us\/chicago-officer-charged-in-death-of-black-teenager-official-says.html":{"count":715,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/us\/chicago-officer-charged-in-death-of-black-teenager-official-says.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/nyregion\/new-york-today-ways-to-give-thanks.html":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/nyregion\/new-york-today-ways-to-give-thanks.html"},"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/25\/mothering-my-dying-friend\/":{"count":177,"commentsEnabled":true,"assetUrl":"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/25\/mothering-my-dying-friend\/"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/does-thanksgiving-even-belong-in-schools":{"count":32,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/25\/rethinking-the-way-we-teach-thanksgiving\/does-thanksgiving-even-belong-in-schools"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/thanksgiving-with-or-without-turkey.html":{"count":38,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/thanksgiving-with-or-without-turkey.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/t-magazine\/faerie-magazine-profile.html":{"count":14,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/t-magazine\/faerie-magazine-profile.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/campaign-stops\/paris-and-the-presidential-election.html":{"count":153,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/campaign-stops\/paris-and-the-presidential-election.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/one-jet-closer-to-a-wider-confrontation.html":{"count":156,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/one-jet-closer-to-a-wider-confrontation.html"},"http:\/\/learning.blogs.nytimes.com\/2012\/05\/30\/when-do-you-become-an-adult\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2012\/05\/30\/when-do-you-become-an-adult\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/the-gift-of-reading.html":{"count":133,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/the-gift-of-reading.html"},"http:\/\/www.nytimes.com\/2015\/11\/26\/world\/asia\/china-terrorism-xinjiang-paris-christina-lin.html":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/26\/world\/asia\/china-terrorism-xinjiang-paris-christina-lin.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/letter-from-saudi-arabia.html":{"count":346,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/letter-from-saudi-arabia.html"},"http:\/\/cooking.nytimes.com\/recipes\/2687":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/2687"},"http:\/\/bits.blogs.nytimes.com\/2013\/12\/27\/daily-report-lenovo-seeks-to-expand-success-beyond-laptops\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2013\/12\/27\/daily-report-lenovo-seeks-to-expand-success-beyond-laptops\/"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/alphabet-trying-to-mix-heft-with-start-up-agility\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/alphabet-trying-to-mix-heft-with-start-up-agility\/"},"http:\/\/theater.nytimes.com\/2015\/11\/25\/theater\/review-rockettes-in-radio-city-christmas-spectacular.html":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/2015\/11\/25\/theater\/review-rockettes-in-radio-city-christmas-spectacular.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/readers-weigh-in-woodrow-wilson-cost-my-grandfather-too.html":{"count":183,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/readers-weigh-in-woodrow-wilson-cost-my-grandfather-too.html"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/jonathan-mayer-well-known-online-security-expert-joins-f-c-c\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/jonathan-mayer-well-known-online-security-expert-joins-f-c-c\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/standing-watch-over-a-new-life.html":{"count":14,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/standing-watch-over-a-new-life.html"},"http:\/\/cooking.nytimes.com\/recipes\/3784":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/3784"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/the-case-against-woodrow-wilson-at-princeton.html":{"count":1631,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/the-case-against-woodrow-wilson-at-princeton.html"},"http:\/\/cooking.nytimes.com\/recipes\/1015032":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015032"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/24\/big-feller\/":{"count":84,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/24\/big-feller\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/world\/europe\/its-capital-frozen-belgium-surveys-past-failures-and-squabbles.html":{"count":274,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/world\/europe\/its-capital-frozen-belgium-surveys-past-failures-and-squabbles.html"},"http:\/\/cooking.nytimes.com\/recipes\/1015399":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015399"},"http:\/\/cooking.nytimes.com\/recipes\/1016922":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1016922"},"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/24\/arctic-nations-seek-to-prevent-exploitation-of-fisheries-in-opening-northern-waters\/":{"count":57,"commentsEnabled":true,"assetUrl":"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/24\/arctic-nations-seek-to-prevent-exploitation-of-fisheries-in-opening-northern-waters\/"},"http:\/\/www.nytimes.com\/interactive\/2015\/11\/24\/insider\/24-Insider-AndyPodcast-Interactive.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/interactive\/2015\/11\/24\/insider\/24-Insider-AndyPodcast-Interactive.html"},"http:\/\/cooking.nytimes.com\/recipes\/12838":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12838"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/12\/news-qs-saying-goodbye-a-little-longer-as-seattle-scrapes-off-its-gum-wall\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/12\/news-qs-saying-goodbye-a-little-longer-as-seattle-scrapes-off-its-gum-wall\/"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/24\/what-responsibility-do-we-have-to-take-in-refugees-from-global-humanitarian-crises\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/24\/what-responsibility-do-we-have-to-take-in-refugees-from-global-humanitarian-crises\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/u2-reschedules-concert-in-paris-that-will-air-on-hbo\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/u2-reschedules-concert-in-paris-that-will-air-on-hbo\/"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/cokes-chief-scientist-who-orchestrated-obesity-research-is-leaving\/":{"count":106,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/cokes-chief-scientist-who-orchestrated-obesity-research-is-leaving\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015065":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015065"},"http:\/\/cooking.nytimes.com\/recipes\/802":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/802"},"http:\/\/www.nytimes.com\/2015\/11\/24\/insider\/podcast-fear-and-the-high-cost-of-terror.html":{"count":8,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/insider\/podcast-fear-and-the-high-cost-of-terror.html"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/24\/advice-to-retire-by\/":{"count":15,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/24\/advice-to-retire-by\/"},"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/24\/rare-video-of-russian-amur-tiger-and-cubs-hints-at-progress-in-poaching-fight\/":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/24\/rare-video-of-russian-amur-tiger-and-cubs-hints-at-progress-in-poaching-fight\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/the-humans-sets-broadway-opening-date\/":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/the-humans-sets-broadway-opening-date\/"},"http:\/\/cooking.nytimes.com\/recipes\/376":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/376"},"http:\/\/travel.nytimes.com\/2015\/11\/29\/travel\/pet-transport-airlines-bringfido.html":{"count":55,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/2015\/11\/29\/travel\/pet-transport-airlines-bringfido.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/table-manners-thanksgiving.html":{"count":74,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/table-manners-thanksgiving.html"},"http:\/\/www.nytimes.com\/2015\/12\/01\/science\/electric-car-auto-dealers.html":{"count":528,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/12\/01\/science\/electric-car-auto-dealers.html"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/broadways-tony-awards-move-from-radio-city-to-beacon-theater-for-2016\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/broadways-tony-awards-move-from-radio-city-to-beacon-theater-for-2016\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/a-mixed-week-for-plays-at-broadway-box-office\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/a-mixed-week-for-plays-at-broadway-box-office\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/arts\/television\/jessica-jones-episode-5-ive-seen-heroes.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/arts\/television\/jessica-jones-episode-5-ive-seen-heroes.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/insider\/into-africa-new-west-africa-bureau-chief-makes-herself-at-home.html":{"count":38,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/insider\/into-africa-new-west-africa-bureau-chief-makes-herself-at-home.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/nyregion\/metropolitan-diary-telephone-time-warp.html":{"count":9,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/nyregion\/metropolitan-diary-telephone-time-warp.html"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/24\/chris-christies-low-profile-in-courage\/":{"count":56,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/24\/chris-christies-low-profile-in-courage\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/100-million-in-grants-announced-for-indiana-culture\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/100-million-in-grants-announced-for-indiana-culture\/"},"http:\/\/www.nytimes.com\/2015\/12\/23\/arts\/television\/jane-the-virgin-season-2-episode-7-review.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/12\/23\/arts\/television\/jane-the-virgin-season-2-episode-7-review.html"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/light-treatment-may-work-on-nonseasonal-depression-study-finds\/":{"count":10,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/light-treatment-may-work-on-nonseasonal-depression-study-finds\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/danish-composer-wins-100000-prize\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/24\/danish-composer-wins-100000-prize\/"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/vegetarian-thanksgiving-stuffed-portobello-mushrooms\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/vegetarian-thanksgiving-stuffed-portobello-mushrooms\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/lukewarm-cocktails-enthusiastic-reaction.html":{"count":16,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/lukewarm-cocktails-enthusiastic-reaction.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/movies\/review-in-creed-rockys-back-as-a-mentor-not-a-fighter.html":{"count":90,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/movies\/review-in-creed-rockys-back-as-a-mentor-not-a-fighter.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/books\/review\/is-it-still-possible-to-be-a-public-intellectual.html":{"count":29,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/books\/review\/is-it-still-possible-to-be-a-public-intellectual.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/the-serial-swatter.html":{"count":332,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/the-serial-swatter.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/us\/minneapolis-shooting-protest-police-jamar-clark.html":{"count":762,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/us\/minneapolis-shooting-protest-police-jamar-clark.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/sports\/soccer\/leonid-slutsky-juggles-two-demanding-jobs-in-russian-soccer.html":{"count":3,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/sports\/soccer\/leonid-slutsky-juggles-two-demanding-jobs-in-russian-soccer.html"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/24\/what-does-marco-rubio-actually-think-about-syrian-refugees\/":{"count":98,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/24\/what-does-marco-rubio-actually-think-about-syrian-refugees\/"},"http:\/\/cooking.nytimes.com\/recipes\/5628":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/5628"},"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/pasta-recipe-thanksgiving.html":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/pasta-recipe-thanksgiving.html"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/letter-of-recommendation-kitchen-timer.html":{"count":28,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/letter-of-recommendation-kitchen-timer.html"},"http:\/\/travel.nytimes.com\/2015\/11\/22\/travel\/cuban-cigars.html":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/2015\/11\/22\/travel\/cuban-cigars.html"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/photographing-soldiers-back-from-war\/":{"count":34,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/photographing-soldiers-back-from-war\/"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/ask-well-essential-tremor\/":{"count":17,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/24\/ask-well-essential-tremor\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015858":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015858"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/bob-mankoff-thinks-cats-are-funnier-than-dogs.html":{"count":90,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/bob-mankoff-thinks-cats-are-funnier-than-dogs.html"},"http:\/\/cooking.nytimes.com\/recipes\/7164":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/7164"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/daily-report-cool-drone-is-it-registered\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/daily-report-cool-drone-is-it-registered\/"},"http:\/\/cooking.nytimes.com\/recipes\/4057":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/4057"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/a-dream-of-utopia-in-hell.html":{"count":108,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/a-dream-of-utopia-in-hell.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/upshot\/how-to-talk-to-your-relatives-about-politics-at-thanksgiving.html":{"count":101,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/upshot\/how-to-talk-to-your-relatives-about-politics-at-thanksgiving.html"},"http:\/\/afterdeadline.blogs.nytimes.com\/2015\/11\/24\/when-spell-check-cant-help-32\/":{"count":15,"commentsEnabled":true,"assetUrl":"http:\/\/afterdeadline.blogs.nytimes.com\/2015\/11\/24\/when-spell-check-cant-help-32\/"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/the-winter-hat-trick.html":{"count":38,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/the-winter-hat-trick.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/arts\/television\/jessica-jones-episode-4-netflix-review.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/arts\/television\/jessica-jones-episode-4-netflix-review.html"},"http:\/\/lens.blogs.nytimes.com\/2015\/11\/24\/who-wins-in-photo-contests\/":{"count":14,"commentsEnabled":true,"assetUrl":"http:\/\/lens.blogs.nytimes.com\/2015\/11\/24\/who-wins-in-photo-contests\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/upshot\/high-school-footballs-friday-night-bloat.html":{"count":41,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/upshot\/high-school-footballs-friday-night-bloat.html"},"http:\/\/cooking.nytimes.com\/recipes\/1953":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1953"},"http:\/\/publiceditor.blogs.nytimes.com\/2015\/11\/24\/a-few-words-about-grape-salad-snapping-and-badges\/":{"count":33,"commentsEnabled":true,"assetUrl":"http:\/\/publiceditor.blogs.nytimes.com\/2015\/11\/24\/a-few-words-about-grape-salad-snapping-and-badges\/"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/24\/weekly-news-quiz-nov-17-23-2015\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/24\/weekly-news-quiz-nov-17-23-2015\/"},"http:\/\/www.nytimes.com\/interactive\/2015\/11\/24\/upshot\/thanksgiving-flight-patterns.html":{"count":24,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/interactive\/2015\/11\/24\/upshot\/thanksgiving-flight-patterns.html"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/12\/vegetarian-thanksgiving-easy-mushroom-hazelnut-tart\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/12\/vegetarian-thanksgiving-easy-mushroom-hazelnut-tart\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/science\/a-century-ago-einsteins-theory-of-relativity-changed-everything.html":{"count":370,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/science\/a-century-ago-einsteins-theory-of-relativity-changed-everything.html"},"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/24\/after-the-crisis-tools-for-limiting-ebola\/":{"count":10,"commentsEnabled":true,"assetUrl":"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/24\/after-the-crisis-tools-for-limiting-ebola\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/europe\/in-france-some-see-the-police-security-net-as-too-harsh-paris-attacks.html":{"count":157,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/europe\/in-france-some-see-the-police-security-net-as-too-harsh-paris-attacks.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/world\/europe\/turkey-syria-russia-military-plane.html":{"count":1925,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/world\/europe\/turkey-syria-russia-military-plane.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/world\/asia\/china-lgbt-rights-education-trial.html":{"count":9,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/world\/asia\/china-lgbt-rights-education-trial.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/nyregion\/new-york-today-welcome-to-the-jungle.html":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/nyregion\/new-york-today-welcome-to-the-jungle.html"},"http:\/\/cooking.nytimes.com\/recipes\/1015410":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015410"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/researchers-track-tricky-payment-theft-scheme\/":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/24\/researchers-track-tricky-payment-theft-scheme\/"},"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/john-bolton-to-defeat-isis-create-a-sunni-state.html":{"count":868,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/opinion\/john-bolton-to-defeat-isis-create-a-sunni-state.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/the-electric-power-grid-needs-americas-attention":{"count":12,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/the-electric-power-grid-needs-americas-attention"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/ways-to-address-the-aging-and-neglected-water-systems":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/ways-to-address-the-aging-and-neglected-water-systems"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/let-states-finance-and-maintain-roads-and-bridges":{"count":83,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/let-states-finance-and-maintain-roads-and-bridges"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/dont-forget-about-high-speed-broadband":{"count":19,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/dont-forget-about-high-speed-broadband"},"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/to-maintain-roads-and-bridges-charge-drivers-a-fee-for-service-toll":{"count":44,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2015\/11\/24\/bridges-broadband-water-mains-what-to-fix-first\/to-maintain-roads-and-bridges-charge-drivers-a-fee-for-service-toll"},"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/pfizers-big-breakthrough-global-tax-avoidance.html":{"count":532,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/pfizers-big-breakthrough-global-tax-avoidance.html"},"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/24\/why-punish-drug-users-at-all\/":{"count":403,"commentsEnabled":true,"assetUrl":"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/24\/why-punish-drug-users-at-all\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/germany-xavier-naidoo-eurovision\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/germany-xavier-naidoo-eurovision\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/what-woodrow-wilson-cost-my-grandfather.html":{"count":776,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/what-woodrow-wilson-cost-my-grandfather.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/tales-of-the-super-survivors.html":{"count":269,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/tales-of-the-super-survivors.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/soccer\/live-and-kicking-soccer-games-to-watch-this-week.html":{"count":7,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/soccer\/live-and-kicking-soccer-games-to-watch-this-week.html"},"http:\/\/cooking.nytimes.com\/recipes\/186":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/186"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/23\/deliveroo-an-on-demand-food-delivery-service-raises-100-million\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/23\/deliveroo-an-on-demand-food-delivery-service-raises-100-million\/"},"http:\/\/cooking.nytimes.com\/recipes\/8044":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/8044"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/16\/e-l-l-practice-the-global-refugee-crisis\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/16\/e-l-l-practice-the-global-refugee-crisis\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/football\/jets-stick-with-ryan-fitzpatrick-at-quarterback-if-not-enthusiastically.html":{"count":17,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/football\/jets-stick-with-ryan-fitzpatrick-at-quarterback-if-not-enthusiastically.html"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/23\/washer-action\/":{"count":76,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/23\/washer-action\/"},"http:\/\/cooking.nytimes.com\/recipes\/1012879":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1012879"},"http:\/\/cooking.nytimes.com\/recipes\/1012908":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1012908"},"http:\/\/cooking.nytimes.com\/recipes\/7758":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/7758"},"http:\/\/www.nytimes.com\/2015\/11\/24\/business\/improving-the-eggs-before-they-are-hatched.html":{"count":174,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/business\/improving-the-eggs-before-they-are-hatched.html"},"http:\/\/cooking.nytimes.com\/recipes\/9075":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/9075"},"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/americas\/mauricio-macri-took-detour-from-life-as-scion-to-argentine-presidency.html":{"count":39,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/americas\/mauricio-macri-took-detour-from-life-as-scion-to-argentine-presidency.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/a-year-without-tamir.html":{"count":267,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/opinion\/a-year-without-tamir.html"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/23\/terror-politics\/":{"count":219,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/23\/terror-politics\/"},"http:\/\/cooking.nytimes.com\/recipes\/4450":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/4450"},"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/my-life-as-a-muslim-in-the-wests-gray-zone.html":{"count":50,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/29\/magazine\/my-life-as-a-muslim-in-the-wests-gray-zone.html"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/video-game-is-built-to-be-prescribed-to-children-with-a-d-h-d\/":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/video-game-is-built-to-be-prescribed-to-children-with-a-d-h-d\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/t-magazine\/in-praise-of-the-good-enough-holiday.html":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/t-magazine\/in-praise-of-the-good-enough-holiday.html"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/breast-feeding-is-good-for-mothers-not-just-babies\/":{"count":89,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/breast-feeding-is-good-for-mothers-not-just-babies\/"},"http:\/\/learning.blogs.nytimes.com\/2015\/09\/04\/news-qs-backpack-makers-rethink-a-student-staple\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/09\/04\/news-qs-backpack-makers-rethink-a-student-staple\/"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/justin-bieber-purpose-billboard-streaming\/":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/justin-bieber-purpose-billboard-streaming\/"},"http:\/\/www.nytimes.com\/2015\/11\/23\/insider\/the-most-popular-reader-comments-on-the-times.html":{"count":61,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/insider\/the-most-popular-reader-comments-on-the-times.html"},"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/studio-museum-amanda-hunt-sabatini-water-pitcher.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/25\/dining\/studio-museum-amanda-hunt-sabatini-water-pitcher.html"},"http:\/\/cooking.nytimes.com\/recipes\/9896":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/9896"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/dames-at-sea-will-close-on-broadway\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/dames-at-sea-will-close-on-broadway\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/asia\/china-soccer-guangzhou-evergrande.html":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/asia\/china-soccer-guangzhou-evergrande.html"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/coldplay-barack-obama-amazing-grace\/":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/coldplay-barack-obama-amazing-grace\/"},"http:\/\/cooking.nytimes.com\/recipes\/1014036":{"count":8,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014036"},"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/basketball\/nets-disastrous-deal-with-the-celtics-keeps-getting-worse.html":{"count":42,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/basketball\/nets-disastrous-deal-with-the-celtics-keeps-getting-worse.html"},"http:\/\/cooking.nytimes.com\/recipes\/195":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/195"},"http:\/\/douthat.blogs.nytimes.com\/2015\/11\/23\/the-joy-of-isis\/":{"count":98,"commentsEnabled":true,"assetUrl":"http:\/\/douthat.blogs.nytimes.com\/2015\/11\/23\/the-joy-of-isis\/"},"http:\/\/cooking.nytimes.com\/recipes\/351":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/351"},"http:\/\/cooking.nytimes.com\/recipes\/1015622":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015622"},"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/singin-in-the-rain-coming-to-broadway-from-paris\/":{"count":18,"commentsEnabled":true,"assetUrl":"http:\/\/artsbeat.blogs.nytimes.com\/2015\/11\/23\/singin-in-the-rain-coming-to-broadway-from-paris\/"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/23\/marco-rubios-empty-rhetoric-on-terrorism\/":{"count":212,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/23\/marco-rubios-empty-rhetoric-on-terrorism\/"},"http:\/\/www.nytimes.com\/interactive\/2015\/11\/23\/nytnow\/23commenters.html":{"count":1398,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/interactive\/2015\/11\/23\/nytnow\/23commenters.html"},"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/23\/shorts-subject\/":{"count":94,"commentsEnabled":true,"assetUrl":"http:\/\/krugman.blogs.nytimes.com\/2015\/11\/23\/shorts-subject\/"},"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/23\/this-thanksgiving-sit-down-and-listen-and-record\/":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/23\/this-thanksgiving-sit-down-and-listen-and-record\/"},"http:\/\/cooking.nytimes.com\/recipes\/1015429":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1015429"},"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/23\/feast-sudoku-and-mackenzie-one-round-war-published\/":{"count":58,"commentsEnabled":true,"assetUrl":"http:\/\/wordplay.blogs.nytimes.com\/2015\/11\/23\/feast-sudoku-and-mackenzie-one-round-war-published\/"},"http:\/\/www.nytimes.com\/2015\/11\/23\/sports\/football\/cam-newton-carolina-panthers.html":{"count":3,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/sports\/football\/cam-newton-carolina-panthers.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/arts\/television\/the-walking-dead-reacting-to-glenn-and-looking-ahead-to-next-week.html":{"count":50,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/arts\/television\/the-walking-dead-reacting-to-glenn-and-looking-ahead-to-next-week.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/football\/st-louis-rams-case-keenum-concussion.html":{"count":78,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/sports\/football\/st-louis-rams-case-keenum-concussion.html"},"http:\/\/www.nytimes.com\/2015\/11\/24\/us\/politics\/fda-targets-inaccurate-medical-tests-citing-dangers-and-costs.html":{"count":163,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/us\/politics\/fda-targets-inaccurate-medical-tests-citing-dangers-and-costs.html"},"http:\/\/cooking.nytimes.com\/recipes\/1017031":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017031"},"http:\/\/travel.nytimes.com\/2015\/11\/29\/travel\/find-your-way-without-losing-your-wallet.html":{"count":30,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/2015\/11\/29\/travel\/find-your-way-without-losing-your-wallet.html"},"http:\/\/cooking.nytimes.com\/recipes\/1013883":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013883"},"http:\/\/cooking.nytimes.com\/recipes\/805":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/805"},"http:\/\/cooking.nytimes.com\/recipes\/1017797":{"count":17,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1017797"},"http:\/\/cooking.nytimes.com\/recipes\/12058":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12058"},"http:\/\/iht-retrospective.blogs.nytimes.com\/2015\/11\/23\/1965-russia-shifts-position-on-a-war\/":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/iht-retrospective.blogs.nytimes.com\/2015\/11\/23\/1965-russia-shifts-position-on-a-war\/"},"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/europe\/brussels-lockdown-terrorism-arrests.html":{"count":333,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/world\/europe\/brussels-lockdown-terrorism-arrests.html"},"http:\/\/cooking.nytimes.com\/recipes\/418":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/418"},"http:\/\/theater.nytimes.com\/2015\/11\/23\/theater\/review-naomi-wallaces-night-is-a-room-unfurls-a-complex-reunion.html":{"count":6,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/2015\/11\/23\/theater\/review-naomi-wallaces-night-is-a-room-unfurls-a-complex-reunion.html"},"http:\/\/cooking.nytimes.com\/recipes\/227":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/227"},"http:\/\/cooking.nytimes.com\/recipes\/12009":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12009"},"http:\/\/cooking.nytimes.com\/recipes\/185":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/185"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/23\/what-current-slang-words-and-expressions-do-you-think-will-endure\/":{"count":76,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/23\/what-current-slang-words-and-expressions-do-you-think-will-endure\/"},"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/a-prescription-for-sticker-shock-caused-by-drug-costs\/":{"count":34,"commentsEnabled":true,"assetUrl":"http:\/\/well.blogs.nytimes.com\/2015\/11\/23\/a-prescription-for-sticker-shock-caused-by-drug-costs\/"},"http:\/\/www.nytimes.com\/2015\/11\/23\/sports\/once-again-the-big-12-looks-to-be-on-the-outside-looking-in.html":{"count":1,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/sports\/once-again-the-big-12-looks-to-be-on-the-outside-looking-in.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/nyregion\/at-princeton-addressing-a-racist-legacy-and-seeking-to-remove-woodrow-wilsons-name.html":{"count":1209,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/nyregion\/at-princeton-addressing-a-racist-legacy-and-seeking-to-remove-woodrow-wilsons-name.html"},"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/23\/video-views-of-our-inconvenient-minds-in-the-context-of-climate-science-and-energy-solutions\/":{"count":288,"commentsEnabled":true,"assetUrl":"http:\/\/dotearth.blogs.nytimes.com\/2015\/11\/23\/video-views-of-our-inconvenient-minds-in-the-context-of-climate-science-and-energy-solutions\/"},"http:\/\/cooking.nytimes.com\/recipes\/1013209":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013209"},"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/homeland-recap-season-5-episode-8-all-about-allison.html":{"count":134,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/homeland-recap-season-5-episode-8-all-about-allison.html"},"http:\/\/cooking.nytimes.com\/recipes\/1014183":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1014183"},"http:\/\/www.nytimes.com\/2015\/11\/24\/nyregion\/a-hated-phrase-that-subway-riders-are-hearing-more-sick-passenger.html":{"count":506,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/24\/nyregion\/a-hated-phrase-that-subway-riders-are-hearing-more-sick-passenger.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/world\/europe\/paris-attacks-isis-threatens-west.html":{"count":109,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/world\/europe\/paris-attacks-isis-threatens-west.html"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/23\/whats-going-on-in-this-picture-nov-23-2015\/":{"count":340,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/23\/whats-going-on-in-this-picture-nov-23-2015\/"},"http:\/\/www.nytimes.com\/2015\/11\/23\/nyregion\/new-york-today-queasy-rider.html":{"count":21,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/nyregion\/new-york-today-queasy-rider.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/the-911-system-isnt-ready-for-the-iphone-era.html":{"count":73,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/the-911-system-isnt-ready-for-the-iphone-era.html"},"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/23\/moral-dispute-or-cultural-difference\/":{"count":285,"commentsEnabled":true,"assetUrl":"http:\/\/opinionator.blogs.nytimes.com\/2015\/11\/23\/moral-dispute-or-cultural-difference\/"},"http:\/\/learning.blogs.nytimes.com\/2015\/11\/23\/news-qs-boy-scouts-of-america-have-5-new-applicants-who-happen-to-be-girls\/":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/learning.blogs.nytimes.com\/2015\/11\/23\/news-qs-boy-scouts-of-america-have-5-new-applicants-who-happen-to-be-girls\/"},"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/campaign-stops\/the-politics-of-paid-time-off-to-have-a-baby.html":{"count":222,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/campaign-stops\/the-politics-of-paid-time-off-to-have-a-baby.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/anti-muslim-is-anti-american.html":{"count":998,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/anti-muslim-is-anti-american.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/giving-billions-to-the-rich.html":{"count":98,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/giving-billions-to-the-rich.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/cut-sentences-for-low-level-drug-crimes.html":{"count":113,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/cut-sentences-for-low-level-drug-crimes.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/health-reform-lives.html":{"count":661,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/opinion\/health-reform-lives.html"},"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/22\/thanksgiving-with-college-students-fantasy-reality-and-getting-it-right\/":{"count":86,"commentsEnabled":true,"assetUrl":"http:\/\/parenting.blogs.nytimes.com\/2015\/11\/22\/thanksgiving-with-college-students-fantasy-reality-and-getting-it-right\/"},"http:\/\/cooking.nytimes.com\/recipes\/871":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/871"},"http:\/\/cooking.nytimes.com\/recipes\/12223":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/12223"},"http:\/\/www.nytimes.com\/2015\/11\/22\/nyregion\/metropolitan-diary-churchbell-swapping.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/22\/nyregion\/metropolitan-diary-churchbell-swapping.html"},"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/the-affair-season-2-episode-8-review-campus-trip.html":{"count":160,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/the-affair-season-2-episode-8-review-campus-trip.html"},"http:\/\/cooking.nytimes.com\/recipes\/1013361":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013361"},"http:\/\/cooking.nytimes.com\/recipes\/1013670":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/cooking.nytimes.com\/recipes\/1013670"},"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/the-walking-dead-season-6-episode-7-its-the-not-knowing.html":{"count":80,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/the-walking-dead-season-6-episode-7-its-the-not-knowing.html"},"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/21\/op-photo-unjustly-convicted-robert-jones-is-free-for-now\/":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/takingnote.blogs.nytimes.com\/2015\/11\/21\/op-photo-unjustly-convicted-robert-jones-is-free-for-now\/"},"http:\/\/theater.nytimes.com\/2015\/10\/20\/theater\/review-trip-of-love-a-light-and-energetic-collection-of-60s-hits.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/2015\/10\/20\/theater\/review-trip-of-love-a-light-and-energetic-collection-of-60s-hits.html"},"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/the-leftovers-season-2-episode-8-review-assassin.html":{"count":52,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/22\/arts\/television\/the-leftovers-season-2-episode-8-review-assassin.html"},"http:\/\/www.nytimes.com\/2015\/11\/23\/sports\/fantasy-sports-addiction-gambling-draftkings-fanduel.html":{"count":249,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2015\/11\/23\/sports\/fantasy-sports-addiction-gambling-draftkings-fanduel.html"},"http:\/\/bits.blogs.nytimes.com\/2015\/11\/20\/daily-report-google-gets-serious-about-competing-in-cloud-with-amazon-web-services\/":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/bits.blogs.nytimes.com\/2015\/11\/20\/daily-report-google-gets-serious-about-competing-in-cloud-with-amazon-web-services\/"}}</script>
+<script language="JavaScript" type="text/javascript">
+				NYTD.require('http://graphics8.nytimes.com/js/app/homepage/articleCommentCounts.js');
+			</script>	
+<script type="text/javascript" language="JavaScript">
+    ArticleCommentCounts.apply()
+    </script>
+
+			
+		<!-- Start UPT call -->
+		<img height="1" width="3" border=0 src="http://up.nytimes.com/?d=0/17/&t=6&s=0&ui=&r=&u=www%2enytimes%2ecom%2fpages%2ftechnology%2findex%2ehtml%3f">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="http://graphics8.nytimes.com/js/app/analytics/trackingTags_v1.1.js" type="text/javascript"></script>
+        <noscript>
+          <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+        </noscript>
+   
+</body>
+</html>
