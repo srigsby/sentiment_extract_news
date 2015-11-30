@@ -40,11 +40,20 @@ foreach my $line (@sentiments){
   }
     
 }
-print "Sum of difference between positive sentiment sentence percentages and negative setiment percentages in articles about corresponding tech company." . "\n\n";
+print "Sum of difference between positive sentiment sentence percentages and negative setiment percentages in articles concerning corresponding tech company." . "<br><br>";
+print "<table style=\"width:100%\">";
 foreach my $str (sort keys %count) {
-  printf "%-21s %s\n", $str, $count{$str};
+  print "<tr>";
+  print "<td>$str</td> <td>$count{$str}</td>" . "</tr>";
 }
+print "</table>";
 my $numArticles = scalar @sentiments;
-print "\n\nThis overview was generated using $numArticles articles.";
+print "<br><br>This overview was generated using $numArticles articles.";
+print ' With sources that can be found <a href="https://github.com/srigsby/srigsby.github.io/blob/master/link_sources">here</a>.';
+print ' Looking for and analizing references to <a href="https://github.com/srigsby/srigsby.github.io/blob/master/tech_companies">these companies</a>.';
+print ' Code can be found <a href="https://github.com/srigsby/srigsby.github.io">here</a>.';
 
+my $datestring;
+$datestring = gmtime();
+print " <br><br> Last run at $datestring GMT\n";
 # print join("\n", @sentiments);
