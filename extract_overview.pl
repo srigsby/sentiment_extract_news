@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use Try::Tiny;
+use POSIX;
 
 my @sentiments;
 open(my $FH, "<article_sentiments.txt")
@@ -40,20 +41,22 @@ foreach my $line (@sentiments){
   }
     
 }
-print "Sum of difference between positive sentiment sentence percentages and negative setiment percentages in articles concerning corresponding tech company." . "<br><br>";
+print "Sum of \(\% sentences containing positive sentiments minus \%   sentences containing negative setiment\) for each article concerning corresponding tech company." . "<br><br>";
 print "<table style=\"width:100%\">";
+my $roundscore;
 foreach my $str (sort keys %count) {
   print "<tr>";
-  print "<td>$str</td> <td>$count{$str}</td>" . "</tr>";
+  $roundscore = floor($count{$str}*100)/100;
+  print "<td>$str</td> <td>$roundscore</td>" . "</tr>";
 }
 print "</table>";
 my $numArticles = scalar @sentiments;
 print "<br><br>This overview was generated using $numArticles articles.";
 print ' With sources that can be found <a href="https://github.com/srigsby/srigsby.github.io/blob/master/link_sources">here</a>.';
 print ' Looking for and analizing references to <a href="https://github.com/srigsby/srigsby.github.io/blob/master/tech_companies">these companies</a>.';
-print ' Code can be found <a href="https://github.com/srigsby/srigsby.github.io">here</a>.';
+print ' Codebase <a href="https://github.com/srigsby/srigsby.github.io">here</a>.';
 
 my $datestring;
 $datestring = gmtime();
-print " <br><br> Last run at $datestring GMT\n";
+print " <br><br> Last run: $datestring GMT\n";
 # print join("\n", @sentiments);
